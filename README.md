@@ -1,8 +1,8 @@
 <h1 align="center">Grupo 6 - E - Commerce</h1>
 <div align="center">
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/sebastinez/dh-grupo6-e-commerce">
-<img alt="GitHub issues" src="https://img.shields.io/github/issues/sebastinez/dh-grupo6-e-commerce">
-<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/sebastinez/dh-grupo6-e-commerce">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/sebastinez/grupo6-e-commerce">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/sebastinez/grupo6-e-commerce">
+<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/sebastinez/grupo6-e-commerce">
 </div>
 
 ## Indice
