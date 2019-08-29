@@ -1,8 +1,8 @@
 <h1 align="center">Grupo 6 - E - Commerce</h1>
 <div align="center">
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/sebastinez/dh-grupox-a_definir">
-<img alt="GitHub issues" src="https://img.shields.io/github/issues/sebastinez/dh-grupox-a_definir">
-<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/sebastinez/dh-grupox-a_definir">
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/sebastinez/grupo6-e-commerce">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/sebastinez/grupo6-e-commerce">
+<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/sebastinez/grupo6-e-commerce">
 </div>
 
 ## Indice
@@ -26,8 +26,8 @@
 
 | | Name | GitHub |
 |--|------|---|
-| <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/54330627.png" width="50"></center> | Ezequiel Stuarts | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](#) |
-| <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/54330627.png" width="50"></center>| Federico Bacino | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](#) | 
+| <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/54330627.png" width="50"></center> | Ezequiel Stuarts | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/ezequielstuarts) |
+| <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/54330627.png" width="50"></center>| Federico Bacino | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/fedebacino) | 
 | <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/sebastinez.jpg" width="50"></center>| Sebastian Martinez | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/sebastinez) |
 
 
