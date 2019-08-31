@@ -18,6 +18,10 @@
     include("./includes/header.html");
     ?>
 
+    <?php
+    include("./includes/nav-productos.html");
+    ?>
+
     <!-- Acá debe ir el contenido cambiante entre header y footer -->
 
     <?php
