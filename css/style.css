@@ -59,14 +59,16 @@ header {
   background-image: url(../img/bg-header.jpg);
   background-size: cover;
   background-position: center center;
+  padding-top: 40vh;
 }
 
 header h1 {
+  margin: auto;
   font-family: 'Permanent Marker', cursive;
   color: #fff;
-  padding-top: 40vh;
   text-align: center;
   font-size: 50px;
   text-shadow: 2px 5px 0 #0a0e27;
+  width: 80%;
 }
 
