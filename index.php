@@ -32,6 +32,9 @@
         include("./includes/footer.html");
         ?>
     </div>
+    <script src="script/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="script/header.js"></script>
 </body>
 
 </html>
