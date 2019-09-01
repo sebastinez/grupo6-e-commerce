@@ -18,7 +18,13 @@
 <a name="descripcion"></a>
 
 ## Descripción
-> Este proyecto se trata de un ecommerce orientado a personas interesadas ***completar cual seria el perfil de usuarios interesados en este sitio*** Cuando comenzamos a planificar este proyecto nos propusimos lograr que ***completar explicando cual era la idea inicial***. En esta aplicacion los usuarios registros pueden ***completar describiendo que servicios y/o productos ofrece la aplicacion que la distinguen del resto de sus competidores***. En el futuro queremos expandir este desarrollo y lograr ***completar con objetivos a futuro***.
+Este proyecto se trata de un E-Commerce orientado a personas interesadas en la compra de discos de musica.  
+
+Cuando comenzamos a planificar este proyecto nos propusimos lograr que las personas que visitan la pagina pueden buscar discos por varios criterios de busqueda, puedan previa a la compra escuchar musica a través de Spotify y concretar su compra a través de una variedad de formas de pago.  
+
+En esta aplicacion los usuarios registros pueden hacer un seguimiento a sus compras realizadas, modificar su perfil de usuario, hacer un seguimiento a estilos y artistas preferidas, para ser notificados cuando sale un nuevo disco.  
+
+En el futuro queremos expandir este desarrollo y lograr algoritmos que analizan las preferencias de cada usuario y proveer recomendaciones dependiendo de los intereses de cada usuario.
 
 <a name="participantes"></a>
 
@@ -45,7 +51,7 @@
 
 #### Herramientas
 
-- [Tablero Proyectos GitHub](https://github.com/sebastinez/grupo6-e-commerce/projects/2)
+- [Tablero Proyectos GitHub](https://github.com/sebastinez/grupo6-e-commerce/projects/1)
 - [Workbench](https://www.mysql.com/products/workbench/)
 - [XAMPP, servidor local de PHP y MySQL](https://www.apachefriends.org/es/index.html)
 
