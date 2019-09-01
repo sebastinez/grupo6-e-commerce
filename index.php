@@ -10,23 +10,25 @@
 </head>
 
 <body>
-    <?php
-    include("./includes/nav.html");
-    ?>
+    <div class="container">
+        <?php
+        include("./includes/nav.html");
+        ?>
 
-    <?php
-    include("./includes/header.html");
-    ?>
+        <?php
+        include("./includes/header.html");
+        ?>
 
-    <?php
-    include("./includes/nav-productos.html");
-    ?>
+        <?php
+        include("./includes/nav-productos.html");
+        ?>
 
-    <!-- Acá debe ir el contenido cambiante entre header y footer -->
+        <!-- Acá debe ir el contenido cambiante entre header y footer -->
 
-    <?php
-    include("./includes/footer.html");
-    ?>
+        <?php
+        include("./includes/footer.html");
+        ?>
+    </div>
 </body>
 
 </html>
