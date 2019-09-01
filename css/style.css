@@ -1,0 +1,26 @@
+.container-fluid {
+  padding: 0;
+  height: 150vh; /* TEMPORAL -- PARA PROBAR EL POSITION FIXED DEL NAV */
+}
+
+nav#menu {
+  position: fixed;
+  width: 100%;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  color: white;
+  background-color: rgba(56, 56, 56, 1);
+}
+
+nav#menu .menu-items {
+  display: flex;
+  flex-direction: row;
+}
+
+nav#menu .menu-item {
+  padding-right: 40px;
+}
