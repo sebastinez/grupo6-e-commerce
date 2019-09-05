@@ -13,5 +13,9 @@
             <p class="text">
                 <textarea name="message" class="input" id="comment" placeholder="Message"></textarea>
             </p>
+        </div>
         <div class="submit">
             <button type="submit" class="btn btn-default">SUBMIT</button>
+        </div>
+    </div>
+</div>
