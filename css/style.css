@@ -162,7 +162,6 @@ nav#productos .contenedor-buscador {
   }
 }
 
-
 /* FOOTER */
 
 footer {
@@ -182,7 +181,6 @@ footer .row {
   margin-bottom: 40px;
 }
 
-
 footer .copyright p {
   margin: 5px;
   color: #585858;
@@ -201,7 +199,7 @@ footer h5 {
   margin-top: 30px;
 }
 
-footer h2 a{
+footer h2 a {
   display: inline-block;
   align-content: center;
   margin-left: 40px;
@@ -265,7 +263,6 @@ footer .btn:hover {
 
 @media screen and (max-width: 767px) {
   footer {
-      text-align: center;
+    text-align: center;
   }
-
 }
