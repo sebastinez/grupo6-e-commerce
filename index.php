@@ -29,8 +29,12 @@ endif;
         <?php
         include("./includes/nav.html");
 
-        include("./includes/header.html");
-
+        if ($p === "home") {
+            include("./includes/header.html");
+        } else { ?>
+            <header class="spacer">
+            </header>
+        <?php }
         include("./includes/nav-productos.html");
         ?>
         <div id="body">
