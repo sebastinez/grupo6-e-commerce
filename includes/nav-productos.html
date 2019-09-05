@@ -14,9 +14,11 @@
   </button>
 
   <div class="contenedor-buscador">
+    <form action="paginas/auth.php" method="POST">
     <div class="input-group redimension-buscador">
       <input
         type="text"
+        name="query"
         class="form-control"
         placeholder="Buscas un disco"
         aria-label="Buscar Disco"
@@ -25,12 +27,13 @@
       <div class="input-group-append">
         <button
           class="btn btn-outline-success"
-          type="button"
+          type="submit"
           id="button-addon2"
         >
           Buscar
         </button>
       </div>
+    </form>
     </div>
   </div>
   <div class="collapse navbar-collapse" id="criterios">
@@ -86,7 +89,7 @@
           <label for="1990">1990</label>
         </div>
       </div>
-      <button class="btn btn-primary">Aplicar</button>
+      <button type="submit" class="btn btn-primary">Aplicar</button>
     </form>
   </div>
 
@@ -94,30 +97,32 @@
   <!-- DESKTOP -->
   <!-- //////////////////////////////// -->
 
-  <div class="container">
-    <div class="row">
-      <div class="col-4 nav-productos-item">
-        <div class="dropdown ">
-          <button
-            class="btn btn-secondary dropdown-toggle "
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Formato
-          </button>
-          <div class="dropdown-menu">
-            <form class="px-4 py-3">
+  <form action="paginas/auth.php" method="POST">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 nav-productos-item">
+          <div class="dropdown ">
+            <button
+              class="btn btn-secondary dropdown-toggle "
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Formato
+            </button>
+            <div class="dropdown-menu px-4 py-3">
               <div class="form-group">
                 <div class="form-check">
                   <input
                     type="checkbox"
                     class="form-check-input"
-                    id="dropdownCheck"
+                    id="vinilo"
+                    name="formato"
+                    value="vinilo"
                   />
-                  <label class="form-check-label" for="dropdownCheck">
+                  <label class="form-check-label" for="vinilo">
                     Vinilo
                   </label>
                 </div>
@@ -127,9 +132,11 @@
                   <input
                     type="checkbox"
                     class="form-check-input"
-                    id="dropdownCheck"
+                    id="cd"
+                    value="cd"
+                    name="formato"
                   />
-                  <label class="form-check-label" for="dropdownCheck">
+                  <label class="form-check-label" for="cd">
                     Compact Disc
                   </label>
                 </div>
@@ -139,40 +146,45 @@
                   <input
                     type="checkbox"
                     class="form-check-input"
-                    id="dropdownCheck"
+                    id="cassette"
+                    name="formato"
+                    value="cassette"
                   />
-                  <label class="form-check-label" for="dropdownCheck">
+                  <label class="form-check-label" for="cassette">
                     Cassette
                   </label>
                 </div>
               </div>
-              <button class="btn btn-primary">Aplicar</button>
-            </form>
+              <button type="submit" class="btn btn-primary">Aplicar</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-4 nav-productos-item">
-        <div class="dropdown ">
-          <button
-            class="btn btn-secondary dropdown-toggle "
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Generos
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <form class="px-4 py-3">
+        <div class="col-4 nav-productos-item">
+          <div class="dropdown ">
+            <button
+              class="btn btn-secondary dropdown-toggle "
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Generos
+            </button>
+            <div
+              class="dropdown-menu px-4 py-3"
+              aria-labelledby="dropdownMenuButton"
+            >
               <div class="form-group">
                 <div class="form-check">
                   <input
                     type="checkbox"
                     class="form-check-input"
-                    id="dropdownCheck"
+                    id="rock"
+                    name="genero"
+                    value="rock"
                   />
-                  <label class="form-check-label" for="dropdownCheck">
+                  <label class="form-check-label" for="rock">
                     Rock
                   </label>
                 </div>
@@ -182,9 +194,11 @@
                   <input
                     type="checkbox"
                     class="form-check-input"
-                    id="dropdownCheck"
+                    id="pop"
+                    name="genero"
+                    value="pop"
                   />
-                  <label class="form-check-label" for="dropdownCheck">
+                  <label class="form-check-label" for="pop">
                     Pop
                   </label>
                 </div>
@@ -194,40 +208,45 @@
                   <input
                     type="checkbox"
                     class="form-check-input"
-                    id="dropdownCheck"
+                    id="clasica"
+                    name="genero"
+                    value="clasica"
                   />
-                  <label class="form-check-label" for="dropdownCheck">
-                    Clasico
+                  <label class="form-check-label" for="clasica">
+                    Clasica
                   </label>
                 </div>
               </div>
-              <button class="btn btn-primary">Aplicar</button>
-            </form>
+              <button type="submit" class="btn btn-primary">Aplicar</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-4 nav-productos-item">
-        <div class="dropdown">
-          <button
-            class="btn btn-secondary dropdown-toggle "
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Decada
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <form class="px-4 py-3">
+        <div class="col-4 nav-productos-item">
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle "
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Decada
+            </button>
+            <div
+              class="dropdown-menu px-4 py-3"
+              aria-labelledby="dropdownMenuButton"
+            >
               <div class="form-group">
                 <div class="form-check">
                   <input
                     type="checkbox"
                     class="form-check-input"
-                    id="dropdownCheck"
+                    id="2010"
+                    name="decada"
+                    value="2010"
                   />
-                  <label class="form-check-label" for="dropdownCheck">
+                  <label class="form-check-label" for="2010">
                     2010
                   </label>
                 </div>
@@ -237,9 +256,11 @@
                   <input
                     type="checkbox"
                     class="form-check-input"
-                    id="dropdownCheck"
+                    id="2000"
+                    name="decada"
+                    value="2000"
                   />
-                  <label class="form-check-label" for="dropdownCheck">
+                  <label class="form-check-label" for="2000">
                     2000
                   </label>
                 </div>
@@ -249,18 +270,20 @@
                   <input
                     type="checkbox"
                     class="form-check-input"
-                    id="dropdownCheck"
+                    id="1990"
+                    name="decada"
+                    value="1990"
                   />
-                  <label class="form-check-label" for="dropdownCheck">
+                  <label class="form-check-label" for="decada">
                     1990
                   </label>
                 </div>
               </div>
-              <button class="btn btn-primary">Aplicar</button>
-            </form>
+              <button type="submit" class="btn btn-primary">Aplicar</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </form>
 </nav>
