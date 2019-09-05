@@ -126,7 +126,6 @@ nav#productos {
 }
 .navbar-toggler {
   color: #fff;
-  min-width: 145px;
   width: 80%;
   margin: auto;
 }
