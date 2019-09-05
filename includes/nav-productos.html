@@ -1,1 +1,73 @@
-<!-- Acá va todo el codigo HTML del nav de los filtros productos -->
+<nav id="productos">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-4 nav-productos-item">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#formato"
+                    aria-controls="formato" aria-expanded="false" aria-label="Toggle navigation">
+                    Formato</button>
+                <div class="collapse navbar-collapse" id="formato">
+                    <div class="nav-producto-item">
+                        <input type="checkbox" id="vinilo">
+                        <label for="vinilo">Vinilo</label>
+                    </div>
+                    <div class="nav-producto-item">
+                        <input type="checkbox" id="cd">
+
+                        <label for="cd">Compact Disc</label>
+                    </div>
+                    <div class="nav-producto-item">
+                        <input type="checkbox" id="cassette">
+                        <label for="cassette">Cassette</label>
+                    </div>
+                    <button class="btn btn-primary">Aplicar</button>
+
+                </div>
+            </div>
+            <div class="col-4 nav-productos-item">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#genero"
+                    aria-controls="genero" aria-expanded="false" aria-label="Toggle navigation">
+                    Genero</button>
+                <div class="collapse navbar-collapse" id="genero">
+                    <div class="nav-producto-item">
+                        <input type="checkbox" id="rock">
+                        <label for="rock">Rock</label>
+                    </div>
+                    <div class="nav-producto-item">
+                        <input type="checkbox" id="pop">
+
+                        <label for="pop">Pop</label>
+                    </div>
+                    <div class="nav-producto-item">
+                        <input type="checkbox" id="classic">
+                        <label for="classic">Clasica</label>
+                    </div>
+                    <button class="btn btn-primary">Aplicar</button>
+
+
+                </div>
+            </div>
+            <div class="col-4 nav-productos-item">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#decada"
+                    aria-controls="decada" aria-expanded="false" aria-label="Toggle navigation">
+                    Decada</button>
+                <div class="collapse navbar-collapse" id="decada">
+                    <div class="nav-producto-item">
+                        <input type="checkbox" id="2010">
+                        <label for="2010">2010</label>
+                    </div>
+                    <div class="nav-producto-item">
+                        <input type="checkbox" id="2000">
+
+                        <label for="2000">2000</label>
+                    </div>
+                    <div class="nav-producto-item">
+                        <input type="checkbox" id="1990">
+                        <label for="1990">1990</label>
+                    </div>
+                    <button class="btn btn-primary">Aplicar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
