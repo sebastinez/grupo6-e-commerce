@@ -19,11 +19,11 @@
 
     if ($_POST) {
 
-        echo "<h1>Aqui los datos del formulario de login</h1>";
+        echo "<h1>Aqui los datos enviados</h1>";
 
         var_dump($_POST);
     } else {
-        echo "<h1>No se recibio formulario de login</h1>";
+        echo "<h1>No se recibieron datos POST</h1>";
     }
 
     echo "<h3><a href='../index.php'>Volver a pagina inicial</a></h3>";

@@ -133,9 +133,26 @@ nav#productos .contenedor-buscador {
   margin-right: 10px;
 }
 
-.navbar-collapse {
+.navbar-collapse,
+#criterios-div {
+  display: inline-block;
+  width: 100%;
   color: black;
   background-color: #fff;
+}
+
+#criterios-div {
+  padding-left: 50px;
+  line-height: 15px;
+}
+
+#criterios-div h3 {
+  padding: 20px 0 10px 0;
+}
+
+#criterios button {
+  float: right;
+  margin: 0 60px 30px 0;
 }
 
 @media (max-width: 576px) {
@@ -178,9 +195,8 @@ nav#productos .contenedor-buscador {
 }
 
 h1.titulo-body {
-  display: block;
+  display: inline-block; /* HAY UN PROBLEMA CON EL NAV-PRODUCTOS Y EL TITULO ESTE */
   margin-top: 50px;
-  padding-left: 20vw;
   color: white;
 }
 
