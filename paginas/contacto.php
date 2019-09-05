@@ -3,19 +3,20 @@
 <div class="contacto">
     <div id="main-form">
         <div id="form-div">
-            <form class="form" id="" >
-            <p class="name">
-                <input name="name" type="text" class="input" required placeholder="Name" id="name" />
-            </p>
-            <p class="email">
-                <input name="email" type="email" required class="input" id="email" placeholder="Email" />
-            </p>
-            <p class="text">
-                <textarea name="message" class="input" id="comment" placeholder="Message"></textarea>
-            </p>
-        </div>
-        <div class="submit">
-            <button type="submit" class="btn btn-default">SUBMIT</button>
+            <form class="form" id="">
+                <p class="name">
+                    <input name="name" type="text" class="input" required placeholder="Name" id="name" />
+                </p>
+                <p class="email">
+                    <input name="email" type="email" required class="input" id="email" placeholder="Email" />
+                </p>
+                <p class="text">
+                    <textarea name="message" class="input" id="comment" placeholder="Message"></textarea>
+                </p>
+                <div class="submit">
+                    <button type="submit" class="btn btn-default">SUBMIT</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
