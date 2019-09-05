@@ -1,0 +1,182 @@
+<nav id="productos">
+  <button
+    class="navbar-toggler bars-productos"
+    type="button"
+    data-toggle="collapse"
+    data-target="#criterios"
+    aria-controls="criterios"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <div class="contenedor-buscador">
+    <div class="input-group redimension-buscador">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Buscas un disco"
+        aria-label="Buscar Disco"
+        aria-describedby="button-addon2"
+      />
+      <div class="input-group-append">
+        <button
+          class="btn btn-outline-success"
+          type="button"
+          id="button-addon2"
+        >
+          Buscar
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="collapse navbar-collapse" id="criterios">
+    <form action="paginas/auth.php" method="POST">
+      <div id="criterios-div">
+        <h3>Formato</h3>
+        <div class="nav-producto-item">
+          <input type="checkbox" name="formato" id="vinilo" value="vinilo" />
+          <label for="vinilo">Vinilo</label>
+        </div>
+        <div class="nav-producto-item">
+          <input type="checkbox" name="formato" id="cd" value="cd" />
+
+          <label for="cd">Compact Disc</label>
+        </div>
+        <div class="nav-producto-item">
+          <input
+            type="checkbox"
+            name="formato"
+            id="cassette"
+            value="cassette"
+          />
+          <label for="cassette">Cassette</label>
+        </div>
+        <h3>Genero</h3>
+
+        <div class="nav-producto-item">
+          <input type="checkbox" name="genre" value="rock" />
+          <label for="rock">Rock</label>
+        </div>
+        <div class="nav-producto-item">
+          <input type="checkbox" name="genre" value="pop" />
+
+          <label for="pop">Pop</label>
+        </div>
+        <div class="nav-producto-item">
+          <input type="checkbox" name="genre" value="classic" />
+          <label for="classic">Clasica</label>
+        </div>
+        <h3>Decada</h3>
+
+        <div class="nav-producto-item">
+          <input type="checkbox" name="decada" value="2010" />
+          <label for="2010">2010</label>
+        </div>
+        <div class="nav-producto-item">
+          <input type="checkbox" name="decada" value="2000" />
+
+          <label for="2000">2000</label>
+        </div>
+        <div class="nav-producto-item">
+          <input type="checkbox" name="decada" value="1990" />
+          <label for="1990">1990</label>
+        </div>
+      </div>
+      <button class="btn btn-primary">Aplicar</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-4 nav-productos-item">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#formato"
+          aria-controls="formato"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Formato
+        </button>
+        <div class="collapse navbar-collapse" id="formato">
+          <div class="nav-producto-item">
+            <input type="checkbox" id="vinilo" />
+            <label for="vinilo">Vinilo</label>
+          </div>
+          <div class="nav-producto-item">
+            <input type="checkbox" id="cd" />
+
+            <label for="cd">Compact Disc</label>
+          </div>
+          <div class="nav-producto-item">
+            <input type="checkbox" id="cassette" />
+            <label for="cassette">Cassette</label>
+          </div>
+          <button class="btn btn-primary">Aplicar</button>
+        </div>
+      </div>
+      <div class="col-4 nav-productos-item">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#genero"
+          aria-controls="genero"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Genero
+        </button>
+        <div class="collapse navbar-collapse" id="genero">
+          <div class="nav-producto-item">
+            <input type="checkbox" id="rock" />
+            <label for="rock">Rock</label>
+          </div>
+          <div class="nav-producto-item">
+            <input type="checkbox" id="pop" />
+
+            <label for="pop">Pop</label>
+          </div>
+          <div class="nav-producto-item">
+            <input type="checkbox" id="classic" />
+            <label for="classic">Clasica</label>
+          </div>
+          <button class="btn btn-primary">Aplicar</button>
+        </div>
+      </div>
+      <div class="col-4 nav-productos-item">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#decada"
+          aria-controls="decada"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Decada
+        </button>
+        <div class="collapse navbar-collapse" id="decada">
+          <div class="nav-producto-item">
+            <input type="checkbox" id="2010" />
+            <label for="2010">2010</label>
+          </div>
+          <div class="nav-producto-item">
+            <input type="checkbox" id="2000" />
+
+            <label for="2000">2000</label>
+          </div>
+          <div class="nav-producto-item">
+            <input type="checkbox" id="1990" />
+            <label for="1990">1990</label>
+          </div>
+          <button class="btn btn-primary">Aplicar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
