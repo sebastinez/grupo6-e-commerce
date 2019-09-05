@@ -172,7 +172,7 @@ nav#productos .contenedor-buscador {
 /* BODY */
 
 #body {
-  min-height: 300px; /* TEMPORAL HASTA QUE ESTE TODO EL CONTENIDO */
+  min-height: 100vh; /* TEMPORAL HASTA QUE ESTE TODO EL CONTENIDO */
   background-color: rgb(78, 78, 78);
   z-index: -1;
 }
@@ -345,4 +345,21 @@ footer .btn:hover {
 .login .body button {
   display: block;
   margin: auto;
+}
+
+/* REGISTRACION */
+
+div.registracion {
+  background-color: #fff;
+  width: 60%;
+  margin-left: 20vw;
+  margin-bottom: 20px;
+  padding: 30px;
+  /* height: 500px; */
+  border-radius: 5px;
+}
+
+button.registracion {
+  display: block;
+  margin-left: 20vw;
 }
