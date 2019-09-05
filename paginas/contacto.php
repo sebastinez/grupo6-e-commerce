@@ -1,6 +1,6 @@
 <?php include("./includes/breadcrumb.php"); ?>
 <h1 class="titulo-body">Formulario de contacto</h1>
-<div class="container">
+<div class="contacto">
     <div id="main-form">
         <div id="form-div">
             <form class="form" id="" >
