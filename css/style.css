@@ -106,3 +106,42 @@ header h1 {
   text-shadow: 2px 5px 0 #0a0e27;
   width: 80%;
 }
+
+/* NAV-PRODUCTOS */
+
+nav#productos {
+  background-color: rgb(107, 186, 167);
+  height: 55px;
+  width: auto;
+  line-height: 55px;
+  color: white;
+}
+
+.selector-productos {
+  display: none;
+  position: relative;
+  width: 200px;
+  height: 400px;
+  background-color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+  min-width: 145px;
+  width: 80%;
+  margin: auto;
+}
+
+.nav-producto-item input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.navbar-collapse {
+  color: black;
+  background-color: #fff;
+}
+
+@media (max-width: 576px) {
+  header {
+    padding-top: 20vh;
+  }
+}
