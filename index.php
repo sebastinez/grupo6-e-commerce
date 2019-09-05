@@ -1,3 +1,13 @@
+<?php
+
+if (isset($_GET["p"])) :
+    $p = $_GET["p"];
+else :
+    $p = "home";
+endif;
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -17,18 +27,18 @@
     <div class="container-fluid">
         <?php
         include("./includes/nav.html");
-        ?>
 
-        <?php
         include("./includes/header.html");
-        ?>
 
-        <?php
         include("./includes/nav-productos.html");
         ?>
+        <div id="body">
 
-        <!-- Acá debe ir el contenido cambiante entre header y footer -->
+            <?php
+            include("./paginas/" . $p . ".html");
+            ?>
 
+        </div>
         <?php
         include("./includes/footer.html");
         ?>
