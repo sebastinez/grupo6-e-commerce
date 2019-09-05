@@ -6,6 +6,7 @@ else :
     $p = "home";
 endif;
 
+
 ?>
 
 <!DOCTYPE html>
@@ -35,7 +36,7 @@ endif;
         <div id="body">
 
             <?php
-            include("./paginas/" . $p . ".html");
+            include("./paginas/" . $p . ".php");
             ?>
 
         </div>

@@ -162,6 +162,21 @@ nav#productos .contenedor-buscador {
   }
 }
 
+/* BODY */
+
+#body {
+  height: 100vh;
+  background-color: rgb(78, 78, 78);
+  padding-left: 20vw;
+  z-index: -1;
+}
+
+h1.titulo-body {
+  display: block;
+  margin-top: 50px;
+  color: white;
+}
+
 /* FOOTER */
 
 footer {
@@ -202,7 +217,6 @@ footer h5 {
 footer h2 a {
   display: inline-block;
   align-content: center;
-  margin-left: 40px;
   padding-top: 60px;
 }
 
@@ -265,4 +279,23 @@ footer .btn:hover {
   footer {
     text-align: center;
   }
+}
+
+/* BREADCRUMB */
+
+.bread {
+  display: inline-block;
+}
+
+.fa-home {
+  color: white;
+  margin-top: 40px;
+}
+
+.fa-home + span#breadcrumb-home a {
+  color: white;
+}
+
+.fa-home ~ span#breadcrumb-page {
+  color: #6bbaa7;
 }
