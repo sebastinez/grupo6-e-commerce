@@ -308,6 +308,7 @@ nav#productos .contenedor-buscador {
   min-height: 100vh; /* TEMPORAL HASTA QUE ESTE TODO EL CONTENIDO */
   background-color: rgb(78, 78, 78);
   z-index: -1;
+  padding-bottom:10vh;
 }
 
 h1.titulo-body {
