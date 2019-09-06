@@ -8,14 +8,14 @@ body {
 /*BOTONES*/
 .btn-naranja {
   cursor: pointer;
-  background-color: #FF9900;
+  background-color: #ff9900;
   text-transform: uppercase;
-  color:#fff;
+  color: #fff;
 }
 
 .btn-naranja:hover {
-  background-color: #EB8D00;
-  color:#fff;
+  background-color: #eb8d00;
+  color: #fff;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -24,14 +24,14 @@ body {
 }
 .btn-outline-naranja {
   cursor: pointer;
-  border: 1px solid #FF9900;
+  border: 1px solid #ff9900;
   text-transform: uppercase;
-  color:#fff;
+  color: #fff;
 }
 
 .btn-outline-naranja:hover {
-  background-color: #EB8D00;
-  color:#fff;
+  background-color: #eb8d00;
+  color: #fff;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -40,12 +40,12 @@ body {
 }
 .btn-rosa {
   cursor: pointer;
-  background-color: #FE3454;
+  background-color: #fe3454;
   text-transform: uppercase;
 }
 
 .btn-rosa:hover {
-  background-color: #FF1338;
+  background-color: #ff1338;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -54,12 +54,12 @@ body {
 }
 .btn-outline-rosa {
   cursor: pointer;
-  border:1px solid #FE3454;
+  border: 1px solid #fe3454;
   text-transform: uppercase;
 }
 
 .btn-outline-rosa:hover {
-  background-color: #FF1338;
+  background-color: #ff1338;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -91,7 +91,7 @@ body {
 
 .btn-outline-verde:hover {
   background-color: #007055;
-  color: #fff!important;
+  color: #fff !important;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -199,9 +199,10 @@ header h1 {
   color: #fff;
   font-size: 1.2rem;
 }
-input[type=checkbox], input[type=radio] {
+input[type='checkbox'],
+input[type='radio'] {
   height: 20px;
-  margin-left: -33px!important;
+  margin-left: -33px !important;
 }
 nav#productos {
   background-color: #009772;
@@ -308,13 +309,13 @@ nav#productos .contenedor-buscador {
   min-height: 100vh; /* TEMPORAL HASTA QUE ESTE TODO EL CONTENIDO */
   background-color: rgb(78, 78, 78);
   z-index: -1;
-  padding-bottom:10vh;
+  padding-bottom: 10vh;
 }
 
 h1.titulo-body {
   display: block; /* HAY UN PROBLEMA CON EL NAV-PRODUCTOS Y EL TITULO ESTE */
   color: white;
-  padding: 25px 0; 
+  padding: 25px 0;
 }
 
 /* FOOTER */
@@ -565,25 +566,24 @@ button.registracion {
   background-color: #f5903e;
 }
 
-
 /*HOME*/
 .contenedor-card {
   box-sizing: border-box;
   overflow: hidden;
 }
 
-.card-estilo {  
+.card-estilo {
   width: 14%;
   float: left;
   border-radius: 10px;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   margin-right: 2%;
   box-sizing: border-box;
   cursor: pointer;
   overflow: hidden;
 }
 .card-estilo:hover {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -607,13 +607,11 @@ button.registracion {
 .container-scroll-home {
   padding-top: 30px;
   overflow: hidden;
-
 }
 
 .padding-bottom-provisorio {
   padding-bottom: 150px;
 }
-
 
 /*Album*/
 
@@ -624,8 +622,8 @@ button.registracion {
 }
 
 .contenedor-card-album {
-  border-radius:0 0 10px 10px;
-  background-color: rgba(0,0,0,0.2);
+  border-radius: 0 0 10px 10px;
+  background-color: rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   overflow: hidden;
   float: left;
@@ -658,5 +656,23 @@ button.registracion {
 .info .precio {
   font-weight: 700;
   font-size: 1.2rem;
-  color:#FE3454;
+  color: #fe3454;
+}
+/* PERFIL DE USUARIO*/
+
+div.perfil {
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 50%;
+  width: 100px;
+}
+
+.perfil h2 {
+  margin-top: 30px;
+  color: white;
 }
