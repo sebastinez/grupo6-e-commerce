@@ -401,7 +401,8 @@ footer .twitter:hover {
   color: #00b0f0;
 }
 
-.contacto .btn, footer .btn {
+.contacto .btn,
+footer .btn {
   color: #ffffff;
   background-color: #6bbaa7;
   border-radius: 10px;
@@ -413,7 +414,8 @@ footer .twitter:hover {
   line-height: 25px;
 }
 
-.contacto .btn, footer .btn:hover {
+.contacto .btn,
+footer .btn:hover {
   color: #ffffff;
   background-color: #f5903e;
 }
@@ -642,7 +644,6 @@ div.perfil {
   width: 223px;
 }
 
-
 /* FAQ */
 
 .faqHeader {
@@ -651,24 +652,81 @@ div.perfil {
 }
 
 .card-block {
-padding: 2%;
+  padding: 2%;
 }
 
 .card-header {
-background-color:#3b3b3b;
-text-decoration: none;
-border-bottom: none;
+  background-color: #3b3b3b;
+  text-decoration: none;
+  border-bottom: none;
 }
 
 .card-header :hover {
-background-color: #f19d1f;
-border-radius: 15px;
+  background-color: #f19d1f;
+  border-radius: 15px;
 }
 
-
 .card .card-header .accordion-toggle {
-color: #ffffff;
-text-decoration: none;
-font-size: 18px;
-font-style: normal;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+}
+
+/* CARRITO */
+
+.carrito {
+  color: #fff;
+  width: 80%;
+  margin: 50px auto;
+  margin-left: 20vw;
+}
+
+.carrito .row {
+  margin: 0;
+}
+
+.carrito hr {
+  border: 1px solid white;
+  margin-right: 10vw;
+}
+
+.carrito select {
+  width: 150px;
+  margin-right: 40px;
+}
+
+.carrito h2 + span {
+  display: none;
+}
+
+.carrito h2 {
+  display: inline-block;
+}
+
+.carrito select,
+.carrito button {
+  display: inline-block;
+}
+
+.carrito img {
+  width: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .carrito {
+    margin-top: 5vh;
+  }
+  .carrito h2 {
+    display: block;
+    margin-top: 30px;
+  }
+  .carrito h2 + span {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .carrito .precio-desktop {
+    display: none;
+  }
 }
