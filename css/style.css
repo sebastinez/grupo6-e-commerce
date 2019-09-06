@@ -401,7 +401,7 @@ footer .twitter:hover {
   color: #00b0f0;
 }
 
-footer .btn {
+.contacto .btn, footer .btn {
   color: #ffffff;
   background-color: #6bbaa7;
   border-radius: 10px;
@@ -413,7 +413,7 @@ footer .btn {
   line-height: 25px;
 }
 
-footer .btn:hover {
+.contacto .btn, footer .btn:hover {
   color: #ffffff;
   background-color: #f5903e;
 }
