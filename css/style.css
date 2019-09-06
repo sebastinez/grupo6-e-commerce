@@ -315,6 +315,8 @@ nav#productos .contenedor-buscador {
 h1.titulo-body {
   display: block; /* HAY UN PROBLEMA CON EL NAV-PRODUCTOS Y EL TITULO ESTE */
   color: white;
+  margin-left: 20vw;
+  margin-top: 50px;
   padding: 25px 0;
 }
 
