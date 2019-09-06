@@ -51,7 +51,7 @@ En el futuro queremos expandir este desarrollo y lograr algoritmos que analizan 
 
 #### Herramientas
 
-- [Tablero Proyectos GitHub](https://github.com/sebastinez/grupo6-e-commerce/projects/1)
+- [Tablero Proyectos GitHub](https://github.com/sebastinez/grupo8-e-commerce/projects/1)
 - [Workbench](https://www.mysql.com/products/workbench/)
 - [XAMPP, servidor local de PHP y MySQL](https://www.apachefriends.org/es/index.html)
 
