@@ -5,7 +5,6 @@
         <div class="form-group">
             <label for="email">E-Mail</label>
             <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
-
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
