@@ -1,2 +1,8 @@
 <?php include("./includes/breadcrumb.php"); ?>
-<h1 class="titulo-body">Perfil de Usuarios</h1>
+<div class="perfil">
+    <img src="img/avatar.png" class="avatar">
+    <h2>Ariel Villafañe</h2>
+    <div class="genres">
+        <div class="cuadros"></div>
+    </div>
+</div>
