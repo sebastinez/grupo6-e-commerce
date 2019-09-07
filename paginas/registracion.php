@@ -1,32 +1,42 @@
 <?php include("./includes/breadcrumb.php"); ?>
-<h1 class="titulo-body">REGISTRACIÓN</h1>
+<div class="titulos">REGISTRACIÓN</div>
 <form action="paginas/auth.php" method="POST">
     <div class="registracion">
         <div class="form-group">
-            <label for="email">E-Mail</label>
-            <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+            <!-- <label for="email">E-Mail</label> -->
+            <div class="input-class">
+                <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+            </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="password">Contraseña</label>
-                <input type="password" name="password" class="form-control" id="password" placeholder="Contraseña" required>
+                <!-- <label for="password">Contraseña</label> -->
+                <div class="input-class">
+                    <input type="password" name="password" class="form-control" id="password" placeholder="Contraseña" required>
+                </div>
             </div>
             <div class="form-group col-md-6">
-                <label for="passwordRepetida">Repetir contraseña</label>
-                <input type="password" name="passwordRepetida" class="form-control" id="passwordRepetida" placeholder="Contraseña" required>
+                <!-- <label for="passwordRepetida">Repetir contraseña</ label>-->
+                <div class="input-class">
+                    <input type="password" name="passwordRepetida" class="form-control" id="passwordRepetida" placeholder="Contraseña" required>
+                </div>
             </div>
         </div>
         <div class="form-group">
-            <label for="direccion">Dirección</label>
-            <input type="text" name="direccion" class="form-control" id="direccion" placeholder="Dirección" required>
+            <!-- <label for="direccion">Dirección</label> -->
+            <div class="input-class">
+                <input type="text" name="direccion" class="form-control" id="direccion" placeholder="Dirección" required>
+            </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="ciudad">Ciudad</label>
-                <input type="text" name="ciudad" class="form-control" id="ciudad" placeholder="Ciudad" required>
+                <!-- <label for="ciudad">Ciudad</label> -->
+                <div class="input-class">
+                    <input type="text" name="ciudad" class="form-control" id="ciudad" placeholder="Ciudad" required>
+                </div>
             </div>
             <div class="form-group col-md-4">
-                <label for="provincia">Provincia</label>
+                <!-- <label for="provincia">Provincia</label> -->
                 <select id="provincia" name="provincia" class="form-control" required>
                     <option selected>Seleccionar...</option>
                     <option>Ciudad Autonoma de Buenos Aires</option>
@@ -37,18 +47,22 @@
                 </select>
             </div>
             <div class="form-group col-md-2">
-                <label for="codigoPostal">Codigo Postal</label>
-                <input type="text" name="codigoPostal" class="form-control" id="codigoPostal" required>
+                <!-- <label for="codigoPostal">C.P.</label> -->
+                <div class="input-class">
+                    <input type="text" name="codigoPostal" class="form-control" id="codigoPostal" required>
+                </div>
             </div>
         </div>
-        <div class="form-group">
+        <div class="form-group container no-margin-left">
             <div class="form-check">
                 <input class="form-check-input" name="terminos" type="checkbox" id="terminos" required>
-                <label class="form-check-label" for="terminos">
-                    Acepto los <a href="#">terminos de condiciones</a> y la <a href="#">politica de privacidad</a>
+                <label class="form-check-label" for="terminos"><p>
+                    Acepto los <a href="#">terminos de condiciones</a> y la <a href="#">politica de privacidad</a></p>
                 </label>
             </div>
         </div>
-        <button type="submit" class="btn btn-verde">Registrar</button>
+        <div class="boton-registo">
+            <button  type="submit" class="btn btn-verde">Registrar</button>
+        </div>
     </div>
 </form>
