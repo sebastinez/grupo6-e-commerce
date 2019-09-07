@@ -1,5 +1,5 @@
 <?php include("./includes/breadcrumb.php"); ?>
-<h1 class="titulo-body">FAQ</h1>
+<div class="titulos">FAQ</div>
 <section class=faq>
 		<div class="container" id="accordion">
 			<div class="faqHeader">Generales</div>

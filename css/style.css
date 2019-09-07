@@ -342,12 +342,14 @@ nav#productos .contenedor-buscador {
   padding-bottom: 10vh;
 }
 
-h1.titulo-body {
+.titulos {
   display: block; /* HAY UN PROBLEMA CON EL NAV-PRODUCTOS Y EL TITULO ESTE */
   color: white;
-  margin-left: 20vw;
+  font-size: 2.5rem;
   margin-top: 50px;
   padding: 25px 0;
+  text-align: center;
+  font-weight: 700;
 }
 
 /* FOOTER */
@@ -525,7 +527,10 @@ div.registracion {
   /* height: 500px; */
   border-radius: 5px;
 }
+input[type='checkbox'] {
+  width: 1.8rem;
 
+}
 .registracion .form-check {
   line-height: unset;
 }
@@ -540,19 +545,34 @@ button.registracion {
 }
 
 /* CONTACTO */
-.contacto {
-  margin-left: 20vw;
-  max-width: 60vw;
+.registracion input, .registracion select {
+  margin-top: 20px;
 }
-
 .form-group label {
   color: #fff;
+  font-size: 1.2rem;
 }
 
 .form-group button[type='submit'] {
   display: block;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 41px;
+}
+
+.boton-registo {
+  margin-top: 15px;
+  float: right;
+}
+
+.registracion p {
+  margin-top: 18px;
+  font-size: 15px;
+}
+.registracion a {
+  color: #007055;
+}
+.no-margin-left {
+  margin-left: 0px;
 }
 
 /*HOME*/
