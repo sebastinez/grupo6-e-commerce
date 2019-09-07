@@ -4,10 +4,10 @@
     <h2>Alejandro Villafañe</h2>
     <h4>Genres preferidos</h4>
     <div class="row">
-        <div class="cuadro col-lg-3 col-md-6 col-xs-12"><img src="img/rock.png"></div>
-        <div class="cuadro col-lg-3 col-md-6 col-xs-12"><img src="img/pop.png"></div>
-        <div class="cuadro col-lg-3 col-md-6 col-xs-12"><img src="img/latino.png"></div>
-        <div class="cuadro col-lg-3 col-md-6 col-xs-12"><img src="img/trending.png"></div>
+        <div class="cuadro col-lg-3 col-md-6 col-xs-12"><img src="img/generos/rock.jpg"></div>
+        <div class="cuadro col-lg-3 col-md-6 col-xs-12"><img src="img/generos/pop.jpg"></div>
+        <div class="cuadro col-lg-3 col-md-6 col-xs-12"><img src="img/generos/latino.jpg"></div>
+        <div class="cuadro col-lg-3 col-md-6 col-xs-12"><img src="img/generos/reggae.jpg"></div>
 
     </div>
     <h4>Discos comprados</h4>
