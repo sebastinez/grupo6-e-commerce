@@ -1,6 +1,6 @@
 <?php
 	include("./includes/breadcrumb.php");
-	require("./data/generos.php");
+	include("./data/generos.php");
 ; ?>
 
 
@@ -18,5 +18,7 @@
 		</div>
 	<?php endforeach;?>
 </div>
+
+
 
 
