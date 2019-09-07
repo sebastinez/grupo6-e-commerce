@@ -1,5 +1,8 @@
 body {
   font-family: 'Ubuntu', sans-serif;
+  background: url(../img/bg_home.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 .container-fluid {
   padding: 0;
@@ -176,7 +179,7 @@ header {
 
 header.home {
   height: 100vh;
-  background-image: url(../img/bg-header.jpg);
+  background-image: url(../img/bg_header.jpg);
   background-size: cover;
   background-position: center center;
   padding-top: 40vh;
@@ -201,6 +204,14 @@ header h1 {
   width: 80%;
 }
 
+.home p {
+  color: #fff;
+  font-size: 8rem;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  text-shadow: 2px 10px 9px rgba(0, 0, 0, 1);
+}
+
 /* NAV-PRODUCTOS */
 .dropdown-menu {
   color: #fff;
@@ -212,7 +223,7 @@ input[type='radio'] {
   margin-left: -33px !important;
 }
 nav#productos {
-  background-color: #009772;
+  background-color: #6C6C6C;
   height: 55px;
   width: auto;
   line-height: 55px;
@@ -276,7 +287,7 @@ nav#productos .contenedor-buscador {
   margin: 0 60px 30px 0;
 }
 .dropdown-menu {
-  background-color: #009772;
+  background-color: #3a3a3a;;
 }
 
 @media (max-width: 576px) {
@@ -314,7 +325,6 @@ nav#productos .contenedor-buscador {
 
 #body {
   min-height: 100vh; /* TEMPORAL HASTA QUE ESTE TODO EL CONTENIDO */
-  background-color: rgb(78, 78, 78);
   z-index: -1;
   padding-bottom: 10vh;
 }
