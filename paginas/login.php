@@ -10,7 +10,7 @@
             <div class="form-group">
                 <input type="text" name="usuario" class="form-control usuario" placeholder="e-mail o usuario">
             </div>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
+            <button type="submit" class="btn btn-verde">Ingresar</button>
         </form>
 
     <?php } elseif (isset($_POST["usuario"])) { ?>
@@ -23,7 +23,7 @@
                 <input type="hidden" name="usuario" value="<?= $_POST["usuario"] ?>">
                 <input type="password" name="pwd" class="form-control usuario" placeholder="e-mail o usuario">
             </div>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
+            <button type="submit" class="btn btn-verde">Ingresar</button>
         </form>
 
     <?php } ?>

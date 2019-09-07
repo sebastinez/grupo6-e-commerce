@@ -7,7 +7,7 @@
 <div class="container pt-5">
 	<div class="container-albums">
 		<?php foreach ($albums as $album):?>
-		<div class="contenedor-card-album">
+		<div class="contenedor-card-album animated fadeIn faster">
 			<div class="card-album">
 				<img src="<?php echo "$album[img]";?>">
 			</div>

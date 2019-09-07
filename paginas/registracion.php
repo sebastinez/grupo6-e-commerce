@@ -49,6 +49,6 @@
                 </label>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary">Registrar</button>
+        <button type="submit" class="btn btn-verde">Registrar</button>
     </div>
 </form>
