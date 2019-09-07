@@ -11,10 +11,6 @@ $generos = [
 			["genero" => "Rock", "img_genero" => "img/generos/rock.jpg"],
 			["genero" => "House", "img_genero" => "img/generos/house.jpg"],
 			["genero" => "Soul", "img_genero" => "img/generos/soul.jpg"],
-			["genero" => "Techno", "img_genero" => "img/generos/techno.jpg"],
-			["genero" => "jazz", "img_genero" => "img/generos/jazz.jpg"],
-			["genero" => "Metal", "img_genero" => "img/generos/metal.jpg"],
-			["genero" => "Blues", "img_genero" => "img/generos/blues.jpg"],
 		];
 		
 ?>
