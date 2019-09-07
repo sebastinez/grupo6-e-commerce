@@ -17,7 +17,7 @@
                 <textarea name="message" rows="5" class="form-control input" id="comment" placeholder="Mensaje"></textarea>
             </div>
             <div class="submit">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-lg btn-naranja">Enviar</button>
             </div>
     </div>
 </div>

@@ -1,11 +1,6 @@
 <?php
 
 $albums = [
-			["artist" => "Pink Floyd", "name_disc" => "Nombre del disco", "anio" => "1995", "precio" => "450", "img" => "img/albums/1.jpg", "tracks" => ["track 1","track 2","track 3","track 4","track 5"]],
-			["artist" => "Pink Floyd", "name_disc" => "Nombre del disco", "anio" => "1995", "precio" => "450", "img" => "img/albums/2.jpg", "tracks" => ["track 1","track 2","track 3","track 4","track 5"]],
-			["artist" => "Pink Floyd", "name_disc" => "Nombre del disco", "anio" => "1994", "precio" => "450", "img" => "img/albums/3.jpg", "tracks" => ["track 1","track 2","track 3","track 4","track 5"]],
-			["artist" => "Pink Floyd", "name_disc" => "Nombre del disco", "anio" => "1992", "precio" => "450", "img" => "img/albums/4.jpg", "tracks" => ["track 1","track 2","track 3","track 4","track 5"]],
-			["artist" => "Pink Floyd", "name_disc" => "Nombre del disco", "anio" => "1997", "precio" => "450", "img" => "img/albums/5.jpg", "tracks" => ["track 1","track 2","track 3","track 4","track 5"]],
 			["artist" => "Pink Floyd", "name_disc" => "Nombre del disco", "anio" => "1986", "precio" => "450", "img" => "img/albums/6.jpg", "tracks" => ["track 1","track 2","track 3","track 4","track 5"]],
 			["artist" => "Pink Floyd", "name_disc" => "Nombre del disco", "anio" => "1984", "precio" => "450", "img" => "img/albums/7.jpg", "tracks" => ["track 1","track 2","track 3","track 4","track 5"]],
 			["artist" => "Pink Floyd", "name_disc" => "Nombre del disco", "anio" => "1985", "precio" => "450", "img" => "img/albums/8.jpg", "tracks" => ["track 1","track 2","track 3","track 4","track 5"]],

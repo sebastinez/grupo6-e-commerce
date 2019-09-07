@@ -17,7 +17,7 @@ body {
 }
 
 .btn-naranja:hover {
-  background-color: #eb8d00;
+  background-color: #009772;
   color: #fff;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -33,7 +33,7 @@ body {
 }
 
 .btn-outline-naranja:hover {
-  background-color: #eb8d00;
+  background-color: #009772;
   color: #fff;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -418,11 +418,11 @@ footer .twitter:hover {
   color: #00b0f0;
 }
 
-.contacto .btn,
+
 footer .btn {
   color: #ffffff;
   background-color: #6bbaa7;
-  border-radius: 10px;
+  border-radius: 6px;
   border: none;
   width: 150px;
   display: block;
@@ -431,7 +431,6 @@ footer .btn {
   line-height: 25px;
 }
 
-.contacto .btn,
 footer .btn:hover {
   color: #ffffff;
   background-color: #f5903e;
