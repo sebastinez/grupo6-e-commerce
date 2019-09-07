@@ -33,7 +33,7 @@ body {
 }
 
 .btn-outline-naranja:hover {
-  background-color: #009772;
+  background-color: #ff9900;
   color: #fff;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -228,6 +228,7 @@ nav#productos {
   width: auto;
   line-height: 55px;
   color: white;
+  text-align: center;
 }
 
 .selector-productos {
@@ -295,16 +296,28 @@ nav#productos .contenedor-buscador {
     padding: 0 20px;
   }
   .bars-productos {
-    display: inline;
+    display: inline-block;
     width: 50px;
+    float: left;
+    padding-top: 10px;
   }
+  .fa-bars, .navbar-toggler {
+    font-size: 34px;
+    padding-left: 10px;
+  }
+  .navbar-toggler:focus, .navbar-toggler:hover {
+    border: none;
+    outline: none;
+  }
+
   header.home {
-    padding-top: 23vh;
+    padding-top: 14vh;
     height: 300px;
   }
-  header.home h1 {
-    font-size: 25px;
+  header.home p{
+    font-size: 3rem;
   }
+
   .desktop,
   .menu-item span,
   .contenedor-buscador,
@@ -792,6 +805,10 @@ div.perfil {
     margin-bottom: 10px;
   }
   .carrito .precio-desktop {
+    display: none;
+  }
+  
+  nav .contenedor-buscador {
     display: none;
   }
 }
