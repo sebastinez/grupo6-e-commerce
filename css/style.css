@@ -430,7 +430,7 @@ footer .btn:hover {
 
 .bread {
   display: inline-block;
-  padding-left: 20vw;
+  /*padding-left: 20vw;*/
 }
 
 .fa-home {
@@ -444,6 +444,7 @@ footer .btn:hover {
 
 .fa-home ~ span#breadcrumb-page {
   color: #6bbaa7;
+  font-style: italic;
 }
 
 /* LOGIN */
@@ -519,22 +520,22 @@ button.registracion {
 }
 
 /*HOME*/
-.contenedor-card {
-  box-sizing: border-box;
+.container-generos {
   overflow: hidden;
+  margin: auto;
 }
-
-.card-estilo {
-  width: 14%;
+.card-style {
+  max-width: 200px;
   float: left;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.2);
-  margin-right: 2%;
+  margin-right: 20px;
+  margin-bottom: 20px;
   box-sizing: border-box;
   cursor: pointer;
   overflow: hidden;
 }
-.card-estilo:hover {
+.card-style:hover {
   background-color: rgba(0, 0, 0, 0.7);
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -542,7 +543,7 @@ button.registracion {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.card-estilo p {
+.card-style p {
   padding-top: 20px;
   font-weight: 700;
   font-size: 1rem;
@@ -552,7 +553,7 @@ button.registracion {
   text-transform: uppercase;
 }
 
-.card-estilo img {
+.card-style img {
   width: 100%;
 }
 
@@ -561,15 +562,12 @@ button.registracion {
   overflow: hidden;
 }
 
-.padding-bottom-provisorio {
-  padding-bottom: 150px;
-}
 
 /*Album*/
 
 .container-albums {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -581,6 +579,17 @@ button.registracion {
   float: left;
   margin-bottom: 25px;
   color: #fff;
+  cursor: pointer;
+}
+.contenedor-card-album:hover {
+  -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .card-album img {
@@ -590,9 +599,9 @@ button.registracion {
   padding: 15px;
   padding-bottom: 30px;
 }
-.info a .title {
+.info a.name_artist {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #fff;
   text-decoration: none;
 }
@@ -602,14 +611,22 @@ button.registracion {
 .info .btn {
   float: right;
 }
-.info .name {
+.info .name_disc {
   font-size: 1.2rem;
+  margin: 0;
+  padding-bottom: 10px;
 }
 .info .precio {
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #fe3454;
 }
+
+.info .anio {
+  text-align: right;
+  font-style: italic;
+}
+
 /* PERFIL DE USUARIO*/
 
 div.perfil {

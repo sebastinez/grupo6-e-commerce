@@ -1,122 +1,37 @@
 <?php include("./includes/breadcrumb.php"); ?>
 
-<div class="container pt-5">
-	<div class="contenedor-cards ">
-		<a href="?p=albums">
-			<div class="card-estilo">
-				<img src="img/pop.png" alt="">
-			<p>Pop</p>
-			</div>
-		</a>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/rock.png" alt="">
-			<p>Rock</p>
+<?php
+
+$generos = [
+			["genero" => "Country", "img_genero" => "img/generos/country.jpg"],
+			["genero" => "Disco", "img_genero" => "img/generos/disco.jpg"],
+			["genero" => "Folk", "img_genero" => "img/generos/folk.jpg"],
+			["genero" => "Hip-Hop", "img_genero" => "img/generos/hip-hop.jpg"],
+			["genero" => "Latino", "img_genero" => "img/generos/latino.jpg"],
+			["genero" => "Pop", "img_genero" => "img/generos/pop.jpg"],
+			["genero" => "Reggae", "img_genero" => "img/generos/reggae.jpg"],
+			["genero" => "Rock", "img_genero" => "img/generos/rock.jpg"],
+			["genero" => "House", "img_genero" => "img/generos/house.jpg"],
+			["genero" => "Soul", "img_genero" => "img/generos/soul.jpg"],
+			["genero" => "Techno", "img_genero" => "img/generos/techno.jpg"],
+			["genero" => "jazz", "img_genero" => "img/generos/jazz.jpg"],
+			["genero" => "Metal", "img_genero" => "img/generos/metal.jpg"],
+			["genero" => "Blues", "img_genero" => "img/generos/blues.jpg"],
+		];
+?>
+
+
+<div class="container container-generos mt-5">
+	<?php foreach ($generos as $genero) :?>
+		<div class="container-cards">
+			<a href="?p=albums">
+				<div class="card-style">
+					<img src=" <?php echo "$genero[img_genero]";?> " alt="">
+				<p><?php echo "$genero[genero]";?></p>
+				</div>
+			</a>
 		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/hip-hop.png" alt="">
-			<p>hip-hop</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/trending.png" alt="">
-			<p>trending</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/latino.png" alt="">
-			<p>latino</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/latino.png" alt="">
-			<p>latino</p>
-		</div>
-	</div>
+	<?php endforeach;?>
 </div>
 
-<div class="container container-scroll-home">
-	<div class="contenedor-cards ">
-		<div class="card-estilo">
-			<img src="img/pop.png" alt="">
-			<p>Pop</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/rock.png" alt="">
-			<p>Rock</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/hip-hop.png" alt="">
-			<p>hip-hop</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/trending.png" alt="">
-			<p>trending</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/latino.png" alt="">
-			<p>latino</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/latino.png" alt="">
-			<p>latino</p>
-		</div>
-	</div>
-</div>
 
-<div class="container container-scroll-home">
-	<div class="contenedor-cards ">
-		<div class="card-estilo">
-			<img src="img/pop.png" alt="">
-			<p>Pop</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/rock.png" alt="">
-			<p>Rock</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/hip-hop.png" alt="">
-			<p>hip-hop</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/trending.png" alt="">
-			<p>trending</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/latino.png" alt="">
-			<p>latino</p>
-		</div>
-	</div>
-	<div class="contenedor-cards">
-		<div class="card-estilo">
-			<img src="img/latino.png" alt="">
-			<p>latino</p>
-		</div>
-	</div>
-</div>
-
-<div class="padding-bottom-provisorio"></div>
