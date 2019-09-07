@@ -542,6 +542,10 @@ button.registracion {
   cursor: pointer;
   overflow: hidden;
 }
+.card-columns .card {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
 .card-style:hover {
   background-color: rgba(0, 0, 0, 0.7);
   -webkit-transition: all 0.3s ease;
@@ -600,7 +604,7 @@ button.registracion {
   transition: all 0.3s ease;
 }
 
-.card-album img {
+.card-img img {
   max-width: 250px;
 }
 .info {
@@ -633,6 +637,11 @@ button.registracion {
 .info .anio {
   text-align: right;
   font-style: italic;
+}
+
+/*ALBUM*/
+audio {
+  width: 100%;
 }
 
 /* PERFIL DE USUARIO*/
