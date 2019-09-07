@@ -41,18 +41,17 @@ function filtrarCanciones($array)
     return $canciones;
 }
 
-foreach (leerArchivosJson("../data/pruebaspotify.json") as $valor) {
-    echo "<pre>";
 
-    echo "<h1>Información discos de pruebasSpotify.Json</h1>";
 
-    echo "<h3>Informacion</h3>";
-    print_r(filtrarAlbum($valor));
-
-    echo "<h3>Canciones</h3>";
-    print_r(filtrarCanciones($valor));
-
-    echo "<h3>Artista</h3>";
-    print_r(filtrarArtista($valor));
-    echo "</pre>";
-};
+function getSpotify($archivo)
+{
+    $albumes = [];
+    foreach (leerArchivosJson($archivo) as $album) {
+        $albumes[] = [
+            "general" => filtrarAlbum($album),
+            "artista" => filtrarArtista($album),
+            "canciones" => filtrarCanciones($album)
+        ];
+    }
+    return $albumes;
+}
