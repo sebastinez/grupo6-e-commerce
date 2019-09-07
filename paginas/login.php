@@ -21,7 +21,7 @@
         <form class="body" action="paginas/auth.php" method="POST">
             <div class="form-group">
                 <input type="hidden" name="usuario" value="<?= $_POST["usuario"] ?>">
-                <input type="password" name="pwd" class="form-control usuario" placeholder="e-mail o usuario">
+                <input type="password" name="pwd" class="form-control usuario" placeholder="contraseña">
             </div>
             <button type="submit" class="btn btn-verde">Ingresar</button>
         </form>
