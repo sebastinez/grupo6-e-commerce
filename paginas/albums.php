@@ -25,8 +25,8 @@
 	</div>
 </div>
 
-<div class="row">
-	<div class="container">
+<div class="container">
+	<div class="row">
 		<div class="card-columns">
 			<?php foreach ($albums as $album):?>
 			  <div class="card info">
