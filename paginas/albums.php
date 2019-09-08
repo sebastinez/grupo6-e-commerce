@@ -1,7 +1,7 @@
 <?php
 include("./includes/breadcrumb.php");
 include("./script/leerSpotify.php");
-$albumes = getSpotify("./data/" . $_GET["g"] . ".json");
+$albumes = getSpotify($_GET["g"]);
 ?>
 
 

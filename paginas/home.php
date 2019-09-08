@@ -2,7 +2,7 @@
 include("./includes/breadcrumb.php");
 include("./data/generos.php");
 include("script/leerSpotify.php");
-$arrayDeAlbumes = array_slice(getSpotify("./data/Classic.json", "./data/EDM.json", "./data/Funk.json", "./data/Hip-Hop.json", "./data/Jazz.json", "./data/Latin.json", "./data/Pop.json", "./data/Reggae.json", "./data/Rock.json", "./data/Soundtrack.json"), 0, 10);
+$arrayDeAlbumes = array_slice(getSpotify("Classic", "EDM", "Funk", "Hip-Hop", "Jazz", "Latin", "Pop", "Reggae", "Rock", "Soundtrack"), 0, 10);
 shuffle($arrayDeAlbumes);
 ?>
 
