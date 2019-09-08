@@ -23,7 +23,8 @@ function filtrarAlbum($array)
         "imagenSize" => $array["images"][1]["width"],
         "nombre" => $array["name"],
         "estreno" => $array["release_date"],
-        "tracks" => $array["total_tracks"]
+        "tracks" => $array["total_tracks"],
+        "artista" => $array["name"]
     ];
 }
 
