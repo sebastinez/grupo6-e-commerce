@@ -41,7 +41,7 @@ En el futuro queremos expandir este desarrollo y lograr algoritmos que analizan 
 
 ## Instalación
 
-```git clone https://github.com/sebastinez/grupo6-e-commerce```
+```git clone https://github.com/sebastinez/grupo8-e-commerce```
 
 <a name="recursos"></a>
 
