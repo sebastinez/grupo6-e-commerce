@@ -43,15 +43,17 @@ function filtrarCanciones($array)
 
 
 
-function getSpotify($archivo)
+function getSpotify(...$archivos)
 {
     $albumes = [];
-    foreach (leerArchivosJson($archivo) as $album) {
-        $albumes[] = [
-            "general" => filtrarAlbum($album),
-            "artista" => filtrarArtista($album),
-            "canciones" => filtrarCanciones($album)
-        ];
+    foreach ($archivos as $archivo) {
+        foreach (leerArchivosJson($archivo) as $album) {
+            $albumes[] = [
+                "general" => filtrarAlbum($album),
+                "artista" => filtrarArtista($album),
+                "canciones" => filtrarCanciones($album)
+            ];
+        }
     }
     return $albumes;
 }
