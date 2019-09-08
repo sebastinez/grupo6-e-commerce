@@ -1,12 +1,18 @@
-<?php include("./includes/breadcrumb.php"); ?>
+<?php include("./includes/breadcrumb.php");
+include("./script/leerSpotify.php");
+$albumes = getSpotify("./data/pruebaspotify.json");
+$album1 = searchAlbum($albumes, "1A2GTWGtFfWp7KSQTwWOyo");
+$album2 = searchAlbum($albumes, "382ObEPsp2rxGrnsizN5TX");
+?>
 <div class="titulos">Carrito de compra</div>
 <div class="container">
     <div class="carrito">
     <hr>
     <div class="row">
-        <div class="col-lg-4 col-md-12"><img src="img/thumbs/3.jpg"></div>
+        <div class="col-lg-4 col-md-12"><img src="<?= $album1["general"]["imagen"] ?>"></div>
         <div class="col-lg-5 col-md-12">
-            <h2>Pink Floyd - The Wall</h2><span>2000,00 ARS</span>
+            <h2><?= $album1["general"]["nombre"] ?></h2><span>2000,00 ARS</span>
+            <p><?= $album1["artista"]["nombre"] ?></p>
             <p class="text-success">En Stock</p>
             <select name="cantidad" id="" class="form-control">
                 <option value="">Cantidad...</option>
@@ -23,9 +29,10 @@
     </div>
     <hr>
     <div class="row">
-        <div class="col-lg-4 col-md-12"><img src="img/thumbs/2.jpg"></div>
+        <div class="col-lg-4 col-md-12"><img src="<?= $album2["general"]["imagen"] ?>"></div>
         <div class="col-lg-5 col-md-12">
-            <h2>Pink Floyd</h2><span>2000,00 ARS</span>
+            <h2><?= $album2["general"]["nombre"] ?></h2><span>2000,00 ARS</span>
+            <p><?= $album2["artista"]["nombre"] ?></p>
             <p class="text-danger">Demora de 10 días</p>
             <select name="cantidad" id="" class="form-control">
                 <option value="">Cantidad...</option>

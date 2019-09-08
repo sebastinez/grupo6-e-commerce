@@ -107,8 +107,8 @@ body {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-h4.hover-naranja a:hover{
-  color: #ff9900!important;
+h4.hover-naranja a:hover {
+  color: #ff9900 !important;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -230,7 +230,7 @@ input[type='radio'] {
   margin-left: -33px !important;
 }
 nav#productos {
-  background-color: #6C6C6C;
+  background-color: #6c6c6c;
   height: 55px;
   width: auto;
   line-height: 55px;
@@ -295,7 +295,7 @@ nav#productos .contenedor-buscador {
   margin: 0 60px 30px 0;
 }
 .dropdown-menu {
-  background-color: #3a3a3a;;
+  background-color: #3a3a3a;
 }
 
 @media (max-width: 576px) {
@@ -308,11 +308,13 @@ nav#productos .contenedor-buscador {
     float: left;
     padding-top: 10px;
   }
-  .fa-bars, .navbar-toggler {
+  .fa-bars,
+  .navbar-toggler {
     font-size: 34px;
     padding-left: 10px;
   }
-  .navbar-toggler:focus, .navbar-toggler:hover {
+  .navbar-toggler:focus,
+  .navbar-toggler:hover {
     border: none;
     outline: none;
   }
@@ -321,7 +323,7 @@ nav#productos .contenedor-buscador {
     padding-top: 14vh;
     height: 300px;
   }
-  header.home p{
+  header.home p {
     font-size: 3rem;
   }
 
@@ -434,7 +436,6 @@ footer .twitter:hover {
   color: #00b0f0;
 }
 
-
 footer .btn {
   color: #ffffff;
   background-color: #6bbaa7;
@@ -530,7 +531,6 @@ div.registracion {
 }
 input[type='checkbox'] {
   width: 1.8rem;
-
 }
 .registracion .form-check {
   line-height: unset;
@@ -546,7 +546,8 @@ button.registracion {
 }
 
 /* CONTACTO */
-.registracion input, .registracion select {
+.registracion input,
+.registracion select {
   margin-top: 20px;
 }
 .form-group label {
@@ -714,6 +715,10 @@ div.perfil {
   color: white;
 }
 
+.perfil .row {
+  justify-content: center;
+}
+
 .perfil h4 {
   margin-top: 60px;
   margin-bottom: 30px;
@@ -757,7 +762,7 @@ div.perfil {
   border: none;
   margin-top: 15px;
   border-radius: 20px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .card .accordion-toggle {
@@ -828,7 +833,7 @@ div.perfil {
   .carrito .precio-desktop {
     display: none;
   }
-  
+
   nav .contenedor-buscador {
     display: none;
   }
