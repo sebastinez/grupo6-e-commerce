@@ -1,8 +1,8 @@
 <?php include("./includes/breadcrumb.php");
 include("./script/leerSpotify.php");
-$albumes = getSpotify("./data/pruebaspotify.json");
-$album1 = searchAlbum($albumes, "1A2GTWGtFfWp7KSQTwWOyo");
-$album2 = searchAlbum($albumes, "382ObEPsp2rxGrnsizN5TX");
+$albumes = getSpotify("./data/Rock.json");
+$album1 = searchAlbum($albumes, "1RCAG3LrDwYsNU5ZiUJlWi");
+$album2 = searchAlbum($albumes, "6P5QHz4XtxOmS5EuiGIPut");
 ?>
 <div class="titulos">Carrito de compra</div>
 <div class="container">
@@ -11,7 +11,7 @@ $album2 = searchAlbum($albumes, "382ObEPsp2rxGrnsizN5TX");
     <div class="row">
         <div class="col-lg-4 col-md-12"><img src="<?= $album1["general"]["imagen"] ?>"></div>
         <div class="col-lg-5 col-md-12">
-            <h2><?= $album1["general"]["nombre"] ?></h2><span>2000,00 ARS</span>
+            <h2><?= $album1["general"]["nombre"] ?></h2><span><?= $album1["general"]["precio"] ?> ARS</span>
             <p><?= $album1["artista"]["nombre"] ?></p>
             <p class="text-success">En Stock</p>
             <select name="cantidad" id="" class="form-control">
@@ -24,14 +24,14 @@ $album2 = searchAlbum($albumes, "382ObEPsp2rxGrnsizN5TX");
             </select>
             <button class="btn btn-danger">Borrar</button>
         </div>
-        <div class="col-lg-3 col-md-12 precio precio-desktop">2000,00 ARS</div>
+        <div class="col-lg-3 col-md-12 precio precio-desktop"><?= $album1["general"]["precio"] ?> ARS</div>
 
     </div>
     <hr>
     <div class="row">
         <div class="col-lg-4 col-md-12"><img src="<?= $album2["general"]["imagen"] ?>"></div>
         <div class="col-lg-5 col-md-12">
-            <h2><?= $album2["general"]["nombre"] ?></h2><span>2000,00 ARS</span>
+            <h2><?= $album2["general"]["nombre"] ?></h2><span><?= $album2["general"]["precio"] ?> ARS</span>
             <p><?= $album2["artista"]["nombre"] ?></p>
             <p class="text-danger">Demora de 10 días</p>
             <select name="cantidad" id="" class="form-control">
@@ -44,7 +44,7 @@ $album2 = searchAlbum($albumes, "382ObEPsp2rxGrnsizN5TX");
             </select>
             <button class="btn btn-danger">Borrar</button>
         </div>
-        <div class="col-lg-3 col-md-12 precio-desktop precio">2000,00 ARS</div>
+        <div class="col-lg-3 col-md-12 precio-desktop precio"><?= $album2["general"]["precio"] ?> ARS</div>
 
     </div>
 </div>

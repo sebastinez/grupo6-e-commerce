@@ -1,7 +1,7 @@
 <?php
 include("./includes/breadcrumb.php");
 include("./script/leerSpotify.php");
-$albumes = getSpotify("./data/pruebaspotify.json");
+$albumes = getSpotify("./data/" . $_GET["g"] . ".json");
 ?>
 
 
@@ -17,7 +17,7 @@ $albumes = getSpotify("./data/pruebaspotify.json");
 						<a href="#" class="name_artist"><?= $album["artista"]["nombre"] ?></a>
 						<p class="name_disc"><?= $album["general"]["nombre"] ?></p>
 						<p class="anio"><?php echo date_format(date_create($album["general"]["estreno"]), "Y"); ?></p>
-						<span class="precio">300 ARS</span>
+						<span class="precio"><?= $album["general"]["precio"] ?> ARS</span>
 						<span><span class="btn btn-naranja">comprar</span></span>
 					</div>
 				</a>

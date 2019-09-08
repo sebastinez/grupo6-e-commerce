@@ -31,6 +31,7 @@ function filtrarAlbum($array)
         "imagen" => $array["images"][1]["url"],
         "imagenSize" => $array["images"][1]["width"],
         "nombre" => $array["name"],
+        "precio" => $array["precio"],
         "estreno" => $array["release_date"],
         "tracks" => $array["total_tracks"],
         "artista" => $array["name"]
