@@ -1,6 +1,7 @@
 <?php include("./includes/breadcrumb.php"); ?>
 <div class="titulos">Carrito de compra</div>
-<div class="carrito">
+<div class="container">
+    <div class="carrito">
     <hr>
     <div class="row">
         <div class="col-lg-4 col-md-12"><img src="img/thumbs/3.jpg"></div>
@@ -17,7 +18,7 @@
             </select>
             <button class="btn btn-danger">Borrar</button>
         </div>
-        <div class="col-lg-3 col-md-12 precio-desktop">2000,00 ARS</div>
+        <div class="col-lg-3 col-md-12 precio precio-desktop">2000,00 ARS</div>
 
     </div>
     <hr>
@@ -36,7 +37,8 @@
             </select>
             <button class="btn btn-danger">Borrar</button>
         </div>
-        <div class="col-lg-3 col-md-12 precio-desktop">2000,00 ARS</div>
+        <div class="col-lg-3 col-md-12 precio-desktop precio">2000,00 ARS</div>
 
     </div>
+</div>
 </div>
