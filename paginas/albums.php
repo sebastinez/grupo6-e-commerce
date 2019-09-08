@@ -1,27 +1,27 @@
 <?php
-	include("./includes/breadcrumb.php");
-	include("data/albums.php");
+include("./includes/breadcrumb.php");
+include("./script/leerSpotify.php");
+$albumes = getSpotify("./data/pruebaspotify.json");
 ?>
 
 
 <div class="container pt-5">
 	<div class="container-albums">
-		<?php foreach ($albums as $album):?>
+		<?php foreach ($albumes as $album) : ?>
 			<div class="contenedor-card-album animated fadeIn faster">
-				<a href="?p=album">
+				<a href="?p=album&id=<?= $album["general"]["id"] ?>">
 					<div class="card-img">
-						<img src="<?php echo "$album[img]";?>">
+						<img src="<?= $album["general"]["imagen"] ?>">
 					</div>
 					<div class="info">
-						<a href="#" class="name_artist"><?php echo "$album[artist]";?></a>
-						<p class="name_disc"><?php echo "$album[name_disc]";?></p>
-						<p class="anio"><?php echo "Año ". "$album[anio]";?></p>
-						<span class="precio"><?php echo "$ ". "$album[precio]";?></span>
+						<a href="#" class="name_artist"><?= $album["artista"]["nombre"] ?></a>
+						<p class="name_disc"><?= $album["general"]["nombre"] ?></p>
+						<p class="anio"><?php echo date_format(date_create($album["general"]["estreno"]), "Y"); ?></p>
+						<span class="precio">300 ARS</span>
 						<span><span class="btn btn-naranja">comprar</span></span>
 					</div>
 				</a>
 			</div>
-		<?php endforeach;?>
+		<?php endforeach; ?>
 	</div>
 </div>
-

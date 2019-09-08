@@ -7,6 +7,15 @@ function leerArchivosJson($archivo)
     return $phpArray["albums"];
 }
 
+function searchAlbum($albumes, $id)
+{
+    foreach ($albumes as $album) {
+        if ($album["general"]["id"] === $id) {
+            return $album;
+        }
+    }
+}
+
 function filtrarArtista($array)
 {
     return [
