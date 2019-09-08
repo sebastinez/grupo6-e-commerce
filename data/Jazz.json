@@ -1,0 +1,3250 @@
+{
+  "albums": [
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf"
+      },
+      "href": "https://api.spotify.com/v1/artists/2hGh5VOeeqimQFxqXvfCUf",
+      "id": "2hGh5VOeeqimQFxqXvfCUf",
+      "name": "John Coltrane",
+      "type": "artist",
+      "uri": "spotify:artist:2hGh5VOeeqimQFxqXvfCUf"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 2003 The Verve Music Group, a Division of UMG Recordings, Inc.",
+      "type": "C"
+    },
+    {
+      "text": "℗ 1964 The Verve Music Group, a Division of UMG Recordings, Inc.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00602498010921"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/7Eoz7hJvaX1eFkbpQxC5PA"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/7Eoz7hJvaX1eFkbpQxC5PA",
+  "id": "7Eoz7hJvaX1eFkbpQxC5PA",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/15e20f715bc87f72b0df10ddb33779c298241c33",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/1edf765bc9973a6bf3169dfac3f9fb6a7ea53e94",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/1ecdd50ab9e1abffb1bb3f3d75f23d2473d4f925",
+      "width": 64
+    }
+  ],
+  "label": "GRP",
+  "precio": "1450",
+  "name": "A Love Supreme",
+  "popularity": 46,
+  "release_date": "1965-02",
+  "release_date_precision": "month",
+  "total_tracks": 4,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/7Eoz7hJvaX1eFkbpQxC5PA/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf"
+            },
+            "href": "https://api.spotify.com/v1/artists/2hGh5VOeeqimQFxqXvfCUf",
+            "id": "2hGh5VOeeqimQFxqXvfCUf",
+            "name": "John Coltrane",
+            "type": "artist",
+            "uri": "spotify:artist:2hGh5VOeeqimQFxqXvfCUf"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 462866,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0CLbmkYmQIWiEwnsbOkLpd"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0CLbmkYmQIWiEwnsbOkLpd",
+        "id": "0CLbmkYmQIWiEwnsbOkLpd",
+        "is_local": false,
+        "is_playable": true,
+        "name": "A Love Supreme, Pt. I – Acknowledgement",
+        "preview_url": "https://p.scdn.co/mp3-preview/5d3d1312ce333e99c6e546a7d4e0e5dc7e7147e6?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:0CLbmkYmQIWiEwnsbOkLpd"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf"
+            },
+            "href": "https://api.spotify.com/v1/artists/2hGh5VOeeqimQFxqXvfCUf",
+            "id": "2hGh5VOeeqimQFxqXvfCUf",
+            "name": "John Coltrane",
+            "type": "artist",
+            "uri": "spotify:artist:2hGh5VOeeqimQFxqXvfCUf"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 437840,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7unF2ARDGldwWxZWCmlwDM"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7unF2ARDGldwWxZWCmlwDM",
+        "id": "7unF2ARDGldwWxZWCmlwDM",
+        "is_local": false,
+        "is_playable": true,
+        "name": "A Love Supreme, Pt. II - Resolution",
+        "preview_url": "https://p.scdn.co/mp3-preview/0d9571a79ce3470a77b523145f53615b67fab654?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:7unF2ARDGldwWxZWCmlwDM"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf"
+            },
+            "href": "https://api.spotify.com/v1/artists/2hGh5VOeeqimQFxqXvfCUf",
+            "id": "2hGh5VOeeqimQFxqXvfCUf",
+            "name": "John Coltrane",
+            "type": "artist",
+            "uri": "spotify:artist:2hGh5VOeeqimQFxqXvfCUf"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 642506,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0jHEixPAoSopOP75j2iTX9"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0jHEixPAoSopOP75j2iTX9",
+        "id": "0jHEixPAoSopOP75j2iTX9",
+        "is_local": false,
+        "is_playable": true,
+        "name": "A Love Supreme, Pt. III - Pursuance",
+        "preview_url": "https://p.scdn.co/mp3-preview/4ff798cfdccc3835a59f0085c763f939fb09a20e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:0jHEixPAoSopOP75j2iTX9"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2hGh5VOeeqimQFxqXvfCUf"
+            },
+            "href": "https://api.spotify.com/v1/artists/2hGh5VOeeqimQFxqXvfCUf",
+            "id": "2hGh5VOeeqimQFxqXvfCUf",
+            "name": "John Coltrane",
+            "type": "artist",
+            "uri": "spotify:artist:2hGh5VOeeqimQFxqXvfCUf"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 422906,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5FLQmLjjeNIuC8U5mDnXC8"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5FLQmLjjeNIuC8U5mDnXC8",
+        "id": "5FLQmLjjeNIuC8U5mDnXC8",
+        "is_local": false,
+        "is_playable": true,
+        "name": "A Love Supreme, Pt. IV - Psalm",
+        "preview_url": "https://p.scdn.co/mp3-preview/a8b0d208d89976f957e77b2a246597bc42ee588c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5FLQmLjjeNIuC8U5mDnXC8"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 4
+  },
+  "type": "album",
+  "uri": "spotify:album:7Eoz7hJvaX1eFkbpQxC5PA"
+}
+
+
+,
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+      },
+      "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+      "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+      "name": "Miles Davis",
+      "type": "artist",
+      "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "Originally released 1959 Sony Music Entertainment Inc.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "5099749522428"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/1weenld61qoidwYuZ1GESA"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/1weenld61qoidwYuZ1GESA",
+  "id": "1weenld61qoidwYuZ1GESA",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/35f64da8c396a97fdfd7a25935f6772d1f12787c",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/05a6788ea835a330e3c0f21ac240724bdca4def3",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/16cb875343db95fe76bbccb9748355d24a06b669",
+      "width": 64
+    }
+  ],
+  "label": "Columbia",
+  "precio": "1750",
+  "name": "Kind Of Blue",
+  "popularity": 49,
+  "release_date": "1959-08-17",
+  "release_date_precision": "day",
+  "total_tracks": 5,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/1weenld61qoidwYuZ1GESA/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+            },
+            "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+            "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+            "name": "Miles Davis",
+            "type": "artist",
+            "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 562400,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7q3kkfAVpmcZ8g6JUThi3o"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7q3kkfAVpmcZ8g6JUThi3o",
+        "id": "7q3kkfAVpmcZ8g6JUThi3o",
+        "is_local": false,
+        "is_playable": true,
+        "name": "So What",
+        "preview_url": "https://p.scdn.co/mp3-preview/31223c6ee13d66a93d17e741f6c759adf22f6c54?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:7q3kkfAVpmcZ8g6JUThi3o"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+            },
+            "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+            "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+            "name": "Miles Davis",
+            "type": "artist",
+            "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 586493,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3NvYPUNu6nwQgN31UnoDbn"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3NvYPUNu6nwQgN31UnoDbn",
+        "id": "3NvYPUNu6nwQgN31UnoDbn",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Freddie Freeloader",
+        "preview_url": "https://p.scdn.co/mp3-preview/744d4852b9c7a68aa661829770e86db0d55863ec?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:3NvYPUNu6nwQgN31UnoDbn"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+            },
+            "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+            "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+            "name": "Miles Davis",
+            "type": "artist",
+            "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 337160,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6bP4GyrKNbcKPMDqWJqpxI"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6bP4GyrKNbcKPMDqWJqpxI",
+        "id": "6bP4GyrKNbcKPMDqWJqpxI",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Blue in Green",
+        "preview_url": "https://p.scdn.co/mp3-preview/021636a9d64620193add469ca93b4c3ef2d5e7f8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:6bP4GyrKNbcKPMDqWJqpxI"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+            },
+            "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+            "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+            "name": "Miles Davis",
+            "type": "artist",
+            "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 692973,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0TUa7gBg7LJH6B8dkNVioU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0TUa7gBg7LJH6B8dkNVioU",
+        "id": "0TUa7gBg7LJH6B8dkNVioU",
+        "is_local": false,
+        "is_playable": true,
+        "name": "All Blues",
+        "preview_url": "https://p.scdn.co/mp3-preview/9654ed54a8011d3a19e39023d8210bc1d9678174?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:0TUa7gBg7LJH6B8dkNVioU"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+            },
+            "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+            "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+            "name": "Miles Davis",
+            "type": "artist",
+            "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 566066,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3R3fcrKaeBr3U6s9R2belr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3R3fcrKaeBr3U6s9R2belr",
+        "id": "3R3fcrKaeBr3U6s9R2belr",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Flamenco Sketches",
+        "preview_url": "https://p.scdn.co/mp3-preview/22fdba943713b875689f1c3e5ecfd3737103cc9b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:3R3fcrKaeBr3U6s9R2belr"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 5
+  },
+  "type": "album",
+  "uri": "spotify:album:1weenld61qoidwYuZ1GESA"
+}
+
+
+,
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5olDKSsFhhmwh8UCWwKtpq"
+      },
+      "href": "https://api.spotify.com/v1/artists/5olDKSsFhhmwh8UCWwKtpq",
+      "id": "5olDKSsFhhmwh8UCWwKtpq",
+      "name": "Chick Corea",
+      "type": "artist",
+      "uri": "spotify:artist:5olDKSsFhhmwh8UCWwKtpq"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 1972 ECM Records GmbH, under exclusive license to Universal Music Classics & Jazz - a division of Universal Music GmbH",
+      "type": "C"
+    },
+    {
+      "text": "℗ 1972 ECM Records GmbH, under exclusive license to Universal Music Classics & Jazz - a division of Universal Music GmbH",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00042281197826"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/6M0IAJHwQ6dFNtTkFsXCJc"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/6M0IAJHwQ6dFNtTkFsXCJc",
+  "id": "6M0IAJHwQ6dFNtTkFsXCJc",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/eca8a0f0462aead1c60a41eff3c63ddacacb5512",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/babf5cd28f0d24fb21be94c4bc75fc92185c31a3",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/c53d4074bbc023d9d970dedfb546ba51499b6bdd",
+      "width": 64
+    }
+  ],
+  "label": "ECM Records",
+  "precio": "1100",
+  "name": "Return To Forever",
+  "popularity": 50,
+  "release_date": "1972-07-01",
+  "release_date_precision": "day",
+  "total_tracks": 4,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/6M0IAJHwQ6dFNtTkFsXCJc/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5olDKSsFhhmwh8UCWwKtpq"
+            },
+            "href": "https://api.spotify.com/v1/artists/5olDKSsFhhmwh8UCWwKtpq",
+            "id": "5olDKSsFhhmwh8UCWwKtpq",
+            "name": "Chick Corea",
+            "type": "artist",
+            "uri": "spotify:artist:5olDKSsFhhmwh8UCWwKtpq"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 724666,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6OFvrxUnXyMe5KcOpuGfr1"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6OFvrxUnXyMe5KcOpuGfr1",
+        "id": "6OFvrxUnXyMe5KcOpuGfr1",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Return To Forever",
+        "preview_url": "https://p.scdn.co/mp3-preview/dd9abc4568ed5b07038181800aea9e4f68c9aeb8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:6OFvrxUnXyMe5KcOpuGfr1"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5olDKSsFhhmwh8UCWwKtpq"
+            },
+            "href": "https://api.spotify.com/v1/artists/5olDKSsFhhmwh8UCWwKtpq",
+            "id": "5olDKSsFhhmwh8UCWwKtpq",
+            "name": "Chick Corea",
+            "type": "artist",
+            "uri": "spotify:artist:5olDKSsFhhmwh8UCWwKtpq"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 415000,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5F8rPLt2c52p0SK7kiH26b"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5F8rPLt2c52p0SK7kiH26b",
+        "id": "5F8rPLt2c52p0SK7kiH26b",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Crystal Silence",
+        "preview_url": "https://p.scdn.co/mp3-preview/a5fcdbf19d51907891126dd54100cf85e6c735c1?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:5F8rPLt2c52p0SK7kiH26b"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5olDKSsFhhmwh8UCWwKtpq"
+            },
+            "href": "https://api.spotify.com/v1/artists/5olDKSsFhhmwh8UCWwKtpq",
+            "id": "5olDKSsFhhmwh8UCWwKtpq",
+            "name": "Chick Corea",
+            "type": "artist",
+            "uri": "spotify:artist:5olDKSsFhhmwh8UCWwKtpq"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 266000,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0mC8MfVqQ1pHGKCdfhiHye"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0mC8MfVqQ1pHGKCdfhiHye",
+        "id": "0mC8MfVqQ1pHGKCdfhiHye",
+        "is_local": false,
+        "is_playable": true,
+        "name": "What Game Shall We Play Today",
+        "preview_url": "https://p.scdn.co/mp3-preview/e24cf022f5b5d681644b8dc2898258de07f81c66?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:0mC8MfVqQ1pHGKCdfhiHye"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5olDKSsFhhmwh8UCWwKtpq"
+            },
+            "href": "https://api.spotify.com/v1/artists/5olDKSsFhhmwh8UCWwKtpq",
+            "id": "5olDKSsFhhmwh8UCWwKtpq",
+            "name": "Chick Corea",
+            "type": "artist",
+            "uri": "spotify:artist:5olDKSsFhhmwh8UCWwKtpq"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 1394000,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5usfjkANiQkilbhmelXPh2"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5usfjkANiQkilbhmelXPh2",
+        "id": "5usfjkANiQkilbhmelXPh2",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Sometime Ago / La Fiesta",
+        "preview_url": "https://p.scdn.co/mp3-preview/09516d9adddc56a40111dc71e6eeb4f9dde92d1d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5usfjkANiQkilbhmelXPh2"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 4
+  },
+  "type": "album",
+  "uri": "spotify:album:6M0IAJHwQ6dFNtTkFsXCJc"
+}
+
+
+,
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+      },
+      "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+      "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+      "name": "Chet Baker",
+      "type": "artist",
+      "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 1998 Blue Note Records",
+      "type": "C"
+    },
+    {
+      "text": "℗ 1998 Blue Note Records",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00724382323457"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/5JJ779nrbHx0KB2lBrMMa4"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/5JJ779nrbHx0KB2lBrMMa4",
+  "id": "5JJ779nrbHx0KB2lBrMMa4",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/9892f4bfe184de31c9830ffd67e6f988cfaf0bd2",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/b0e87ee8d23affa6080ce44575ec04651a29f983",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/016c6cb35ec51aace14989a06faeae9dc49344a5",
+      "width": 64
+    }
+  ],
+  "label": "Blue Note Records",
+  "precio": "1620",
+
+  "name": "Chet Baker Sings",
+  "popularity": 66,
+  "release_date": "1956",
+  "release_date_precision": "year",
+  "total_tracks": 14,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/5JJ779nrbHx0KB2lBrMMa4/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 183893,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2d64G7VaZdHQuAquz5HQNu"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2d64G7VaZdHQuAquz5HQNu",
+        "id": "2d64G7VaZdHQuAquz5HQNu",
+        "is_local": false,
+        "is_playable": true,
+        "name": "That Old Feeling",
+        "preview_url": "https://p.scdn.co/mp3-preview/2c05d29b78f02425b70bdfc8f270b3efc010420e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:2d64G7VaZdHQuAquz5HQNu"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 215466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/06UkYE0SZ3Y8zGRFOuWGAe"
+        },
+        "href": "https://api.spotify.com/v1/tracks/06UkYE0SZ3Y8zGRFOuWGAe",
+        "id": "06UkYE0SZ3Y8zGRFOuWGAe",
+        "is_local": false,
+        "is_playable": true,
+        "name": "It's Always You - Vocal Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/59574c104c1174bf1c124c615e592c37f7ed389a?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:06UkYE0SZ3Y8zGRFOuWGAe"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 146040,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7HqMu6Oa7jLQVDUuWiy6v2"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7HqMu6Oa7jLQVDUuWiy6v2",
+        "id": "7HqMu6Oa7jLQVDUuWiy6v2",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Like Someone In Love - Vocal Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/2cac3d08e4898d39be66620b109ed0f7221364cf?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:7HqMu6Oa7jLQVDUuWiy6v2"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 262626,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6akL58jOFRUs3DdoF1tUP0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6akL58jOFRUs3DdoF1tUP0",
+        "id": "6akL58jOFRUs3DdoF1tUP0",
+        "is_local": false,
+        "is_playable": true,
+        "name": "My Ideal",
+        "preview_url": "https://p.scdn.co/mp3-preview/8bb83f08e82f5e222300d3e9d8b98b4e237b6299?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:6akL58jOFRUs3DdoF1tUP0"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 269000,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5Fpbw9DCdROeT1JtJWi7lR"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5Fpbw9DCdROeT1JtJWi7lR",
+        "id": "5Fpbw9DCdROeT1JtJWi7lR",
+        "is_local": false,
+        "is_playable": true,
+        "name": "I've Never Been In Love Before - Vocal Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/97da01896190b6fc349540c215e5d2107c0bb669?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:5Fpbw9DCdROeT1JtJWi7lR"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 199840,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/29DQZscILU0D4b9ZykKIc2"
+        },
+        "href": "https://api.spotify.com/v1/tracks/29DQZscILU0D4b9ZykKIc2",
+        "id": "29DQZscILU0D4b9ZykKIc2",
+        "is_local": false,
+        "is_playable": true,
+        "name": "My Buddy - Vocal Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/f14d8bd33d8f3d0fda14154bc44d38ed1aac73b4?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:29DQZscILU0D4b9ZykKIc2"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 184466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3pfbQmD5xGH9Tcc7GqGfSL"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3pfbQmD5xGH9Tcc7GqGfSL",
+        "id": "3pfbQmD5xGH9Tcc7GqGfSL",
+        "is_local": false,
+        "is_playable": true,
+        "name": "But Not For Me - Vocal Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/608046933ef5473498112c1bb1837eb39d3b4e9b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:3pfbQmD5xGH9Tcc7GqGfSL"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 166760,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4m6OC8u2rC6LMFtFWsME7d"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4m6OC8u2rC6LMFtFWsME7d",
+        "id": "4m6OC8u2rC6LMFtFWsME7d",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Time After Time - Vocal Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/7ce18eadc4a083b2dd57b5cebfc7914a44804e45?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:4m6OC8u2rC6LMFtFWsME7d"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 179640,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4gFlHAye7To29Fs4UszQUH"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4gFlHAye7To29Fs4UszQUH",
+        "id": "4gFlHAye7To29Fs4UszQUH",
+        "is_local": false,
+        "is_playable": true,
+        "name": "I Get Along Without You Very Well (Except Sometimes)",
+        "preview_url": "https://p.scdn.co/mp3-preview/246c5ee6c86dcc387903d3f1e206a49a85e8fb69?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:4gFlHAye7To29Fs4UszQUH"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 141133,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4l9hml2UCnxoNI3yCdL1BW"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4l9hml2UCnxoNI3yCdL1BW",
+        "id": "4l9hml2UCnxoNI3yCdL1BW",
+        "is_local": false,
+        "is_playable": true,
+        "name": "My Funny Valentine",
+        "preview_url": "https://p.scdn.co/mp3-preview/1948f54888f407e2fc162c69b7a18ec10a372049?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:4l9hml2UCnxoNI3yCdL1BW"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 180626,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2zPANzQTt5Nbkg0eBPb7HI"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2zPANzQTt5Nbkg0eBPb7HI",
+        "id": "2zPANzQTt5Nbkg0eBPb7HI",
+        "is_local": false,
+        "is_playable": true,
+        "name": "There Will Never Be Another You - Vocal Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/061a55d08fca1374caf5721f457cc8269527b7dc?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:2zPANzQTt5Nbkg0eBPb7HI"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 171466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0kKQreifydSOeqZzHkNW67"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0kKQreifydSOeqZzHkNW67",
+        "id": "0kKQreifydSOeqZzHkNW67",
+        "is_local": false,
+        "is_playable": true,
+        "name": "The Thrill Is Gone - Vocal Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/9a3ad338e397ac2cf9194047d8177aed57b4f6e2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:0kKQreifydSOeqZzHkNW67"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 201440,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0F845nujLVqCb0XMZCh5Pc"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0F845nujLVqCb0XMZCh5Pc",
+        "id": "0F845nujLVqCb0XMZCh5Pc",
+        "is_local": false,
+        "is_playable": true,
+        "name": "I Fall In Love Too Easily - Vocal Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/9b0824330e42d526d9bffc39e1bfe788d2b8a71f?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:0F845nujLVqCb0XMZCh5Pc"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3rxeQlsv0Sc2nyYaZ5W71T"
+            },
+            "href": "https://api.spotify.com/v1/artists/3rxeQlsv0Sc2nyYaZ5W71T",
+            "id": "3rxeQlsv0Sc2nyYaZ5W71T",
+            "name": "Chet Baker",
+            "type": "artist",
+            "uri": "spotify:artist:3rxeQlsv0Sc2nyYaZ5W71T"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 159426,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/67ibXkmavZoN2S6m86p70f"
+        },
+        "href": "https://api.spotify.com/v1/tracks/67ibXkmavZoN2S6m86p70f",
+        "id": "67ibXkmavZoN2S6m86p70f",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Look For The Silver Lining",
+        "preview_url": "https://p.scdn.co/mp3-preview/612f68940ac729fc4387e90c878e57cf6ab8c09a?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:67ibXkmavZoN2S6m86p70f"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 14
+  },
+  "type": "album",
+  "uri": "spotify:album:5JJ779nrbHx0KB2lBrMMa4"
+}
+
+,
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6rxxu32JCGDpKKMPHxnSJp"
+      },
+      "href": "https://api.spotify.com/v1/artists/6rxxu32JCGDpKKMPHxnSJp",
+      "id": "6rxxu32JCGDpKKMPHxnSJp",
+      "name": "Eric Dolphy",
+      "type": "artist",
+      "uri": "spotify:artist:6rxxu32JCGDpKKMPHxnSJp"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 1999 Blue Note Records",
+      "type": "C"
+    },
+    {
+      "text": "℗ 1999 Blue Note Records",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00724349879355"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/3PIVqZzL1PnrxFZDzuT1aX"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/3PIVqZzL1PnrxFZDzuT1aX",
+  "id": "3PIVqZzL1PnrxFZDzuT1aX",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/5f3806f350594c58369f33d79ad65f7459d47559",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/9a57518c43f674274b2f3424e249555575275d7c",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/e09263f76e8246857e8ac38b72a7d9f56bdd6b09",
+      "width": 64
+    }
+  ],
+  "label": "Blue Note Records",
+  "precio": "950",
+
+  "name": "Out To Lunch (The Rudy Van Gelder Edition)",
+  "popularity": 37,
+  "release_date": "1964-09-01",
+  "release_date_precision": "day",
+  "total_tracks": 5,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/3PIVqZzL1PnrxFZDzuT1aX/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6rxxu32JCGDpKKMPHxnSJp"
+            },
+            "href": "https://api.spotify.com/v1/artists/6rxxu32JCGDpKKMPHxnSJp",
+            "id": "6rxxu32JCGDpKKMPHxnSJp",
+            "name": "Eric Dolphy",
+            "type": "artist",
+            "uri": "spotify:artist:6rxxu32JCGDpKKMPHxnSJp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 504866,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2VzRmb0GCPDBv6FddHGu7s"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2VzRmb0GCPDBv6FddHGu7s",
+        "id": "2VzRmb0GCPDBv6FddHGu7s",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Hat And Beard",
+        "preview_url": "https://p.scdn.co/mp3-preview/d970cfb3c87df8331bfe971627f6843a42ab4d02?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:2VzRmb0GCPDBv6FddHGu7s"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6rxxu32JCGDpKKMPHxnSJp"
+            },
+            "href": "https://api.spotify.com/v1/artists/6rxxu32JCGDpKKMPHxnSJp",
+            "id": "6rxxu32JCGDpKKMPHxnSJp",
+            "name": "Eric Dolphy",
+            "type": "artist",
+            "uri": "spotify:artist:6rxxu32JCGDpKKMPHxnSJp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 363893,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/59PMnQOm6taxjhP2QJ9AIo"
+        },
+        "href": "https://api.spotify.com/v1/tracks/59PMnQOm6taxjhP2QJ9AIo",
+        "id": "59PMnQOm6taxjhP2QJ9AIo",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Something Sweet, Something Tender - Rudy Van Gelder 24-Bit Digital Remaster/1998",
+        "preview_url": "https://p.scdn.co/mp3-preview/215343bc89d383f39fa80036449592d6772b2017?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:59PMnQOm6taxjhP2QJ9AIo"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6rxxu32JCGDpKKMPHxnSJp"
+            },
+            "href": "https://api.spotify.com/v1/artists/6rxxu32JCGDpKKMPHxnSJp",
+            "id": "6rxxu32JCGDpKKMPHxnSJp",
+            "name": "Eric Dolphy",
+            "type": "artist",
+            "uri": "spotify:artist:6rxxu32JCGDpKKMPHxnSJp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 443000,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/75N2HRLQXJXwupON6cTbb8"
+        },
+        "href": "https://api.spotify.com/v1/tracks/75N2HRLQXJXwupON6cTbb8",
+        "id": "75N2HRLQXJXwupON6cTbb8",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Gazzelloni - Rudy Van Gelder 24-Bit Digital Remaster/1998",
+        "preview_url": "https://p.scdn.co/mp3-preview/0032063af5edd51caef35769379fd4c011de4a6e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:75N2HRLQXJXwupON6cTbb8"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6rxxu32JCGDpKKMPHxnSJp"
+            },
+            "href": "https://api.spotify.com/v1/artists/6rxxu32JCGDpKKMPHxnSJp",
+            "id": "6rxxu32JCGDpKKMPHxnSJp",
+            "name": "Eric Dolphy",
+            "type": "artist",
+            "uri": "spotify:artist:6rxxu32JCGDpKKMPHxnSJp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 729293,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6BD4u2tOTHMlACAZ8gX0Gs"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6BD4u2tOTHMlACAZ8gX0Gs",
+        "id": "6BD4u2tOTHMlACAZ8gX0Gs",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Out To Lunch - Remastered 1998",
+        "preview_url": "https://p.scdn.co/mp3-preview/189e48139362b76d16fb53901685becd19431c24?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:6BD4u2tOTHMlACAZ8gX0Gs"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6rxxu32JCGDpKKMPHxnSJp"
+            },
+            "href": "https://api.spotify.com/v1/artists/6rxxu32JCGDpKKMPHxnSJp",
+            "id": "6rxxu32JCGDpKKMPHxnSJp",
+            "name": "Eric Dolphy",
+            "type": "artist",
+            "uri": "spotify:artist:6rxxu32JCGDpKKMPHxnSJp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 499173,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0Fq8g0zkAM8ZNgI7uIsvYn"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0Fq8g0zkAM8ZNgI7uIsvYn",
+        "id": "0Fq8g0zkAM8ZNgI7uIsvYn",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Straight Up And Down - Rudy Van Gelder 24-Bit Digital Remaster/1998",
+        "preview_url": "https://p.scdn.co/mp3-preview/87ce17a0e29f7de32db1e672a683b433b71fde92?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:0Fq8g0zkAM8ZNgI7uIsvYn"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 5
+  },
+  "type": "album",
+  "uri": "spotify:album:3PIVqZzL1PnrxFZDzuT1aX"
+}
+
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3UXq4fckDmcPmleixlrl6i"
+      },
+      "href": "https://api.spotify.com/v1/artists/3UXq4fckDmcPmleixlrl6i",
+      "id": "3UXq4fckDmcPmleixlrl6i",
+      "name": "Anthony Braxton",
+      "type": "artist",
+      "uri": "spotify:artist:3UXq4fckDmcPmleixlrl6i"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "(P) 1977 Arista Recording LLC",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "886446520223"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/1kPp7AOikyDNfeTct74vBG"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/1kPp7AOikyDNfeTct74vBG",
+  "id": "1kPp7AOikyDNfeTct74vBG",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/cf45dff9554d5c05978925738a18ceaefd8b7349",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/c6d16ef07d70db5a1ebcb2ad0c8be81796550842",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/28bb8431b51708748f61ad629164712919f1cd19",
+      "width": 64
+    }
+  ],
+  "label": "Arista/Legacy",
+  "precio": "1000",
+
+  "name": "The Montreux / Berlin Concerts",
+  "popularity": 5,
+  "release_date": "1977-03-01",
+  "release_date_precision": "day",
+  "total_tracks": 7,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/1kPp7AOikyDNfeTct74vBG/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3UXq4fckDmcPmleixlrl6i"
+            },
+            "href": "https://api.spotify.com/v1/artists/3UXq4fckDmcPmleixlrl6i",
+            "id": "3UXq4fckDmcPmleixlrl6i",
+            "name": "Anthony Braxton",
+            "type": "artist",
+            "uri": "spotify:artist:3UXq4fckDmcPmleixlrl6i"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 1412733,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2JNGyDdfDe5yBTnqSpuGok"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2JNGyDdfDe5yBTnqSpuGok",
+        "id": "2JNGyDdfDe5yBTnqSpuGok",
+        "is_local": false,
+        "is_playable": true,
+        "name": "29 M 36 (Opus 63) - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/2bf32946d698ae85873d48092c9bc3500cafbe80?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:2JNGyDdfDe5yBTnqSpuGok"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3UXq4fckDmcPmleixlrl6i"
+            },
+            "href": "https://api.spotify.com/v1/artists/3UXq4fckDmcPmleixlrl6i",
+            "id": "3UXq4fckDmcPmleixlrl6i",
+            "name": "Anthony Braxton",
+            "type": "artist",
+            "uri": "spotify:artist:3UXq4fckDmcPmleixlrl6i"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 468506,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1ed9tr3z1EPcwPoYhDhkWa"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1ed9tr3z1EPcwPoYhDhkWa",
+        "id": "1ed9tr3z1EPcwPoYhDhkWa",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Z WBM (Opus 40N) - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/b5918f982fa0bbffaac2aeb7edd61bed512db3bc?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:1ed9tr3z1EPcwPoYhDhkWa"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3UXq4fckDmcPmleixlrl6i"
+            },
+            "href": "https://api.spotify.com/v1/artists/3UXq4fckDmcPmleixlrl6i",
+            "id": "3UXq4fckDmcPmleixlrl6i",
+            "name": "Anthony Braxton",
+            "type": "artist",
+            "uri": "spotify:artist:3UXq4fckDmcPmleixlrl6i"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 839693,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4nh2VqHQlkIrnpbNPChQHL"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4nh2VqHQlkIrnpbNPChQHL",
+        "id": "4nh2VqHQlkIrnpbNPChQHL",
+        "is_local": false,
+        "is_playable": true,
+        "name": "H-46M (Opus 23J) - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/b396222bfe39ab8bd7f86dbc8fe6deae39c958a5?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:4nh2VqHQlkIrnpbNPChQHL"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3UXq4fckDmcPmleixlrl6i"
+            },
+            "href": "https://api.spotify.com/v1/artists/3UXq4fckDmcPmleixlrl6i",
+            "id": "3UXq4fckDmcPmleixlrl6i",
+            "name": "Anthony Braxton",
+            "type": "artist",
+            "uri": "spotify:artist:3UXq4fckDmcPmleixlrl6i"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 455693,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5ITIU1cV0dZxnK7C6rKr3a"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5ITIU1cV0dZxnK7C6rKr3a",
+        "id": "5ITIU1cV0dZxnK7C6rKr3a",
+        "is_local": false,
+        "is_playable": true,
+        "name": "84-Kelvin (Opus 40) - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/d49646803f77c6a930912ef5c981422f9907f1b5?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5ITIU1cV0dZxnK7C6rKr3a"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3UXq4fckDmcPmleixlrl6i"
+            },
+            "href": "https://api.spotify.com/v1/artists/3UXq4fckDmcPmleixlrl6i",
+            "id": "3UXq4fckDmcPmleixlrl6i",
+            "name": "Anthony Braxton",
+            "type": "artist",
+            "uri": "spotify:artist:3UXq4fckDmcPmleixlrl6i"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 497040,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5Pmhc2z5yKQCNUWp9mWgp2"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5Pmhc2z5yKQCNUWp9mWgp2",
+        "id": "5Pmhc2z5yKQCNUWp9mWgp2",
+        "is_local": false,
+        "is_playable": true,
+        "name": "72-Kelvin (Opus 6F) - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/b3c1cdab777112484f11c5255fa9b414062d3398?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:5Pmhc2z5yKQCNUWp9mWgp2"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3UXq4fckDmcPmleixlrl6i"
+            },
+            "href": "https://api.spotify.com/v1/artists/3UXq4fckDmcPmleixlrl6i",
+            "id": "3UXq4fckDmcPmleixlrl6i",
+            "name": "Anthony Braxton",
+            "type": "artist",
+            "uri": "spotify:artist:3UXq4fckDmcPmleixlrl6i"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 933080,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6ACehpWO5ajfowgloNHFft"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6ACehpWO5ajfowgloNHFft",
+        "id": "6ACehpWO5ajfowgloNHFft",
+        "is_local": false,
+        "is_playable": true,
+        "name": "BFG-12 (Opus 40K) - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/d8bc82b494539d26555145f60bd78e1c90ff4d89?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:6ACehpWO5ajfowgloNHFft"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3UXq4fckDmcPmleixlrl6i"
+            },
+            "href": "https://api.spotify.com/v1/artists/3UXq4fckDmcPmleixlrl6i",
+            "id": "3UXq4fckDmcPmleixlrl6i",
+            "name": "Anthony Braxton",
+            "type": "artist",
+            "uri": "spotify:artist:3UXq4fckDmcPmleixlrl6i"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 601746,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7kp3L3RQRkEnLRZds1gu81"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7kp3L3RQRkEnLRZds1gu81",
+        "id": "7kp3L3RQRkEnLRZds1gu81",
+        "is_local": false,
+        "is_playable": true,
+        "name": "C-M = B05 (Opus 6C) - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/0989dbc633622781f9f4c8e3cc8a5bf57f93f5b9?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:7kp3L3RQRkEnLRZds1gu81"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 7
+  },
+  "type": "album",
+  "uri": "spotify:album:1kPp7AOikyDNfeTct74vBG"
+}
+
+,
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0ZqhrTXYPA9DZR527ZnFdO"
+      },
+      "href": "https://api.spotify.com/v1/artists/0ZqhrTXYPA9DZR527ZnFdO",
+      "id": "0ZqhrTXYPA9DZR527ZnFdO",
+      "name": "Wayne Shorter",
+      "type": "artist",
+      "uri": "spotify:artist:0ZqhrTXYPA9DZR527ZnFdO"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 1999 Blue Note Records",
+      "type": "C"
+    },
+    {
+      "text": "℗ 1999 Blue Note Records",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00724349900158"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/27Rl7A8jXEQOkIfUKOa6ZU"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/27Rl7A8jXEQOkIfUKOa6ZU",
+  "id": "27Rl7A8jXEQOkIfUKOa6ZU",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/c9788aa33510de6da6e178fdc21245374f1ad270",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/5283c532021fb21fd3e1799a94e093fb129712f1",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/578e5c8f8779a69772a73614fe71c5a32c00594d",
+      "width": 64
+    }
+  ],
+  "label": "Blue Note Records",
+  "precio": "1700",
+
+  "name": "Speak No Evil",
+  "popularity": 52,
+  "release_date": "1999-01-01",
+  "release_date_precision": "day",
+  "total_tracks": 7,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/27Rl7A8jXEQOkIfUKOa6ZU/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0ZqhrTXYPA9DZR527ZnFdO"
+            },
+            "href": "https://api.spotify.com/v1/artists/0ZqhrTXYPA9DZR527ZnFdO",
+            "id": "0ZqhrTXYPA9DZR527ZnFdO",
+            "name": "Wayne Shorter",
+            "type": "artist",
+            "uri": "spotify:artist:0ZqhrTXYPA9DZR527ZnFdO"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 491493,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6fw1b1bCVNY5EVurncxIss"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6fw1b1bCVNY5EVurncxIss",
+        "id": "6fw1b1bCVNY5EVurncxIss",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Witch Hunt - Remastered 1998 / Rudy Van Gelder Edition",
+        "preview_url": "https://p.scdn.co/mp3-preview/8ced25bf348112c86ae9d2fb70b0d46f8ff5135a?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:6fw1b1bCVNY5EVurncxIss"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0ZqhrTXYPA9DZR527ZnFdO"
+            },
+            "href": "https://api.spotify.com/v1/artists/0ZqhrTXYPA9DZR527ZnFdO",
+            "id": "0ZqhrTXYPA9DZR527ZnFdO",
+            "name": "Wayne Shorter",
+            "type": "artist",
+            "uri": "spotify:artist:0ZqhrTXYPA9DZR527ZnFdO"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 354066,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6lgkhf5XLGA2wvgFeTy2cq"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6lgkhf5XLGA2wvgFeTy2cq",
+        "id": "6lgkhf5XLGA2wvgFeTy2cq",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Fee-Fi-Fo-Fum - Remastered1998/Rudy Van Gelder Edition",
+        "preview_url": "https://p.scdn.co/mp3-preview/78e638f17d5e11ef20d747f3fa56059ab9557300?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:6lgkhf5XLGA2wvgFeTy2cq"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0ZqhrTXYPA9DZR527ZnFdO"
+            },
+            "href": "https://api.spotify.com/v1/artists/0ZqhrTXYPA9DZR527ZnFdO",
+            "id": "0ZqhrTXYPA9DZR527ZnFdO",
+            "name": "Wayne Shorter",
+            "type": "artist",
+            "uri": "spotify:artist:0ZqhrTXYPA9DZR527ZnFdO"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 405920,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4hKk4FVmLvgwNapTBxc9ao"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4hKk4FVmLvgwNapTBxc9ao",
+        "id": "4hKk4FVmLvgwNapTBxc9ao",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Dance Cadaverous - Remastered1998/Rudy Van Gelder Edition",
+        "preview_url": "https://p.scdn.co/mp3-preview/f9c034dafde12b5fa8aaa56ee60214b6f252907e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:4hKk4FVmLvgwNapTBxc9ao"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0ZqhrTXYPA9DZR527ZnFdO"
+            },
+            "href": "https://api.spotify.com/v1/artists/0ZqhrTXYPA9DZR527ZnFdO",
+            "id": "0ZqhrTXYPA9DZR527ZnFdO",
+            "name": "Wayne Shorter",
+            "type": "artist",
+            "uri": "spotify:artist:0ZqhrTXYPA9DZR527ZnFdO"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 503786,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0qxiaagtTvTeNvzxHHc441"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0qxiaagtTvTeNvzxHHc441",
+        "id": "0qxiaagtTvTeNvzxHHc441",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Speak No Evil - Remastered 1998 / Rudy Van Gelder Edition",
+        "preview_url": "https://p.scdn.co/mp3-preview/21eb9e4ab37df8c02d6b292024278510272f3d02?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:0qxiaagtTvTeNvzxHHc441"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0ZqhrTXYPA9DZR527ZnFdO"
+            },
+            "href": "https://api.spotify.com/v1/artists/0ZqhrTXYPA9DZR527ZnFdO",
+            "id": "0ZqhrTXYPA9DZR527ZnFdO",
+            "name": "Wayne Shorter",
+            "type": "artist",
+            "uri": "spotify:artist:0ZqhrTXYPA9DZR527ZnFdO"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 414240,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0IffIW3eyCx9aZ36IqOu5o"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0IffIW3eyCx9aZ36IqOu5o",
+        "id": "0IffIW3eyCx9aZ36IqOu5o",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Infant Eyes - Remastered1998/Rudy Van Gelder Edition",
+        "preview_url": "https://p.scdn.co/mp3-preview/5f25a9fa5d0ec3d8f843aa475d64a51e13afcfd1?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:0IffIW3eyCx9aZ36IqOu5o"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0ZqhrTXYPA9DZR527ZnFdO"
+            },
+            "href": "https://api.spotify.com/v1/artists/0ZqhrTXYPA9DZR527ZnFdO",
+            "id": "0ZqhrTXYPA9DZR527ZnFdO",
+            "name": "Wayne Shorter",
+            "type": "artist",
+            "uri": "spotify:artist:0ZqhrTXYPA9DZR527ZnFdO"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 366973,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6tadSGrUKQXnYRusoqtNx0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6tadSGrUKQXnYRusoqtNx0",
+        "id": "6tadSGrUKQXnYRusoqtNx0",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Wild Flower - Remastered1998/Rudy Van Gelder Edition",
+        "preview_url": "https://p.scdn.co/mp3-preview/17f7b25c16dd1d9b110929ac91e17be7eae78136?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:6tadSGrUKQXnYRusoqtNx0"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0ZqhrTXYPA9DZR527ZnFdO"
+            },
+            "href": "https://api.spotify.com/v1/artists/0ZqhrTXYPA9DZR527ZnFdO",
+            "id": "0ZqhrTXYPA9DZR527ZnFdO",
+            "name": "Wayne Shorter",
+            "type": "artist",
+            "uri": "spotify:artist:0ZqhrTXYPA9DZR527ZnFdO"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 395400,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3Bz44jNc9pWaJA2BuHVf5a"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3Bz44jNc9pWaJA2BuHVf5a",
+        "id": "3Bz44jNc9pWaJA2BuHVf5a",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Dance Cadaverous - Alternate Take/Remastered1998/Rudy Van Gelder Edition",
+        "preview_url": "https://p.scdn.co/mp3-preview/b6311cfce275a978a2a42efc60353c6006a51318?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:3Bz44jNc9pWaJA2BuHVf5a"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 7
+  },
+  "type": "album",
+  "uri": "spotify:album:27Rl7A8jXEQOkIfUKOa6ZU"
+}
+
+
+,
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+      },
+      "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+      "id": "3VEG6gxFIMfl4Cdog26avS",
+      "name": "Bill Evans Trio",
+      "type": "artist",
+      "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 2005 Concord Music Group, Inc",
+      "type": "C"
+    },
+    {
+      "text": "This Compilation ℗ 2003 Concord Music Group, Inc",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00025218444323"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/0rdlBkBl9UWoLDcEfxAkU5"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/0rdlBkBl9UWoLDcEfxAkU5",
+  "id": "0rdlBkBl9UWoLDcEfxAkU5",
+  "images": [
+    {
+      "height": 554,
+      "url": "https://i.scdn.co/image/e4211ea39b57d6a6c80a6264be3aadb06845220d",
+      "width": 640
+    },
+    {
+      "height": 260,
+      "url": "https://i.scdn.co/image/6448e3d07ef17b2d0b62e2fae1e5efe5760a7b98",
+      "width": 300
+    },
+    {
+      "height": 55,
+      "url": "https://i.scdn.co/image/5d158fe783db86818ddcd9127be639b78999d0aa",
+      "width": 64
+    }
+  ],
+  "label": "Concord Records",
+  "precio": "1100",
+
+  "name": "The Complete Village Vanguard Recordings, 1961",
+  "popularity": 48,
+  "release_date": "2005",
+  "release_date_precision": "year",
+  "total_tracks": 26,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/0rdlBkBl9UWoLDcEfxAkU5/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 43226,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/77aSOvl9DwQlSx3SufGTnK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/77aSOvl9DwQlSx3SufGTnK",
+        "id": "77aSOvl9DwQlSx3SufGTnK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Spoken Introduction - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/8262e8a5d4ef57c7df1ca2b52a5f0b152ac0099c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:77aSOvl9DwQlSx3SufGTnK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 341466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2t6elm6l8YdCJVfRvO0rC7"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2t6elm6l8YdCJVfRvO0rC7",
+        "id": "2t6elm6l8YdCJVfRvO0rC7",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Gloria's Step - Live - (take 1, interrupted)",
+        "preview_url": "https://p.scdn.co/mp3-preview/36762f2531029bb4e8da507619fa48281b72e37c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:2t6elm6l8YdCJVfRvO0rC7"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 424200,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4xbhOd2MLaqBylpk2Q4UF9"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4xbhOd2MLaqBylpk2Q4UF9",
+        "id": "4xbhOd2MLaqBylpk2Q4UF9",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Alice In Wonderland - Live - (take 1)",
+        "preview_url": "https://p.scdn.co/mp3-preview/b29d9238ef6b9447e8456bdeff318cf068ba2207?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:4xbhOd2MLaqBylpk2Q4UF9"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 298000,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5ARta7jvD6MRUiSk54jY5r"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5ARta7jvD6MRUiSk54jY5r",
+        "id": "5ARta7jvD6MRUiSk54jY5r",
+        "is_local": false,
+        "is_playable": true,
+        "name": "My Foolish Heart - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/34201688da70b43f5a4b8835de2e2fdfeabb7dac?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5ARta7jvD6MRUiSk54jY5r"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 494074,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0tnVslKfxcOPUNLM4VTy8z"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0tnVslKfxcOPUNLM4VTy8z",
+        "id": "0tnVslKfxcOPUNLM4VTy8z",
+        "is_local": false,
+        "is_playable": true,
+        "name": "All Of You - Live - (take 1)",
+        "preview_url": "https://p.scdn.co/mp3-preview/74dddbcf27b9b12c0cca7e1d46f75f7fbfc066a1?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:0tnVslKfxcOPUNLM4VTy8z"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4jXfFzeP66Zy67HM2mvIIF"
+            },
+            "href": "https://api.spotify.com/v1/artists/4jXfFzeP66Zy67HM2mvIIF",
+            "id": "4jXfFzeP66Zy67HM2mvIIF",
+            "name": "Bill Evans",
+            "type": "artist",
+            "uri": "spotify:artist:4jXfFzeP66Zy67HM2mvIIF"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 104582,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1KeYRLzko1Ols0qsr1DVlH"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1KeYRLzko1Ols0qsr1DVlH",
+        "id": "1KeYRLzko1Ols0qsr1DVlH",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Announcement And Intermission - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/e10106cb04e1b52b1cdded67a4f8ad0986d5e762?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:1KeYRLzko1Ols0qsr1DVlH"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 428706,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1TqVE0PZaa0iWIeLL3IFLK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1TqVE0PZaa0iWIeLL3IFLK",
+        "id": "1TqVE0PZaa0iWIeLL3IFLK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "My Romance - Live / Take 1",
+        "preview_url": "https://p.scdn.co/mp3-preview/39389de7ab460b936e68838b3702dbbbc1f1a507?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:1TqVE0PZaa0iWIeLL3IFLK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 297958,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/27WWPIrSHvlY1YCKI8WFcf"
+        },
+        "href": "https://api.spotify.com/v1/tracks/27WWPIrSHvlY1YCKI8WFcf",
+        "id": "27WWPIrSHvlY1YCKI8WFcf",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Some Other Time - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/2452a984104bd01b74968315bcc9c40272dd0378?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:27WWPIrSHvlY1YCKI8WFcf"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 532805,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1KCy2UXoSL4m3ei418O1kf"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1KCy2UXoSL4m3ei418O1kf",
+        "id": "1KCy2UXoSL4m3ei418O1kf",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Solar - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/0a783a654f9abe57085093b83ad19e27889c03b5?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:1KCy2UXoSL4m3ei418O1kf"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 2,
+        "duration_ms": 367600,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/41uelo3uYKRx5BpyL7qWAX"
+        },
+        "href": "https://api.spotify.com/v1/tracks/41uelo3uYKRx5BpyL7qWAX",
+        "id": "41uelo3uYKRx5BpyL7qWAX",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Gloria's Step - Live - (take 2)",
+        "preview_url": "https://p.scdn.co/mp3-preview/61ab43468f211eac77d82c51dcc0e45a590e10d2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:41uelo3uYKRx5BpyL7qWAX"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 2,
+        "duration_ms": 380800,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/14NzVgTp25rEKMBLL4hGcD"
+        },
+        "href": "https://api.spotify.com/v1/tracks/14NzVgTp25rEKMBLL4hGcD",
+        "id": "14NzVgTp25rEKMBLL4hGcD",
+        "is_local": false,
+        "is_playable": true,
+        "name": "My Man's Gone Now - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/ee4f17b68657adbb376d813f39cb2a6b2ed71def?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:14NzVgTp25rEKMBLL4hGcD"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 2,
+        "duration_ms": 508973,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0NRN10KqqaIdCVOPNIz1cS"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0NRN10KqqaIdCVOPNIz1cS",
+        "id": "0NRN10KqqaIdCVOPNIz1cS",
+        "is_local": false,
+        "is_playable": true,
+        "name": "All Of You - Live - (take 2)",
+        "preview_url": "https://p.scdn.co/mp3-preview/fd90f9847d186c90650de67a2fcac0ffb96a12e8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:0NRN10KqqaIdCVOPNIz1cS"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 2,
+        "duration_ms": 437066,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/23RdzQb0dJFmaILTOSeQpO"
+        },
+        "href": "https://api.spotify.com/v1/tracks/23RdzQb0dJFmaILTOSeQpO",
+        "id": "23RdzQb0dJFmaILTOSeQpO",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Detour Ahead - Live / Take 1",
+        "preview_url": "https://p.scdn.co/mp3-preview/8f295f83b3ead76da935a055ca0c0ada29d41ad9?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:23RdzQb0dJFmaILTOSeQpO"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4jXfFzeP66Zy67HM2mvIIF"
+            },
+            "href": "https://api.spotify.com/v1/artists/4jXfFzeP66Zy67HM2mvIIF",
+            "id": "4jXfFzeP66Zy67HM2mvIIF",
+            "name": "Bill Evans",
+            "type": "artist",
+            "uri": "spotify:artist:4jXfFzeP66Zy67HM2mvIIF"
+          }
+        ],
+        "disc_number": 2,
+        "duration_ms": 30866,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6xOc2NCHa0y3j5GjbzzXV4"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6xOc2NCHa0y3j5GjbzzXV4",
+        "id": "6xOc2NCHa0y3j5GjbzzXV4",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Discussing Repertoire - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/9ed1605c1ed7524318174c29cce79bacbd6587ce?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:6xOc2NCHa0y3j5GjbzzXV4"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 2,
+        "duration_ms": 406400,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5wFi8FLKFeKTXnbV4p4NiI"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5wFi8FLKFeKTXnbV4p4NiI",
+        "id": "5wFi8FLKFeKTXnbV4p4NiI",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Waltz For Debby - Live / Take 1",
+        "preview_url": "https://p.scdn.co/mp3-preview/05d4741b0e0860934f5dda66541e39f3778b30c5?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:5wFi8FLKFeKTXnbV4p4NiI"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 2,
+        "duration_ms": 510826,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/35PgZHQClKLiGHmZmqbFj6"
+        },
+        "href": "https://api.spotify.com/v1/tracks/35PgZHQClKLiGHmZmqbFj6",
+        "id": "35PgZHQClKLiGHmZmqbFj6",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Alice In Wonderland - Live - (take 2)",
+        "preview_url": "https://p.scdn.co/mp3-preview/ccd019b75997f44715ac487aed6f6123b82e2e83?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:35PgZHQClKLiGHmZmqbFj6"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 2,
+        "duration_ms": 368533,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4tn1LQbbccj4wSoTXORIyA"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4tn1LQbbccj4wSoTXORIyA",
+        "id": "4tn1LQbbccj4wSoTXORIyA",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Porgy (I Loves You, Porgy) - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/3f797180a1a5b6bb33cbb02690ee370fa9d86b9a?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:4tn1LQbbccj4wSoTXORIyA"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 2,
+        "duration_ms": 446173,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4AqCVVprvB78f0t3ULrq3Y"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4AqCVVprvB78f0t3ULrq3Y",
+        "id": "4AqCVVprvB78f0t3ULrq3Y",
+        "is_local": false,
+        "is_playable": true,
+        "name": "My Romance - Live / Take 2",
+        "preview_url": "https://p.scdn.co/mp3-preview/9857b24138d790c272b9f6ce7f13856e928bcc0d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:4AqCVVprvB78f0t3ULrq3Y"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 2,
+        "duration_ms": 391066,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5HVIkeCitroZ690tZEW4uk"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5HVIkeCitroZ690tZEW4uk",
+        "id": "5HVIkeCitroZ690tZEW4uk",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Milestones - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/1ffc349fac7cd34295a83b4f5b54b8b833eb9b6e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:5HVIkeCitroZ690tZEW4uk"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 3,
+        "duration_ms": 460733,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/21FsZJ3sBKhX74UpKGPx8L"
+        },
+        "href": "https://api.spotify.com/v1/tracks/21FsZJ3sBKhX74UpKGPx8L",
+        "id": "21FsZJ3sBKhX74UpKGPx8L",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Detour Ahead - Live / Take 2",
+        "preview_url": "https://p.scdn.co/mp3-preview/caa3d834ff5ed8fca40f0e05f9d3005ef97129f7?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:21FsZJ3sBKhX74UpKGPx8L"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 3,
+        "duration_ms": 421024,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2O6LHx5eUHXHu2hV3mx4rk"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2O6LHx5eUHXHu2hV3mx4rk",
+        "id": "2O6LHx5eUHXHu2hV3mx4rk",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Gloria's Step - Live - (take 3)",
+        "preview_url": "https://p.scdn.co/mp3-preview/c78a195eb7c73f19e40d7c00215306b59a338147?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:2O6LHx5eUHXHu2hV3mx4rk"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 3,
+        "duration_ms": 417666,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1rkvbmycHuU3eKVGpijSGE"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1rkvbmycHuU3eKVGpijSGE",
+        "id": "1rkvbmycHuU3eKVGpijSGE",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Waltz For Debby - Live At The Village Vanguard, New York / 1961 / Take 2",
+        "preview_url": "https://p.scdn.co/mp3-preview/232c255982e4813e18c1c848f8b4103fdab75215?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:1rkvbmycHuU3eKVGpijSGE"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 3,
+        "duration_ms": 497800,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2ZGLbK1taL1az4pTEWpPhK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2ZGLbK1taL1az4pTEWpPhK",
+        "id": "2ZGLbK1taL1az4pTEWpPhK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "All Of You - Live - (take 3)",
+        "preview_url": "https://p.scdn.co/mp3-preview/0733ec87cc3babcaeb0246a2fdd41a4fca681fc5?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:2ZGLbK1taL1az4pTEWpPhK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 3,
+        "duration_ms": 251800,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5Sgf5iFxThDCpwymhexVlc"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5Sgf5iFxThDCpwymhexVlc",
+        "id": "5Sgf5iFxThDCpwymhexVlc",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Jade Visions - Live - (take 1)",
+        "preview_url": "https://p.scdn.co/mp3-preview/10f5840dec5e5bf00014beae856c01f48cc1cab3?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:5Sgf5iFxThDCpwymhexVlc"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 3,
+        "duration_ms": 244459,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4p6dKIQO0TNgtwllwYfRXr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4p6dKIQO0TNgtwllwYfRXr",
+        "id": "4p6dKIQO0TNgtwllwYfRXr",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Jade Visions - Live - (take 2)",
+        "preview_url": "https://p.scdn.co/mp3-preview/dd00396749c0ac26b5c59ad9c308ecd21d7d4d41?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:4p6dKIQO0TNgtwllwYfRXr"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3VEG6gxFIMfl4Cdog26avS"
+            },
+            "href": "https://api.spotify.com/v1/artists/3VEG6gxFIMfl4Cdog26avS",
+            "id": "3VEG6gxFIMfl4Cdog26avS",
+            "name": "Bill Evans Trio",
+            "type": "artist",
+            "uri": "spotify:artist:3VEG6gxFIMfl4Cdog26avS"
+          }
+        ],
+        "disc_number": 3,
+        "duration_ms": 75773,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/77deKTbkXZGOuuGRm2MmVe"
+        },
+        "href": "https://api.spotify.com/v1/tracks/77deKTbkXZGOuuGRm2MmVe",
+        "id": "77deKTbkXZGOuuGRm2MmVe",
+        "is_local": false,
+        "is_playable": true,
+        "name": "...A Few Final Bars - Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/356d7d4189456c4dd10a57f1bfad817a8f3c7cae?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:77deKTbkXZGOuuGRm2MmVe"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 26
+  },
+  "type": "album",
+  "uri": "spotify:album:0rdlBkBl9UWoLDcEfxAkU5"
+}
+,
+
+
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN"
+      },
+      "href": "https://api.spotify.com/v1/artists/4PDpGtF16XpqvXxsrFwQnN",
+      "id": "4PDpGtF16XpqvXxsrFwQnN",
+      "name": "Thelonious Monk",
+      "type": "artist",
+      "uri": "spotify:artist:4PDpGtF16XpqvXxsrFwQnN"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 1987 Fantasy, Inc.",
+      "type": "C"
+    },
+    {
+      "text": "℗ 1987 Fantasy, Inc.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00025218602624"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/5gWF47eGSbv4BOfxoFcQtd"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/5gWF47eGSbv4BOfxoFcQtd",
+  "id": "5gWF47eGSbv4BOfxoFcQtd",
+  "images": [
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/35a14baa40692385fb5b652b38aafcf44bac6f11",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/2941253014bb96e954c204a10c3f120781918dc2",
+      "width": 64
+    }
+  ],
+  "label": "Riverside Records",
+  "precio": "1330",
+
+  "name": "Brilliant Corners",
+  "popularity": 22,
+  "release_date": "1957",
+  "release_date_precision": "year",
+  "total_tracks": 5,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/5gWF47eGSbv4BOfxoFcQtd/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN"
+            },
+            "href": "https://api.spotify.com/v1/artists/4PDpGtF16XpqvXxsrFwQnN",
+            "id": "4PDpGtF16XpqvXxsrFwQnN",
+            "name": "Thelonious Monk",
+            "type": "artist",
+            "uri": "spotify:artist:4PDpGtF16XpqvXxsrFwQnN"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+            },
+            "href": "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+            "id": "1VEzN9lxvG6KPR3QQGsebR",
+            "name": "Sonny Rollins",
+            "type": "artist",
+            "uri": "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1kL3usnF0v21VlGzfY8KxR"
+            },
+            "href": "https://api.spotify.com/v1/artists/1kL3usnF0v21VlGzfY8KxR",
+            "id": "1kL3usnF0v21VlGzfY8KxR",
+            "name": "Ernie Henry",
+            "type": "artist",
+            "uri": "spotify:artist:1kL3usnF0v21VlGzfY8KxR"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/62xdwGEOLoGQxKUqoJusyU"
+            },
+            "href": "https://api.spotify.com/v1/artists/62xdwGEOLoGQxKUqoJusyU",
+            "id": "62xdwGEOLoGQxKUqoJusyU",
+            "name": "Clark Terry",
+            "type": "artist",
+            "uri": "spotify:artist:62xdwGEOLoGQxKUqoJusyU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 463933,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3Xp64gvwjvJH1ZkOQur3xK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3Xp64gvwjvJH1ZkOQur3xK",
+        "id": "3Xp64gvwjvJH1ZkOQur3xK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Brilliant Corners",
+        "preview_url": "https://p.scdn.co/mp3-preview/aa463ce5437031f262ab947e5f82a235b1d5962c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:3Xp64gvwjvJH1ZkOQur3xK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN"
+            },
+            "href": "https://api.spotify.com/v1/artists/4PDpGtF16XpqvXxsrFwQnN",
+            "id": "4PDpGtF16XpqvXxsrFwQnN",
+            "name": "Thelonious Monk",
+            "type": "artist",
+            "uri": "spotify:artist:4PDpGtF16XpqvXxsrFwQnN"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+            },
+            "href": "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+            "id": "1VEzN9lxvG6KPR3QQGsebR",
+            "name": "Sonny Rollins",
+            "type": "artist",
+            "uri": "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1kL3usnF0v21VlGzfY8KxR"
+            },
+            "href": "https://api.spotify.com/v1/artists/1kL3usnF0v21VlGzfY8KxR",
+            "id": "1kL3usnF0v21VlGzfY8KxR",
+            "name": "Ernie Henry",
+            "type": "artist",
+            "uri": "spotify:artist:1kL3usnF0v21VlGzfY8KxR"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/62xdwGEOLoGQxKUqoJusyU"
+            },
+            "href": "https://api.spotify.com/v1/artists/62xdwGEOLoGQxKUqoJusyU",
+            "id": "62xdwGEOLoGQxKUqoJusyU",
+            "name": "Clark Terry",
+            "type": "artist",
+            "uri": "spotify:artist:62xdwGEOLoGQxKUqoJusyU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 787933,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1OjmEyEycmzJK3itBAq8EG"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1OjmEyEycmzJK3itBAq8EG",
+        "id": "1OjmEyEycmzJK3itBAq8EG",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Ba-Lue Bolivar Ba-Lues-Are",
+        "preview_url": "https://p.scdn.co/mp3-preview/9c96aa2a8e71cb1059a42169ffe74958e1813dd1?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:1OjmEyEycmzJK3itBAq8EG"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN"
+            },
+            "href": "https://api.spotify.com/v1/artists/4PDpGtF16XpqvXxsrFwQnN",
+            "id": "4PDpGtF16XpqvXxsrFwQnN",
+            "name": "Thelonious Monk",
+            "type": "artist",
+            "uri": "spotify:artist:4PDpGtF16XpqvXxsrFwQnN"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+            },
+            "href": "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+            "id": "1VEzN9lxvG6KPR3QQGsebR",
+            "name": "Sonny Rollins",
+            "type": "artist",
+            "uri": "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1kL3usnF0v21VlGzfY8KxR"
+            },
+            "href": "https://api.spotify.com/v1/artists/1kL3usnF0v21VlGzfY8KxR",
+            "id": "1kL3usnF0v21VlGzfY8KxR",
+            "name": "Ernie Henry",
+            "type": "artist",
+            "uri": "spotify:artist:1kL3usnF0v21VlGzfY8KxR"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/62xdwGEOLoGQxKUqoJusyU"
+            },
+            "href": "https://api.spotify.com/v1/artists/62xdwGEOLoGQxKUqoJusyU",
+            "id": "62xdwGEOLoGQxKUqoJusyU",
+            "name": "Clark Terry",
+            "type": "artist",
+            "uri": "spotify:artist:62xdwGEOLoGQxKUqoJusyU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 529560,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3EM4Vr12ZTUee0OLjTw01F"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3EM4Vr12ZTUee0OLjTw01F",
+        "id": "3EM4Vr12ZTUee0OLjTw01F",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Pannonica",
+        "preview_url": "https://p.scdn.co/mp3-preview/25206902bc17db7a32326635bc1381c2f7755672?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:3EM4Vr12ZTUee0OLjTw01F"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN"
+            },
+            "href": "https://api.spotify.com/v1/artists/4PDpGtF16XpqvXxsrFwQnN",
+            "id": "4PDpGtF16XpqvXxsrFwQnN",
+            "name": "Thelonious Monk",
+            "type": "artist",
+            "uri": "spotify:artist:4PDpGtF16XpqvXxsrFwQnN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 326160,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5Di7WT1rz8KYNCmfY3yWLV"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5Di7WT1rz8KYNCmfY3yWLV",
+        "id": "5Di7WT1rz8KYNCmfY3yWLV",
+        "is_local": false,
+        "is_playable": true,
+        "name": "I Surrender, Dear",
+        "preview_url": "https://p.scdn.co/mp3-preview/8a5fd886e0f3ff4217c7b87893846e1af2a94ea0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5Di7WT1rz8KYNCmfY3yWLV"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4PDpGtF16XpqvXxsrFwQnN"
+            },
+            "href": "https://api.spotify.com/v1/artists/4PDpGtF16XpqvXxsrFwQnN",
+            "id": "4PDpGtF16XpqvXxsrFwQnN",
+            "name": "Thelonious Monk",
+            "type": "artist",
+            "uri": "spotify:artist:4PDpGtF16XpqvXxsrFwQnN"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1VEzN9lxvG6KPR3QQGsebR"
+            },
+            "href": "https://api.spotify.com/v1/artists/1VEzN9lxvG6KPR3QQGsebR",
+            "id": "1VEzN9lxvG6KPR3QQGsebR",
+            "name": "Sonny Rollins",
+            "type": "artist",
+            "uri": "spotify:artist:1VEzN9lxvG6KPR3QQGsebR"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/62xdwGEOLoGQxKUqoJusyU"
+            },
+            "href": "https://api.spotify.com/v1/artists/62xdwGEOLoGQxKUqoJusyU",
+            "id": "62xdwGEOLoGQxKUqoJusyU",
+            "name": "Clark Terry",
+            "type": "artist",
+            "uri": "spotify:artist:62xdwGEOLoGQxKUqoJusyU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 463333,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4H2njXrFG7Ol1AjYS7YTej"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4H2njXrFG7Ol1AjYS7YTej",
+        "id": "4H2njXrFG7Ol1AjYS7YTej",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Bemsha Swing",
+        "preview_url": "https://p.scdn.co/mp3-preview/fdfa57fa77ca9216a5d55c04df09cc2d3204aa97?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:4H2njXrFG7Ol1AjYS7YTej"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 5
+  },
+  "type": "album",
+  "uri": "spotify:album:5gWF47eGSbv4BOfxoFcQtd"
+}
+
+
+,
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/47odibUtrN3lnWx0p0pk2P"
+      },
+      "href": "https://api.spotify.com/v1/artists/47odibUtrN3lnWx0p0pk2P",
+      "id": "47odibUtrN3lnWx0p0pk2P",
+      "name": "Ornette Coleman",
+      "type": "artist",
+      "uri": "spotify:artist:47odibUtrN3lnWx0p0pk2P"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "1959 Atlantic Records",
+      "type": "C"
+    },
+    {
+      "text": "1959 Atlantic Records. Marketed by Rhino Entertainment Company, a Warner Music Group Company.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "603497897100"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/2Lflh9bJHEJaXeTqohNban"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/2Lflh9bJHEJaXeTqohNban",
+  "id": "2Lflh9bJHEJaXeTqohNban",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/de5250f305843bc088156414eb9e432ab5438106",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/c93125711efc33803ee12c83dbb7b4fe00bc8188",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/dcfa0adf4d4703ae73fa92ab30da9328e6c20628",
+      "width": 64
+    }
+  ],
+  "label": "Rhino Atlantic",
+  "precio": "1800",
+
+  "name": "The Shape of Jazz To Come (Mono)",
+  "popularity": 21,
+  "release_date": "1959",
+  "release_date_precision": "year",
+  "total_tracks": 6,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/2Lflh9bJHEJaXeTqohNban/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/47odibUtrN3lnWx0p0pk2P"
+            },
+            "href": "https://api.spotify.com/v1/artists/47odibUtrN3lnWx0p0pk2P",
+            "id": "47odibUtrN3lnWx0p0pk2P",
+            "name": "Ornette Coleman",
+            "type": "artist",
+            "uri": "spotify:artist:47odibUtrN3lnWx0p0pk2P"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 301769,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4OqhhLjkgFadDDp1i9tQhC"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4OqhhLjkgFadDDp1i9tQhC",
+        "id": "4OqhhLjkgFadDDp1i9tQhC",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Lonely Woman",
+        "preview_url": "https://p.scdn.co/mp3-preview/0b74d53c7f2fb5c1faadac6055fd3544cb1ee7af?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4OqhhLjkgFadDDp1i9tQhC"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/47odibUtrN3lnWx0p0pk2P"
+            },
+            "href": "https://api.spotify.com/v1/artists/47odibUtrN3lnWx0p0pk2P",
+            "id": "47odibUtrN3lnWx0p0pk2P",
+            "name": "Ornette Coleman",
+            "type": "artist",
+            "uri": "spotify:artist:47odibUtrN3lnWx0p0pk2P"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 262202,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/78pWfqEjVfqjguvgaKgBU4"
+        },
+        "href": "https://api.spotify.com/v1/tracks/78pWfqEjVfqjguvgaKgBU4",
+        "id": "78pWfqEjVfqjguvgaKgBU4",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Eventually",
+        "preview_url": "https://p.scdn.co/mp3-preview/c54c4d4538e7d55e85c5c3a64a56473d4b95ad92?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:78pWfqEjVfqjguvgaKgBU4"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/47odibUtrN3lnWx0p0pk2P"
+            },
+            "href": "https://api.spotify.com/v1/artists/47odibUtrN3lnWx0p0pk2P",
+            "id": "47odibUtrN3lnWx0p0pk2P",
+            "name": "Ornette Coleman",
+            "type": "artist",
+            "uri": "spotify:artist:47odibUtrN3lnWx0p0pk2P"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 542480,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6Uwk4ZfZWatAbEXZXAwsC0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6Uwk4ZfZWatAbEXZXAwsC0",
+        "id": "6Uwk4ZfZWatAbEXZXAwsC0",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Peace",
+        "preview_url": "https://p.scdn.co/mp3-preview/d0a872cc4cb680c88383fb0241fc406796d55540?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:6Uwk4ZfZWatAbEXZXAwsC0"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/47odibUtrN3lnWx0p0pk2P"
+            },
+            "href": "https://api.spotify.com/v1/artists/47odibUtrN3lnWx0p0pk2P",
+            "id": "47odibUtrN3lnWx0p0pk2P",
+            "name": "Ornette Coleman",
+            "type": "artist",
+            "uri": "spotify:artist:47odibUtrN3lnWx0p0pk2P"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 412243,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3JWyRSgP1rSiZLvSZvBY47"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3JWyRSgP1rSiZLvSZvBY47",
+        "id": "3JWyRSgP1rSiZLvSZvBY47",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Focus On Sanity",
+        "preview_url": "https://p.scdn.co/mp3-preview/26236c261035fa34093052b6bdb0be01fcaf65c8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:3JWyRSgP1rSiZLvSZvBY47"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/47odibUtrN3lnWx0p0pk2P"
+            },
+            "href": "https://api.spotify.com/v1/artists/47odibUtrN3lnWx0p0pk2P",
+            "id": "47odibUtrN3lnWx0p0pk2P",
+            "name": "Ornette Coleman",
+            "type": "artist",
+            "uri": "spotify:artist:47odibUtrN3lnWx0p0pk2P"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3uPWecBPNXAChysw1uOJwI"
+            },
+            "href": "https://api.spotify.com/v1/artists/3uPWecBPNXAChysw1uOJwI",
+            "id": "3uPWecBPNXAChysw1uOJwI",
+            "name": "Don Cherry",
+            "type": "artist",
+            "uri": "spotify:artist:3uPWecBPNXAChysw1uOJwI"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 407302,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6GOHZtlBF5GUuO1BzKWaWc"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6GOHZtlBF5GUuO1BzKWaWc",
+        "id": "6GOHZtlBF5GUuO1BzKWaWc",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Congeniality",
+        "preview_url": "https://p.scdn.co/mp3-preview/e748b92b325c336986de2c90c7f2038940520584?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:6GOHZtlBF5GUuO1BzKWaWc"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/47odibUtrN3lnWx0p0pk2P"
+            },
+            "href": "https://api.spotify.com/v1/artists/47odibUtrN3lnWx0p0pk2P",
+            "id": "47odibUtrN3lnWx0p0pk2P",
+            "name": "Ornette Coleman",
+            "type": "artist",
+            "uri": "spotify:artist:47odibUtrN3lnWx0p0pk2P"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 364014,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/12tkS7o3Oa6bQEp5B6m2pr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/12tkS7o3Oa6bQEp5B6m2pr",
+        "id": "12tkS7o3Oa6bQEp5B6m2pr",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Chronology",
+        "preview_url": "https://p.scdn.co/mp3-preview/333b0ed7a2a1fcfdeb45d27aea12ff3965abc3f4?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:12tkS7o3Oa6bQEp5B6m2pr"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 6
+  },
+  "type": "album",
+  "uri": "spotify:album:2Lflh9bJHEJaXeTqohNban"
+}
+  ]}

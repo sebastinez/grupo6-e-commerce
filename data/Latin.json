@@ -1,0 +1,4495 @@
+{
+  "albums": [
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+      },
+      "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+      "id": "3jO7X5KupvwmWTHGtHgcgo",
+      "name": "Charly García",
+      "type": "artist",
+      "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "(P) 1989 Sony Music Entertainment (Argentina) S.A.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "5099749387225"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/7150qYQFyVskNOFtw5oCPr"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/7150qYQFyVskNOFtw5oCPr",
+  "id": "7150qYQFyVskNOFtw5oCPr",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/f9c12fe477a5f2be3b91d9c226c0c9f6370d6fb8",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/28916db62c96eb52c01518f2636dd21e5f194af8",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/569dad86d0886aa21f91c3b16af3e76b394366b9",
+      "width": 64
+    }
+  ],
+  "label": "Columbia",
+  "name": "Como Conseguir Chicas",
+  "precio" : "1540",
+  "popularity": 41,
+  "release_date": "1989",
+  "release_date_precision": "year",
+  "total_tracks": 10,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/7150qYQFyVskNOFtw5oCPr/tracks?offset=0&limit=50&market=ar",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+            "id": "3jO7X5KupvwmWTHGtHgcgo",
+            "name": "Charly García",
+            "type": "artist",
+            "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 209560,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7lpSDtQDfHgfOmggQv8mik"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7lpSDtQDfHgfOmggQv8mik",
+        "id": "7lpSDtQDfHgfOmggQv8mik",
+        "is_local": false,
+        "is_playable": true,
+        "name": "No Toquen",
+        "preview_url": "https://p.scdn.co/mp3-preview/5677461f3688b3b250d6fa2af9e4d5e53e8cfb3b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:7lpSDtQDfHgfOmggQv8mik"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+            "id": "3jO7X5KupvwmWTHGtHgcgo",
+            "name": "Charly García",
+            "type": "artist",
+            "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 167066,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0yAChuncahvimREBFSCIIP"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0yAChuncahvimREBFSCIIP",
+        "id": "0yAChuncahvimREBFSCIIP",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Zocacola",
+        "preview_url": "https://p.scdn.co/mp3-preview/273536157402c1681a4e8ecf70518bfe256ee42b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:0yAChuncahvimREBFSCIIP"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+            "id": "3jO7X5KupvwmWTHGtHgcgo",
+            "name": "Charly García",
+            "type": "artist",
+            "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 284733,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5iVRdHAUDp3cW2I8d6czBS"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5iVRdHAUDp3cW2I8d6czBS",
+        "id": "5iVRdHAUDp3cW2I8d6czBS",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Fanky",
+        "preview_url": "https://p.scdn.co/mp3-preview/5893e8968ed6fd0dc9b032ff960f3c40d229dd96?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:5iVRdHAUDp3cW2I8d6czBS"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+            "id": "3jO7X5KupvwmWTHGtHgcgo",
+            "name": "Charly García",
+            "type": "artist",
+            "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 305000,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5Tw7AoBFXanHhHEAKPIZBs"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5Tw7AoBFXanHhHEAKPIZBs",
+        "id": "5Tw7AoBFXanHhHEAKPIZBs",
+        "is_local": false,
+        "is_playable": true,
+        "name": "No Me Veras En El Subte",
+        "preview_url": "https://p.scdn.co/mp3-preview/2d0ff382436164cd42c67e5ba47cc2bb02c93011?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5Tw7AoBFXanHhHEAKPIZBs"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+            "id": "3jO7X5KupvwmWTHGtHgcgo",
+            "name": "Charly García",
+            "type": "artist",
+            "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 177866,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/42Aqk2hUNde8UCzegsrWJy"
+        },
+        "href": "https://api.spotify.com/v1/tracks/42Aqk2hUNde8UCzegsrWJy",
+        "id": "42Aqk2hUNde8UCzegsrWJy",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Ella Es Bailarina",
+        "preview_url": "https://p.scdn.co/mp3-preview/267f356754525c9a0e906369da6f7986b50d2a8d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:42Aqk2hUNde8UCzegsrWJy"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+            "id": "3jO7X5KupvwmWTHGtHgcgo",
+            "name": "Charly García",
+            "type": "artist",
+            "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 263200,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/09MPjASnrLwo4ejyNz56Rv"
+        },
+        "href": "https://api.spotify.com/v1/tracks/09MPjASnrLwo4ejyNz56Rv",
+        "id": "09MPjASnrLwo4ejyNz56Rv",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Anhedonia",
+        "preview_url": "https://p.scdn.co/mp3-preview/c0a45f0ef38bb66937677bffe402e54da1971390?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:09MPjASnrLwo4ejyNz56Rv"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+            "id": "3jO7X5KupvwmWTHGtHgcgo",
+            "name": "Charly García",
+            "type": "artist",
+            "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 196040,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/04ssCfJJYy9nV60weLJUZh"
+        },
+        "href": "https://api.spotify.com/v1/tracks/04ssCfJJYy9nV60weLJUZh",
+        "id": "04ssCfJJYy9nV60weLJUZh",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Suicida",
+        "preview_url": "https://p.scdn.co/mp3-preview/1fd17c87dafbbe634b5eccf52cb8d45507e2560e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:04ssCfJJYy9nV60weLJUZh"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+            "id": "3jO7X5KupvwmWTHGtHgcgo",
+            "name": "Charly García",
+            "type": "artist",
+            "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 182626,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3wOuXyBZaIF7b8IVzQy7y8"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3wOuXyBZaIF7b8IVzQy7y8",
+        "id": "3wOuXyBZaIF7b8IVzQy7y8",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Fantasy",
+        "preview_url": "https://p.scdn.co/mp3-preview/c72725ac0352b238d5c15e73ef8e55721737df61?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:3wOuXyBZaIF7b8IVzQy7y8"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+            "id": "3jO7X5KupvwmWTHGtHgcgo",
+            "name": "Charly García",
+            "type": "artist",
+            "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 183373,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/52Y8qdzbLAnHJqoQ8UAYp8"
+        },
+        "href": "https://api.spotify.com/v1/tracks/52Y8qdzbLAnHJqoQ8UAYp8",
+        "id": "52Y8qdzbLAnHJqoQ8UAYp8",
+        "is_local": false,
+        "is_playable": true,
+        "name": "A Punto De Caer",
+        "preview_url": "https://p.scdn.co/mp3-preview/8d4a8dd241632a512b60b1a6b3240d483a199603?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:52Y8qdzbLAnHJqoQ8UAYp8"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jO7X5KupvwmWTHGtHgcgo",
+            "id": "3jO7X5KupvwmWTHGtHgcgo",
+            "name": "Charly García",
+            "type": "artist",
+            "uri": "spotify:artist:3jO7X5KupvwmWTHGtHgcgo"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 270200,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/03gSTaQeHqlmQr5C26gPYb"
+        },
+        "href": "https://api.spotify.com/v1/tracks/03gSTaQeHqlmQr5C26gPYb",
+        "id": "03gSTaQeHqlmQr5C26gPYb",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Shisyastanaman",
+        "preview_url": "https://p.scdn.co/mp3-preview/448efa14e0f5a6d034583e838f7846cf89d0ff44?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:03gSTaQeHqlmQr5C26gPYb"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 10
+  },
+  "type": "album",
+  "uri": "spotify:album:7150qYQFyVskNOFtw5oCPr"
+}
+
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+      },
+      "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+      "id": "1bZNv4q3OxYq7mmnLha7Tu",
+      "name": "Fito Paez",
+      "type": "artist",
+      "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "1992 Warner Music Argentina SRL",
+      "type": "C"
+    },
+    {
+      "text": "1992 Warner Music Argentina SRL",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "745099041465"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/1nDTw13U4zW8YuelhilKW5"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/1nDTw13U4zW8YuelhilKW5",
+  "id": "1nDTw13U4zW8YuelhilKW5",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/8519216c28cb41c0b13b83be8522c6ecfa731e36",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/722bcd3eed99c52ef2bd00f515ab01e74971fde9",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/47382bda2af05e232c3834f5c501206ab2f33340",
+      "width": 64
+    }
+  ],
+  "label": "WM Argentina",
+  "name": "El Amor Después del Amor",
+  "popularity": 63,
+  "precio" : "1200",
+
+  "release_date": "1992-02-01",
+  "release_date_precision": "day",
+  "total_tracks": 14,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/1nDTw13U4zW8YuelhilKW5/tracks?offset=0&limit=50&market=ar",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 311893,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1PQzZbitOJ6XPFg7FFzsKQ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1PQzZbitOJ6XPFg7FFzsKQ",
+        "id": "1PQzZbitOJ6XPFg7FFzsKQ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "El amor después del amor",
+        "preview_url": "https://p.scdn.co/mp3-preview/bf73e6956b3e6f3f49e252507a9a06787b5d1d41?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1PQzZbitOJ6XPFg7FFzsKQ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 212920,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1RzkRugBccBZDTIACA4kv9"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1RzkRugBccBZDTIACA4kv9",
+        "id": "1RzkRugBccBZDTIACA4kv9",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Dos días en la vida",
+        "preview_url": "https://p.scdn.co/mp3-preview/d8d92af80ad6fe5239805f574d23ecd6b906d4fb?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:1RzkRugBccBZDTIACA4kv9"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 355466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2iO3jxWmi4r2Fb5Kh0z1xi"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2iO3jxWmi4r2Fb5Kh0z1xi",
+        "id": "2iO3jxWmi4r2Fb5Kh0z1xi",
+        "is_local": false,
+        "is_playable": true,
+        "name": "La Verónica",
+        "preview_url": "https://p.scdn.co/mp3-preview/8328f59222af8f98017e8696a6f3cd0ef53142dd?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:2iO3jxWmi4r2Fb5Kh0z1xi"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 257906,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4CP1f7aNCp3cJ3CKAl3XY0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4CP1f7aNCp3cJ3CKAl3XY0",
+        "id": "4CP1f7aNCp3cJ3CKAl3XY0",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Tráfico por Katmandú",
+        "preview_url": "https://p.scdn.co/mp3-preview/3ba9168917aa2dcb44e410fcd352ad2caa001a5a?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:4CP1f7aNCp3cJ3CKAl3XY0"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 163280,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/47rrhPXwe6sfKtIDwJAsO4"
+        },
+        "href": "https://api.spotify.com/v1/tracks/47rrhPXwe6sfKtIDwJAsO4",
+        "id": "47rrhPXwe6sfKtIDwJAsO4",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Pétalo de sal",
+        "preview_url": "https://p.scdn.co/mp3-preview/8293709955639a6d3702ddff84f1aec7bf5b8d1e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:47rrhPXwe6sfKtIDwJAsO4"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 273093,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3Pt2O6z2cTtmUoO4cAmL6d"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3Pt2O6z2cTtmUoO4cAmL6d",
+        "id": "3Pt2O6z2cTtmUoO4cAmL6d",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Sasha, Sissí y el círculo de baba",
+        "preview_url": "https://p.scdn.co/mp3-preview/18651f339c8dedbc081cfffc5d623d8ac8133c89?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:3Pt2O6z2cTtmUoO4cAmL6d"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 291640,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2fuN5UVkZFtak2aOpXJSln"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2fuN5UVkZFtak2aOpXJSln",
+        "id": "2fuN5UVkZFtak2aOpXJSln",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Un vestido y un amor",
+        "preview_url": "https://p.scdn.co/mp3-preview/eb5eaffa99bc014aa676cece398c39894d97fb0d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:2fuN5UVkZFtak2aOpXJSln"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 273306,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5JVOw3uyvIjyldy57dS592"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5JVOw3uyvIjyldy57dS592",
+        "id": "5JVOw3uyvIjyldy57dS592",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Tumbas de la gloria",
+        "preview_url": "https://p.scdn.co/mp3-preview/0bb975c0cebf2802d8210d9d5c952dca0ec42811?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:5JVOw3uyvIjyldy57dS592"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 234133,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/492Y2OA9JBO9RpEXdjRVX2"
+        },
+        "href": "https://api.spotify.com/v1/tracks/492Y2OA9JBO9RpEXdjRVX2",
+        "id": "492Y2OA9JBO9RpEXdjRVX2",
+        "is_local": false,
+        "is_playable": true,
+        "name": "La rueda mágica",
+        "preview_url": "https://p.scdn.co/mp3-preview/a047e57f17b036bb07d4e1e4445e1982b621c5e9?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:492Y2OA9JBO9RpEXdjRVX2"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 284573,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/21mbiVm5n6uxEcgdWg0L8V"
+        },
+        "href": "https://api.spotify.com/v1/tracks/21mbiVm5n6uxEcgdWg0L8V",
+        "id": "21mbiVm5n6uxEcgdWg0L8V",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Creo",
+        "preview_url": "https://p.scdn.co/mp3-preview/cac42b8dec8be8ccbbc5330881a03ec392d46eeb?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:21mbiVm5n6uxEcgdWg0L8V"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 270333,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4n2gzUZuTNK5yXyrNVFr5S"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4n2gzUZuTNK5yXyrNVFr5S",
+        "id": "4n2gzUZuTNK5yXyrNVFr5S",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Detrás del muro de los lamentos",
+        "preview_url": "https://p.scdn.co/mp3-preview/08d2a3cb935f16dde5ea15b4c426a80d47fe1f08?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:4n2gzUZuTNK5yXyrNVFr5S"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 365640,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7rGJCb5Fl7yuiTOj81rTen"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7rGJCb5Fl7yuiTOj81rTen",
+        "id": "7rGJCb5Fl7yuiTOj81rTen",
+        "is_local": false,
+        "is_playable": true,
+        "name": "La balada de Donna Helena",
+        "preview_url": "https://p.scdn.co/mp3-preview/60f8ecfac815d85ef8a74e5c8098c2bdab9a7eb6?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:7rGJCb5Fl7yuiTOj81rTen"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 248560,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2dxRzFDDv3QcSMQ0vIgqMF"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2dxRzFDDv3QcSMQ0vIgqMF",
+        "id": "2dxRzFDDv3QcSMQ0vIgqMF",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Brillante sobre el mic",
+        "preview_url": "https://p.scdn.co/mp3-preview/9a3557a14ade0a88db118b3d78f69c61837317a2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:2dxRzFDDv3QcSMQ0vIgqMF"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1bZNv4q3OxYq7mmnLha7Tu"
+            },
+            "href": "https://api.spotify.com/v1/artists/1bZNv4q3OxYq7mmnLha7Tu",
+            "id": "1bZNv4q3OxYq7mmnLha7Tu",
+            "name": "Fito Paez",
+            "type": "artist",
+            "uri": "spotify:artist:1bZNv4q3OxYq7mmnLha7Tu"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 281520,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/24LCJ8C0D8kx6iplic9SDV"
+        },
+        "href": "https://api.spotify.com/v1/tracks/24LCJ8C0D8kx6iplic9SDV",
+        "id": "24LCJ8C0D8kx6iplic9SDV",
+        "is_local": false,
+        "is_playable": true,
+        "name": "A rodar mi vida",
+        "preview_url": "https://p.scdn.co/mp3-preview/c1db68d7122192c3c694842c6dd3bbfa055383f8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:24LCJ8C0D8kx6iplic9SDV"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 14
+  },
+  "type": "album",
+  "uri": "spotify:album:1nDTw13U4zW8YuelhilKW5"
+}
+
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+      },
+      "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+      "id": "3tAICgiSR5PfYY4B8qsoAU",
+      "name": "Andrés Calamaro",
+      "type": "artist",
+      "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "1997 Dro East West S.A.",
+      "type": "C"
+    },
+    {
+      "text": "1997 Dro East West S.A., Warner Music Argentina",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "706301984260"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/44D07i1Lk0zFtWHRARMih6"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/44D07i1Lk0zFtWHRARMih6",
+  "id": "44D07i1Lk0zFtWHRARMih6",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/32607b82a9d4aacfbda7515394c5c16e4738640e",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/006670c733869a59b7de2c5669f9935ac9eeb2e6",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/b101d8491cb885896143fa2b3f94af6259c9837e",
+      "width": 64
+    }
+  ],
+  "label": "DRO/EastWest Spain",
+  "name": "Alta Suciedad",
+  "precio" : "1750",
+
+  "popularity": 68,
+  "release_date": "1997",
+  "release_date_precision": "year",
+  "total_tracks": 14,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/44D07i1Lk0zFtWHRARMih6/tracks?offset=0&limit=50&market=ar",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 267733,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/55XrKecG9mBBLI3PL3KzXU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/55XrKecG9mBBLI3PL3KzXU",
+        "id": "55XrKecG9mBBLI3PL3KzXU",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Alta suciedad",
+        "preview_url": "https://p.scdn.co/mp3-preview/880106862e75c9945f60b945c35049748c29648b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:55XrKecG9mBBLI3PL3KzXU"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 170866,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3Yn8vN3FNWsVQJZs3xoC3v"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3Yn8vN3FNWsVQJZs3xoC3v",
+        "id": "3Yn8vN3FNWsVQJZs3xoC3v",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Todo lo demás también",
+        "preview_url": "https://p.scdn.co/mp3-preview/575ec5dc81bf1a32166a8bc03375930d6bb231a0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:3Yn8vN3FNWsVQJZs3xoC3v"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 244866,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3T949qFxbbMfLyuBU6ik6K"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3T949qFxbbMfLyuBU6ik6K",
+        "id": "3T949qFxbbMfLyuBU6ik6K",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Donde manda marinero",
+        "preview_url": "https://p.scdn.co/mp3-preview/4d7a4df2449ab340b3798f9ae67c799ead49b5c5?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:3T949qFxbbMfLyuBU6ik6K"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 217373,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0jePqZlutXGa8xz6NNyKAy"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0jePqZlutXGa8xz6NNyKAy",
+        "id": "0jePqZlutXGa8xz6NNyKAy",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Loco",
+        "preview_url": "https://p.scdn.co/mp3-preview/83ab52ac47d87f45eeb0cccaa2bcbd4a32276a91?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:0jePqZlutXGa8xz6NNyKAy"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 277653,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1p7m9H4H8s0Y7SgRm7j3ED"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1p7m9H4H8s0Y7SgRm7j3ED",
+        "id": "1p7m9H4H8s0Y7SgRm7j3ED",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Flaca",
+        "preview_url": "https://p.scdn.co/mp3-preview/1d8b25d233f792654ab1e5592926c7451d94bbb1?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:1p7m9H4H8s0Y7SgRm7j3ED"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 266666,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3VmrqAOUhkjdWHHpSoWsiQ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3VmrqAOUhkjdWHHpSoWsiQ",
+        "id": "3VmrqAOUhkjdWHHpSoWsiQ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "¿Quién asó la manteca?",
+        "preview_url": "https://p.scdn.co/mp3-preview/eefb80157d5bdcb76957e864bc387f29708691d6?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:3VmrqAOUhkjdWHHpSoWsiQ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 219200,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6p1fVa07haOPKdMgK348ZV"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6p1fVa07haOPKdMgK348ZV",
+        "id": "6p1fVa07haOPKdMgK348ZV",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Media Verónica",
+        "preview_url": "https://p.scdn.co/mp3-preview/89cbca6f3c7650db0c92b5d74a00333e5d8c5beb?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:6p1fVa07haOPKdMgK348ZV"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 234133,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1Vxcp98CeI61isVKmIhMFy"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1Vxcp98CeI61isVKmIhMFy",
+        "id": "1Vxcp98CeI61isVKmIhMFy",
+        "is_local": false,
+        "is_playable": true,
+        "name": "El tercio de los sueños",
+        "preview_url": "https://p.scdn.co/mp3-preview/6192765df217080e005db4acd9054b0298756f10?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:1Vxcp98CeI61isVKmIhMFy"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 129199,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1J6p2eqDOX8Vn41bWI5yYT"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1J6p2eqDOX8Vn41bWI5yYT",
+        "id": "1J6p2eqDOX8Vn41bWI5yYT",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Comida China",
+        "preview_url": "https://p.scdn.co/mp3-preview/190d43eb5f3f80a7da485e1244638781ddc324b6?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:1J6p2eqDOX8Vn41bWI5yYT"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 180293,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0PTvEY4PKHNi2g7Nb1u5kk"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0PTvEY4PKHNi2g7Nb1u5kk",
+        "id": "0PTvEY4PKHNi2g7Nb1u5kk",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Elvis está vivo",
+        "preview_url": "https://p.scdn.co/mp3-preview/c60f33c82c38c5bf9a98e223b306a636dd3ca2f2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:0PTvEY4PKHNi2g7Nb1u5kk"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 217733,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4qIafsQJZHbKvVzwM8sddL"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4qIafsQJZHbKvVzwM8sddL",
+        "id": "4qIafsQJZHbKvVzwM8sddL",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Me arde",
+        "preview_url": "https://p.scdn.co/mp3-preview/5ed9b0180b4f0c9be8253490476d5ae1717d4624?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:4qIafsQJZHbKvVzwM8sddL"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 264840,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6guoJhM9n5Fm7npXJ1rfsM"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6guoJhM9n5Fm7npXJ1rfsM",
+        "id": "6guoJhM9n5Fm7npXJ1rfsM",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Crímenes perfectos",
+        "preview_url": "https://p.scdn.co/mp3-preview/a913461761ea825a829fa747b8a48f38c07ace1d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:6guoJhM9n5Fm7npXJ1rfsM"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 467000,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0MCytbZgbKuWOJcW4LhwJi"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0MCytbZgbKuWOJcW4LhwJi",
+        "id": "0MCytbZgbKuWOJcW4LhwJi",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Nunca es igual",
+        "preview_url": "https://p.scdn.co/mp3-preview/c0c9210fe9b664e51464ae13bbbaf8d982852da2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:0MCytbZgbKuWOJcW4LhwJi"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3tAICgiSR5PfYY4B8qsoAU"
+            },
+            "href": "https://api.spotify.com/v1/artists/3tAICgiSR5PfYY4B8qsoAU",
+            "id": "3tAICgiSR5PfYY4B8qsoAU",
+            "name": "Andrés Calamaro",
+            "type": "artist",
+            "uri": "spotify:artist:3tAICgiSR5PfYY4B8qsoAU"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 144600,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3LdckPKD45sT69uHbFUUVt"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3LdckPKD45sT69uHbFUUVt",
+        "id": "3LdckPKD45sT69uHbFUUVt",
+        "is_local": false,
+        "is_playable": true,
+        "name": "El novio del olvido",
+        "preview_url": "https://p.scdn.co/mp3-preview/b1fef03e15e695bd1051b355d005e5d03ef21a39?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:3LdckPKD45sT69uHbFUUVt"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 14
+  },
+  "type": "album",
+  "uri": "spotify:album:44D07i1Lk0zFtWHRARMih6"
+}
+
+
+,
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+      },
+      "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+      "id": "6ZIgPKHzpcswB8zh7sRIhx",
+      "name": "Divididos",
+      "type": "artist",
+      "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 2004 Universal Music Argentina S.A.",
+      "type": "C"
+    },
+    {
+      "text": "℗ 2004 Universal Music Argentina S.A.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00602498229088"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/5UmrOPpQ3VmXmBRSvXMbcR"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/5UmrOPpQ3VmXmBRSvXMbcR",
+  "id": "5UmrOPpQ3VmXmBRSvXMbcR",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/196795265bd468c813518dd9d6e868f9416f1bbe",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/565d5e35e57e26904f932e1b8031c41ffda5f019",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/f0d6053b311bde518fd0ee9b6d53aa29e3773b14",
+      "width": 64
+    }
+  ],
+  "label": "Universal Music Argentina S.A.",
+  "name": "Acariciando Lo Aspero",
+  "precio" : "1190",
+
+  "popularity": 53,
+  "release_date": "1991",
+  "release_date_precision": "year",
+  "total_tracks": 13,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/5UmrOPpQ3VmXmBRSvXMbcR/tracks?offset=0&limit=50&market=ar",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 149533,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2TKA7AOxNJk89Qp5iwzxzr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2TKA7AOxNJk89Qp5iwzxzr",
+        "id": "2TKA7AOxNJk89Qp5iwzxzr",
+        "is_local": false,
+        "is_playable": true,
+        "name": "El 38",
+        "preview_url": "https://p.scdn.co/mp3-preview/128983e952461adecc25fc158e96bc0c88cce95d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:2TKA7AOxNJk89Qp5iwzxzr"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 256440,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5Kb8sH6dJTnjI9ZJaRWheS"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5Kb8sH6dJTnjI9ZJaRWheS",
+        "id": "5Kb8sH6dJTnjI9ZJaRWheS",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Sábado",
+        "preview_url": "https://p.scdn.co/mp3-preview/d695158e217904b0b8a4198d258f06744e204c33?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:5Kb8sH6dJTnjI9ZJaRWheS"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 142106,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/025qt3dSupJYmj8pe23ifK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/025qt3dSupJYmj8pe23ifK",
+        "id": "025qt3dSupJYmj8pe23ifK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cuadros Colgados",
+        "preview_url": "https://p.scdn.co/mp3-preview/8b7e49ef9176e7c0b2bca79c7660238b40e61ec6?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:025qt3dSupJYmj8pe23ifK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 218493,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5bPXvgputvAvGaEqOu3nUF"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5bPXvgputvAvGaEqOu3nUF",
+        "id": "5bPXvgputvAvGaEqOu3nUF",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cielito Lindo",
+        "preview_url": "https://p.scdn.co/mp3-preview/a2fba8405e13c2c188982769500502ea7c9363d8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5bPXvgputvAvGaEqOu3nUF"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 180426,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3UZTKmqf8w64igBFK9hNC4"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3UZTKmqf8w64igBFK9hNC4",
+        "id": "3UZTKmqf8w64igBFK9hNC4",
+        "is_local": false,
+        "is_playable": true,
+        "name": "¿Qué Tal?",
+        "preview_url": "https://p.scdn.co/mp3-preview/05d8f8aae9adee0833fa095fbab67037b66d55a9?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:3UZTKmqf8w64igBFK9hNC4"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 284600,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0HTdF92bOXzTkUmjmDqhXU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0HTdF92bOXzTkUmjmDqhXU",
+        "id": "0HTdF92bOXzTkUmjmDqhXU",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Sisters",
+        "preview_url": "https://p.scdn.co/mp3-preview/90825034b9e69b551a203f7a55dfb1b28bbbe841?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:0HTdF92bOXzTkUmjmDqhXU"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 354746,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0LTCld7MYVKCAGpi05szyV"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0LTCld7MYVKCAGpi05szyV",
+        "id": "0LTCld7MYVKCAGpi05szyV",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Ala Delta",
+        "preview_url": "https://p.scdn.co/mp3-preview/c31a3ed2486744e24fa084f2871c76c7351867d3?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:0LTCld7MYVKCAGpi05szyV"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 186306,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2kJhjMoGxoaYEwaI2O5A7K"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2kJhjMoGxoaYEwaI2O5A7K",
+        "id": "2kJhjMoGxoaYEwaI2O5A7K",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Azulejo",
+        "preview_url": "https://p.scdn.co/mp3-preview/d6ed960311a0d85a87e30a31e887c93542dd0efb?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:2kJhjMoGxoaYEwaI2O5A7K"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 201546,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6U3eDVzHG0fBDRPdYUcMyb"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6U3eDVzHG0fBDRPdYUcMyb",
+        "id": "6U3eDVzHG0fBDRPdYUcMyb",
+        "is_local": false,
+        "is_playable": true,
+        "name": "El Burrito",
+        "preview_url": "https://p.scdn.co/mp3-preview/da8590c6f7bcb8d049374e3e24a6424525792833?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:6U3eDVzHG0fBDRPdYUcMyb"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 44186,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3U8X9ai6QyN6eEWZC2YdOI"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3U8X9ai6QyN6eEWZC2YdOI",
+        "id": "3U8X9ai6QyN6eEWZC2YdOI",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Jamelosapoi",
+        "preview_url": "https://p.scdn.co/mp3-preview/d82ef956a6897756fb7ba4d8aa7b763f2897a465?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:3U8X9ai6QyN6eEWZC2YdOI"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 136880,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7yBpDdx6C3r0mQ5DuAzhDu"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7yBpDdx6C3r0mQ5DuAzhDu",
+        "id": "7yBpDdx6C3r0mQ5DuAzhDu",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Paraguay",
+        "preview_url": "https://p.scdn.co/mp3-preview/a6122bfbe47dde8c889b6b9a0122bf562362b5b1?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:7yBpDdx6C3r0mQ5DuAzhDu"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 258026,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4Wyw18TVvXu5Na9YuXkqXM"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4Wyw18TVvXu5Na9YuXkqXM",
+        "id": "4Wyw18TVvXu5Na9YuXkqXM",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Voodoo Chile",
+        "preview_url": "https://p.scdn.co/mp3-preview/f48dc593cb355b8065b924c2b0c8dc6b27a65397?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:4Wyw18TVvXu5Na9YuXkqXM"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZIgPKHzpcswB8zh7sRIhx"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZIgPKHzpcswB8zh7sRIhx",
+            "id": "6ZIgPKHzpcswB8zh7sRIhx",
+            "name": "Divididos",
+            "type": "artist",
+            "uri": "spotify:artist:6ZIgPKHzpcswB8zh7sRIhx"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 172760,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2UYHbp9mWlP6f1os2eB99f"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2UYHbp9mWlP6f1os2eB99f",
+        "id": "2UYHbp9mWlP6f1os2eB99f",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Haciendo Cola Para Nacer",
+        "preview_url": "https://p.scdn.co/mp3-preview/07247dbaec0a6f5597059ca9fb6b839103bbf6d8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:2UYHbp9mWlP6f1os2eB99f"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 13
+  },
+  "type": "album",
+  "uri": "spotify:album:5UmrOPpQ3VmXmBRSvXMbcR"
+}
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+      },
+      "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+      "id": "10AzTrYMPVVmpKoBP5bX9W",
+      "name": "Sumo",
+      "type": "artist",
+      "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "(P)1987 Sony Music Entertainment (Arg) S.A.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "5099749388727"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/721cIV4PIWZSK5nZaYPvFy"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/721cIV4PIWZSK5nZaYPvFy",
+  "id": "721cIV4PIWZSK5nZaYPvFy",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/618661c3fcc8d275f0cdf4108c91b7d1cd301a05",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/cc8174e4f8d25e9806d3849262b2a785c5897d75",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/21ae16fdfb6556374fb4d4da88d702782639df9c",
+      "width": 64
+    }
+  ],
+  "label": "Columbia",
+  "name": "After Chabon",
+  "precio" : "1850",
+
+  "popularity": 47,
+  "release_date": "1987",
+  "release_date_precision": "year",
+  "total_tracks": 12,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/721cIV4PIWZSK5nZaYPvFy/tracks?offset=0&limit=50&market=ar",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 210893,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6kGqD94K2oVy5y9T8PuQ01"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6kGqD94K2oVy5y9T8PuQ01",
+        "id": "6kGqD94K2oVy5y9T8PuQ01",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Crua Chan",
+        "preview_url": "https://p.scdn.co/mp3-preview/342c6e193a4c4dddcd6f3fc2c39db353be1a0d47?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:6kGqD94K2oVy5y9T8PuQ01"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 160040,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/05j96TmQibUyoaUAlxMW81"
+        },
+        "href": "https://api.spotify.com/v1/tracks/05j96TmQibUyoaUAlxMW81",
+        "id": "05j96TmQibUyoaUAlxMW81",
+        "is_local": false,
+        "is_playable": true,
+        "name": "No Tan Distintos",
+        "preview_url": "https://p.scdn.co/mp3-preview/3eda74270f3eb4ca67c1fe9adb3673f193155437?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:05j96TmQibUyoaUAlxMW81"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 178386,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5Fa7z8XzhlGzFdARu6dd5S"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5Fa7z8XzhlGzFdARu6dd5S",
+        "id": "5Fa7z8XzhlGzFdARu6dd5S",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Banderitas y Globos",
+        "preview_url": "https://p.scdn.co/mp3-preview/1a7d52416e30866399d8b738f7b7716122a6a03e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:5Fa7z8XzhlGzFdARu6dd5S"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 248306,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6ZOzWPUbMxH24uWHP1k5Eq"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6ZOzWPUbMxH24uWHP1k5Eq",
+        "id": "6ZOzWPUbMxH24uWHP1k5Eq",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Mañana en el Abasto",
+        "preview_url": "https://p.scdn.co/mp3-preview/aba72b1657c77c3694e68e46ad7419d8364e89d0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:6ZOzWPUbMxH24uWHP1k5Eq"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 189773,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7d4Ltr3lQAqxeh3IOBjP1o"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7d4Ltr3lQAqxeh3IOBjP1o",
+        "id": "7d4Ltr3lQAqxeh3IOBjP1o",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Hola Frank",
+        "preview_url": "https://p.scdn.co/mp3-preview/9feb339f255502412023ca233569a62e57c279df?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:7d4Ltr3lQAqxeh3IOBjP1o"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 211840,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1acvxk6kppbvVdZznXsQit"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1acvxk6kppbvVdZznXsQit",
+        "id": "1acvxk6kppbvVdZznXsQit",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Ojos De Terciopelo",
+        "preview_url": "https://p.scdn.co/mp3-preview/5a73ff85e084ff1eaa51a1d2113066044831f93b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:1acvxk6kppbvVdZznXsQit"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 136760,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/206RMwaI9GxVOEOZtKej3X"
+        },
+        "href": "https://api.spotify.com/v1/tracks/206RMwaI9GxVOEOZtKej3X",
+        "id": "206RMwaI9GxVOEOZtKej3X",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Lo Quiero Ya",
+        "preview_url": "https://p.scdn.co/mp3-preview/d1f951b4b1c00c146b3325d7f63e847a90d236a5?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:206RMwaI9GxVOEOZtKej3X"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 185120,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4vrlFc4oktGM8f7yqXsExb"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4vrlFc4oktGM8f7yqXsExb",
+        "id": "4vrlFc4oktGM8f7yqXsExb",
+        "is_local": false,
+        "is_playable": true,
+        "name": "La Gota En El Ojo",
+        "preview_url": "https://p.scdn.co/mp3-preview/f59972e704e79a6c0589488bf40c430095efecc3?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:4vrlFc4oktGM8f7yqXsExb"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 199586,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2YPVtgp60LcBNTU40HsJ73"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2YPVtgp60LcBNTU40HsJ73",
+        "id": "2YPVtgp60LcBNTU40HsJ73",
+        "is_local": false,
+        "is_playable": true,
+        "name": "El Cieguito Volador",
+        "preview_url": "https://p.scdn.co/mp3-preview/eb3d1a4682b07d18a58fa50d05b0cde71044543d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:2YPVtgp60LcBNTU40HsJ73"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 244653,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0hvvmYXHKK7MWxjZjpz7HX"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0hvvmYXHKK7MWxjZjpz7HX",
+        "id": "0hvvmYXHKK7MWxjZjpz7HX",
+        "is_local": false,
+        "is_playable": true,
+        "name": "No Te Pongas Azul",
+        "preview_url": "https://p.scdn.co/mp3-preview/16e64c65e33bfcf798121b53c3a7d27e4e702c87?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:0hvvmYXHKK7MWxjZjpz7HX"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 127226,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4tFk3yhzGO4HDHohU7cynT"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4tFk3yhzGO4HDHohU7cynT",
+        "id": "4tFk3yhzGO4HDHohU7cynT",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Noche De Paz",
+        "preview_url": "https://p.scdn.co/mp3-preview/b055ddcbffddfae9aa00a2504d632436e37c400b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:4tFk3yhzGO4HDHohU7cynT"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/10AzTrYMPVVmpKoBP5bX9W"
+            },
+            "href": "https://api.spotify.com/v1/artists/10AzTrYMPVVmpKoBP5bX9W",
+            "id": "10AzTrYMPVVmpKoBP5bX9W",
+            "name": "Sumo",
+            "type": "artist",
+            "uri": "spotify:artist:10AzTrYMPVVmpKoBP5bX9W"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 226133,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4qdciGWDHMCQrXz86KMt7q"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4qdciGWDHMCQrXz86KMt7q",
+        "id": "4qdciGWDHMCQrXz86KMt7q",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Percussion Baby",
+        "preview_url": "https://p.scdn.co/mp3-preview/2c1f91d143de479f59bddbd0b35f590c43ee2228?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:4qdciGWDHMCQrXz86KMt7q"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 12
+  },
+  "type": "album",
+  "uri": "spotify:album:721cIV4PIWZSK5nZaYPvFy"
+}
+
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+      },
+      "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+      "id": "7An4yvF7hDYDolN4m5zKBp",
+      "name": "Soda Stereo",
+      "type": "artist",
+      "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "(P) 1990 Sony Music Entertainment Argentina S.A.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "886971407624"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/3GoSlKTNcVOp1ZxE5OOXeN"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/3GoSlKTNcVOp1ZxE5OOXeN",
+  "id": "3GoSlKTNcVOp1ZxE5OOXeN",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/b7ceae85abf02fb0fffce996d0a7da99ee7dc657",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/3d42b05e362b088bde95898ae6e0a07620c33363",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/efe1c27378f5cfea07160ca3e2dd6725a9d89e2e",
+      "width": 64
+    }
+  ],
+  "label": "Columbia",
+  "name": "Canción Animal (Remastered)",
+  "precio" : "1740",
+
+  "popularity": 68,
+  "release_date": "1990",
+  "release_date_precision": "year",
+  "total_tracks": 10,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/3GoSlKTNcVOp1ZxE5OOXeN/tracks?offset=0&limit=50&market=ar",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+            },
+            "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+            "id": "7An4yvF7hDYDolN4m5zKBp",
+            "name": "Soda Stereo",
+            "type": "artist",
+            "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 263280,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4xVZmLJtBTedcXbDB3qYdX"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4xVZmLJtBTedcXbDB3qYdX",
+        "id": "4xVZmLJtBTedcXbDB3qYdX",
+        "is_local": false,
+        "is_playable": true,
+        "name": "(En) El Séptimo Día - Remasterizado 2007",
+        "preview_url": "https://p.scdn.co/mp3-preview/64d27f1f397982be3f4ff450426742d3107c16cd?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4xVZmLJtBTedcXbDB3qYdX"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+            },
+            "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+            "id": "7An4yvF7hDYDolN4m5zKBp",
+            "name": "Soda Stereo",
+            "type": "artist",
+            "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 304053,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0nJrTGcXdJWkKz02UMQdzO"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0nJrTGcXdJWkKz02UMQdzO",
+        "id": "0nJrTGcXdJWkKz02UMQdzO",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Un Millón De Años Luz - Remasterizado 2007",
+        "preview_url": "https://p.scdn.co/mp3-preview/78440246e09bf2d83d81013f7380bfd688c0f51d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:0nJrTGcXdJWkKz02UMQdzO"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+            },
+            "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+            "id": "7An4yvF7hDYDolN4m5zKBp",
+            "name": "Soda Stereo",
+            "type": "artist",
+            "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 247453,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6PqMi24DPibrFj9Ioc4hKL"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6PqMi24DPibrFj9Ioc4hKL",
+        "id": "6PqMi24DPibrFj9Ioc4hKL",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Canción Animal - Remasterizado 2007",
+        "preview_url": "https://p.scdn.co/mp3-preview/5c4ff790d9c087ed24a505d5b19c2b993bfb6c38?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:6PqMi24DPibrFj9Ioc4hKL"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+            },
+            "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+            "id": "7An4yvF7hDYDolN4m5zKBp",
+            "name": "Soda Stereo",
+            "type": "artist",
+            "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 218746,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5U3z76HVF4JZ5cc7Xaem5v"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5U3z76HVF4JZ5cc7Xaem5v",
+        "id": "5U3z76HVF4JZ5cc7Xaem5v",
+        "is_local": false,
+        "is_playable": true,
+        "name": "1990 (Mil Nueve Noventa) - Remasterizado 2007",
+        "preview_url": "https://p.scdn.co/mp3-preview/abdff1ae4ddeec8c5aaee40a3b03654cd4c6ac85?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5U3z76HVF4JZ5cc7Xaem5v"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+            },
+            "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+            "id": "7An4yvF7hDYDolN4m5zKBp",
+            "name": "Soda Stereo",
+            "type": "artist",
+            "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 226920,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/51M33m6vHnkJ9SJPES3Lu4"
+        },
+        "href": "https://api.spotify.com/v1/tracks/51M33m6vHnkJ9SJPES3Lu4",
+        "id": "51M33m6vHnkJ9SJPES3Lu4",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Sueles Dejarme Solo - Remasterizado 2007",
+        "preview_url": "https://p.scdn.co/mp3-preview/bf17d7a3bc2fe82d9097bd8a0d1e554304ab4d4d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:51M33m6vHnkJ9SJPES3Lu4"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+            },
+            "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+            "id": "7An4yvF7hDYDolN4m5zKBp",
+            "name": "Soda Stereo",
+            "type": "artist",
+            "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 212746,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2lpIh6Gr6HYjg1CFBaucS5"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2lpIh6Gr6HYjg1CFBaucS5",
+        "id": "2lpIh6Gr6HYjg1CFBaucS5",
+        "is_local": false,
+        "is_playable": true,
+        "name": "De Música Ligera - Remasterizado 2007",
+        "preview_url": "https://p.scdn.co/mp3-preview/c55fcc88f202341e219140dcca042bf8dcd53eed?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:2lpIh6Gr6HYjg1CFBaucS5"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+            },
+            "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+            "id": "7An4yvF7hDYDolN4m5zKBp",
+            "name": "Soda Stereo",
+            "type": "artist",
+            "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 355066,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5X1QC3aBZxtICZvNg5yrsf"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5X1QC3aBZxtICZvNg5yrsf",
+        "id": "5X1QC3aBZxtICZvNg5yrsf",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Hombre Al Agua - Remasterizado 2007",
+        "preview_url": "https://p.scdn.co/mp3-preview/7d40cb853b1aab3933ed7a6189c47915e6b52c55?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:5X1QC3aBZxtICZvNg5yrsf"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+            },
+            "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+            "id": "7An4yvF7hDYDolN4m5zKBp",
+            "name": "Soda Stereo",
+            "type": "artist",
+            "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 246693,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0ePI3CMwhjRV3ZWas3gTU9"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0ePI3CMwhjRV3ZWas3gTU9",
+        "id": "0ePI3CMwhjRV3ZWas3gTU9",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Entre Caníbales - Remasterizado 2007",
+        "preview_url": "https://p.scdn.co/mp3-preview/e928e84ab7fdb45f780a300913bfded775afaf89?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:0ePI3CMwhjRV3ZWas3gTU9"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+            },
+            "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+            "id": "7An4yvF7hDYDolN4m5zKBp",
+            "name": "Soda Stereo",
+            "type": "artist",
+            "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 145493,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2ZWkWB5ZC9BOuPkVuLZs8p"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2ZWkWB5ZC9BOuPkVuLZs8p",
+        "id": "2ZWkWB5ZC9BOuPkVuLZs8p",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Té Para 3 - Remasterizado 2007",
+        "preview_url": "https://p.scdn.co/mp3-preview/20998230f2dd3deaffed63669b857f2e29c7d15f?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:2ZWkWB5ZC9BOuPkVuLZs8p"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7An4yvF7hDYDolN4m5zKBp"
+            },
+            "href": "https://api.spotify.com/v1/artists/7An4yvF7hDYDolN4m5zKBp",
+            "id": "7An4yvF7hDYDolN4m5zKBp",
+            "name": "Soda Stereo",
+            "type": "artist",
+            "uri": "spotify:artist:7An4yvF7hDYDolN4m5zKBp"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 262746,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5sUe0Kil6bGZxNE7slwp64"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5sUe0Kil6bGZxNE7slwp64",
+        "id": "5sUe0Kil6bGZxNE7slwp64",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cae El Sol - Remasterizado 2007",
+        "preview_url": "https://p.scdn.co/mp3-preview/11987f15887e6f8075ed05901a1b630ebe102026?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:5sUe0Kil6bGZxNE7slwp64"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 10
+  },
+  "type": "album",
+  "uri": "spotify:album:3GoSlKTNcVOp1ZxE5OOXeN"
+}
+
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+      },
+      "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+      "id": "7FnZWGw9lwOr7WzieTKEPR",
+      "name": "Los Pericos",
+      "type": "artist",
+      "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 2005 EMI Odeon SAIC",
+      "type": "C"
+    },
+    {
+      "text": "℗ 2005 EMI Odeon SAIC",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00724387379558"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/6sN1L8SbguregFdB6slLWU"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/6sN1L8SbguregFdB6slLWU",
+  "id": "6sN1L8SbguregFdB6slLWU",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/7b878fddb06cfd8e20bc0c0ad2fbb6bd93a4c3b8",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/862f7807ce85c818dab3a676f41bf508a73b13eb",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/bfd502e8a77e9ce89c80eea3e3828e7694bdb6ed",
+      "width": 64
+    }
+  ],
+  "label": "EMI Argentina",
+  "name": "El Ritual De La Banana / Los Pericos",
+  "precio" : "1390",
+
+  "popularity": 43,
+  "release_date": "1987",
+  "release_date_precision": "year",
+  "total_tracks": 12,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/6sN1L8SbguregFdB6slLWU/tracks?offset=0&limit=50&market=ar",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 266013,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1rLBx2oKPBIqBwzWZijfrg"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1rLBx2oKPBIqBwzWZijfrg",
+        "id": "1rLBx2oKPBIqBwzWZijfrg",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Jamaica Reggae",
+        "preview_url": "https://p.scdn.co/mp3-preview/c80772c760158f6ca06d687ffeef3f5202a988cf?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1rLBx2oKPBIqBwzWZijfrg"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 254853,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0gxnGqaTXN9IlxQe7fSPer"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0gxnGqaTXN9IlxQe7fSPer",
+        "id": "0gxnGqaTXN9IlxQe7fSPer",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Ojos De Ciudad",
+        "preview_url": "https://p.scdn.co/mp3-preview/7b0c9e73e3f752ecbe3a709dc51dac0332f8001c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:0gxnGqaTXN9IlxQe7fSPer"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 70986,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4pd5zEa699xFtx6CTF58oJ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4pd5zEa699xFtx6CTF58oJ",
+        "id": "4pd5zEa699xFtx6CTF58oJ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "La Nueva Frontera",
+        "preview_url": "https://p.scdn.co/mp3-preview/9d4404b01b1b638681599b4683c3ac82cd38259d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:4pd5zEa699xFtx6CTF58oJ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 262666,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4twPMtsHeRUsAC8BwYfx5k"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4twPMtsHeRUsAC8BwYfx5k",
+        "id": "4twPMtsHeRUsAC8BwYfx5k",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Amandla",
+        "preview_url": "https://p.scdn.co/mp3-preview/754b8127b0e79ac5ea89cbc62f97f214623e76a5?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:4twPMtsHeRUsAC8BwYfx5k"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 218306,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/74xJoMmYSUHzzR8xgGvtcH"
+        },
+        "href": "https://api.spotify.com/v1/tracks/74xJoMmYSUHzzR8xgGvtcH",
+        "id": "74xJoMmYSUHzzR8xgGvtcH",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Haile Selassi",
+        "preview_url": "https://p.scdn.co/mp3-preview/fc8eb371be97fc8a2d7092caf6a36b8c64d89462?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:74xJoMmYSUHzzR8xgGvtcH"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 220760,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4ddPLpcYicUAEXLFVnqp7m"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4ddPLpcYicUAEXLFVnqp7m",
+        "id": "4ddPLpcYicUAEXLFVnqp7m",
+        "is_local": false,
+        "is_playable": true,
+        "name": "El Ritual De La Banana",
+        "preview_url": "https://p.scdn.co/mp3-preview/378228dc8f42817300b43ec6e7c4974c1b178e9f?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:4ddPLpcYicUAEXLFVnqp7m"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 166093,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/40oq90rVI7yBfLCexjXTbo"
+        },
+        "href": "https://api.spotify.com/v1/tracks/40oq90rVI7yBfLCexjXTbo",
+        "id": "40oq90rVI7yBfLCexjXTbo",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Socirep Sol",
+        "preview_url": "https://p.scdn.co/mp3-preview/db9aa4b8c2e22bf76142b7632dad29e39ef664c5?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:40oq90rVI7yBfLCexjXTbo"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 237200,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6wwH2A9k3VY1iee6IGyY4x"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6wwH2A9k3VY1iee6IGyY4x",
+        "id": "6wwH2A9k3VY1iee6IGyY4x",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Setenta y siete en el olvido",
+        "preview_url": "https://p.scdn.co/mp3-preview/71dbb3b91eaa24553edd430d4ed81853a343c536?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:6wwH2A9k3VY1iee6IGyY4x"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 254760,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4ZuMqc4jJv1pc1OULjtcfC"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4ZuMqc4jJv1pc1OULjtcfC",
+        "id": "4ZuMqc4jJv1pc1OULjtcfC",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Movida Rastafari",
+        "preview_url": "https://p.scdn.co/mp3-preview/43900b311db2f0225fe75e022e93f65dd482649b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:4ZuMqc4jJv1pc1OULjtcfC"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 211426,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6UlD0JgjMvVXGB4J61w6hW"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6UlD0JgjMvVXGB4J61w6hW",
+        "id": "6UlD0JgjMvVXGB4J61w6hW",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Nada que perder",
+        "preview_url": "https://p.scdn.co/mp3-preview/6d6af1e6d6b1b6f49c3cf7da24b464d5f215859d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:6UlD0JgjMvVXGB4J61w6hW"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 272853,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/28oqdbXM30LN4mdZcrUZbq"
+        },
+        "href": "https://api.spotify.com/v1/tracks/28oqdbXM30LN4mdZcrUZbq",
+        "id": "28oqdbXM30LN4mdZcrUZbq",
+        "is_local": false,
+        "is_playable": true,
+        "name": "El ritual de la banana - Demo",
+        "preview_url": "https://p.scdn.co/mp3-preview/bc750c9de068d1073b8bb3b18a13aab4399a13d2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:28oqdbXM30LN4mdZcrUZbq"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7FnZWGw9lwOr7WzieTKEPR"
+            },
+            "href": "https://api.spotify.com/v1/artists/7FnZWGw9lwOr7WzieTKEPR",
+            "id": "7FnZWGw9lwOr7WzieTKEPR",
+            "name": "Los Pericos",
+            "type": "artist",
+            "uri": "spotify:artist:7FnZWGw9lwOr7WzieTKEPR"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 280826,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4yEGK799YUqGwlZzbbtfFI"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4yEGK799YUqGwlZzbbtfFI",
+        "id": "4yEGK799YUqGwlZzbbtfFI",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Jamaica Reggae - Demo",
+        "preview_url": "https://p.scdn.co/mp3-preview/8cd8b2d9337627988feb71b3a4d5a956aff4fe89?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:4yEGK799YUqGwlZzbbtfFI"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 12
+  },
+  "type": "album",
+  "uri": "spotify:album:6sN1L8SbguregFdB6slLWU"
+}
+
+,
+
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+      },
+      "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+      "id": "1MuQ2m2tg7naeRGAOxYZer",
+      "name": "Luis Alberto Spinetta",
+      "type": "artist",
+      "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 1991 EMI Odeon SAIC",
+      "type": "C"
+    },
+    {
+      "text": "℗ 1991 EMI Odeon SAIC",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00077779824359"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/0sEqp7Del2dp8HmXE8Geqv"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/0sEqp7Del2dp8HmXE8Geqv",
+  "id": "0sEqp7Del2dp8HmXE8Geqv",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/fe99157c74ad5d2ac69954ad7f747f7419ab12fd",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/25d3fff33aa67b34f8704274eac5ac14d5b89185",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/45a1904a47c09941adc962dd287caa81d1fafd91",
+      "width": 64
+    }
+  ],
+  "label": "EMI Argentina",
+  "name": "Peluson Of Milk",
+  "precio" : "1200",
+
+  "popularity": 60,
+  "release_date": "1991-01-01",
+  "release_date_precision": "day",
+  "total_tracks": 15,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/0sEqp7Del2dp8HmXE8Geqv/tracks?offset=0&limit=50&market=ar",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 160866,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2qBirMakpTdz9ymxrZEyzg"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2qBirMakpTdz9ymxrZEyzg",
+        "id": "2qBirMakpTdz9ymxrZEyzg",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Seguir Viviendo Sin Tu Amor",
+        "preview_url": "https://p.scdn.co/mp3-preview/28e60c57f8a8d6fa241fff38db72f626d98bd41e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:2qBirMakpTdz9ymxrZEyzg"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 195040,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3ReQzOYehLD8wPOrQC0F0D"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3ReQzOYehLD8wPOrQC0F0D",
+        "id": "3ReQzOYehLD8wPOrQC0F0D",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Lago De Forma Mia",
+        "preview_url": "https://p.scdn.co/mp3-preview/0438cab1cb60667b0dd854e3a8f82914af303195?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:3ReQzOYehLD8wPOrQC0F0D"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 242400,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6sKDsGJJKprpXfE5EL9vpP"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6sKDsGJJKprpXfE5EL9vpP",
+        "id": "6sKDsGJJKprpXfE5EL9vpP",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Ganges",
+        "preview_url": "https://p.scdn.co/mp3-preview/36886a5be8ddbfccc2d010c065edb20a17ca1d9e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:6sKDsGJJKprpXfE5EL9vpP"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 210133,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5fSUd1RTgIT0DhMD9RVS0n"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5fSUd1RTgIT0DhMD9RVS0n",
+        "id": "5fSUd1RTgIT0DhMD9RVS0n",
+        "is_local": false,
+        "is_playable": true,
+        "name": "La Montaña",
+        "preview_url": "https://p.scdn.co/mp3-preview/306e8359e3f853a0caf7b038a3860fc02397c0ae?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5fSUd1RTgIT0DhMD9RVS0n"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 120533,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/08gorI1bByeorMeI5Cxdh1"
+        },
+        "href": "https://api.spotify.com/v1/tracks/08gorI1bByeorMeI5Cxdh1",
+        "id": "08gorI1bByeorMeI5Cxdh1",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Panacea",
+        "preview_url": "https://p.scdn.co/mp3-preview/8d1b0d2ba5400016fe2ef566d18c1c62a07e9111?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:08gorI1bByeorMeI5Cxdh1"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 209560,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1GOriD6UKxTd94vyVqPGtr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1GOriD6UKxTd94vyVqPGtr",
+        "id": "1GOriD6UKxTd94vyVqPGtr",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Domo Tu",
+        "preview_url": "https://p.scdn.co/mp3-preview/c88d8ae57bc74e819a6825eb3be7b09b3897ca53?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:1GOriD6UKxTd94vyVqPGtr"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 214466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5xgN1wexsVCh9G5fgijumb"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5xgN1wexsVCh9G5fgijumb",
+        "id": "5xgN1wexsVCh9G5fgijumb",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cada Luz",
+        "preview_url": "https://p.scdn.co/mp3-preview/3781f80cac67bd6a8d99a6d0bded3a10ed96d84d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:5xgN1wexsVCh9G5fgijumb"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 159773,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6hFscvgX9hSQ967mQqR8ju"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6hFscvgX9hSQ967mQqR8ju",
+        "id": "6hFscvgX9hSQ967mQqR8ju",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Bomba Azul",
+        "preview_url": "https://p.scdn.co/mp3-preview/6a123a1469e238affc6d416d0b725b89563bfb9d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:6hFscvgX9hSQ967mQqR8ju"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 162626,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0abN9L7CrgDzqnwsKNruuD"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0abN9L7CrgDzqnwsKNruuD",
+        "id": "0abN9L7CrgDzqnwsKNruuD",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cielo De Ti",
+        "preview_url": "https://p.scdn.co/mp3-preview/615d53842506d1bbf10cdf9e4546f745ceb059c7?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:0abN9L7CrgDzqnwsKNruuD"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 332466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1EP6SPagBOXtD3gtS4CDLV"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1EP6SPagBOXtD3gtS4CDLV",
+        "id": "1EP6SPagBOXtD3gtS4CDLV",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cruzaras",
+        "preview_url": "https://p.scdn.co/mp3-preview/08cc98e226c634cbccbae303022d97af2b1c032f?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:1EP6SPagBOXtD3gtS4CDLV"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 249000,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2TvmpH32nEydednMdWZmm6"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2TvmpH32nEydednMdWZmm6",
+        "id": "2TvmpH32nEydednMdWZmm6",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Hombre De Lata",
+        "preview_url": "https://p.scdn.co/mp3-preview/f62f04ec2087f2ce15818bf9ef843459dc8a70ea?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:2TvmpH32nEydednMdWZmm6"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 136240,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0xal5zCeyLhhutGUrLAPFu"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0xal5zCeyLhhutGUrLAPFu",
+        "id": "0xal5zCeyLhhutGUrLAPFu",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Jilguero",
+        "preview_url": "https://p.scdn.co/mp3-preview/9c94b649d7c60d8accbb1ecc2b9ee271852f27a0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:0xal5zCeyLhhutGUrLAPFu"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 263293,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0ymJx7FRbnobkPoPdDjeH0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0ymJx7FRbnobkPoPdDjeH0",
+        "id": "0ymJx7FRbnobkPoPdDjeH0",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Ella Bailo (Love Of My Life)",
+        "preview_url": "https://p.scdn.co/mp3-preview/98b92f399cbc09531aa51c069cc174cb6724e6ba?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:0ymJx7FRbnobkPoPdDjeH0"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 251933,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0ZfFPpRFQ7WPu3kclapEGy"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0ZfFPpRFQ7WPu3kclapEGy",
+        "id": "0ZfFPpRFQ7WPu3kclapEGy",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Pies De Atril",
+        "preview_url": "https://p.scdn.co/mp3-preview/036f273203882aa06c80d7d31ff891feb3f42749?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:0ZfFPpRFQ7WPu3kclapEGy"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1MuQ2m2tg7naeRGAOxYZer"
+            },
+            "href": "https://api.spotify.com/v1/artists/1MuQ2m2tg7naeRGAOxYZer",
+            "id": "1MuQ2m2tg7naeRGAOxYZer",
+            "name": "Luis Alberto Spinetta",
+            "type": "artist",
+            "uri": "spotify:artist:1MuQ2m2tg7naeRGAOxYZer"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 276333,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/26ijbEM9yuz43nCtX8tz31"
+        },
+        "href": "https://api.spotify.com/v1/tracks/26ijbEM9yuz43nCtX8tz31",
+        "id": "26ijbEM9yuz43nCtX8tz31",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Dime La Forma",
+        "preview_url": "https://p.scdn.co/mp3-preview/bc19683605b6d8ad9ec7f5e44505e39b848cda50?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 15,
+        "type": "track",
+        "uri": "spotify:track:26ijbEM9yuz43nCtX8tz31"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 15
+  },
+  "type": "album",
+  "uri": "spotify:album:0sEqp7Del2dp8HmXE8Geqv"
+}
+
+,
+
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+      },
+      "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+      "id": "2F9pvj94b52wGKs0OqiNi2",
+      "name": "Babasónicos",
+      "type": "artist",
+      "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "2010 FYN S.A. (Pop Art)",
+      "type": "C"
+    }
+  ],
+  "external_ids": {
+    "upc": "885686386286"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/7FYLw9fTOiYnJFbFk2Mntn"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/7FYLw9fTOiYnJFbFk2Mntn",
+  "id": "7FYLw9fTOiYnJFbFk2Mntn",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/092fb48e6929728dbbac8003637877ac61c8dd3d",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/425217110819ad748b0bf809c1d7f2d7b0a71bb2",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/93742f85ab703bf746ad2199769e5f7550b8540a",
+      "width": 64
+    }
+  ],
+  "label": "Pop Art",
+  "name": "Infame",
+  "precio" : "1830",
+
+  "popularity": 66,
+  "release_date": "2003-10-19",
+  "release_date_precision": "day",
+  "total_tracks": 14,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/7FYLw9fTOiYnJFbFk2Mntn/tracks?offset=0&limit=50&market=ar",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 156197,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0dsViRiDTIuexAL42Nc1Kh"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0dsViRiDTIuexAL42Nc1Kh",
+        "id": "0dsViRiDTIuexAL42Nc1Kh",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Irresponsables",
+        "preview_url": "https://p.scdn.co/mp3-preview/fcf6ae34b2e9a9c9ef618e66dcf574aca37d0049?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:0dsViRiDTIuexAL42Nc1Kh"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 187132,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3L55aSsDkT5ojgy3WXjh7s"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3L55aSsDkT5ojgy3WXjh7s",
+        "id": "3L55aSsDkT5ojgy3WXjh7s",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Risa",
+        "preview_url": "https://p.scdn.co/mp3-preview/4456ec9069e0431089aa2ab7939f0ab64f49c583?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:3L55aSsDkT5ojgy3WXjh7s"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 178532,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7vcQl8nyhPd0yNEG1k1O4V"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7vcQl8nyhPd0yNEG1k1O4V",
+        "id": "7vcQl8nyhPd0yNEG1k1O4V",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Pistero",
+        "preview_url": "https://p.scdn.co/mp3-preview/62af0333b7599f8d31975d598570dd45310574f6?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:7vcQl8nyhPd0yNEG1k1O4V"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 183092,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2d4OxzOWcVWtACFsILP7Zj"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2d4OxzOWcVWtACFsILP7Zj",
+        "id": "2d4OxzOWcVWtACFsILP7Zj",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Estertor",
+        "preview_url": "https://p.scdn.co/mp3-preview/cbbf6f4e88d84a84d575ff28adc0eec78bbb2573?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:2d4OxzOWcVWtACFsILP7Zj"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 225706,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0SaKhiBPgdRaQKA7Bxu3ek"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0SaKhiBPgdRaQKA7Bxu3ek",
+        "id": "0SaKhiBPgdRaQKA7Bxu3ek",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Putita",
+        "preview_url": "https://p.scdn.co/mp3-preview/ec9a63bb5a65a3421ada56115a217d96aab8ff5e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:0SaKhiBPgdRaQKA7Bxu3ek"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 233839,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5t1vLfAHUps4EE4gHrGulu"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5t1vLfAHUps4EE4gHrGulu",
+        "id": "5t1vLfAHUps4EE4gHrGulu",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Suturno",
+        "preview_url": "https://p.scdn.co/mp3-preview/81e1481e9873a18fadfc0a54e2e9acaa2d879fe4?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:5t1vLfAHUps4EE4gHrGulu"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 212372,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/65tPakuFUefM2XRf9HMiNg"
+        },
+        "href": "https://api.spotify.com/v1/tracks/65tPakuFUefM2XRf9HMiNg",
+        "id": "65tPakuFUefM2XRf9HMiNg",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Mareo",
+        "preview_url": "https://p.scdn.co/mp3-preview/4d7f3927261b5eeedde801167e91c55e124cc40c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:65tPakuFUefM2XRf9HMiNg"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 181025,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6k0YrBhOalu9WxoIpmMdfH"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6k0YrBhOalu9WxoIpmMdfH",
+        "id": "6k0YrBhOalu9WxoIpmMdfH",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Sin mi diablo",
+        "preview_url": "https://p.scdn.co/mp3-preview/efd05a24b000b9f0fbe6502e355136088564d2c8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:6k0YrBhOalu9WxoIpmMdfH"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 207130,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4QUZmQn9B5E5IOdaZ1VCxK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4QUZmQn9B5E5IOdaZ1VCxK",
+        "id": "4QUZmQn9B5E5IOdaZ1VCxK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Curtis",
+        "preview_url": "https://p.scdn.co/mp3-preview/90a362332c72ce7a5576ab7662aa03c21cfd2f34?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:4QUZmQn9B5E5IOdaZ1VCxK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 187477,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/49TvST0pVJdZ1ZztrT7DnQ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/49TvST0pVJdZ1ZztrT7DnQ",
+        "id": "49TvST0pVJdZ1ZztrT7DnQ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Y qué",
+        "preview_url": "https://p.scdn.co/mp3-preview/4ad9a4412cd2ceb5974eb02ab095f6c912f2626a?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:49TvST0pVJdZ1ZztrT7DnQ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 193306,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/41Exz0P3EDlhJfeANqroAt"
+        },
+        "href": "https://api.spotify.com/v1/tracks/41Exz0P3EDlhJfeANqroAt",
+        "id": "41Exz0P3EDlhJfeANqroAt",
+        "is_local": false,
+        "is_playable": true,
+        "name": "La Puntita",
+        "preview_url": "https://p.scdn.co/mp3-preview/5def4f2b07441cacd18d122265c6441616ae0c3c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:41Exz0P3EDlhJfeANqroAt"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 134971,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/63CNWkjnSpHpNGHEjzYYwZ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/63CNWkjnSpHpNGHEjzYYwZ",
+        "id": "63CNWkjnSpHpNGHEjzYYwZ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Fan de Scorpions",
+        "preview_url": "https://p.scdn.co/mp3-preview/20e1b499284868b9e7f31b4168004919770f4551?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:63CNWkjnSpHpNGHEjzYYwZ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 185173,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6dlXEW7tH6Fs8qdUehMbuS"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6dlXEW7tH6Fs8qdUehMbuS",
+        "id": "6dlXEW7tH6Fs8qdUehMbuS",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Gratis",
+        "preview_url": "https://p.scdn.co/mp3-preview/3f5c36bd23aeb3b0610cd1728448cf0ff3c416c1?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:6dlXEW7tH6Fs8qdUehMbuS"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2F9pvj94b52wGKs0OqiNi2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2F9pvj94b52wGKs0OqiNi2",
+            "id": "2F9pvj94b52wGKs0OqiNi2",
+            "name": "Babasónicos",
+            "type": "artist",
+            "uri": "spotify:artist:2F9pvj94b52wGKs0OqiNi2"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 153039,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5gUXLgX9nLGb1AEZTSKOQm"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5gUXLgX9nLGb1AEZTSKOQm",
+        "id": "5gUXLgX9nLGb1AEZTSKOQm",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Once",
+        "preview_url": "https://p.scdn.co/mp3-preview/cdeeff4c43d42168249ba3c3588d5f3315ebe2d8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:5gUXLgX9nLGb1AEZTSKOQm"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 14
+  },
+  "type": "album",
+  "uri": "spotify:album:7FYLw9fTOiYnJFbFk2Mntn"
+}
+
+
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+      },
+      "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+      "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+      "name": "Illya Kuryaki & The Valderramas",
+      "type": "artist",
+      "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 2004 Universal Music Argentina S.A.",
+      "type": "C"
+    },
+    {
+      "text": "This Compilation ℗ 2004 Universal Music Argentina S.A.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00602498231364"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/0GkGiViGgeUGQ1rweG2rsH"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/0GkGiViGgeUGQ1rweG2rsH",
+  "id": "0GkGiViGgeUGQ1rweG2rsH",
+  "images": [
+    {
+      "height": 635,
+      "url": "https://i.scdn.co/image/6efe6d3656b9904f68761bf8f889330418c44434",
+      "width": 640
+    },
+    {
+      "height": 297,
+      "url": "https://i.scdn.co/image/981749d69e4f9d9e1a6cdeefcf4e80f18e1a125f",
+      "width": 300
+    },
+    {
+      "height": 63,
+      "url": "https://i.scdn.co/image/cb84442e74fa4c6f1cce9a764366fd8fbab2b865",
+      "width": 64
+    }
+  ],
+  "label": "Universal Music Argentina S.A.",
+  "name": "Chaco (Serie Rock Nacional 2004)",
+  "precio" : "1190",
+
+  "popularity": 49,
+  "release_date": "2004-01-01",
+  "release_date_precision": "day",
+  "total_tracks": 16,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/0GkGiViGgeUGQ1rweG2rsH/tracks?offset=0&limit=50&market=ar",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 250560,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0cMNrzRt43d3acEi3eRtxK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0cMNrzRt43d3acEi3eRtxK",
+        "id": "0cMNrzRt43d3acEi3eRtxK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Chaco",
+        "preview_url": "https://p.scdn.co/mp3-preview/b7244d90625d639cf9aee0b525fdea8d289e4298?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:0cMNrzRt43d3acEi3eRtxK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 258440,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3uLlpzZGQCMfhM0kmuI4qn"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3uLlpzZGQCMfhM0kmuI4qn",
+        "id": "3uLlpzZGQCMfhM0kmuI4qn",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Abarajame",
+        "preview_url": "https://p.scdn.co/mp3-preview/bbfc3c663ba35d353c935efac0a23463b3f4d715?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:3uLlpzZGQCMfhM0kmuI4qn"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 228026,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4cZWyWTo7j9Jo4bpzVxaKy"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4cZWyWTo7j9Jo4bpzVxaKy",
+        "id": "4cZWyWTo7j9Jo4bpzVxaKy",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Jaguar House",
+        "preview_url": "https://p.scdn.co/mp3-preview/2eb69af475b7bd93c3d09f299d531ffebeb3efb9?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:4cZWyWTo7j9Jo4bpzVxaKy"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 277706,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/35wwlDG0j5UGZOZtbTixzc"
+        },
+        "href": "https://api.spotify.com/v1/tracks/35wwlDG0j5UGZOZtbTixzc",
+        "id": "35wwlDG0j5UGZOZtbTixzc",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Hermoza From Heaven",
+        "preview_url": "https://p.scdn.co/mp3-preview/e9784f6132305e932b063a27cf8ae19738a8af84?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:35wwlDG0j5UGZOZtbTixzc"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 29400,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3HmL83prZwlrbaEprROjfG"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3HmL83prZwlrbaEprROjfG",
+        "id": "3HmL83prZwlrbaEprROjfG",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Ipanema",
+        "preview_url": "https://p.scdn.co/mp3-preview/df96c97cd339ad923c859f95ea24d77ab950790a?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:3HmL83prZwlrbaEprROjfG"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 202800,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0nhhk7qS2jmjPWsuD1dtRn"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0nhhk7qS2jmjPWsuD1dtRn",
+        "id": "0nhhk7qS2jmjPWsuD1dtRn",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Remisero",
+        "preview_url": "https://p.scdn.co/mp3-preview/259a423b97f11547bd9e0150580661f8ee694dcd?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:0nhhk7qS2jmjPWsuD1dtRn"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 289226,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6oCXxmPBZ5DWVqfticoh4c"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6oCXxmPBZ5DWVqfticoh4c",
+        "id": "6oCXxmPBZ5DWVqfticoh4c",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Abismo",
+        "preview_url": "https://p.scdn.co/mp3-preview/a45658ccbec6d0e3c9d2d72707e07e349f951660?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:6oCXxmPBZ5DWVqfticoh4c"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 234066,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1eTvExjmQhAl67lSkyW7F2"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1eTvExjmQhAl67lSkyW7F2",
+        "id": "1eTvExjmQhAl67lSkyW7F2",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Húmeda",
+        "preview_url": "https://p.scdn.co/mp3-preview/ba8cfb9da018b410136bc645246d0f3757a62165?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:1eTvExjmQhAl67lSkyW7F2"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 34133,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1RzmNHQn9tUJPvwXTR7AYW"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1RzmNHQn9tUJPvwXTR7AYW",
+        "id": "1RzmNHQn9tUJPvwXTR7AYW",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Sirena",
+        "preview_url": "https://p.scdn.co/mp3-preview/4b565e01d39491960d6847558cb719afe44688f7?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:1RzmNHQn9tUJPvwXTR7AYW"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 263640,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3oMJ0Xvv5ID42QCClCZfkZ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3oMJ0Xvv5ID42QCClCZfkZ",
+        "id": "3oMJ0Xvv5ID42QCClCZfkZ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "No Es Tu Sombra",
+        "preview_url": "https://p.scdn.co/mp3-preview/84403ae857137fe6e8db071110ef499b2e7370d7?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:3oMJ0Xvv5ID42QCClCZfkZ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 192960,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2r5oQuRR4eXmh5leqOkd70"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2r5oQuRR4eXmh5leqOkd70",
+        "id": "2r5oQuRR4eXmh5leqOkd70",
+        "is_local": false,
+        "is_playable": true,
+        "name": "En El Reino (La Hija De La Esgrima)",
+        "preview_url": "https://p.scdn.co/mp3-preview/6125e720506f422f5f984cadaf5f255366815280?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:2r5oQuRR4eXmh5leqOkd70"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 372800,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6U45Xw8y040v2XX92kAEXD"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6U45Xw8y040v2XX92kAEXD",
+        "id": "6U45Xw8y040v2XX92kAEXD",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Hermana Sista",
+        "preview_url": "https://p.scdn.co/mp3-preview/5a8d59c796b78815723c0366d2c3ff7ccc024bc3?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:6U45Xw8y040v2XX92kAEXD"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 284440,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1RmNjYZGmysxoK56vvZe7O"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1RmNjYZGmysxoK56vvZe7O",
+        "id": "1RmNjYZGmysxoK56vvZe7O",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Jalea",
+        "preview_url": "https://p.scdn.co/mp3-preview/2fb1b5c1fa1a7dcd19afa84ed787642321b49100?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:1RmNjYZGmysxoK56vvZe7O"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 164693,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/72OUeiahCj6stllnfwgDCJ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/72OUeiahCj6stllnfwgDCJ",
+        "id": "72OUeiahCj6stllnfwgDCJ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Mitad De La Canción Del Caballo Violeta",
+        "preview_url": "https://p.scdn.co/mp3-preview/058d90ea47db2b5d791f0a20debe25fa5d8cac3d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:72OUeiahCj6stllnfwgDCJ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 259440,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5srD2jSZPH0vyqj9mP05y0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5srD2jSZPH0vyqj9mP05y0",
+        "id": "5srD2jSZPH0vyqj9mP05y0",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Hombre Blanco",
+        "preview_url": "https://p.scdn.co/mp3-preview/8823217dd3a4a1adb4c4e294ff209e0ee4fb0e9e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 15,
+        "type": "track",
+        "uri": "spotify:track:5srD2jSZPH0vyqj9mP05y0"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Rc3Tb5XUPF1YlnQwuPgjg"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Rc3Tb5XUPF1YlnQwuPgjg",
+            "id": "2Rc3Tb5XUPF1YlnQwuPgjg",
+            "name": "Illya Kuryaki & The Valderramas",
+            "type": "artist",
+            "uri": "spotify:artist:2Rc3Tb5XUPF1YlnQwuPgjg"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 192026,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/65E1kMn2SydLgJWrqJaSRe"
+        },
+        "href": "https://api.spotify.com/v1/tracks/65E1kMn2SydLgJWrqJaSRe",
+        "id": "65E1kMn2SydLgJWrqJaSRe",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Nacimiento",
+        "preview_url": "https://p.scdn.co/mp3-preview/64cb297f537f3221fc491e9c8ddcf4a61b1685b4?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 16,
+        "type": "track",
+        "uri": "spotify:track:65E1kMn2SydLgJWrqJaSRe"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 16
+  },
+  "type": "album",
+  "uri": "spotify:album:0GkGiViGgeUGQ1rweG2rsH"
+}
+  ]}

@@ -1,27 +1,37 @@
 <?php include("./script/leerSpotify.php");
-$albumes = getSpotify("./data/pruebaspotify.json");
+$albumes = array_slice(getSpotify("./data/Rock.json"), 0, 3);
 include("./includes/breadcrumb.php"); ?>
 <div class="perfil container">
     <img src="img/avatar.png" class="avatar">
     <h2>Alejandro Villafañe</h2>
     <h4>Genres preferidos</h4>
     <div class="row">
-        <div class="card-style">
-            <img src="img/generos/rock.jpg" alt="">
-            <p>Rock</p>
-        </div>
-        <div class="card-style">
-            <img src="img/generos/pop.jpg" alt="">
-            <p>Pop</p>
-        </div>
-        <div class="card-style">
-            <img src="img/generos/country.jpg" alt="">
-            <p>Country</p>
-        </div>
-        <div class="card-style">
-            <img src="img/generos/reggae.jpg" alt="">
-            <p>Reggea</p>
-        </div>
+        <a href="?p=albums&g=Rock">
+            <div class="card-style">
+                <img src="img/generos/rock.jpg" alt="">
+                <p>Rock</p>
+            </div>
+        </a>
+        <a href="?p=albums&g=Pop">
+
+            <div class="card-style">
+                <img src="img/generos/pop.jpg" alt="">
+                <p>Pop</p>
+            </div>
+        </a>
+        <a href="?p=albums&g=Funk">
+            <div class="card-style">
+                <img src="img/generos/funk.jpg" alt="">
+                <p>Country</p>
+            </div>
+        </a>
+        <a href="?p=albums&g=Reggae">
+
+            <div class="card-style">
+                <img src="img/generos/reggae.jpg" alt="">
+                <p>Reggea</p>
+            </div>
+        </a>
     </div>
     <h4>Discos comprados</h4>
     <div class="row">

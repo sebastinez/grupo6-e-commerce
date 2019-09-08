@@ -1,0 +1,4560 @@
+{
+  "albums": [
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+      },
+      "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+      "id": "2QsynagSdAqZj3U9HgDzjD",
+      "name": "Bob Marley & The Wailers",
+      "type": "artist",
+      "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 2016 Island Records, a division of UMG Recordings, Inc.",
+      "type": "C"
+    },
+    {
+      "text": "℗ 2016 Island Records, a division of UMG Recordings, Inc.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00602557251944"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/5KXVSpRSGl544F0KKEaNxO"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/5KXVSpRSGl544F0KKEaNxO",
+  "id": "5KXVSpRSGl544F0KKEaNxO",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/b7c816ee01c7f2d41a888e6af699a86cd52fa87a",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/8fef1d08d5533819f28c8224740d8fd65925c7f4",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/fffb7886f948a105a5d322eec9948e7e614be029",
+      "width": 64
+    }
+  ],
+  "label": "Tuff Gong",
+  "name": "Live! (Deluxe Edition)",
+  "precio":"1780",
+
+  "popularity": 47,
+  "release_date": "1975-12-05",
+  "release_date_precision": "day",
+  "total_tracks": 22,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/5KXVSpRSGl544F0KKEaNxO/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 309988,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0RZIFj4Ypaya4F561rwgAw"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0RZIFj4Ypaya4F561rwgAw",
+        "id": "0RZIFj4Ypaya4F561rwgAw",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Trenchtown Rock - Live At The Lyceum, London/July 17,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/a0d82441a2e94431b8b6d4a5f4cc6d7f2f010b96?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:0RZIFj4Ypaya4F561rwgAw"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 309055,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0XQPSCrIfM4XPO89whWvlc"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0XQPSCrIfM4XPO89whWvlc",
+        "id": "0XQPSCrIfM4XPO89whWvlc",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Burning And Looting - Live At The Lyceum, London/July 17,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/96f1310b5423396f9890fd5999f773490021231e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:0XQPSCrIfM4XPO89whWvlc"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 275804,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3MBuasfiVcpaIHwuyZXi6w"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3MBuasfiVcpaIHwuyZXi6w",
+        "id": "3MBuasfiVcpaIHwuyZXi6w",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Them Belly Full (But We Hungry) - Live At The Lyceum, London/July 17,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/44103446fef1899decd7d396405b76fa44533d09?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:3MBuasfiVcpaIHwuyZXi6w"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 331287,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1wW0iQDXyjmLl9Z0P18CWK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1wW0iQDXyjmLl9Z0P18CWK",
+        "id": "1wW0iQDXyjmLl9Z0P18CWK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Rebel Music (3 O'Clock Roadblock) - Live At The Lyceum, London/July 17,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/6ca900fd7766ab2260bcefc5c76640cb092118ad?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:1wW0iQDXyjmLl9Z0P18CWK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 315604,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3lEjJrtvmVCLGzIETeEmc7"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3lEjJrtvmVCLGzIETeEmc7",
+        "id": "3lEjJrtvmVCLGzIETeEmc7",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Stir It Up - Live At The Lyceum, London/July 17,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/ae9be571a3e2ac79abd9f08e22451fcbd871c8a7?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:3lEjJrtvmVCLGzIETeEmc7"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 459855,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3P2SuYpBfOZT2pnkULjiKX"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3P2SuYpBfOZT2pnkULjiKX",
+        "id": "3P2SuYpBfOZT2pnkULjiKX",
+        "is_local": false,
+        "is_playable": true,
+        "name": "No Woman, No Cry - Live At The Lyceum, London/July 17,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/957922cff4aa24c68cbb635338ecea9ce6071e12?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:3P2SuYpBfOZT2pnkULjiKX"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 327886,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3xYibNfFeJVTPuobWttp0T"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3xYibNfFeJVTPuobWttp0T",
+        "id": "3xYibNfFeJVTPuobWttp0T",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Natty Dread - Live At The Lyceum, London/July 17,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/9896248cff90fdb177fc696c942d44dcb8edc63d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:3xYibNfFeJVTPuobWttp0T"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 477909,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0VcS6RkPvG3CjCpAFfswIl"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0VcS6RkPvG3CjCpAFfswIl",
+        "id": "0VcS6RkPvG3CjCpAFfswIl",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Kinky Reggae - Live At The Lyceum, London/July 17,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/cad7729c4aedc416af1c40811164b89b3b766133?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:0VcS6RkPvG3CjCpAFfswIl"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 316022,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1C1icty8iFOCvoJrSckMvH"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1C1icty8iFOCvoJrSckMvH",
+        "id": "1C1icty8iFOCvoJrSckMvH",
+        "is_local": false,
+        "is_playable": true,
+        "name": "I Shot The Sheriff - Live At The Lyceum, London/July 17,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/cf0f17c1eb4f837f02ea2cd8efeed72a724d662a?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:1C1icty8iFOCvoJrSckMvH"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 620260,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5ARANPDkFxJdXxG78x19oL"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5ARANPDkFxJdXxG78x19oL",
+        "id": "5ARANPDkFxJdXxG78x19oL",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Get Up Stand Up - Live At The Lyceum, London/July 17,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/5f71d42404c06cff189bd4840715b781b9065f2e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:5ARANPDkFxJdXxG78x19oL"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 263748,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4lk7HKzD20zU0oLOBoLjAQ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4lk7HKzD20zU0oLOBoLjAQ",
+        "id": "4lk7HKzD20zU0oLOBoLjAQ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Trenchtown Rock - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/a9c1cecef30d31cb4fe05204edcab548f06d393e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:4lk7HKzD20zU0oLOBoLjAQ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 242247,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2XR6YsgZUoC7TWZB5Vxara"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2XR6YsgZUoC7TWZB5Vxara",
+        "id": "2XR6YsgZUoC7TWZB5Vxara",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Slave Driver - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/f79c05466291ba421082b3cdde4bed57e090268f?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:2XR6YsgZUoC7TWZB5Vxara"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 296525,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1us8GCy7q06J3M7I1DKjxa"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1us8GCy7q06J3M7I1DKjxa",
+        "id": "1us8GCy7q06J3M7I1DKjxa",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Burning And Looting - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/98aef5b50d5412f15430529c004a3c9d889d8f10?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:1us8GCy7q06J3M7I1DKjxa"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 233537,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7l7wRSnG1nLCQz7leD65QU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7l7wRSnG1nLCQz7leD65QU",
+        "id": "7l7wRSnG1nLCQz7leD65QU",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Them Belly Full (But We Hungry) - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/737ed393dee866ab0d88b8c399b2143694415a57?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:7l7wRSnG1nLCQz7leD65QU"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 318603,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0OQRwprrzhY52b4GWQnjC9"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0OQRwprrzhY52b4GWQnjC9",
+        "id": "0OQRwprrzhY52b4GWQnjC9",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Rebel Music (3 O'Clock Roadblock) - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/4817d8d62b62b083f21db37b3e05108d861bcdcf?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 15,
+        "type": "track",
+        "uri": "spotify:track:0OQRwprrzhY52b4GWQnjC9"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 426651,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2C4BaTzbNv61Oz3gIyEyvp"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2C4BaTzbNv61Oz3gIyEyvp",
+        "id": "2C4BaTzbNv61Oz3gIyEyvp",
+        "is_local": false,
+        "is_playable": true,
+        "name": "No Woman, No Cry - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/02e6ec9da369a00c3c787a09ed5d040a7d3a11f6?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 16,
+        "type": "track",
+        "uri": "spotify:track:2C4BaTzbNv61Oz3gIyEyvp"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 402368,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/46OO4i0SCt5aNfuYeP4A6u"
+        },
+        "href": "https://api.spotify.com/v1/tracks/46OO4i0SCt5aNfuYeP4A6u",
+        "id": "46OO4i0SCt5aNfuYeP4A6u",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Kinky Reggae - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/fda3d2a843014e81f5d43f94e68b27b918098256?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 17,
+        "type": "track",
+        "uri": "spotify:track:46OO4i0SCt5aNfuYeP4A6u"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 273905,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/17rvyf3jtrJM7OmDo2Vhav"
+        },
+        "href": "https://api.spotify.com/v1/tracks/17rvyf3jtrJM7OmDo2Vhav",
+        "id": "17rvyf3jtrJM7OmDo2Vhav",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Natty Dread - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/84118620c0b358ca91a73cba2b2c7e72131117b2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 18,
+        "type": "track",
+        "uri": "spotify:track:17rvyf3jtrJM7OmDo2Vhav"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 286090,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2WKVaRAThLLvivsg1OIsNr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2WKVaRAThLLvivsg1OIsNr",
+        "id": "2WKVaRAThLLvivsg1OIsNr",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Stir It Up - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/9b87c5c948a96883d9c3ec88706cbaa359d39fb0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 19,
+        "type": "track",
+        "uri": "spotify:track:2WKVaRAThLLvivsg1OIsNr"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 464537,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1oS3eY2jAgD694Ca2Ul1EF"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1oS3eY2jAgD694Ca2Ul1EF",
+        "id": "1oS3eY2jAgD694Ca2Ul1EF",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Lively Up Yourself - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/4d0e498e0070e4d1ef8d4c7ed37b2130e3019762?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 20,
+        "type": "track",
+        "uri": "spotify:track:1oS3eY2jAgD694Ca2Ul1EF"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 428574,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3wbYE0xb6wRSqtjJQah9th"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3wbYE0xb6wRSqtjJQah9th",
+        "id": "3wbYE0xb6wRSqtjJQah9th",
+        "is_local": false,
+        "is_playable": true,
+        "name": "I Shot The Sheriff - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/a162396534b6eabacbea876788f0f0bec04c97ca?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 21,
+        "type": "track",
+        "uri": "spotify:track:3wbYE0xb6wRSqtjJQah9th"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2QsynagSdAqZj3U9HgDzjD"
+            },
+            "href": "https://api.spotify.com/v1/artists/2QsynagSdAqZj3U9HgDzjD",
+            "id": "2QsynagSdAqZj3U9HgDzjD",
+            "name": "Bob Marley & The Wailers",
+            "type": "artist",
+            "uri": "spotify:artist:2QsynagSdAqZj3U9HgDzjD"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 617811,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6SBN4BKkaRTZhIH9q8IJKC"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6SBN4BKkaRTZhIH9q8IJKC",
+        "id": "6SBN4BKkaRTZhIH9q8IJKC",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Get Up Stand Up - Live At The Lyceum, London/July 18,1975",
+        "preview_url": "https://p.scdn.co/mp3-preview/3f153374f68f19e21b27440b935e5ac2a168b84a?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 22,
+        "type": "track",
+        "uri": "spotify:track:6SBN4BKkaRTZhIH9q8IJKC"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 22
+  },
+  "type": "album",
+  "uri": "spotify:album:5KXVSpRSGl544F0KKEaNxO"
+}
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+      },
+      "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+      "id": "0oea1hwGMfUxZbLxJc1XUN",
+      "name": "Peter Tosh",
+      "type": "artist",
+      "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "2002 Parlophone Records Ltd, a Warner Music Group Company",
+      "type": "C"
+    },
+    {
+      "text": "2002 Parlophone Records Ltd, a Warner Music Group Company",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "0724353918156"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/0K9oJKr8cOfWfdT33y3L9b"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/0K9oJKr8cOfWfdT33y3L9b",
+  "id": "0K9oJKr8cOfWfdT33y3L9b",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/3e227a780ede4e8715aacdc0eb810dcd9111c377",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/4b96fc344bb6eb8c729ccacf9e09106960a0a558",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/297abb4479ff1063d741da48b3b5ff5798a11e25",
+      "width": 64
+    }
+  ],
+  "label": "Parlophone UK",
+  "name": "Bush Doctor",
+  "precio":"1980",
+
+  "popularity": 50,
+  "release_date": "1988-10-31",
+  "release_date_precision": "day",
+  "total_tracks": 15,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/0K9oJKr8cOfWfdT33y3L9b/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 320280,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2vDUqLZsaEEYmREcRo9gnn"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2vDUqLZsaEEYmREcRo9gnn",
+        "id": "2vDUqLZsaEEYmREcRo9gnn",
+        "is_local": false,
+        "is_playable": true,
+        "name": "(You Gotta Walk) Don't Look Back - 2002 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/031f5843ee0fdf573f0c15f265669e7a4ba0c02d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:2vDUqLZsaEEYmREcRo9gnn"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 242280,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7E9UYOxa6DM5kIi1P2fKt2"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7E9UYOxa6DM5kIi1P2fKt2",
+        "id": "7E9UYOxa6DM5kIi1P2fKt2",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Pick Myself Up - 2002 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/523103133a8a83c75f005e5e062d370718fa3754?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:7E9UYOxa6DM5kIi1P2fKt2"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 237413,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5TqV8dCIgWV8yET1EejKCR"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5TqV8dCIgWV8yET1EejKCR",
+        "id": "5TqV8dCIgWV8yET1EejKCR",
+        "is_local": false,
+        "is_playable": true,
+        "name": "I'm the Toughest - 2002 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/e2b900e7a3d6c26e6eb6855ab19df38103c89e55?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:5TqV8dCIgWV8yET1EejKCR"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 239426,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3q5O3ezuW5xzLr2TkiM0fZ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3q5O3ezuW5xzLr2TkiM0fZ",
+        "id": "3q5O3ezuW5xzLr2TkiM0fZ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Soon Come - 2002 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/cd2898421a6b0a9945b94ff17b19b77b87bd8c02?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:3q5O3ezuW5xzLr2TkiM0fZ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 219360,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0eZVHcpkrVyiQo3yqUBgiH"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0eZVHcpkrVyiQo3yqUBgiH",
+        "id": "0eZVHcpkrVyiQo3yqUBgiH",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Moses - The Prophet - 2002 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/c826992e5b295de2f67c19d3a73a805163d6fcae?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:0eZVHcpkrVyiQo3yqUBgiH"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 247973,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3UPPGZeSjNwxyJslnSTm1c"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3UPPGZeSjNwxyJslnSTm1c",
+        "id": "3UPPGZeSjNwxyJslnSTm1c",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Bush Doctor - 2002 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/e02a3bcc2f0ed233a28fd2813b3c228ecba7db24?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:3UPPGZeSjNwxyJslnSTm1c"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 372760,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4pMAuPWNkKFqxRPieeCqI8"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4pMAuPWNkKFqxRPieeCqI8",
+        "id": "4pMAuPWNkKFqxRPieeCqI8",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Stand Firm - 2002 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/d6ea388d51f9fcaa8d615f2787642d106e49ca83?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:4pMAuPWNkKFqxRPieeCqI8"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 255826,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6tHu0nRLYlKDh3y4Tsz6pU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6tHu0nRLYlKDh3y4Tsz6pU",
+        "id": "6tHu0nRLYlKDh3y4Tsz6pU",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Dem Ha Fe Get a Beatin - 2002 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/e559cdf3e6be053132b26d3beabe63bd36af3d75?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:6tHu0nRLYlKDh3y4Tsz6pU"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 388386,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/35iyiNOA24uQVUn6BLYgza"
+        },
+        "href": "https://api.spotify.com/v1/tracks/35iyiNOA24uQVUn6BLYgza",
+        "id": "35iyiNOA24uQVUn6BLYgza",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Creation - 2002 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/aa1b1448e3bece491325ded1c292faf531ea0243?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:35iyiNOA24uQVUn6BLYgza"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 336466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0xMAQtS337Y6EvNDutC4Up"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0xMAQtS337Y6EvNDutC4Up",
+        "id": "0xMAQtS337Y6EvNDutC4Up",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Lesson In My Life - Outtake",
+        "preview_url": "https://p.scdn.co/mp3-preview/ef3ec58908658af14dc327ec457a50c0cc8a34e6?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:0xMAQtS337Y6EvNDutC4Up"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 320333,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4siXgPO80OW5MWwmGpLzxK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4siXgPO80OW5MWwmGpLzxK",
+        "id": "4siXgPO80OW5MWwmGpLzxK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Soon Come - Long Version; 2002 Remastered Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/aa50d79a56e56c86fd7e0f2440fa31daa89cea24?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:4siXgPO80OW5MWwmGpLzxK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 312333,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/29yyfGTEK5azQx22WADZqv"
+        },
+        "href": "https://api.spotify.com/v1/tracks/29yyfGTEK5azQx22WADZqv",
+        "id": "29yyfGTEK5azQx22WADZqv",
+        "is_local": false,
+        "is_playable": true,
+        "name": "I'm the Toughest - Long Version; 2002 Remastered Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/7718fa5d64787a72c80b6b5cf53601d249f928d4?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:29yyfGTEK5azQx22WADZqv"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 344773,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2oHP1v44mmyxC5llOReER3"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2oHP1v44mmyxC5llOReER3",
+        "id": "2oHP1v44mmyxC5llOReER3",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Bush Doctor - Long Version; 2002 Remastered Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/8190c48f69c5557e1b8d75dbb63969d6c6ff88d4?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:2oHP1v44mmyxC5llOReER3"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 301120,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4YYLqv6okC1s3M6D4scgDQ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4YYLqv6okC1s3M6D4scgDQ",
+        "id": "4YYLqv6okC1s3M6D4scgDQ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "(You Gotta Walk) Don't Look Back - Long Version; 2002 Remastered Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/068b9d9accdbab458438f1dc96fd369e9fb54ba2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:4YYLqv6okC1s3M6D4scgDQ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0oea1hwGMfUxZbLxJc1XUN"
+            },
+            "href": "https://api.spotify.com/v1/artists/0oea1hwGMfUxZbLxJc1XUN",
+            "id": "0oea1hwGMfUxZbLxJc1XUN",
+            "name": "Peter Tosh",
+            "type": "artist",
+            "uri": "spotify:artist:0oea1hwGMfUxZbLxJc1XUN"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 270693,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3AUxfyXBLogPoxkatESuBC"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3AUxfyXBLogPoxkatESuBC",
+        "id": "3AUxfyXBLogPoxkatESuBC",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Tough Rock, Soft Stones",
+        "preview_url": "https://p.scdn.co/mp3-preview/371aba52226c894f214f2b652a2fa8028d145654?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 15,
+        "type": "track",
+        "uri": "spotify:track:3AUxfyXBLogPoxkatESuBC"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 15
+  },
+  "type": "album",
+  "uri": "spotify:album:0K9oJKr8cOfWfdT33y3L9b"
+}
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+      },
+      "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+      "id": "6QHu71f8LLeT8n0GzfbYFc",
+      "name": "Gregory Isaacs",
+      "type": "artist",
+      "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 1982 UMG Recordings Inc.",
+      "type": "C"
+    },
+    {
+      "text": "An Island Records Release; ℗ 1982 UMG Recordings Inc.",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00602567826361"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/2HEXjNNUSOwBmhyaEXG5yx"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/2HEXjNNUSOwBmhyaEXG5yx",
+  "id": "2HEXjNNUSOwBmhyaEXG5yx",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/9830058db3528c2a9e830d93f61142a50b8368a0",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/cf79dbc5e9d86853f7a8b7ebf3d32201990d4725",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/cecc9018d6a3a385886d0734c9e96c5b7f259dec",
+      "width": 64
+    }
+  ],
+  "label": "Island Records",
+  "name": "Night Nurse",
+  "precio":"1380",
+
+  "popularity": 62,
+  "release_date": "1982-01-01",
+  "release_date_precision": "day",
+  "total_tracks": 12,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/2HEXjNNUSOwBmhyaEXG5yx/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 249533,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4DQttwipnILl88cru3BRZx"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4DQttwipnILl88cru3BRZx",
+        "id": "4DQttwipnILl88cru3BRZx",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Night Nurse",
+        "preview_url": "https://p.scdn.co/mp3-preview/658634fa34a4b42ed50e77216906bf49d59573f2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4DQttwipnILl88cru3BRZx"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 229133,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5yKTSHCysDQaAoBfljHQqs"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5yKTSHCysDQaAoBfljHQqs",
+        "id": "5yKTSHCysDQaAoBfljHQqs",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Stranger In Town",
+        "preview_url": "https://p.scdn.co/mp3-preview/3e45ef38a4054532be25c382f9f803389353b32c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:5yKTSHCysDQaAoBfljHQqs"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 236293,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5pTksv6usovdj9FJhQw7u6"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5pTksv6usovdj9FJhQw7u6",
+        "id": "5pTksv6usovdj9FJhQw7u6",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Objection Overruled",
+        "preview_url": "https://p.scdn.co/mp3-preview/4b98c4d13b6b6133daa1bdff128af5aa832ad3f4?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:5pTksv6usovdj9FJhQw7u6"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 276440,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5S0lcuJlVSUrhC3AuuZNwY"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5S0lcuJlVSUrhC3AuuZNwY",
+        "id": "5S0lcuJlVSUrhC3AuuZNwY",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Hot Stepper",
+        "preview_url": "https://p.scdn.co/mp3-preview/bad52e860c4cc7c009eefe1a681c4721bb66405d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5S0lcuJlVSUrhC3AuuZNwY"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 317360,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4llIZen1Cn4mi3DJm2Lqlz"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4llIZen1Cn4mi3DJm2Lqlz",
+        "id": "4llIZen1Cn4mi3DJm2Lqlz",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cool Down The Pace",
+        "preview_url": "https://p.scdn.co/mp3-preview/4a48262675221485a3c5b98232b07931acfbefbe?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:4llIZen1Cn4mi3DJm2Lqlz"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 217466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4PAm0u3rGMWkjPdIwb0noC"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4PAm0u3rGMWkjPdIwb0noC",
+        "id": "4PAm0u3rGMWkjPdIwb0noC",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Material Man",
+        "preview_url": "https://p.scdn.co/mp3-preview/c9c392db20bc06a313d99b2252ed5ced9d772fc1?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:4PAm0u3rGMWkjPdIwb0noC"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 231533,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0FJTSBLyvpV63qZzaiQoMf"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0FJTSBLyvpV63qZzaiQoMf",
+        "id": "0FJTSBLyvpV63qZzaiQoMf",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Not The Way",
+        "preview_url": "https://p.scdn.co/mp3-preview/71e0169474fafe4d418bf1dda55146d69278a0d3?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:0FJTSBLyvpV63qZzaiQoMf"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 252266,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2A2zxpj3E9zJuFnqxYTVSx"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2A2zxpj3E9zJuFnqxYTVSx",
+        "id": "2A2zxpj3E9zJuFnqxYTVSx",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Sad To Know (You're Leaving)",
+        "preview_url": "https://p.scdn.co/mp3-preview/303aedb1fdd82ce4b85a3c279c46c2c2f96383ba?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:2A2zxpj3E9zJuFnqxYTVSx"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 322933,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/10O7sLRorGAiT52N5DHD58"
+        },
+        "href": "https://api.spotify.com/v1/tracks/10O7sLRorGAiT52N5DHD58",
+        "id": "10O7sLRorGAiT52N5DHD58",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cool Down The Dub - Single Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/4f2a2ddbb90fdf9065ce4557dbce523cf571befa?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:10O7sLRorGAiT52N5DHD58"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 278400,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3gbRjMIK0HjJyG19NIs664"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3gbRjMIK0HjJyG19NIs664",
+        "id": "3gbRjMIK0HjJyG19NIs664",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Night Nurse Dub 2",
+        "preview_url": "https://p.scdn.co/mp3-preview/c1d17599a8bce17141434f60a36efa742d683f4b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:3gbRjMIK0HjJyG19NIs664"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 488373,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3xnhRinhgjN5Bp86SeaULv"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3xnhRinhgjN5Bp86SeaULv",
+        "id": "3xnhRinhgjN5Bp86SeaULv",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cool Down The Pace - 10\" Mix",
+        "preview_url": "https://p.scdn.co/mp3-preview/a9fb14a76afed551dd5f8cd2d32d6648c57a946f?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:3xnhRinhgjN5Bp86SeaULv"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QHu71f8LLeT8n0GzfbYFc"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QHu71f8LLeT8n0GzfbYFc",
+            "id": "6QHu71f8LLeT8n0GzfbYFc",
+            "name": "Gregory Isaacs",
+            "type": "artist",
+            "uri": "spotify:artist:6QHu71f8LLeT8n0GzfbYFc"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 249666,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2PcxqwiFzXGYBIUBAlPrQC"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2PcxqwiFzXGYBIUBAlPrQC",
+        "id": "2PcxqwiFzXGYBIUBAlPrQC",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Unhappy Departure Dub",
+        "preview_url": "https://p.scdn.co/mp3-preview/d7cb1a574ad103c2036bcae8eff949e499af5776?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:2PcxqwiFzXGYBIUBAlPrQC"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 12
+  },
+  "type": "album",
+  "uri": "spotify:album:2HEXjNNUSOwBmhyaEXG5yx"
+}
+
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6ZFv3wQwwWPiVDWhv0mjQK"
+      },
+      "href": "https://api.spotify.com/v1/artists/6ZFv3wQwwWPiVDWhv0mjQK",
+      "id": "6ZFv3wQwwWPiVDWhv0mjQK",
+      "name": "Toots & The Maytals",
+      "type": "artist",
+      "uri": "spotify:artist:6ZFv3wQwwWPiVDWhv0mjQK"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 1990 The Island Def Jam Music Group",
+      "type": "C"
+    },
+    {
+      "text": "℗ 1990 The Island Def Jam Music Group",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00042284658027"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/4RTp4b4gEQyWgh7biF8X7G"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/4RTp4b4gEQyWgh7biF8X7G",
+  "id": "4RTp4b4gEQyWgh7biF8X7G",
+  "images": [
+    {
+      "height": 634,
+      "url": "https://i.scdn.co/image/1897db23b0a4ac4d41642033f73e343b4bbe0770",
+      "width": 640
+    },
+    {
+      "height": 297,
+      "url": "https://i.scdn.co/image/1ba82ff6d1d576a54bb352e3dd9f520889754549",
+      "width": 300
+    },
+    {
+      "height": 63,
+      "url": "https://i.scdn.co/image/8cc36a03dbf3d7507408595af8a4ec998279f7c4",
+      "width": 64
+    }
+  ],
+  "label": "Island Records",
+  "name": "Funky Kingston",
+  "precio":"1220",
+
+  "popularity": 41,
+  "release_date": "1973",
+  "release_date_precision": "year",
+  "total_tracks": 8,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/4RTp4b4gEQyWgh7biF8X7G/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZFv3wQwwWPiVDWhv0mjQK"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZFv3wQwwWPiVDWhv0mjQK",
+            "id": "6ZFv3wQwwWPiVDWhv0mjQK",
+            "name": "Toots & The Maytals",
+            "type": "artist",
+            "uri": "spotify:artist:6ZFv3wQwwWPiVDWhv0mjQK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 284960,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3C2s2stQMNfmDejS54WgK0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3C2s2stQMNfmDejS54WgK0",
+        "id": "3C2s2stQMNfmDejS54WgK0",
+        "is_local": false,
+        "is_playable": false,
+        "name": "Sit Right Down",
+        "preview_url": null,
+        "restrictions": {
+          "reason": "market"
+        },
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:3C2s2stQMNfmDejS54WgK0"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZFv3wQwwWPiVDWhv0mjQK"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZFv3wQwwWPiVDWhv0mjQK",
+            "id": "6ZFv3wQwwWPiVDWhv0mjQK",
+            "name": "Toots & The Maytals",
+            "type": "artist",
+            "uri": "spotify:artist:6ZFv3wQwwWPiVDWhv0mjQK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 269360,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5GYNbmKPAOfIa5m5mWkV6t"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5GYNbmKPAOfIa5m5mWkV6t",
+        "id": "5GYNbmKPAOfIa5m5mWkV6t",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/6VEEj0o9aG0MakLunsLKIM"
+          },
+          "href": "https://api.spotify.com/v1/tracks/6VEEj0o9aG0MakLunsLKIM",
+          "id": "6VEEj0o9aG0MakLunsLKIM",
+          "type": "track",
+          "uri": "spotify:track:6VEEj0o9aG0MakLunsLKIM"
+        },
+        "name": "Pomps & Pride",
+        "preview_url": "https://p.scdn.co/mp3-preview/2a68530a82083d50dddfbb657b0e0b94888a092a?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:5GYNbmKPAOfIa5m5mWkV6t"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZFv3wQwwWPiVDWhv0mjQK"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZFv3wQwwWPiVDWhv0mjQK",
+            "id": "6ZFv3wQwwWPiVDWhv0mjQK",
+            "name": "Toots & The Maytals",
+            "type": "artist",
+            "uri": "spotify:artist:6ZFv3wQwwWPiVDWhv0mjQK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 345960,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5mr06sJCVCREt98nzEUyIT"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5mr06sJCVCREt98nzEUyIT",
+        "id": "5mr06sJCVCREt98nzEUyIT",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1dy5aMGbiMRhVXVb7aynUa"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1dy5aMGbiMRhVXVb7aynUa",
+          "id": "1dy5aMGbiMRhVXVb7aynUa",
+          "type": "track",
+          "uri": "spotify:track:1dy5aMGbiMRhVXVb7aynUa"
+        },
+        "name": "Louie Louie",
+        "preview_url": "https://p.scdn.co/mp3-preview/376bab483e2958f143bec471d775958216c2cd97?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:5mr06sJCVCREt98nzEUyIT"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZFv3wQwwWPiVDWhv0mjQK"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZFv3wQwwWPiVDWhv0mjQK",
+            "id": "6ZFv3wQwwWPiVDWhv0mjQK",
+            "name": "Toots & The Maytals",
+            "type": "artist",
+            "uri": "spotify:artist:6ZFv3wQwwWPiVDWhv0mjQK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 213106,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3FcOFjTsBSbwFPWhbyhyj3"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3FcOFjTsBSbwFPWhbyhyj3",
+        "id": "3FcOFjTsBSbwFPWhbyhyj3",
+        "is_local": false,
+        "is_playable": false,
+        "name": "I Can't Believe",
+        "preview_url": null,
+        "restrictions": {
+          "reason": "market"
+        },
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:3FcOFjTsBSbwFPWhbyhyj3"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZFv3wQwwWPiVDWhv0mjQK"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZFv3wQwwWPiVDWhv0mjQK",
+            "id": "6ZFv3wQwwWPiVDWhv0mjQK",
+            "name": "Toots & The Maytals",
+            "type": "artist",
+            "uri": "spotify:artist:6ZFv3wQwwWPiVDWhv0mjQK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 254333,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2mPjcNULCWON6pXo46cXyZ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2mPjcNULCWON6pXo46cXyZ",
+        "id": "2mPjcNULCWON6pXo46cXyZ",
+        "is_local": false,
+        "is_playable": false,
+        "name": "Redemption Song",
+        "preview_url": null,
+        "restrictions": {
+          "reason": "market"
+        },
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:2mPjcNULCWON6pXo46cXyZ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZFv3wQwwWPiVDWhv0mjQK"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZFv3wQwwWPiVDWhv0mjQK",
+            "id": "6ZFv3wQwwWPiVDWhv0mjQK",
+            "name": "Toots & The Maytals",
+            "type": "artist",
+            "uri": "spotify:artist:6ZFv3wQwwWPiVDWhv0mjQK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 346600,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2SbTpjElzpiW4NbkHtRZDp"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2SbTpjElzpiW4NbkHtRZDp",
+        "id": "2SbTpjElzpiW4NbkHtRZDp",
+        "is_local": false,
+        "is_playable": false,
+        "name": "Daddy's Home",
+        "preview_url": null,
+        "restrictions": {
+          "reason": "market"
+        },
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:2SbTpjElzpiW4NbkHtRZDp"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZFv3wQwwWPiVDWhv0mjQK"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZFv3wQwwWPiVDWhv0mjQK",
+            "id": "6ZFv3wQwwWPiVDWhv0mjQK",
+            "name": "Toots & The Maytals",
+            "type": "artist",
+            "uri": "spotify:artist:6ZFv3wQwwWPiVDWhv0mjQK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 295666,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/26WPI2aksB9XdqmeLfca5z"
+        },
+        "href": "https://api.spotify.com/v1/tracks/26WPI2aksB9XdqmeLfca5z",
+        "id": "26WPI2aksB9XdqmeLfca5z",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1VVFdjWU8cyVcn4Cn1CD6r"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1VVFdjWU8cyVcn4Cn1CD6r",
+          "id": "1VVFdjWU8cyVcn4Cn1CD6r",
+          "type": "track",
+          "uri": "spotify:track:1VVFdjWU8cyVcn4Cn1CD6r"
+        },
+        "name": "Funky Kingston",
+        "preview_url": "https://p.scdn.co/mp3-preview/e694e7cea62fd2ab36446159f209255b7799216b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:26WPI2aksB9XdqmeLfca5z"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ZFv3wQwwWPiVDWhv0mjQK"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ZFv3wQwwWPiVDWhv0mjQK",
+            "id": "6ZFv3wQwwWPiVDWhv0mjQK",
+            "name": "Toots & The Maytals",
+            "type": "artist",
+            "uri": "spotify:artist:6ZFv3wQwwWPiVDWhv0mjQK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 218453,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1HKpEwEjl3nRhzPs1iiidE"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1HKpEwEjl3nRhzPs1iiidE",
+        "id": "1HKpEwEjl3nRhzPs1iiidE",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/2QXG8IOZQswc2cAhprs9Uk"
+          },
+          "href": "https://api.spotify.com/v1/tracks/2QXG8IOZQswc2cAhprs9Uk",
+          "id": "2QXG8IOZQswc2cAhprs9Uk",
+          "type": "track",
+          "uri": "spotify:track:2QXG8IOZQswc2cAhprs9Uk"
+        },
+        "name": "It Was Written Down",
+        "preview_url": "https://p.scdn.co/mp3-preview/3eb65ffafa36849574fb21ef31596ae069e2bc86?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 18,
+        "type": "track",
+        "uri": "spotify:track:1HKpEwEjl3nRhzPs1iiidE"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 8
+  },
+  "type": "album",
+  "uri": "spotify:album:4RTp4b4gEQyWgh7biF8X7G"
+}
+
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+      },
+      "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+      "id": "1FcB6xMihhP9Hb6AdGVbWe",
+      "name": "Desmond Dekker",
+      "type": "artist",
+      "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5l6EjGbVOK3ciVYP20II6p"
+      },
+      "href": "https://api.spotify.com/v1/artists/5l6EjGbVOK3ciVYP20II6p",
+      "id": "5l6EjGbVOK3ciVYP20II6p",
+      "name": "The Aces",
+      "type": "artist",
+      "uri": "spotify:artist:5l6EjGbVOK3ciVYP20II6p"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "2016 Sanctuary Records Group Ltd., a BMG Company",
+      "type": "C"
+    },
+    {
+      "text": "1968 Sanctuary Records Group Ltd., a BMG Company",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "4050538227048"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/46BSjIgwm2NarXXFM8fEjX"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/46BSjIgwm2NarXXFM8fEjX",
+  "id": "46BSjIgwm2NarXXFM8fEjX",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/e59d27d995e45471504cb66528d9c2a910559436",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/1311076b9e14fd41b4feecf1d18dbca83b83feda",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/9539e419c27005301b94ac5a34756aaca5eb0929",
+      "width": 64
+    }
+  ],
+  "label": "Trojan Records",
+  "name": "The Israelites",
+  "precio":"1160",
+
+  "popularity": 52,
+  "release_date": "1968-01-01",
+  "release_date_precision": "day",
+  "total_tracks": 10,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/46BSjIgwm2NarXXFM8fEjX/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+            },
+            "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+            "id": "1FcB6xMihhP9Hb6AdGVbWe",
+            "name": "Desmond Dekker",
+            "type": "artist",
+            "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5l6EjGbVOK3ciVYP20II6p"
+            },
+            "href": "https://api.spotify.com/v1/artists/5l6EjGbVOK3ciVYP20II6p",
+            "id": "5l6EjGbVOK3ciVYP20II6p",
+            "name": "The Aces",
+            "type": "artist",
+            "uri": "spotify:artist:5l6EjGbVOK3ciVYP20II6p"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 155360,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/53aXCpKRUASUQ8cIDsJ7VN"
+        },
+        "href": "https://api.spotify.com/v1/tracks/53aXCpKRUASUQ8cIDsJ7VN",
+        "id": "53aXCpKRUASUQ8cIDsJ7VN",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/0di7hMT6o1ogeUN1XDB9Ft"
+          },
+          "href": "https://api.spotify.com/v1/tracks/0di7hMT6o1ogeUN1XDB9Ft",
+          "id": "0di7hMT6o1ogeUN1XDB9Ft",
+          "type": "track",
+          "uri": "spotify:track:0di7hMT6o1ogeUN1XDB9Ft"
+        },
+        "name": "(Poor Mi) Israelites",
+        "preview_url": "https://p.scdn.co/mp3-preview/7abd61799959e48ffcad3a3b8796597d2717b137?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:53aXCpKRUASUQ8cIDsJ7VN"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+            },
+            "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+            "id": "1FcB6xMihhP9Hb6AdGVbWe",
+            "name": "Desmond Dekker",
+            "type": "artist",
+            "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5l6EjGbVOK3ciVYP20II6p"
+            },
+            "href": "https://api.spotify.com/v1/artists/5l6EjGbVOK3ciVYP20II6p",
+            "id": "5l6EjGbVOK3ciVYP20II6p",
+            "name": "The Aces",
+            "type": "artist",
+            "uri": "spotify:artist:5l6EjGbVOK3ciVYP20II6p"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 130146,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4hbHiv1qQ6OOhUPFjdTApG"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4hbHiv1qQ6OOhUPFjdTApG",
+        "id": "4hbHiv1qQ6OOhUPFjdTApG",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/6YhfzWnzZDXVI9u0HeAL5a"
+          },
+          "href": "https://api.spotify.com/v1/tracks/6YhfzWnzZDXVI9u0HeAL5a",
+          "id": "6YhfzWnzZDXVI9u0HeAL5a",
+          "type": "track",
+          "uri": "spotify:track:6YhfzWnzZDXVI9u0HeAL5a"
+        },
+        "name": "It Is Not Easy",
+        "preview_url": "https://p.scdn.co/mp3-preview/966958ad015ecb936d84523750be26132d082e49?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:4hbHiv1qQ6OOhUPFjdTApG"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+            },
+            "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+            "id": "1FcB6xMihhP9Hb6AdGVbWe",
+            "name": "Desmond Dekker",
+            "type": "artist",
+            "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5l6EjGbVOK3ciVYP20II6p"
+            },
+            "href": "https://api.spotify.com/v1/artists/5l6EjGbVOK3ciVYP20II6p",
+            "id": "5l6EjGbVOK3ciVYP20II6p",
+            "name": "The Aces",
+            "type": "artist",
+            "uri": "spotify:artist:5l6EjGbVOK3ciVYP20II6p"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 165066,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4v6iaARbqmHtyaiP7wazRr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4v6iaARbqmHtyaiP7wazRr",
+        "id": "4v6iaARbqmHtyaiP7wazRr",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1HlTlIowLVeRKi7lf99GUc"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1HlTlIowLVeRKi7lf99GUc",
+          "id": "1HlTlIowLVeRKi7lf99GUc",
+          "type": "track",
+          "uri": "spotify:track:1HlTlIowLVeRKi7lf99GUc"
+        },
+        "name": "Intensified '68",
+        "preview_url": "https://p.scdn.co/mp3-preview/9e352153e1589af13c191bf306c480f209476a30?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:4v6iaARbqmHtyaiP7wazRr"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+            },
+            "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+            "id": "1FcB6xMihhP9Hb6AdGVbWe",
+            "name": "Desmond Dekker",
+            "type": "artist",
+            "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5l6EjGbVOK3ciVYP20II6p"
+            },
+            "href": "https://api.spotify.com/v1/artists/5l6EjGbVOK3ciVYP20II6p",
+            "id": "5l6EjGbVOK3ciVYP20II6p",
+            "name": "The Aces",
+            "type": "artist",
+            "uri": "spotify:artist:5l6EjGbVOK3ciVYP20II6p"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 209720,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/54M33WChZHdTPwgypF1OVO"
+        },
+        "href": "https://api.spotify.com/v1/tracks/54M33WChZHdTPwgypF1OVO",
+        "id": "54M33WChZHdTPwgypF1OVO",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/6huYpqUHopxZncp24IEs94"
+          },
+          "href": "https://api.spotify.com/v1/tracks/6huYpqUHopxZncp24IEs94",
+          "id": "6huYpqUHopxZncp24IEs94",
+          "type": "track",
+          "uri": "spotify:track:6huYpqUHopxZncp24IEs94"
+        },
+        "name": "Tips of My Fingers",
+        "preview_url": "https://p.scdn.co/mp3-preview/8927cb0f229d68e63c58ad7c25a64188a62737c9?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:54M33WChZHdTPwgypF1OVO"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+            },
+            "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+            "id": "1FcB6xMihhP9Hb6AdGVbWe",
+            "name": "Desmond Dekker",
+            "type": "artist",
+            "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5l6EjGbVOK3ciVYP20II6p"
+            },
+            "href": "https://api.spotify.com/v1/artists/5l6EjGbVOK3ciVYP20II6p",
+            "id": "5l6EjGbVOK3ciVYP20II6p",
+            "name": "The Aces",
+            "type": "artist",
+            "uri": "spotify:artist:5l6EjGbVOK3ciVYP20II6p"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 149826,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4IQHy297DrGLul41jhx5B6"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4IQHy297DrGLul41jhx5B6",
+        "id": "4IQHy297DrGLul41jhx5B6",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1XlyUwyH8J77IvdUwD3EI1"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1XlyUwyH8J77IvdUwD3EI1",
+          "id": "1XlyUwyH8J77IvdUwD3EI1",
+          "type": "track",
+          "uri": "spotify:track:1XlyUwyH8J77IvdUwD3EI1"
+        },
+        "name": "Too Much Too Soon",
+        "preview_url": "https://p.scdn.co/mp3-preview/63b4fee9f21bf10839cf946f31fe1f41f5779502?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:4IQHy297DrGLul41jhx5B6"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+            },
+            "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+            "id": "1FcB6xMihhP9Hb6AdGVbWe",
+            "name": "Desmond Dekker",
+            "type": "artist",
+            "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5l6EjGbVOK3ciVYP20II6p"
+            },
+            "href": "https://api.spotify.com/v1/artists/5l6EjGbVOK3ciVYP20II6p",
+            "id": "5l6EjGbVOK3ciVYP20II6p",
+            "name": "The Aces",
+            "type": "artist",
+            "uri": "spotify:artist:5l6EjGbVOK3ciVYP20II6p"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 152893,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6JqjhpgxgoCYSBQ4PzIEn9"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6JqjhpgxgoCYSBQ4PzIEn9",
+        "id": "6JqjhpgxgoCYSBQ4PzIEn9",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1tKAI8igKXPqovihv4Px57"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1tKAI8igKXPqovihv4Px57",
+          "id": "1tKAI8igKXPqovihv4Px57",
+          "type": "track",
+          "uri": "spotify:track:1tKAI8igKXPqovihv4Px57"
+        },
+        "name": "It Mek",
+        "preview_url": "https://p.scdn.co/mp3-preview/cea5a1901b5e2a12056b1ef2a3e4c4855d71ee75?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:6JqjhpgxgoCYSBQ4PzIEn9"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+            },
+            "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+            "id": "1FcB6xMihhP9Hb6AdGVbWe",
+            "name": "Desmond Dekker",
+            "type": "artist",
+            "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5l6EjGbVOK3ciVYP20II6p"
+            },
+            "href": "https://api.spotify.com/v1/artists/5l6EjGbVOK3ciVYP20II6p",
+            "id": "5l6EjGbVOK3ciVYP20II6p",
+            "name": "The Aces",
+            "type": "artist",
+            "uri": "spotify:artist:5l6EjGbVOK3ciVYP20II6p"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 128199,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2CJm3Rp5YEcBIZqolyHHs0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2CJm3Rp5YEcBIZqolyHHs0",
+        "id": "2CJm3Rp5YEcBIZqolyHHs0",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1kNu1eo0TtP1wJjMi5V4L0"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1kNu1eo0TtP1wJjMi5V4L0",
+          "id": "1kNu1eo0TtP1wJjMi5V4L0",
+          "type": "track",
+          "uri": "spotify:track:1kNu1eo0TtP1wJjMi5V4L0"
+        },
+        "name": "Nincompoop",
+        "preview_url": "https://p.scdn.co/mp3-preview/2e4a58e07a44d8baff24742dcf44228b82de244f?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:2CJm3Rp5YEcBIZqolyHHs0"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+            },
+            "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+            "id": "1FcB6xMihhP9Hb6AdGVbWe",
+            "name": "Desmond Dekker",
+            "type": "artist",
+            "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5l6EjGbVOK3ciVYP20II6p"
+            },
+            "href": "https://api.spotify.com/v1/artists/5l6EjGbVOK3ciVYP20II6p",
+            "id": "5l6EjGbVOK3ciVYP20II6p",
+            "name": "The Aces",
+            "type": "artist",
+            "uri": "spotify:artist:5l6EjGbVOK3ciVYP20II6p"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 162240,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/21s9fFilCPTEbmsEgGw8GK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/21s9fFilCPTEbmsEgGw8GK",
+        "id": "21s9fFilCPTEbmsEgGw8GK",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/2sMFLGoOZ9rQ3Rl7YfGHR6"
+          },
+          "href": "https://api.spotify.com/v1/tracks/2sMFLGoOZ9rQ3Rl7YfGHR6",
+          "id": "2sMFLGoOZ9rQ3Rl7YfGHR6",
+          "type": "track",
+          "uri": "spotify:track:2sMFLGoOZ9rQ3Rl7YfGHR6"
+        },
+        "name": "Problems",
+        "preview_url": "https://p.scdn.co/mp3-preview/5b5744c9cf894421a1edbf1a8155a293be608acd?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:21s9fFilCPTEbmsEgGw8GK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+            },
+            "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+            "id": "1FcB6xMihhP9Hb6AdGVbWe",
+            "name": "Desmond Dekker",
+            "type": "artist",
+            "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 179466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6pMdP6siW5A7t8zGYF2EkU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6pMdP6siW5A7t8zGYF2EkU",
+        "id": "6pMdP6siW5A7t8zGYF2EkU",
+        "is_local": false,
+        "is_playable": false,
+        "name": "For Once In My Life",
+        "preview_url": null,
+        "restrictions": {
+          "reason": "market"
+        },
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:6pMdP6siW5A7t8zGYF2EkU"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1FcB6xMihhP9Hb6AdGVbWe"
+            },
+            "href": "https://api.spotify.com/v1/artists/1FcB6xMihhP9Hb6AdGVbWe",
+            "id": "1FcB6xMihhP9Hb6AdGVbWe",
+            "name": "Desmond Dekker",
+            "type": "artist",
+            "uri": "spotify:artist:1FcB6xMihhP9Hb6AdGVbWe"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5l6EjGbVOK3ciVYP20II6p"
+            },
+            "href": "https://api.spotify.com/v1/artists/5l6EjGbVOK3ciVYP20II6p",
+            "id": "5l6EjGbVOK3ciVYP20II6p",
+            "name": "The Aces",
+            "type": "artist",
+            "uri": "spotify:artist:5l6EjGbVOK3ciVYP20II6p"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 138786,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5QJCROa1gZAN7cc0ljNHb7"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5QJCROa1gZAN7cc0ljNHb7",
+        "id": "5QJCROa1gZAN7cc0ljNHb7",
+        "is_local": false,
+        "is_playable": true,
+        "linked_from": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/7x3VOXxugQEG5LSAU4nLgm"
+          },
+          "href": "https://api.spotify.com/v1/tracks/7x3VOXxugQEG5LSAU4nLgm",
+          "id": "7x3VOXxugQEG5LSAU4nLgm",
+          "type": "track",
+          "uri": "spotify:track:7x3VOXxugQEG5LSAU4nLgm"
+        },
+        "name": "Rude Boy Train",
+        "preview_url": "https://p.scdn.co/mp3-preview/cfd6cb569b4f0d241a432d9b80064d45f237f534?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:5QJCROa1gZAN7cc0ljNHb7"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 10
+  },
+  "type": "album",
+  "uri": "spotify:album:46BSjIgwm2NarXXFM8fEjX"
+}
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+      },
+      "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+      "id": "4og9jrin5xH5JiFPbeGUPb",
+      "name": "The Skatalites",
+      "type": "artist",
+      "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 1997 Island Records, a division of Universal Music Operations Limited",
+      "type": "C"
+    },
+    {
+      "text": "℗ 1997 Island Records, a division of Universal Music Operations Limited",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00731452442024"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/09U02a0PnmQnAXSa121FVN"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/09U02a0PnmQnAXSa121FVN",
+  "id": "09U02a0PnmQnAXSa121FVN",
+  "images": [
+    {
+      "height": 635,
+      "url": "https://i.scdn.co/image/b96678fe74f3cca60a0b51aa6650f04c8de235cd",
+      "width": 640
+    },
+    {
+      "height": 297,
+      "url": "https://i.scdn.co/image/69b91b5afbade93ec394b5a23f0f0f0742a6648c",
+      "width": 300
+    },
+    {
+      "height": 63,
+      "url": "https://i.scdn.co/image/0cdabb72c5bc49fb13a50ef517276adc94cf614d",
+      "width": 64
+    }
+  ],
+  "label": "Universal-Island Records Ltd.",
+  "name": "Ball Of Fire",
+  "precio":"1080",
+
+  "popularity": 51,
+  "release_date": "1997-01-01",
+  "release_date_precision": "day",
+  "total_tracks": 10,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/09U02a0PnmQnAXSa121FVN/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+            },
+            "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+            "id": "4og9jrin5xH5JiFPbeGUPb",
+            "name": "The Skatalites",
+            "type": "artist",
+            "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 420466,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4MQDajRi8gILDH2JGePvto"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4MQDajRi8gILDH2JGePvto",
+        "id": "4MQDajRi8gILDH2JGePvto",
+        "is_local": false,
+        "is_playable": true,
+        "name": "James Bond Theme",
+        "preview_url": "https://p.scdn.co/mp3-preview/9f5a9e9dc27837b65cc303810cb2605f1764de0d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4MQDajRi8gILDH2JGePvto"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+            },
+            "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+            "id": "4og9jrin5xH5JiFPbeGUPb",
+            "name": "The Skatalites",
+            "type": "artist",
+            "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 283693,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5KUBITSkkVxe1gHeoyLYTr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5KUBITSkkVxe1gHeoyLYTr",
+        "id": "5KUBITSkkVxe1gHeoyLYTr",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Latin Goes Ska",
+        "preview_url": "https://p.scdn.co/mp3-preview/2475f3ff3296101fdf33818aefb8ff26117499de?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:5KUBITSkkVxe1gHeoyLYTr"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+            },
+            "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+            "id": "4og9jrin5xH5JiFPbeGUPb",
+            "name": "The Skatalites",
+            "type": "artist",
+            "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 358773,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2X06Dtn2M8xjRzw35mdU4C"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2X06Dtn2M8xjRzw35mdU4C",
+        "id": "2X06Dtn2M8xjRzw35mdU4C",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Confucius",
+        "preview_url": "https://p.scdn.co/mp3-preview/402c2c384e9147c8c156afaded7b10b3399e6e98?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:2X06Dtn2M8xjRzw35mdU4C"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+            },
+            "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+            "id": "4og9jrin5xH5JiFPbeGUPb",
+            "name": "The Skatalites",
+            "type": "artist",
+            "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 362693,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4W3rPyYMJahoQQstMlZGYv"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4W3rPyYMJahoQQstMlZGYv",
+        "id": "4W3rPyYMJahoQQstMlZGYv",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Occupation",
+        "preview_url": "https://p.scdn.co/mp3-preview/432621c40e8cbaee6798589d6a1d6674256e2701?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:4W3rPyYMJahoQQstMlZGYv"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+            },
+            "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+            "id": "4og9jrin5xH5JiFPbeGUPb",
+            "name": "The Skatalites",
+            "type": "artist",
+            "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 421866,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5iLpRDS6TNaIxh1zppyfEY"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5iLpRDS6TNaIxh1zppyfEY",
+        "id": "5iLpRDS6TNaIxh1zppyfEY",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Rock Fort Rock",
+        "preview_url": "https://p.scdn.co/mp3-preview/f2122d20978d49fe0d7163b45e24c2591dc343cd?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:5iLpRDS6TNaIxh1zppyfEY"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+            },
+            "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+            "id": "4og9jrin5xH5JiFPbeGUPb",
+            "name": "The Skatalites",
+            "type": "artist",
+            "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 341640,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/64wKTQArcAIsPwXPloGYKJ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/64wKTQArcAIsPwXPloGYKJ",
+        "id": "64wKTQArcAIsPwXPloGYKJ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Eastern Standard Time",
+        "preview_url": "https://p.scdn.co/mp3-preview/0ee3c3a39370662b3d6e4e6523f1586a733ca5a0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:64wKTQArcAIsPwXPloGYKJ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+            },
+            "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+            "id": "4og9jrin5xH5JiFPbeGUPb",
+            "name": "The Skatalites",
+            "type": "artist",
+            "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 412893,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4jyRXBPlylow6bvunThlTt"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4jyRXBPlylow6bvunThlTt",
+        "id": "4jyRXBPlylow6bvunThlTt",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Ball Of Fire",
+        "preview_url": "https://p.scdn.co/mp3-preview/e0ddab1d9ae186cdb29c3b488359bd8199c72537?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:4jyRXBPlylow6bvunThlTt"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+            },
+            "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+            "id": "4og9jrin5xH5JiFPbeGUPb",
+            "name": "The Skatalites",
+            "type": "artist",
+            "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 384800,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6gyKNejreOJfwfeQQ7fNVw"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6gyKNejreOJfwfeQQ7fNVw",
+        "id": "6gyKNejreOJfwfeQQ7fNVw",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Swing Easy",
+        "preview_url": "https://p.scdn.co/mp3-preview/9eb779d2786650701651a30936500098fb332c32?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:6gyKNejreOJfwfeQQ7fNVw"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+            },
+            "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+            "id": "4og9jrin5xH5JiFPbeGUPb",
+            "name": "The Skatalites",
+            "type": "artist",
+            "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 379600,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5qqgtPz8w0XrSVkEjLFDTj"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5qqgtPz8w0XrSVkEjLFDTj",
+        "id": "5qqgtPz8w0XrSVkEjLFDTj",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Ringo",
+        "preview_url": "https://p.scdn.co/mp3-preview/881c2d508faf2fb16fe4a7dd491f03cc854ffc7b?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:5qqgtPz8w0XrSVkEjLFDTj"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4og9jrin5xH5JiFPbeGUPb"
+            },
+            "href": "https://api.spotify.com/v1/artists/4og9jrin5xH5JiFPbeGUPb",
+            "id": "4og9jrin5xH5JiFPbeGUPb",
+            "name": "The Skatalites",
+            "type": "artist",
+            "uri": "spotify:artist:4og9jrin5xH5JiFPbeGUPb"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 506866,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0yiDtftHg3KpFoHrpkLKdD"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0yiDtftHg3KpFoHrpkLKdD",
+        "id": "0yiDtftHg3KpFoHrpkLKdD",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Freedom Sound",
+        "preview_url": "https://p.scdn.co/mp3-preview/186d775d336dcefe900dc62235c92ac6a2beb94e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:0yiDtftHg3KpFoHrpkLKdD"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 10
+  },
+  "type": "album",
+  "uri": "spotify:album:09U02a0PnmQnAXSa121FVN"
+}
+
+
+,
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+      },
+      "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+      "id": "6UTUjmko5raD927Hbx960a",
+      "name": "Jackie Mittoo",
+      "type": "artist",
+      "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 2017 Observer Music",
+      "type": "C"
+    },
+    {
+      "text": "℗ 2017 Observer Music",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "191515099495"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/6Oi2oseXr48panNynaEvRF"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/6Oi2oseXr48panNynaEvRF",
+  "id": "6Oi2oseXr48panNynaEvRF",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/be3abb28202d94adab53cff64273ba22868d1ada",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/73b9a1ec81a1994a642cc8ce4eb4edf117467def",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/e93c759443c67f3ddbf556d5006bf99e8eac0dfe",
+      "width": 64
+    }
+  ],
+  "label": "Observer Music",
+  "name": "The Keyboard King at Studio One",
+  "precio":"1390",
+
+  "popularity": 42,
+  "release_date": "2017-03-10",
+  "release_date_precision": "day",
+  "total_tracks": 15,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/6Oi2oseXr48panNynaEvRF/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 164693,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4KKLXmRB71huKAf5vS0t9A"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4KKLXmRB71huKAf5vS0t9A",
+        "id": "4KKLXmRB71huKAf5vS0t9A",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Get Up and Get It",
+        "preview_url": "https://p.scdn.co/mp3-preview/ccf39745e04bdb3402a4248ec66beb1470d69707?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:4KKLXmRB71huKAf5vS0t9A"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 191506,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3MZm4t1kRJ2e5JyaYQpjrF"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3MZm4t1kRJ2e5JyaYQpjrF",
+        "id": "3MZm4t1kRJ2e5JyaYQpjrF",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Black Organ",
+        "preview_url": "https://p.scdn.co/mp3-preview/7fac8ae0f0ccf2f277fe5951f9855c34dada1104?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:3MZm4t1kRJ2e5JyaYQpjrF"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 167493,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2hUuLfZEqlAGqlp5aWmcaU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2hUuLfZEqlAGqlp5aWmcaU",
+        "id": "2hUuLfZEqlAGqlp5aWmcaU",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Killer Diller",
+        "preview_url": "https://p.scdn.co/mp3-preview/ecaaedb60c83cb76f966a0bcdfbc7b47df0afcaa?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:2hUuLfZEqlAGqlp5aWmcaU"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 156066,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6KUnMJz8AykJFecXg30q3c"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6KUnMJz8AykJFecXg30q3c",
+        "id": "6KUnMJz8AykJFecXg30q3c",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Totally Together",
+        "preview_url": "https://p.scdn.co/mp3-preview/bac62d5029f2d0181d72cb81e7c89328e2c2e18f?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:6KUnMJz8AykJFecXg30q3c"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 143773,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5BXNlV5rOz5sfBMEOJEZyb"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5BXNlV5rOz5sfBMEOJEZyb",
+        "id": "5BXNlV5rOz5sfBMEOJEZyb",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Hot Tamale",
+        "preview_url": "https://p.scdn.co/mp3-preview/768a803b3ab7f07caebbf7505588353b9d37650f?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:5BXNlV5rOz5sfBMEOJEZyb"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 117733,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/00hPnVmMynXSUIeIXapFZE"
+        },
+        "href": "https://api.spotify.com/v1/tracks/00hPnVmMynXSUIeIXapFZE",
+        "id": "00hPnVmMynXSUIeIXapFZE",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Reggae Rock",
+        "preview_url": "https://p.scdn.co/mp3-preview/febdc134ec855ea32f16b4fdf947adbdadba1a25?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:00hPnVmMynXSUIeIXapFZE"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 578733,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4QGoeQ77QvTihnoG3wGogJ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4QGoeQ77QvTihnoG3wGogJ",
+        "id": "4QGoeQ77QvTihnoG3wGogJ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Oboe",
+        "preview_url": "https://p.scdn.co/mp3-preview/a2f97a53cb491c41bccb5b0608faf705090a30d0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:4QGoeQ77QvTihnoG3wGogJ"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 277800,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4UCbLIukSLFKEStlPbZMVi"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4UCbLIukSLFKEStlPbZMVi",
+        "id": "4UCbLIukSLFKEStlPbZMVi",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Juice Box",
+        "preview_url": "https://p.scdn.co/mp3-preview/74953e5dc8705e5735c3028e15d5fae8fa9aae8e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:4UCbLIukSLFKEStlPbZMVi"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 224826,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/35xQ1daoggJNQF3tgoluOT"
+        },
+        "href": "https://api.spotify.com/v1/tracks/35xQ1daoggJNQF3tgoluOT",
+        "id": "35xQ1daoggJNQF3tgoluOT",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Summer Breeze",
+        "preview_url": "https://p.scdn.co/mp3-preview/927bc760066d5ba400eb6e1f296ee175c37c47c0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:35xQ1daoggJNQF3tgoluOT"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 264133,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/77r13JXhYWifX2up1zcecR"
+        },
+        "href": "https://api.spotify.com/v1/tracks/77r13JXhYWifX2up1zcecR",
+        "id": "77r13JXhYWifX2up1zcecR",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Drum Song",
+        "preview_url": "https://p.scdn.co/mp3-preview/0394e23edabfa2564dbf7783e0bab905f263b178?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:77r13JXhYWifX2up1zcecR"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 168573,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1oL1ITqaCkp1pThD57MmuO"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1oL1ITqaCkp1pThD57MmuO",
+        "id": "1oL1ITqaCkp1pThD57MmuO",
+        "is_local": false,
+        "is_playable": true,
+        "name": "P. Cafe",
+        "preview_url": "https://p.scdn.co/mp3-preview/e71916edaf37f78b4bdf08bb68d3fc87dff9bd01?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:1oL1ITqaCkp1pThD57MmuO"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 212493,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7oAFpW9jpXDIe5Ji7wRtXK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7oAFpW9jpXDIe5Ji7wRtXK",
+        "id": "7oAFpW9jpXDIe5Ji7wRtXK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Black Organ",
+        "preview_url": "https://p.scdn.co/mp3-preview/59362a603783d7355c120811eb00988b743b1095?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:7oAFpW9jpXDIe5Ji7wRtXK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 185506,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5aESR5wti306SsXUYGkEbU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5aESR5wti306SsXUYGkEbU",
+        "id": "5aESR5wti306SsXUYGkEbU",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Stereo Freeze",
+        "preview_url": "https://p.scdn.co/mp3-preview/ecb6bd897213714d5f4eda328ace464eaf11ec5c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:5aESR5wti306SsXUYGkEbU"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 434600,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1vScxuyEa7X1HSP1HXLqZb"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1vScxuyEa7X1HSP1HXLqZb",
+        "id": "1vScxuyEa7X1HSP1HXLqZb",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Wall Street",
+        "preview_url": "https://p.scdn.co/mp3-preview/cc178c6911b1cbd6405ad0b4602eafa104723d39?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 14,
+        "type": "track",
+        "uri": "spotify:track:1vScxuyEa7X1HSP1HXLqZb"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6UTUjmko5raD927Hbx960a"
+            },
+            "href": "https://api.spotify.com/v1/artists/6UTUjmko5raD927Hbx960a",
+            "id": "6UTUjmko5raD927Hbx960a",
+            "name": "Jackie Mittoo",
+            "type": "artist",
+            "uri": "spotify:artist:6UTUjmko5raD927Hbx960a"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 194293,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5uCb2bQ9HcCY3c7kLq4Iur"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5uCb2bQ9HcCY3c7kLq4Iur",
+        "id": "5uCb2bQ9HcCY3c7kLq4Iur",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Darker Shade of Black",
+        "preview_url": "https://p.scdn.co/mp3-preview/6ca6d8e96cc5cf1b5cb3d328a7e0c4f99b74614c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 15,
+        "type": "track",
+        "uri": "spotify:track:5uCb2bQ9HcCY3c7kLq4Iur"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 15
+  },
+  "type": "album",
+  "uri": "spotify:album:6Oi2oseXr48panNynaEvRF"
+}
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+      },
+      "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+      "id": "389zc5Rwe0MPcE6mSF4AjC",
+      "name": "Bunny Wailer",
+      "type": "artist",
+      "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "© 2002 The Island Def Jam Music Group",
+      "type": "C"
+    },
+    {
+      "text": "℗ 2002 The Island Def Jam Music Group",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "00731458688426"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/0Z3LzsnqFDWU10sTu31Cfm"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/0Z3LzsnqFDWU10sTu31Cfm",
+  "id": "0Z3LzsnqFDWU10sTu31Cfm",
+  "images": [
+    {
+      "height": 636,
+      "url": "https://i.scdn.co/image/2fc98258dd30f728c23e9f4d865aa7cfba62d769",
+      "width": 640
+    },
+    {
+      "height": 298,
+      "url": "https://i.scdn.co/image/35b79e9594048b25ac280c01b0ac5d4a26a5acaf",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/eb3c4407a39ef0f0b7ec5642b00146a28fac78bb",
+      "width": 64
+    }
+  ],
+  "label": "Island Records",
+  "name": "Blackheart Man",
+  "precio":"1220",
+
+  "popularity": 53,
+  "release_date": "1976",
+  "release_date_precision": "year",
+  "total_tracks": 10,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/0Z3LzsnqFDWU10sTu31Cfm/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+            },
+            "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+            "id": "389zc5Rwe0MPcE6mSF4AjC",
+            "name": "Bunny Wailer",
+            "type": "artist",
+            "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 377266,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6xIJylzwCbqP7hy0ekZz2d"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6xIJylzwCbqP7hy0ekZz2d",
+        "id": "6xIJylzwCbqP7hy0ekZz2d",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Blackheart Man",
+        "preview_url": "https://p.scdn.co/mp3-preview/8dbbee38e1788a13391784fa440ba8b194c9fa97?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:6xIJylzwCbqP7hy0ekZz2d"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+            },
+            "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+            "id": "389zc5Rwe0MPcE6mSF4AjC",
+            "name": "Bunny Wailer",
+            "type": "artist",
+            "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 310800,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5UDdz40BW59qquk43Ymjrx"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5UDdz40BW59qquk43Ymjrx",
+        "id": "5UDdz40BW59qquk43Ymjrx",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Fighting Against Conviction",
+        "preview_url": "https://p.scdn.co/mp3-preview/6156db67a61753443d59018d476c915cbf05498e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:5UDdz40BW59qquk43Ymjrx"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+            },
+            "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+            "id": "389zc5Rwe0MPcE6mSF4AjC",
+            "name": "Bunny Wailer",
+            "type": "artist",
+            "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 201400,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3w5NYTgFtRKpsHj3uvzJEM"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3w5NYTgFtRKpsHj3uvzJEM",
+        "id": "3w5NYTgFtRKpsHj3uvzJEM",
+        "is_local": false,
+        "is_playable": true,
+        "name": "The Oppressed Song",
+        "preview_url": "https://p.scdn.co/mp3-preview/c832f9247b55c32494bcda05060e0227a1dc35b6?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:3w5NYTgFtRKpsHj3uvzJEM"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+            },
+            "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+            "id": "389zc5Rwe0MPcE6mSF4AjC",
+            "name": "Bunny Wailer",
+            "type": "artist",
+            "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 187133,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3UH3ydNBPtlgbXb95tMuDn"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3UH3ydNBPtlgbXb95tMuDn",
+        "id": "3UH3ydNBPtlgbXb95tMuDn",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Fig Tree",
+        "preview_url": "https://p.scdn.co/mp3-preview/7f8e5ba80c13303dd4f1fc28bf7c778e93a4d6bc?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:3UH3ydNBPtlgbXb95tMuDn"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+            },
+            "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+            "id": "389zc5Rwe0MPcE6mSF4AjC",
+            "name": "Bunny Wailer",
+            "type": "artist",
+            "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 165893,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1haHZa75ytryLGUOtHiGl5"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1haHZa75ytryLGUOtHiGl5",
+        "id": "1haHZa75ytryLGUOtHiGl5",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Dream Land",
+        "preview_url": "https://p.scdn.co/mp3-preview/4a519961bac368130f04ddc7d593bbd85afb4ad7?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:1haHZa75ytryLGUOtHiGl5"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+            },
+            "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+            "id": "389zc5Rwe0MPcE6mSF4AjC",
+            "name": "Bunny Wailer",
+            "type": "artist",
+            "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 230866,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4wn9tk0nEj0BVuJYDkRDqK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4wn9tk0nEj0BVuJYDkRDqK",
+        "id": "4wn9tk0nEj0BVuJYDkRDqK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Rastaman",
+        "preview_url": "https://p.scdn.co/mp3-preview/aa553ca314d0967a15c3bf568b7e7de8f67621df?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:4wn9tk0nEj0BVuJYDkRDqK"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+            },
+            "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+            "id": "389zc5Rwe0MPcE6mSF4AjC",
+            "name": "Bunny Wailer",
+            "type": "artist",
+            "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 222773,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4D1Y494qjTjydvwv7TD1F3"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4D1Y494qjTjydvwv7TD1F3",
+        "id": "4D1Y494qjTjydvwv7TD1F3",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Reincarnated Souls",
+        "preview_url": "https://p.scdn.co/mp3-preview/0272b06ae535fb23a7fd5cee37dba600839e2e11?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:4D1Y494qjTjydvwv7TD1F3"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+            },
+            "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+            "id": "389zc5Rwe0MPcE6mSF4AjC",
+            "name": "Bunny Wailer",
+            "type": "artist",
+            "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 405493,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7BxBzBOsfhdBEX7g2FFP06"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7BxBzBOsfhdBEX7g2FFP06",
+        "id": "7BxBzBOsfhdBEX7g2FFP06",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Armagideon (Armagedon)",
+        "preview_url": "https://p.scdn.co/mp3-preview/7bdd55b4706dbf2c1edca6859d371825db791e7d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:7BxBzBOsfhdBEX7g2FFP06"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+            },
+            "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+            "id": "389zc5Rwe0MPcE6mSF4AjC",
+            "name": "Bunny Wailer",
+            "type": "artist",
+            "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 152733,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3eY4RXr2dQBF50aM9vrvhY"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3eY4RXr2dQBF50aM9vrvhY",
+        "id": "3eY4RXr2dQBF50aM9vrvhY",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Bide Up",
+        "preview_url": "https://p.scdn.co/mp3-preview/482a0841897c16f215da5e457bdd71654567b38c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:3eY4RXr2dQBF50aM9vrvhY"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/389zc5Rwe0MPcE6mSF4AjC"
+            },
+            "href": "https://api.spotify.com/v1/artists/389zc5Rwe0MPcE6mSF4AjC",
+            "id": "389zc5Rwe0MPcE6mSF4AjC",
+            "name": "Bunny Wailer",
+            "type": "artist",
+            "uri": "spotify:artist:389zc5Rwe0MPcE6mSF4AjC"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 507773,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5RQ9CYCiB3gmYmzRYhGRGK"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5RQ9CYCiB3gmYmzRYhGRGK",
+        "id": "5RQ9CYCiB3gmYmzRYhGRGK",
+        "is_local": false,
+        "is_playable": true,
+        "name": "This Train",
+        "preview_url": "https://p.scdn.co/mp3-preview/f331aa504d07a96031c6e1ef958af9cf8c4452ef?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:5RQ9CYCiB3gmYmzRYhGRGK"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 10
+  },
+  "type": "album",
+  "uri": "spotify:album:0Z3LzsnqFDWU10sTu31Cfm"
+}
+
+,
+
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2Y06xyHPovQ8DWLyVIpSJK"
+      },
+      "href": "https://api.spotify.com/v1/artists/2Y06xyHPovQ8DWLyVIpSJK",
+      "id": "2Y06xyHPovQ8DWLyVIpSJK",
+      "name": "Israel Vibration",
+      "type": "artist",
+      "uri": "spotify:artist:2Y06xyHPovQ8DWLyVIpSJK"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "1988 Trojan Recordings Ltd., a BMG Company",
+      "type": "C"
+    },
+    {
+      "text": "1988 Sanctuary Records Group Ltd., a BMG Company",
+      "type": "P"
+    }
+  ],
+  "external_ids": {
+    "upc": "0602527378701"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/7FvsGPTDixfSoPLQw5xGIl"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/7FvsGPTDixfSoPLQw5xGIl",
+  "id": "7FvsGPTDixfSoPLQw5xGIl",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/75cc2fa056fea55be05e556e5a2782a0a6aeb403",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/887760c3ce90b2aad6138b9b3e6c1c650d86cbd9",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/0250dd43a23c96ab385c9767dfd890fd2fb75a72",
+      "width": 64
+    }
+  ],
+  "label": "Trojan Records",
+  "name": "Strength of My Life",
+  "precio":"1119",
+
+  "popularity": 42,
+  "release_date": "1981-01-01",
+  "release_date_precision": "day",
+  "total_tracks": 9,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/7FvsGPTDixfSoPLQw5xGIl/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Y06xyHPovQ8DWLyVIpSJK"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Y06xyHPovQ8DWLyVIpSJK",
+            "id": "2Y06xyHPovQ8DWLyVIpSJK",
+            "name": "Israel Vibration",
+            "type": "artist",
+            "uri": "spotify:artist:2Y06xyHPovQ8DWLyVIpSJK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 265880,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0dO79bdqpF4yl3Hpms8Eu7"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0dO79bdqpF4yl3Hpms8Eu7",
+        "id": "0dO79bdqpF4yl3Hpms8Eu7",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Cool and Calm",
+        "preview_url": "https://p.scdn.co/mp3-preview/c892a44df0b5850e262cc65fa3d5512e3ecee7cc?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:0dO79bdqpF4yl3Hpms8Eu7"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Y06xyHPovQ8DWLyVIpSJK"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Y06xyHPovQ8DWLyVIpSJK",
+            "id": "2Y06xyHPovQ8DWLyVIpSJK",
+            "name": "Israel Vibration",
+            "type": "artist",
+            "uri": "spotify:artist:2Y06xyHPovQ8DWLyVIpSJK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 266640,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2OftyrZOvbvEGBQyxiOJUt"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2OftyrZOvbvEGBQyxiOJUt",
+        "id": "2OftyrZOvbvEGBQyxiOJUt",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Jah Love Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/071048d6186c66a6faeb311a90aa563a7797403c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:2OftyrZOvbvEGBQyxiOJUt"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Y06xyHPovQ8DWLyVIpSJK"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Y06xyHPovQ8DWLyVIpSJK",
+            "id": "2Y06xyHPovQ8DWLyVIpSJK",
+            "name": "Israel Vibration",
+            "type": "artist",
+            "uri": "spotify:artist:2Y06xyHPovQ8DWLyVIpSJK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 296640,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5FYqrKsi2quAA8qmXlLru1"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5FYqrKsi2quAA8qmXlLru1",
+        "id": "5FYqrKsi2quAA8qmXlLru1",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Pay Day",
+        "preview_url": "https://p.scdn.co/mp3-preview/cb776ec200288ef0d8109721b2f2949b620094c8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:5FYqrKsi2quAA8qmXlLru1"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Y06xyHPovQ8DWLyVIpSJK"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Y06xyHPovQ8DWLyVIpSJK",
+            "id": "2Y06xyHPovQ8DWLyVIpSJK",
+            "name": "Israel Vibration",
+            "type": "artist",
+            "uri": "spotify:artist:2Y06xyHPovQ8DWLyVIpSJK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 274480,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3t9vOS55J41tRUTKCPwMle"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3t9vOS55J41tRUTKCPwMle",
+        "id": "3t9vOS55J41tRUTKCPwMle",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Greedy Dog",
+        "preview_url": "https://p.scdn.co/mp3-preview/7eb3569735f863512ae9098de484096604d1b923?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:3t9vOS55J41tRUTKCPwMle"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Y06xyHPovQ8DWLyVIpSJK"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Y06xyHPovQ8DWLyVIpSJK",
+            "id": "2Y06xyHPovQ8DWLyVIpSJK",
+            "name": "Israel Vibration",
+            "type": "artist",
+            "uri": "spotify:artist:2Y06xyHPovQ8DWLyVIpSJK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 298640,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6m1DsTx4kiIUVnsXfukFdr"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6m1DsTx4kiIUVnsXfukFdr",
+        "id": "6m1DsTx4kiIUVnsXfukFdr",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Don't Want Apartheid",
+        "preview_url": "https://p.scdn.co/mp3-preview/c2f405dfd59bfa2f4deb4614948f0b62ee1b3e09?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:6m1DsTx4kiIUVnsXfukFdr"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Y06xyHPovQ8DWLyVIpSJK"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Y06xyHPovQ8DWLyVIpSJK",
+            "id": "2Y06xyHPovQ8DWLyVIpSJK",
+            "name": "Israel Vibration",
+            "type": "artist",
+            "uri": "spotify:artist:2Y06xyHPovQ8DWLyVIpSJK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 245986,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7Ix8H7Q2zkMDwVH5K3BYut"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7Ix8H7Q2zkMDwVH5K3BYut",
+        "id": "7Ix8H7Q2zkMDwVH5K3BYut",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Perfect Love & Understanding",
+        "preview_url": "https://p.scdn.co/mp3-preview/0a349943f0c91bba29a41495e0d71a9821316a7c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:7Ix8H7Q2zkMDwVH5K3BYut"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Y06xyHPovQ8DWLyVIpSJK"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Y06xyHPovQ8DWLyVIpSJK",
+            "id": "2Y06xyHPovQ8DWLyVIpSJK",
+            "name": "Israel Vibration",
+            "type": "artist",
+            "uri": "spotify:artist:2Y06xyHPovQ8DWLyVIpSJK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 262800,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4cyjUXCeFc6nAdr2HoXVw0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4cyjUXCeFc6nAdr2HoXVw0",
+        "id": "4cyjUXCeFc6nAdr2HoXVw0",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Live and Give",
+        "preview_url": "https://p.scdn.co/mp3-preview/23a77360799bb9d1a3ad72977f7eca1b4d5548eb?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:4cyjUXCeFc6nAdr2HoXVw0"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Y06xyHPovQ8DWLyVIpSJK"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Y06xyHPovQ8DWLyVIpSJK",
+            "id": "2Y06xyHPovQ8DWLyVIpSJK",
+            "name": "Israel Vibration",
+            "type": "artist",
+            "uri": "spotify:artist:2Y06xyHPovQ8DWLyVIpSJK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 282946,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0EepcQxrVxvtmasZwk22vU"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0EepcQxrVxvtmasZwk22vU",
+        "id": "0EepcQxrVxvtmasZwk22vU",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Middle East",
+        "preview_url": "https://p.scdn.co/mp3-preview/66ac495a55c90e3d8ec2a858e83c4c69be038ab0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:0EepcQxrVxvtmasZwk22vU"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2Y06xyHPovQ8DWLyVIpSJK"
+            },
+            "href": "https://api.spotify.com/v1/artists/2Y06xyHPovQ8DWLyVIpSJK",
+            "id": "2Y06xyHPovQ8DWLyVIpSJK",
+            "name": "Israel Vibration",
+            "type": "artist",
+            "uri": "spotify:artist:2Y06xyHPovQ8DWLyVIpSJK"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 370146,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1RWSsS6cMLg2TDTyW1A80L"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1RWSsS6cMLg2TDTyW1A80L",
+        "id": "1RWSsS6cMLg2TDTyW1A80L",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Strength of My Life",
+        "preview_url": "https://p.scdn.co/mp3-preview/a58ad423c9bb775d8953e26b5b4ca321989e530f?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:1RWSsS6cMLg2TDTyW1A80L"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 9
+  },
+  "type": "album",
+  "uri": "spotify:album:7FvsGPTDixfSoPLQw5xGIl"
+}
+
+,
+{
+  "album_type": "album",
+  "artists": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+      },
+      "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+      "id": "5FWTu1MZdB5fjKif2rZldJ",
+      "name": "Easy Star All-Stars",
+      "type": "artist",
+      "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+    }
+  ],
+  "copyrights": [
+    {
+      "text": "(C) 2003 Easy Star Records",
+      "type": "C"
+    }
+  ],
+  "external_ids": {
+    "upc": "657481101223"
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/album/2w9qrrsJaLRQuZPJeI9acc"
+  },
+  "genres": [],
+  "href": "https://api.spotify.com/v1/albums/2w9qrrsJaLRQuZPJeI9acc",
+  "id": "2w9qrrsJaLRQuZPJeI9acc",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/1ba255afaa6ef90f6ca554b7f673065bc41b1757",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/3b4c8dcfb03217cf69216152a8f4f5716253ece1",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/39a9fec78befedda22a8298f109fb1dda08c9ed0",
+      "width": 64
+    }
+  ],
+  "label": "Easy Star",
+  "name": "Dub Side Of The Moon",
+  "precio":"1220",
+
+  "precio":"1420",
+  "popularity": 49,
+  "release_date": "2003-02-18",
+  "release_date_precision": "day",
+  "total_tracks": 13,
+  "tracks": {
+    "href": "https://api.spotify.com/v1/albums/2w9qrrsJaLRQuZPJeI9acc/tracks?offset=0&limit=50&market=us",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 232360,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5L7QptioCo73sGCTfAj7ln"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5L7QptioCo73sGCTfAj7ln",
+        "id": "5L7QptioCo73sGCTfAj7ln",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Speak To Me / Breathe",
+        "preview_url": "https://p.scdn.co/mp3-preview/cda3984ac4f93de9fbe9e7ebfa70f3b23a1aa67e?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:5L7QptioCo73sGCTfAj7ln"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 203720,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4jg8gzEkemr3E7fmMbFzWe"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4jg8gzEkemr3E7fmMbFzWe",
+        "id": "4jg8gzEkemr3E7fmMbFzWe",
+        "is_local": false,
+        "is_playable": true,
+        "name": "On The Run",
+        "preview_url": "https://p.scdn.co/mp3-preview/719e1ed742e48f155bf0f6e0c7746ea1271ec835?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:4jg8gzEkemr3E7fmMbFzWe"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 418493,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1uLBDlBZROhCvLAX5LdKrI"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1uLBDlBZROhCvLAX5LdKrI",
+        "id": "1uLBDlBZROhCvLAX5LdKrI",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Time",
+        "preview_url": "https://p.scdn.co/mp3-preview/792384bd068f995a75816a41bf4682674bf8c7e0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:1uLBDlBZROhCvLAX5LdKrI"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 265066,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3QqQmA4Cu63Sw1ZTOPTlfP"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3QqQmA4Cu63Sw1ZTOPTlfP",
+        "id": "3QqQmA4Cu63Sw1ZTOPTlfP",
+        "is_local": false,
+        "is_playable": true,
+        "name": "The Great Gig In The Sky",
+        "preview_url": "https://p.scdn.co/mp3-preview/4220c8471043ed0bd6f32051f02eec2f9c2bca0d?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:3QqQmA4Cu63Sw1ZTOPTlfP"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 386213,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5QREkNN2kAKUsXppK9Vrcu"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5QREkNN2kAKUsXppK9Vrcu",
+        "id": "5QREkNN2kAKUsXppK9Vrcu",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Money",
+        "preview_url": "https://p.scdn.co/mp3-preview/45070ba0fe02d653a69245764ad2de67b2e87e77?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:5QREkNN2kAKUsXppK9Vrcu"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 475093,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/05vgup4g7KCoxmVP1LAyjR"
+        },
+        "href": "https://api.spotify.com/v1/tracks/05vgup4g7KCoxmVP1LAyjR",
+        "id": "05vgup4g7KCoxmVP1LAyjR",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Us And Them",
+        "preview_url": "https://p.scdn.co/mp3-preview/2d0b0d8498cc44cf6fd7e682ea3fd7b80b5ff1a7?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:05vgup4g7KCoxmVP1LAyjR"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 218253,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6Y6hUMmFGfpGggqnrwNYF0"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6Y6hUMmFGfpGggqnrwNYF0",
+        "id": "6Y6hUMmFGfpGggqnrwNYF0",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Any Colour You Like",
+        "preview_url": "https://p.scdn.co/mp3-preview/8e005a069a5b9a58566cbf866ed7aeede2109f20?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:6Y6hUMmFGfpGggqnrwNYF0"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 246986,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6Q5PDT9BzYdCEdPJATYWqY"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6Q5PDT9BzYdCEdPJATYWqY",
+        "id": "6Q5PDT9BzYdCEdPJATYWqY",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Brain Damage",
+        "preview_url": "https://p.scdn.co/mp3-preview/c545fa119b24bccdd8d15dc9b927097c3d40c817?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 8,
+        "type": "track",
+        "uri": "spotify:track:6Q5PDT9BzYdCEdPJATYWqY"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 112920,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5GtmtJZ2EewmsDNC4fetZ6"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5GtmtJZ2EewmsDNC4fetZ6",
+        "id": "5GtmtJZ2EewmsDNC4fetZ6",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Eclipse",
+        "preview_url": "https://p.scdn.co/mp3-preview/61fc90144e79d43cd4758fe393fd1934bcd4efed?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:5GtmtJZ2EewmsDNC4fetZ6"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 218053,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3jpM4LSpVJ4fL0gHQKsdEH"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3jpM4LSpVJ4fL0gHQKsdEH",
+        "id": "3jpM4LSpVJ4fL0gHQKsdEH",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Time Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/134174e7649c864b9f368ffa2d2fb884c695390c?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 10,
+        "type": "track",
+        "uri": "spotify:track:3jpM4LSpVJ4fL0gHQKsdEH"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 261600,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4mAnqyyXCauUnBkFRBke5f"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4mAnqyyXCauUnBkFRBke5f",
+        "id": "4mAnqyyXCauUnBkFRBke5f",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Great Dub In The Sky",
+        "preview_url": "https://p.scdn.co/mp3-preview/32ff759754503612811f67f41dad63d8bdd91fd2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 11,
+        "type": "track",
+        "uri": "spotify:track:4mAnqyyXCauUnBkFRBke5f"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 242320,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0fJmBcwG9QijT1CGbLIO0c"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0fJmBcwG9QijT1CGbLIO0c",
+        "id": "0fJmBcwG9QijT1CGbLIO0c",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Step It Pon The Rastaman Scene",
+        "preview_url": "https://p.scdn.co/mp3-preview/d872bd8559ea536e90463d3a9d3f42e4391b73e0?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 12,
+        "type": "track",
+        "uri": "spotify:track:0fJmBcwG9QijT1CGbLIO0c"
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5FWTu1MZdB5fjKif2rZldJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/5FWTu1MZdB5fjKif2rZldJ",
+            "id": "5FWTu1MZdB5fjKif2rZldJ",
+            "name": "Easy Star All-Stars",
+            "type": "artist",
+            "uri": "spotify:artist:5FWTu1MZdB5fjKif2rZldJ"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 202786,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0pX5Ch3PY3KGCdJ04ikWQJ"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0pX5Ch3PY3KGCdJ04ikWQJ",
+        "id": "0pX5Ch3PY3KGCdJ04ikWQJ",
+        "is_local": false,
+        "is_playable": true,
+        "name": "Any Dub You Like",
+        "preview_url": "https://p.scdn.co/mp3-preview/a7735e1291a923ee486c58cff5e8cab3bc8041b2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 13,
+        "type": "track",
+        "uri": "spotify:track:0pX5Ch3PY3KGCdJ04ikWQJ"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 13
+  },
+  "type": "album",
+  "uri": "spotify:album:2w9qrrsJaLRQuZPJeI9acc"
+}
+  ]}
