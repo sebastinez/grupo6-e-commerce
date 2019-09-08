@@ -5,7 +5,7 @@
 			<div class="faqHeader">Generales</div>
 			<div class="card ">
 				<div class="card-header">
-					<h4 class="card-header">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Como me registro?</a>
 					</h4>
 				</div>
@@ -15,9 +15,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="card ">
-				<div class="card-header">
-					<h4 class="card-header">
+			<div class="card">
+				<div class="card-header ">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Estan buenos los discos?</a>
 					</h4>
 				</div>
@@ -29,7 +29,7 @@
 			</div>
 			<div class="card ">
 				<div class="card-header">
-					<h4 class="card-header">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">Bla Bla</a>
 					</h4>
 				</div>
@@ -43,7 +43,7 @@
 			<div class="faqHeader">Sarasa 1</div>
 			<div class="card ">
 				<div class="card-header">
-					<h4 class="card-header">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Bla bla</a>
 					</h4>
 				</div>
@@ -55,7 +55,7 @@
 			</div>
 			<div class="card ">
 				<div class="card-header">
-					<h4 class="card-header">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Bla bla</a>
 					</h4>
 				</div>
@@ -73,7 +73,7 @@
 			</div>
 			<div class="card ">
 				<div class="card-header">
-					<h4 class="card-header">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Bla bla
 						</a>
 					</h4>
@@ -87,7 +87,7 @@
 			</div>
 			<div class="card ">
 				<div class="card-header">
-					<h4 class="card-header">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">bla bla</a>
 					</h4>
 				</div>
@@ -100,7 +100,7 @@
 			</div>
 			<div class="card ">
 				<div class="card-header">
-					<h4 class="card-header">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">bla bla</a>
 					</h4>
 				</div>
@@ -112,7 +112,7 @@
 			</div>
 			<div class="card ">
 				<div class="card-header">
-					<h4 class="card-header">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">bla bla</a>
 					</h4>
 				</div>
@@ -126,7 +126,7 @@
 			<div class="faqHeader">Sarasa 2</div>
 			<div class="card ">
 				<div class="card-header">
-					<h4 class="card-header">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">bla bla</a>
 					</h4>
 				</div>
@@ -138,7 +138,7 @@
 			</div>
 			<div class="card ">
 				<div class="card-header">
-					<h4 class="card-header">
+					<h4 class="card-header hover-naranja">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">bla bla</a>
 					</h4>
 				</div>
@@ -150,4 +150,7 @@
 			</div>
 		</div>
 	</div>
+
+
+	
 	</section>

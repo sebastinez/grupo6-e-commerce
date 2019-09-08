@@ -108,6 +108,14 @@ body {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+h4.hover-naranja a:hover{
+  color: #ff9900!important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 
 nav#menu {
   position: fixed;
@@ -736,38 +744,39 @@ div.perfil {
 }
 
 .card-block {
-  padding: 2%;
-  background-color: #6bbaa7;
+  padding: 23px;
+  background-color: #f19d1f;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .card-header {
-  background-color: #3b3b3b;
   text-decoration: none;
   border-bottom: none;
   border-radius: 20px;
 }
 
-.card-header :hover {
+/*.card-header :hover {
   background-color: #f19d1f;
   border-radius: 15px;
-}
+}*/
 .card {
   background-color: none;
-  border: #3b3b3b;
+  border: none;
+  margin-top: 15px;
   border-radius: 20px;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .card .accordion-toggle {
   color: #ffffff;
   text-decoration: none;
-  font-size: 18px;
   font-style: normal;
 }
 
 .card .card-header .accordion-toggle {
   color: #ffffff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-style: normal;
 }
 
