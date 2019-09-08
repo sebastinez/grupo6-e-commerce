@@ -1,5 +1,5 @@
 <?php include("./script/leerSpotify.php");
-$albumes = array_slice(getSpotify("./data/Rock.json"), 0, 3);
+$albumes = array_slice(getSpotify("Rock"), 0, 3);
 include("./includes/breadcrumb.php"); ?>
 <div class="perfil container">
     <img src="img/avatar.png" class="avatar">

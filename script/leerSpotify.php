@@ -58,7 +58,7 @@ function getSpotify(...$archivos)
 {
     $albumes = [];
     foreach ($archivos as $archivo) {
-        foreach (leerArchivosJson($archivo) as $album) {
+        foreach (leerArchivosJson("./data/$archivo.json") as $album) {
             $albumes[] = [
                 "general" => filtrarAlbum($album),
                 "artista" => filtrarArtista($album),

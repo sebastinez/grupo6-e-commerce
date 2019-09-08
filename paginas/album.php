@@ -1,7 +1,7 @@
 <?php
 include("./includes/breadcrumb.php");
 include("./script/leerSpotify.php");
-$albumes = getSpotify("./data/Classic.json", "./data/EDM.json", "./data/Funk.json", "./data/Hip-Hop.json", "./data/Jazz.json", "./data/Latin.json", "./data/Pop.json", "./data/Reggae.json", "./data/Rock.json", "./data/Soundtrack.json");
+$albumes = getSpotify("Classic", "EDM", "Funk", "Hip-Hop", "Jazz", "Latin", "Pop", "Reggae", "Rock", "Soundtrack");
 $album = searchAlbum($albumes, $_GET["id"]);
 ?>
 
