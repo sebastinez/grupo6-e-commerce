@@ -43,13 +43,3 @@ $arrayDeAlbumes = getSpotify("./data/pruebaspotify.json"); ?>
 		<?php endforeach; ?>
 	</div>
 </div>
-<!-- 
-return [
-        "id" => $array["id"],
-        "imagen" => $array["images"][1]["url"],
-        "imagenSize" => $array["images"][1]["width"],
-        "nombre" => $array["name"],
-        "estreno" => $array["release_date"],
-        "tracks" => $array["total_tracks"]
-    ];
- -->
