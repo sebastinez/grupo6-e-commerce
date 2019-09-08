@@ -6,7 +6,6 @@ body {
 }
 .container-fluid {
   padding: 0;
-  /*   height: 150vh; /* TEMPORAL -- PARA PROBAR EL POSITION FIXED DEL NAV */
 }
 /*BOTONES*/
 .btn-naranja {
@@ -343,13 +342,6 @@ nav#productos .contenedor-buscador {
 }
 
 /* BODY */
-
-#body {
-  min-height: 100vh; /* TEMPORAL HASTA QUE ESTE TODO EL CONTENIDO */
-  z-index: -1;
-  padding-bottom: 10vh;
-}
-
 .titulos {
   display: block; /* HAY UN PROBLEMA CON EL NAV-PRODUCTOS Y EL TITULO ESTE */
   color: white;
@@ -365,6 +357,7 @@ nav#productos .contenedor-buscador {
 footer {
   background-color: #3a3a3a;
   color: white;
+  margin-top: 50px;
   padding-top: 30px;
 }
 
@@ -685,7 +678,7 @@ button.registracion {
   margin: 0;
   padding-bottom: 10px;
 }
-.info .precio {
+.precio {
   font-weight: 700;
   font-size: 1.5rem;
   color: #fe3454;
@@ -784,9 +777,8 @@ div.perfil {
 
 .carrito {
   color: #fff;
-  width: 80%;
+  width: 100%;
   margin: 50px auto;
-  margin-left: 20vw;
 }
 
 .carrito .row {
@@ -795,7 +787,7 @@ div.perfil {
 
 .carrito hr {
   border: 1px solid white;
-  margin-right: 10vw;
+  margin-right: 4vw;
 }
 
 .carrito select {
