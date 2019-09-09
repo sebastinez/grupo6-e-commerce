@@ -20,7 +20,11 @@ shuffle($arrayDeAlbumes);
 </div>
 
 <hr>
-
+<div class="container">
+	<div class="titulos">
+		<p>Más vendidos</p>
+	</div>
+</div>
 <div class="container pt-5">
 	<div class="container-albums">
 		<?php foreach ($arrayDeAlbumes as $album) : ?>

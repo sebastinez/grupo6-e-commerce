@@ -457,6 +457,7 @@ footer .btn:hover {
   footer {
     text-align: center;
   }
+
 }
 
 /* BREADCRUMB */
@@ -641,13 +642,13 @@ button.registracion {
   margin-bottom: 25px;
   color: #fff;
   cursor: pointer;
+  width: 250px!important;
 }
 .contenedor-card-album:hover,
 .card-style:hover {
-  transform: scale(1.001);
-  -webkit-box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -656,11 +657,12 @@ button.registracion {
 }
 
 .card-img img {
-  max-width: 250px;
+  width: 100%;
 }
 .info {
   padding: 15px;
   padding-bottom: 30px;
+  width: 100%;
 }
 .info a.name_artist {
   font-weight: 700;
@@ -753,10 +755,6 @@ div.perfil {
   border-radius: 20px;
 }
 
-/*.card-header :hover {
-  background-color: #f19d1f;
-  border-radius: 15px;
-}*/
 .card {
   background-color: none;
   border: none;
@@ -837,4 +835,10 @@ div.perfil {
   nav .contenedor-buscador {
     display: none;
   }
+  .card-style {
+    width: 120px;
+    margin-right: 10px;
+  }
+  
+
 }
