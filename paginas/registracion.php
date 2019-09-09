@@ -38,7 +38,7 @@
             <div class="form-group col-md-4">
                 <!-- <label for="provincia">Provincia</label> -->
                 <select id="provincia" name="provincia" class="form-control" required>
-                    <option selected>Seleccionar...</option>
+                    <option selected>Seleccionar provincia</option>
                     <option>Ciudad Autonoma de Buenos Aires</option>
                     <option>Buenos Aires</option>
                     <option>Entre Rios</option>
@@ -49,7 +49,7 @@
             <div class="form-group col-md-2">
                 <!-- <label for="codigoPostal">C.P.</label> -->
                 <div class="input-class">
-                    <input type="text" name="codigoPostal" class="form-control" id="codigoPostal" required>
+                    <input type="text" name="codigoPostal" placeholder="Codigo Postal" class="form-control" id="codigoPostal" required>
                 </div>
             </div>
         </div>
