@@ -56,13 +56,14 @@
         <div class="form-group container no-margin-left">
             <div class="form-check">
                 <input class="form-check-input" name="terminos" type="checkbox" id="terminos" required>
-                <label class="form-check-label" for="terminos"><p>
-                    Acepto los <a href="#">terminos de condiciones</a> y la <a href="#">politica de privacidad</a></p>
+                <label class="form-check-label" for="terminos">
+                    <p>
+                        Acepto los <a href="?p=terminos">terminos de condiciones</a> y la <a href="?p=privacidad">politica de privacidad</a></p>
                 </label>
             </div>
         </div>
         <div class="boton-registo">
-            <button  type="submit" class="btn btn-verde">Registrar</button>
+            <button type="submit" class="btn btn-verde">Registrar</button>
         </div>
     </div>
 </form>
