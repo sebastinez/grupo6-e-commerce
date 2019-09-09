@@ -1,6 +1,6 @@
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: url(../img/bg_home.jpg);
+  background: url(../img/bg_home.png);
   background-size: cover;
   background-position: center center;
 }
@@ -279,11 +279,13 @@ nav#productos .contenedor-buscador {
   width: 100%;
   color: black;
   background-color: #fff;
+
 }
 
 #criterios-div {
   padding-left: 50px;
   line-height: 15px;
+  text-align: left;
 }
 
 #criterios-div h3 {
@@ -675,21 +677,26 @@ button.registracion {
 }
 .info .btn {
   float: right;
+  
 }
 .info .name_disc {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   margin: 0;
+  padding-top: 6px;
+  line-height: 16px;
   padding-bottom: 10px;
+  font-style: italic;
 }
 .precio {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #fe3454;
 }
 
 .info .anio {
   text-align: right;
   font-style: italic;
+  font-size: .8rem;
 }
 
 /*ALBUM*/

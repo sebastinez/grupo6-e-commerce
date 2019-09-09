@@ -36,7 +36,7 @@ shuffle($arrayDeAlbumes);
 					<div class="info">
 						<a href="#" class="name_artist"><?= $album["artista"]["nombre"] ?></a>
 						<p class="name_disc"><?= $album["general"]["artista"] ?></p>
-						<p class="anio"><?= $album["general"]["estreno"] ?></p>
+						<p class="anio">Lanzamiento <?= $album["general"]["estreno"] ?></p>
 						<span class="precio"><?= $album["general"]["precio"] ?> ARS</span>
 						<span><span class="btn btn-naranja">comprar</span></span>
 					</div>
