@@ -276,10 +276,11 @@ nav#productos .contenedor-buscador {
 .navbar-collapse,
 #criterios-div {
   display: inline-block;
+  position: relative;
   width: 100%;
   color: black;
   background-color: #fff;
-
+  z-index: 10;
 }
 
 #criterios-div {
@@ -459,7 +460,6 @@ footer .btn:hover {
   footer {
     text-align: center;
   }
-
 }
 
 /* BREADCRUMB */
@@ -644,7 +644,7 @@ button.registracion {
   margin-bottom: 25px;
   color: #fff;
   cursor: pointer;
-  width: 250px!important;
+  width: 250px !important;
 }
 .contenedor-card-album:hover,
 .card-style:hover {
@@ -677,7 +677,6 @@ button.registracion {
 }
 .info .btn {
   float: right;
-  
 }
 .info .name_disc {
   font-size: 0.9rem;
@@ -696,7 +695,7 @@ button.registracion {
 .info .anio {
   text-align: right;
   font-style: italic;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 /*ALBUM*/
@@ -846,6 +845,4 @@ div.perfil {
     width: 120px;
     margin-right: 10px;
   }
-  
-
 }
