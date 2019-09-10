@@ -18,7 +18,7 @@
             <div class="form-group col-md-6">
                 <!-- <label for="passwordRepetida">Repetir contraseña</ label>-->
                 <div class="input-class">
-                    <input type="password" name="passwordRepetida" class="form-control" id="passwordRepetida" placeholder="Contraseña" required>
+                    <input type="password" name="passwordRepetida" class="form-control" id="passwordRepetida" placeholder="Repetir contraseña" required>
                 </div>
             </div>
         </div>
