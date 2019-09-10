@@ -16,9 +16,11 @@ $albumes = getSpotify($_GET["g"]);
 					<div class="info">
 						<a href="#" class="name_artist"><?= $album["artista"]["nombre"] ?></a>
 						<p class="name_disc"><?= $album["general"]["nombre"] ?></p>
-						<p class="anio">Lanzamiento <?php echo date_format(date_create($album["general"]["estreno"]), "Y"); ?></p>
-						<span class="precio"><?= $album["general"]["precio"] ?> ARS</span>
-						<span><span class="btn btn-naranja">comprar</span></span>
+						<div class="info-precio">
+							<p class="anio">Lanzamiento <?php echo date_format(date_create($album["general"]["estreno"]), "Y"); ?></p>
+							<span class="precio"><?= $album["general"]["precio"] ?> ARS</span>
+							<span class="btn btn-naranja">comprar</span>
+						</div>
 					</div>
 				</a>
 			</div>
