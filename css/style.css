@@ -607,7 +607,9 @@ button.registracion {
 
 .card-img img {
   width: 100%;
+  height: 250px;
 }
+
 .info {
   position: relative;
   padding: 15px;
