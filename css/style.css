@@ -424,6 +424,10 @@ footer .btn:hover {
   /*padding-left: 20vw;*/
 }
 
+#breadcrumb-barra {
+  color: #fff;
+}
+
 .fa-home {
   color: white;
   margin-top: 40px;
@@ -607,7 +611,8 @@ button.registracion {
 
 .card-img img {
   width: 100%;
-  height: 250px;
+  object-fit: cover;
+  height: 30vh;
 }
 
 .info {
@@ -795,9 +800,6 @@ div.perfil {
   /*  .header-moved {
   background-color: green;
   }*/
-}
-
-@media screen and (max-width: 767px) {
   /*  .header-moved {
   background-color: orange;
   }*/
@@ -834,6 +836,11 @@ div.perfil {
   /*.header-moved {
   background-color: red;
   }*/
+
+  .info {
+    min-height: 180px;
+  }
+
   nav#menu {
     padding: 0 20px;
   }
@@ -878,7 +885,6 @@ div.perfil {
   }
   .contenedor-card-album {
     width: 45% !important;
-    min-height: 450px;
   }
   .info a.name_artist {
     font-size: 1rem;
@@ -892,10 +898,13 @@ div.perfil {
   }
   .info .anio {
     font-size: 0.5rem;
+    text-align: left;
+    margin-bottom: 0;
   }
   .info .btn {
     display: inline !important;
     text-align: center;
+    margin: 0;
     float: none;
   }
   .container-generos .card-style {
