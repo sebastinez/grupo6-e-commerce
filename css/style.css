@@ -279,7 +279,7 @@ nav#productos .contenedor-buscador {
   position: relative;
   width: 100%;
   color: black;
-  background-color: #fff;
+  background-color: #C6C6C6;
   z-index: 10;
 }
 
@@ -301,50 +301,6 @@ nav#productos .contenedor-buscador {
   background-color: #3a3a3a;
 }
 
-@media (max-width: 576px) {
-  nav#menu {
-    padding: 0 20px;
-  }
-  .bars-productos {
-    display: inline-block;
-    width: 50px;
-    float: left;
-    padding-top: 10px;
-  }
-  .fa-bars,
-  .navbar-toggler {
-    font-size: 34px;
-    padding-left: 10px;
-  }
-  .navbar-toggler:focus,
-  .navbar-toggler:hover {
-    border: none;
-    outline: none;
-  }
-
-  header.home {
-    padding-top: 14vh;
-    height: 300px;
-  }
-  header.home p {
-    font-size: 3rem;
-  }
-
-  .desktop,
-  .menu-item span,
-  .contenedor-buscador,
-  nav#productos .container {
-    display: none;
-  }
-
-  nav#productos .contenedor-buscador {
-    display: inline-block;
-    width: 70%;
-  }
-  .header-initial {
-    height: 70px;
-  }
-}
 
 /* BODY */
 .titulos {
@@ -456,11 +412,11 @@ footer .btn:hover {
   background-color: #f5903e;
 }
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
   footer {
     text-align: center;
   }
-}
+}*/
 
 /* BREADCRUMB */
 
@@ -584,22 +540,18 @@ button.registracion {
 .container-generos {
   overflow: hidden;
   margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
 }
+
 .card-style {
-  max-width: 200px;
-  float: left;
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.2);
-  margin-right: 20px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-  cursor: pointer;
-  overflow: hidden;
+  margin-right: 5px;
+  margin-left: 5px;
 }
-.card-columns .card {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
-}
+
 .card-style:hover {
   background-color: rgba(0, 0, 0, 0.7);
   -webkit-transition: all 0.3s ease;
@@ -609,7 +561,7 @@ button.registracion {
   transition: all 0.3s ease;
 }
 .card-style p {
-  padding-top: 20px;
+  padding: 20px 0;
   font-weight: 700;
   font-size: 1rem;
   color: #fff;
@@ -620,11 +572,6 @@ button.registracion {
 
 .card-style img {
   width: 100%;
-}
-
-.container-scroll-home {
-  padding-top: 30px;
-  overflow: hidden;
 }
 
 /*Album*/
@@ -821,7 +768,20 @@ div.perfil {
   width: 200px;
 }
 
+
 @media screen and (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+/*  .header-moved {
+  background-color: green;
+  }*/
+}
+
+@media screen and (max-width: 767px) {
+/*  .header-moved {
+  background-color: orange;
+  }*/
   .carrito {
     margin-top: 5vh;
   }
@@ -841,8 +801,85 @@ div.perfil {
   nav .contenedor-buscador {
     display: none;
   }
+  .home p {
+    font-size: 5rem;
+    padding-top: 2.5rem;
+  }
   .card-style {
-    width: 120px;
+    width: 150px;
     margin-right: 10px;
   }
+}
+
+@media (max-width: 576px) {
+  /*.header-moved {
+  background-color: red;
+  }*/
+  nav#menu {
+    padding: 0 20px;
+  }
+  .bars-productos {
+    display: inline-block;
+    width: 50px;
+    float: left;
+    padding-top: 10px;
+  }
+  .fa-bars,
+  .navbar-toggler {
+    font-size: 34px;
+    padding-left: 10px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:hover {
+    border: none;
+    outline: none;
+  }
+
+  header.home {
+    padding-top: 10vh;
+    height: 300px;
+  }
+  header.home p {
+    font-size: 3rem;
+  }
+
+  .desktop,
+  .menu-item span,
+  .contenedor-buscador,
+  nav#productos .container {
+    display: none;
+  }
+
+  nav#productos .contenedor-buscador {
+    display: inline-block;
+    width: 70%;
+  }
+  .header-initial {
+    height: 70px;
+  }
+  .contenedor-card-album {
+    width: 45%!important;
+  }
+  .info a.name_artist {
+    font-size: 1rem;
+  }
+  .info .name_disc {
+    font-size: 0.7rem;
+  }
+  .precio {
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+  }
+  .info .anio {
+    font-size: 0.5rem;
+  }
+  .info .btn {
+    display: inline!important;
+    text-align: center;
+    float: none;
+  }
+  .container-generos .card-style{
+    max-width: 120px;
+  }
+
 }

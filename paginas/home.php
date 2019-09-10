@@ -19,6 +19,7 @@ shuffle($arrayDeAlbumes);
 	<?php endforeach; ?>
 </div>
 
+
 <hr>
 <div class="container">
 	<div class="titulos">
