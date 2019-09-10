@@ -1,12 +1,14 @@
 <?php include("./includes/breadcrumb.php"); ?>
 <div class="titulos">FAQ</div>
 <section class=faq>
-		<div class="container" id="accordion">
-			<div class="faqHeader">Generales</div>
+	<div class="container" id="accordion">
+		<div class="faqHeader">Generales</div>
+		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Como me registro?</a>
+						Como me registro?
+
 					</h4>
 				</div>
 				<div id="collapseOne" class="panel-collapse collapse in">
@@ -15,10 +17,12 @@
 					</div>
 				</div>
 			</div>
+		</a>
+		<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
 			<div class="card">
 				<div class="card-header ">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Estan buenos los discos?</a>
+						Estan buenos los discos?
 					</h4>
 				</div>
 				<div id="collapseTen" class="panel-collapse collapse">
@@ -27,10 +31,12 @@
 					</div>
 				</div>
 			</div>
+		</a>
+		<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">Bla Bla</a>
+						Bla Bla
 					</h4>
 				</div>
 				<div id="collapseEleven" class="panel-collapse collapse">
@@ -39,12 +45,13 @@
 					</div>
 				</div>
 			</div>
-	
-			<div class="faqHeader">Sarasa 1</div>
+		</a>
+		<div class="faqHeader">Sarasa 1</div>
+		<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Bla bla</a>
+						Bla bla
 					</h4>
 				</div>
 				<div id="collapseTwo" class="panel-collapse collapse">
@@ -53,10 +60,12 @@
 					</div>
 				</div>
 			</div>
+		</a>
+		<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Bla bla</a>
+						Bla bla
 					</h4>
 				</div>
 				<div id="collapseThree" class="panel-collapse collapse">
@@ -71,11 +80,13 @@
 					</div>
 				</div>
 			</div>
+		</a>
+		<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Bla bla
-						</a>
+						Bla bla
+
 					</h4>
 				</div>
 				<div id="collapseFive" class="panel-collapse collapse">
@@ -85,10 +96,12 @@
 					</div>
 				</div>
 			</div>
+		</a>
+		<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">bla bla</a>
+						bla bla
 					</h4>
 				</div>
 				<div id="collapseSix" class="panel-collapse collapse">
@@ -98,10 +111,12 @@
 					</div>
 				</div>
 			</div>
+		</a>
+		<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">bla bla</a>
+						bla bla
 					</h4>
 				</div>
 				<div id="collapseEight" class="panel-collapse collapse">
@@ -110,10 +125,12 @@
 					</div>
 				</div>
 			</div>
+		</a>
+		<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">bla bla</a>
+						bla bla
 					</h4>
 				</div>
 				<div id="collapseNine" class="panel-collapse collapse">
@@ -122,12 +139,14 @@
 					</div>
 				</div>
 			</div>
-	
-			<div class="faqHeader">Sarasa 2</div>
+		</a>
+
+		<div class="faqHeader">Sarasa 2</div>
+		<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">bla bla</a>
+						bla bla
 					</h4>
 				</div>
 				<div id="collapseFour" class="panel-collapse collapse">
@@ -136,10 +155,12 @@
 					</div>
 				</div>
 			</div>
+		</a>
+		<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">bla bla</a>
+						bla bla
 					</h4>
 				</div>
 				<div id="collapseSeven" class="panel-collapse collapse">
@@ -148,9 +169,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</a>
+	</div>
 	</div>
 
 
-	
-	</section>
+
+</section>

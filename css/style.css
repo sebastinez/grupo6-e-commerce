@@ -279,7 +279,7 @@ nav#productos .contenedor-buscador {
   position: relative;
   width: 100%;
   color: black;
-  background-color: #C6C6C6;
+  background-color: #c6c6c6;
   z-index: 10;
 }
 
@@ -300,7 +300,6 @@ nav#productos .contenedor-buscador {
 .dropdown-menu {
   background-color: #3a3a3a;
 }
-
 
 /* BODY */
 .titulos {
@@ -542,7 +541,7 @@ button.registracion {
   margin: auto;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .card-style {
@@ -690,6 +689,14 @@ div.perfil {
 
 /* FAQ */
 
+.faq a {
+  text-decoration: none;
+}
+
+.card-header h4:hover {
+  text-decoration: underline;
+}
+
 .faqHeader {
   font-size: 27px;
   margin: 20px;
@@ -714,10 +721,11 @@ div.perfil {
   margin-top: 15px;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .card .accordion-toggle {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-style: normal;
 }
@@ -768,18 +776,17 @@ div.perfil {
   width: 200px;
 }
 
-
 @media screen and (max-width: 767px) {
   footer {
     text-align: center;
   }
-/*  .header-moved {
+  /*  .header-moved {
   background-color: green;
   }*/
 }
 
 @media screen and (max-width: 767px) {
-/*  .header-moved {
+  /*  .header-moved {
   background-color: orange;
   }*/
   .carrito {
@@ -858,7 +865,7 @@ div.perfil {
     height: 70px;
   }
   .contenedor-card-album {
-    width: 45%!important;
+    width: 45% !important;
   }
   .info a.name_artist {
     font-size: 1rem;
@@ -874,12 +881,11 @@ div.perfil {
     font-size: 0.5rem;
   }
   .info .btn {
-    display: inline!important;
+    display: inline !important;
     text-align: center;
     float: none;
   }
-  .container-generos .card-style{
+  .container-generos .card-style {
     max-width: 120px;
   }
-
 }
