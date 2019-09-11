@@ -30,7 +30,7 @@ shuffle($arrayDeAlbumes);
 	<div class="container-albums">
 		<?php foreach ($arrayDeAlbumes as $album) : ?>
 			<div class="contenedor-card-album animated fadeIn faster">
-				<a href="?p=album&id=<?= $album["general"]["id"] ?>">
+				<a href="?p=album&id=<?= $album["general"]["id"] ?>&g=<?= $album["genero"] ?>">
 					<div class="card-img">
 						<img src="<?= $album["general"]["imagen"] ?>">
 					</div>

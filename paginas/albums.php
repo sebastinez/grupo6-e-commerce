@@ -9,7 +9,7 @@ $albumes = getSpotify($_GET["g"]);
 	<div class="container-albums">
 		<?php foreach ($albumes as $album) : ?>
 			<div class="contenedor-card-album animated fadeIn faster">
-				<a href="?p=album&id=<?= $album["general"]["id"] ?>">
+				<a href="?p=album&id=<?= $album["general"]["id"] ?>&g=<?= $_GET["g"] ?>">
 					<div class="card-img">
 						<img src="<?= $album["general"]["imagen"] ?>">
 					</div>
