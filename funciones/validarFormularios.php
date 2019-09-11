@@ -46,5 +46,3 @@ function validarFotoDePerfil($param)
     if (count($errores) > 0) return $errores;
     return true;
 }
-
-var_dump(validarFotoDePerfil($_FILES["archivo"]));
