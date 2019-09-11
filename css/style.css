@@ -433,8 +433,8 @@ footer .btn:hover {
   margin-top: 40px;
 }
 
-.fa-home + span#breadcrumb-home a {
-  color: white;
+.fa-home ~ span#breadcrumb-home a {
+  color: #fff;
 }
 
 .fa-home ~ span#breadcrumb-page {
