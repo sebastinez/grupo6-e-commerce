@@ -1,5 +1,5 @@
 <?php include("./includes/breadcrumb.php");
-include("./script/leerSpotify.php");
+include("./funciones/leerSpotify.php");
 $albumes = getSpotify("Rock");
 $album1 = searchAlbum($albumes, "1RCAG3LrDwYsNU5ZiUJlWi");
 $album2 = searchAlbum($albumes, "6P5QHz4XtxOmS5EuiGIPut");
