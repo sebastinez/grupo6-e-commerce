@@ -1,7 +1,7 @@
 <?php
 include("./includes/breadcrumb.php");
 include("./data/generos.php");
-include("script/leerSpotify.php");
+include("funciones/leerSpotify.php");
 $arrayDeAlbumes = array_slice(getSpotify("Classic", "EDM", "Funk", "Hip-Hop", "Jazz", "Latin", "Pop", "Reggae", "Rock", "Soundtrack"), 0, 10);
 shuffle($arrayDeAlbumes);
 ?>

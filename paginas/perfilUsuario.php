@@ -1,4 +1,4 @@
-<?php include("./script/leerSpotify.php");
+<?php include("./funciones/leerSpotify.php");
 $albumes = array_slice(getSpotify("Rock"), 0, 3);
 include("./includes/breadcrumb.php"); ?>
 <div class="perfil container">

@@ -1,6 +1,6 @@
 <?php
 include("./includes/breadcrumb.php");
-include("./script/leerSpotify.php");
+include("./funciones/leerSpotify.php");
 $albumes = getSpotify($_GET["g"]);
 ?>
 
