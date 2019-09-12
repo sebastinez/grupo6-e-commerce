@@ -45,12 +45,6 @@ function modificarUsuario($param)
 //Recibe un arreglo del formulario de modificación y borra el elemento indicado del arreglo y lo vuelve a guardar
 function borrarUsuario($param)
 {
-
-    function filterUsuario($usuario)
-    {
-        return $usuario["usuario"] == $param["usuario"];
-    }
-
     $dbArray = obtenerUsuarios();
     for ($i = 0; $i < count($dbArray); $i++) {
         if ($dbArray[$i]["usuario"] == $param["usuario"]) {
