@@ -32,7 +32,7 @@ En el futuro queremos expandir este desarrollo y lograr algoritmos que analizan 
 
 | | Name | GitHub |
 |--|------|---|
-| <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/54330627.png" width="50"></center> | Ezequiel Stuarts | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/ezequielstuarts) |
+| <center><img src="https://avatars2.githubusercontent.com/u/54673625?s=460&v=4" width="50"></center> | Ezequiel Stuarts | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/ezequielstuarts) |
 | <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/54330627.png" width="50"></center>| Federico Bacino | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/fedebacino) | 
 | <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/sebastinez.jpg" width="50"></center>| Sebastian Martinez | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/sebastinez) |
 
