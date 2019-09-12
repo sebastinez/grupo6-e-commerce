@@ -35,15 +35,16 @@ shuffle($arrayDeAlbumes);
 						<img src="<?= $album["general"]["imagen"] ?>">
 					</div>
 					<div class="info">
-						<a href="#" class="name_artist"><?= $album["artista"]["nombre"] ?></a>
+						<?= $album["artista"]["nombre"] ?>
 						<p class="name_disc"><?= $album["general"]["artista"] ?></p>
 						<div class="info-precio">
 							<p class="anio">Lanzamiento <?php echo date_format(date_create($album["general"]["estreno"]), "Y"); ?></p>
 							<span class="precio"><?= $album["general"]["precio"] ?> ARS</span>
-							<span class="btn btn-naranja">comprar</span>
+
 						</div>
 					</div>
 				</a>
+				<button class="btn btn-naranja comprar">comprar</button>
 			</div>
 		<?php endforeach; ?>
 	</div>
