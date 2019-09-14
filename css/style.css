@@ -128,6 +128,12 @@ nav#menu {
   z-index: 100;
 }
 
+.userAvatar {
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
 .header-initial {
   height: 100px;
   background-color: rgba(0, 0, 0, 0.5);

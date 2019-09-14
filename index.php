@@ -6,6 +6,15 @@ else :
     $p = "home";
 endif;
 
+if (isset($_GET["logout"])) {
+    session_start();
+    session_destroy();
+} elseif (isset($_GET["login"])) {
+    session_start();
+    $_SESSION["usuario"] = "A programar";
+} else {
+    session_start();
+}
 
 ?>
 
@@ -28,7 +37,7 @@ endif;
 <body>
     <div class="container-fluid">
         <?php
-        include("./includes/nav.html");
+        include("./includes/nav.php");
 
         if ($p === "home") {
             include("./includes/header.html");
