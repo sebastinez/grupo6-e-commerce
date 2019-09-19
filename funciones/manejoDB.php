@@ -30,14 +30,6 @@ function agregarUsuario($param)
     return obtenerUsuarios();
 }
 
-//Luego de chequear que se relleno bien el formulario, se chequea con esta funcion si el usuario existe y la contraseña provista es la correcta.
-function validarUsuario($param)
-{
-    foreach (obtenerUsuarios() as $valor) {
-        if ($valor["email"] === $param["email"] && validarPwd(hashPwd($param["pwd"]), $valor["pwd"])) return true;
-    }
-    return false;
-}
 
 //Recibe un arreglo del formulario de modificación y cambia el elemento indicado del arreglo y lo vuelve a guardar
 function modificarUsuario($param)
