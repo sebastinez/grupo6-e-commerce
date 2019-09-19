@@ -11,23 +11,29 @@
                 </div>
             </div>
             <div class="form-group col-md-6">
-                <!-- <label for="email">E-Mail</label> -->
+                <!-- <label for="email">Apellido</label> -->
                 <div class="input-class">
-                    <input type="email" name="email" class="form-control" id="email" placeholder="Email" value="<?= $usuario["email"] ?>" required>
+                    <input type="text" name="apellido" class="form-control" id="apellido" value="<?= $usuario["apellido"] ?>" placeholder="Nombre" required>
                 </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <!-- <label for="email">E-Mail</label> -->
+            <div class="input-class">
+                <input type="email" name="email" class="form-control" id="email" placeholder="Email" value="<?= $usuario["email"] ?>" required>
             </div>
         </div>
         <div class="form-group">
             <!-- <label for="direccion">Dirección</label> -->
             <div class="input-class">
-                <input type="text" name="direccion" class="form-control" id="direccion" placeholder="Dirección" required>
+                <input type="text" name="direccion" class="form-control" id="direccion" placeholder="Dirección" value="<?= $usuario["direccion"] ?>" required>
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <!-- <label for="ciudad">Ciudad</label> -->
                 <div class="input-class">
-                    <input type="text" name="ciudad" class="form-control" id="ciudad" placeholder="Ciudad" required>
+                    <input type="text" name="ciudad" class="form-control" id="ciudad" placeholder="Ciudad" value="<?= $usuario["ciudad"] ?>" required>
                 </div>
             </div>
             <div class="form-group col-md-4">
@@ -44,7 +50,7 @@
             <div class="form-group col-md-2">
                 <!-- <label for="codigoPostal">C.P.</label> -->
                 <div class="input-class">
-                    <input type="text" name="codigoPostal" placeholder="Codigo Postal" class="form-control" id="codigoPostal" required>
+                    <input type="text" name="codigoPostal" placeholder="Codigo Postal" class="form-control" value="<?= $usuario["codigoPostal"] ?>" id="codigoPostal" required>
                 </div>
             </div>
         </div>
