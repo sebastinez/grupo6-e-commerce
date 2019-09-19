@@ -35,6 +35,25 @@ function validarNombre($nombre)
     return true;
 }
 
+function validarApellido($apellido)
+{
+    $errores = [];
+    $campoVacio = estaCampoVacio($apellido, "apellido");
+    if ($campoVacio) $errores[] = $campoVacio;
+    if (!ctype_alpha($apellido)) $errores[] = "Apellido se debe componer solo de characteres alfabeticos";
+    if (count($errores) > 0) return $errores;
+    return true;
+}
+
+function validarDireccion($direccion)
+{
+    $errores = [];
+    $campoVacio = estaCampoVacio($direccion, "dirección");
+    if ($campoVacio) $errores[] = $campoVacio;
+    if (count($errores) > 0) return $errores;
+    return true;
+}
+
 function validarCodigoPostal($codigoPostal)
 {
     $errores = [];

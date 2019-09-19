@@ -1,72 +1,118 @@
-<?php include("./includes/breadcrumb.php");
+<?php
+include("./includes/breadcrumb.php");
+
+//Obtención de provincias y ciudades para formulario
 include("./funciones/leerProvincias.php");
-$provincias = [];
-$provincias[] = ["nombre" => "Seleccionar provincia", "id" => ""];
+if (!isset($usuario["provincia"])) {
+    $provincias[] = ["nombre" => "Seleccionar provincia", "id" => " "];
+    $usuario["provincia"] = " ";
+}
 foreach (obtenerProvincias() as $provincia) {
     $provincias[] = $provincia;
 }
+if (!isset($usuario["ciudad"])) {
+    $ciudades[] = ["nombre" => "Seleccionar ciudad", "id" => " "];
+    $usuario["ciudad"] = " ";
+}
+foreach (obtenerCiudades(2) as $ciudad) {
+    $ciudades[] = $ciudad;
+}
 
-$ciudades = obtenerCiudades(2)
+//Manejo de datos POST de formulario
+include("./funciones/validarFormularios.php");
+$nombre = false;
+$apellido = false;
+$email = false;
+$codigoPostal = false;
+$direccion = false;
+if ($_POST) {
+    $nombre = validarNombre($_POST["nombre"]);
+    $apellido = validarApellido($_POST["apellido"]);
+    $email = validarMail($_POST["email"]);
+    $codigoPostal = validarCodigoPostal($_POST["codigoPostal"]);
+    $direccion = validarDireccion($_POST["direccion"]);
+    if ($nombre === true && $apellido === true && $email === true && $codigoPostal === true && $direccion ===  true) {
+        modificarUsuario($_POST); ?>
+        <div class="titulos">Se edito exitosamente tu perfil!</div>
+        <div class="registracion">
+            <p class="text-center"><a href="index.php" class="center text-white">Volver a la pagina principal</a></p>
+        </div>
+    <?php }
+    } else { ?>
+    <div class="titulos">Editar perfil</div>
 
-?>
-<div class="titulos">Editar perfil</div>
-
-<form action="paginas/editarPerfil.php" method="POST">
-    <div class="registracion">
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <!-- <label for="email">Nombre</label> -->
-                <div class="input-class">
-                    <input type="text" name="nombre" class="form-control" id="nombre" value="<?= $usuario["nombre"] ?>" placeholder="Nombre" required>
+    <form action="?p=editarPerfil" method="POST">
+        <div class="registracion">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <!-- <label for="email">Nombre</label> -->
+                    <div class="input-class">
+                        <input type="text" name="nombre" class="form-control <?php echo $nombre[0] ? 'is-invalid' : "" ?>" id="nombre" value="<?= $usuario["nombre"] ?>" placeholder="Nombre">
+                        <div class="invalid-feedback">
+                            <?= $nombre[0] ?? '' ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <!-- <label for="email">Apellido</label> -->
+                    <div class="input-class">
+                        <input type="text" name="apellido" class="form-control <?php echo $apellido[0] ? 'is-invalid' : "" ?>" id="apellido" value="<?= $usuario["apellido"] ?>" placeholder="Nombre">
+                        <div class="invalid-feedback">
+                            <?= $apellido[0] ?? '' ?>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="form-group col-md-6">
-                <!-- <label for="email">Apellido</label> -->
+            <div class="form-group">
+                <!-- <label for="email">E-Mail</label> -->
                 <div class="input-class">
-                    <input type="text" name="apellido" class="form-control" id="apellido" value="<?= $usuario["apellido"] ?>" placeholder="Nombre" required>
+                    <input type="email" name="email" class="form-control <?php echo $email[0] ? 'is-invalid' : "" ?>" id="email" placeholder="Email" value="<?= $usuario["email"] ?>">
+                    <div class="invalid-feedback">
+                        <?= $email[0] ?? '' ?>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="form-group">
-            <!-- <label for="email">E-Mail</label> -->
-            <div class="input-class">
-                <input type="email" name="email" class="form-control" id="email" placeholder="Email" value="<?= $usuario["email"] ?>" required>
-            </div>
-        </div>
-        <div class="form-group">
-            <!-- <label for="direccion">Dirección</label> -->
-            <div class="input-class">
-                <input type="text" name="direccion" class="form-control" id="direccion" placeholder="Dirección" value="<?= $usuario["direccion"] ?>" required>
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <!-- <label for="ciudad">Ciudad</label> -->
+            <div class="form-group">
+                <!-- <label for="direccion">Dirección</label> -->
                 <div class="input-class">
-                    <select id="ciudad" name="ciudad" class="form-control" required>
-                        <?php foreach ($ciudades as $ciudad) : ?>
-                            <option value="<?= $ciudad["id"] ?> "><?= $ciudad["nombre"] ?></option>
-                        <?php endforeach; ?>
+                    <input type="text" name="direccion" class="form-control <?php echo $direccion[0] ? 'is-invalid' : "" ?>" id="direccion" placeholder="Dirección" value="<?= $usuario["direccion"] ?? "" ?>">
+                    <div class="invalid-feedback">
+                        <?= $direccion[0] ?? '' ?>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <!-- <label for="ciudad">Ciudad</label> -->
+                    <div class="input-class">
+                        <select id="ciudad" name="ciudad" class="form-control">
+                            <?php foreach ($ciudades as $ciudad) : ?>
+                                <option <?php echo $ciudad["id"] == $usuario["ciudad"] ? "selected" : ""; ?> value="<?= $ciudad["id"] ?>"><?= $ciudad["nombre"] ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    <!-- <label for="provincia">Provincia</label> -->
+                    <select id="provincia" name="provincia" class="form-control">
+                        <?php foreach ($provincias as $provincia) { ?>
+                            <option <?php echo $provincia["id"] == $usuario["provincia"] ? "selected" : ""; ?> value="<?= $provincia["id"] ?>"><?= $provincia["nombre"] ?></option>
+                        <?php } ?>
                     </select>
                 </div>
-            </div>
-            <div class="form-group col-md-4">
-                <!-- <label for="provincia">Provincia</label> -->
-                <select id="provincia" name="provincia" class="form-control" required>
-                    <?php foreach ($provincias as $provincia) { ?>
-                        <option value="<?= $provincia["id"] ?>"><?= $provincia["nombre"] ?></option>
-                    <?php } ?>
-                </select>
-            </div>
-            <div class="form-group col-md-2">
-                <!-- <label for="codigoPostal">C.P.</label> -->
-                <div class="input-class">
-                    <input type="text" name="codigoPostal" placeholder="Codigo Postal" class="form-control" value="<?= $usuario["codigoPostal"] ?>" id="codigoPostal" required>
+                <div class="form-group col-md-2">
+                    <!-- <label for="codigoPostal">C.P.</label> -->
+                    <div class="input-class">
+                        <input type="text" name="codigoPostal" placeholder="Codigo Postal" class="form-control  <?php echo $codigoPostal[0] ? 'is-invalid' : "" ?>" value="<?= $usuario["codigoPostal"] ?? "" ?>" id="codigoPostal">
+                        <div class="invalid-feedback">
+                            <?= $codigoPostal[0] ?? '' ?>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="boton-registo">
+                <button type="submit" class="btn btn-verde">Guardar cambios</button>
+            </div>
         </div>
-        <div class="boton-registo">
-            <button type="submit" class="btn btn-verde">Guardar cambios</button>
-        </div>
-    </div>
-</form>
+    </form>
+<?php } ?>
