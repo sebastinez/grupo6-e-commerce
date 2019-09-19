@@ -20,7 +20,7 @@ function validarMail($mail)
 function validarUsuario($param)
 {
     foreach (obtenerUsuarios() as $valor) {
-        if ($valor["email"] === $param["email"] && validarPwd(hashPwd($param["pwd"]), $valor["pwd"])) return true;
+        if ($valor["email"] === $param["email"] && password_verify($param["pwd"], $valor["pwd"])) return true;
     }
     return false;
 }

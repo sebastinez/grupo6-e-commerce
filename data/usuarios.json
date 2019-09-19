@@ -1,8 +1,13 @@
 [
   {
-    "nombre": "Sebastian Martinez",
-    "pwd": "$2y$10$xxD8XulTQW9KqdYo1DbRLeBP5srSQ6dEMG1RH4UausP38qjS9j86G",
+    "nombre": "Sebastian",
+    "apellido": "Martinez",
+    "pwd": "$2y$10$0LQoNE59C5li0A8U75jk3.S7sMRSiv//OWVRLgFXD/CQR3JI8UrYW",
     "email": "seba@digitalhouse.com",
+    "direccion": "Av. Monroe 123",
+    "ciudad": "Buenos Aires",
+    "provincia": "Buenos Aires",
+    "codigoPostal": "1426",
     "uid": "5d82adf31c3bc",
     "generos": ["Classic", "Funk", "EDM"],
     "discos": [

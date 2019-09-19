@@ -22,7 +22,7 @@ function obtenerUsuarioIndividual($uid)
 // La función devuelve todo el arreglo de usuario, lo cual es igual a true si pudo agregar el usuario
 function agregarUsuario($param)
 {
-    if (isset($param["pwd"])) $param["pwd"] = hashPwd($param["pwd"]);
+    if (isset($param["pwd"])) $param["pwd"] = password_hash($param["pwd"], PASSWORD_DEFAULT);;
     $dbArray = obtenerUsuarios();
     $param["uid"] = uniqid();
     $dbArray[] = $param;
@@ -57,14 +57,4 @@ function borrarUsuario($uid)
         }
     }
     return "No se encontro el usuario";
-}
-
-function hashPwd($pwd)
-{
-    return password_hash($pwd, PASSWORD_DEFAULT);
-}
-
-function validarPwd($input, $dbPwd)
-{
-    return password_verify($input, $dbPwd);
 }
