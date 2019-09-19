@@ -36,13 +36,12 @@ function modificarUsuario($param)
 {
     $dbArray = obtenerUsuarios();
     for ($i = 0; $i < count($dbArray); $i++) {
-        if ($dbArray[$i]["uid"] == $param["uid"]) {
-            $dbArray[$i] = $param;
+        if ($dbArray[$i]["uid"] == $_SESSION["uid"]) {
+            $dbArray[$i] = array_merge(["pwd" => $dbArray[$i]["pwd"]], ["uid" => $dbArray[$i]["uid"]], $param);
             file_put_contents($GLOBALS["db"], json_encode($dbArray));
             return obtenerUsuarios();
         }
     }
-    return "No se encontro el usuario";
 }
 
 //Recibe un arreglo del formulario de modificación y borra el elemento indicado del arreglo y lo vuelve a guardar
