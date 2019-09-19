@@ -1,4 +1,14 @@
-<?php include("./includes/breadcrumb.php"); ?>
+<?php include("./includes/breadcrumb.php");
+include("./funciones/leerProvincias.php");
+$provincias = [];
+$provincias[] = ["nombre" => "Seleccionar provincia", "id" => ""];
+foreach (obtenerProvincias() as $provincia) {
+    $provincias[] = $provincia;
+}
+
+$ciudades = obtenerCiudades(2)
+
+?>
 <div class="titulos">Editar perfil</div>
 
 <form action="paginas/editarPerfil.php" method="POST">
@@ -33,18 +43,19 @@
             <div class="form-group col-md-6">
                 <!-- <label for="ciudad">Ciudad</label> -->
                 <div class="input-class">
-                    <input type="text" name="ciudad" class="form-control" id="ciudad" placeholder="Ciudad" value="<?= $usuario["ciudad"] ?>" required>
+                    <select id="ciudad" name="ciudad" class="form-control" required>
+                        <?php foreach ($ciudades as $ciudad) : ?>
+                            <option value="<?= $ciudad["id"] ?> "><?= $ciudad["nombre"] ?></option>
+                        <?php endforeach; ?>
+                    </select>
                 </div>
             </div>
             <div class="form-group col-md-4">
                 <!-- <label for="provincia">Provincia</label> -->
                 <select id="provincia" name="provincia" class="form-control" required>
-                    <option selected>Seleccionar provincia</option>
-                    <option>Ciudad Autonoma de Buenos Aires</option>
-                    <option>Buenos Aires</option>
-                    <option>Entre Rios</option>
-                    <option>Mendoza</option>
-                    <option>Cordoba</option>
+                    <?php foreach ($provincias as $provincia) { ?>
+                        <option value="<?= $provincia["id"] ?>"><?= $provincia["nombre"] ?></option>
+                    <?php } ?>
                 </select>
             </div>
             <div class="form-group col-md-2">
