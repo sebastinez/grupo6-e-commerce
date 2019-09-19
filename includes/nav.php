@@ -25,7 +25,7 @@
       </div>
     <?php } else { ?>
       <div class="menu-item">
-        <span><a href="?p=login">Login</a> | <a href="?p=registracion">Registar</a></span>
+        <span><a href="?p=login">Login</a> | <a href="?p=registracion">Registrar</a></span>
       </div>
     <?php } ?>
     <div class="menu-item"><a href="?p=carrito"><i class="fas fa-shopping-cart"></a></i></div>
