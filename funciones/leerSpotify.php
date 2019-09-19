@@ -16,6 +16,18 @@ function searchAlbum($albumes, $id)
     }
 }
 
+function searchMultipleAlbums($albumes, $id)
+{
+    $albumesARetonar = [];
+    foreach ($albumes as $album) {
+
+        if (in_array($album["general"]["id"], $id)) {
+            $albumesARetonar[] = $album;
+        }
+    }
+    return $albumesARetonar;
+}
+
 function filtrarArtista($array)
 {
     return [

@@ -13,19 +13,19 @@
     </form>
   </div>
   <div class="menu-items">
-    <?php if (isset($_SESSION["usuario"])) { ?>
+    <?php if (isset($_SESSION["uid"])) { ?>
       <div class="menu-item">
-        <span>Hola <?= $_SESSION["usuario"] ?></span>
-        <img src="img/seba.jpg" data-toggle="dropdown" class="userAvatar">
+        <span>Hola <?= explode(" ", $usuario["nombre"])[0] ?></span>
+        <img src="img/<?= $usuario["uid"] ?>.jpg" data-toggle="dropdown" class="userAvatar">
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="?p=perfilUsuario">Perfil publico</a>
-          <a class="dropdown-item" href="#">Configuracion</a>
-          <a class="dropdown-item" href="?logout=true">Cerrar sesion</a>
+          <a class="dropdown-item" href="?p=editarPerfil">Configuracion</a>
+          <a class="dropdown-item" href="?p=logout">Cerrar sesion</a>
         </div>
       </div>
     <?php } else { ?>
       <div class="menu-item">
-        <span><a href="?p=login">Login</a> | Registar</span>
+        <span><a href="?p=login">Login</a> | <a href="?p=registracion">Registar</a></span>
       </div>
     <?php } ?>
     <div class="menu-item"><a href="?p=carrito"><i class="fas fa-shopping-cart"></a></i></div>

@@ -7,7 +7,7 @@
             <?php } elseif ($p == "albums") { ?>
                 <span id="breadcrumb-barra"> / </span><span id="breadcrumb-page">Albums de <?= $_GET["g"] ?></span>
             <?php } elseif ($p == "perfilUsuario") { ?>
-                <span id="breadcrumb-barra"> / </span><span id="breadcrumb-page">Perfil de Alejandro Villafañe</span>
+                <span id="breadcrumb-barra"> / </span><span id="breadcrumb-page">Perfil de <?= $usuario["nombre"] ?></span>
             <?php } else { ?>
                 <span id="breadcrumb-barra"> / </span><span id="breadcrumb-page"><?= ucwords($p); ?></span>
             <?php } ?>
