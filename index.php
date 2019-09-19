@@ -1,4 +1,14 @@
 <?php
+session_start();
+
+if (isset($_GET["p"]) && $_GET["p"] == "logout") {
+    session_destroy();
+    header("Location: index.php");
+}
+
+if (isset($_GET["p"]) && $_GET["p"] == "login") {
+    $_SESSION["uid"] = "5d82adf31c3bc";
+}
 
 if (isset($_GET["p"])) :
     $p = $_GET["p"];
@@ -6,16 +16,13 @@ else :
     $p = "home";
 endif;
 
-if (isset($_GET["logout"])) {
-    session_start();
-    session_destroy();
-} elseif (isset($_GET["login"])) {
-    session_start();
-    $_SESSION["usuario"] = "A programar";
-} else {
-    session_start();
-}
 
+// Temporal hasta que el formulario login sea funcional..
+
+if (isset($_SESSION["uid"])) {
+    include("./funciones/manejoDB.php");
+    $usuario = obtenerUsuarioIndividual($_SESSION["uid"]);
+}
 ?>
 
 <!DOCTYPE html>

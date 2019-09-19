@@ -1,0 +1,14 @@
+[
+  {
+    "nombre": "Sebastian Martinez",
+    "pwd": "$2y$10$xxD8XulTQW9KqdYo1DbRLeBP5srSQ6dEMG1RH4UausP38qjS9j86G",
+    "email": "seba@digitalhouse.com",
+    "uid": "5d82adf31c3bc",
+    "generos": ["Classic", "Funk", "EDM"],
+    "discos": [
+      "6P5QHz4XtxOmS5EuiGIPut",
+      "6FCzvataOZh68j8OKzOt9a",
+      "4LH4d3cOWNNsVw41Gqt2kv"
+    ]
+  }
+]

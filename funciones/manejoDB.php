@@ -1,11 +1,21 @@
 <?php
 
-$db = "../data/usuarios.json";
+$db = "./data/usuarios.json";
 
 // Devuelve un array associativo PHP del archivo usuarios.json
 function obtenerUsuarios()
 {
     return json_decode(file_get_contents($GLOBALS["db"]), true);
+}
+
+function obtenerUsuarioIndividual($uid)
+{
+    $dbArray = obtenerUsuarios();
+    for ($i = 0; $i < count($dbArray); $i++) {
+        if ($dbArray[$i]["uid"] == $uid) {
+            return $dbArray[$i];
+        }
+    }
 }
 
 // Los parametros a esta funcion deben ser el array $_GET o $_POST
@@ -14,6 +24,7 @@ function agregarUsuario($param)
 {
     if (isset($param["pwd"])) $param["pwd"] = hashPwd($param["pwd"]);
     $dbArray = obtenerUsuarios();
+    $param["uid"] = uniqid();
     $dbArray[] = $param;
     file_put_contents($GLOBALS["db"], json_encode($dbArray));
     return obtenerUsuarios();
@@ -23,7 +34,7 @@ function agregarUsuario($param)
 function validarUsuario($param)
 {
     foreach (obtenerUsuarios() as $valor) {
-        if ($valor["usuario"] === $param["usuario"] && validarPwd(hashPwd($param["pwd"]), $valor["pwd"])) return true;
+        if ($valor["email"] === $param["email"] && validarPwd(hashPwd($param["pwd"]), $valor["pwd"])) return true;
     }
     return false;
 }
@@ -33,7 +44,7 @@ function modificarUsuario($param)
 {
     $dbArray = obtenerUsuarios();
     for ($i = 0; $i < count($dbArray); $i++) {
-        if ($dbArray[$i]["usuario"] == $param["usuario"]) {
+        if ($dbArray[$i]["uid"] == $param["uid"]) {
             $dbArray[$i] = $param;
             file_put_contents($GLOBALS["db"], json_encode($dbArray));
             return obtenerUsuarios();
@@ -43,11 +54,11 @@ function modificarUsuario($param)
 }
 
 //Recibe un arreglo del formulario de modificación y borra el elemento indicado del arreglo y lo vuelve a guardar
-function borrarUsuario($param)
+function borrarUsuario($uid)
 {
     $dbArray = obtenerUsuarios();
     for ($i = 0; $i < count($dbArray); $i++) {
-        if ($dbArray[$i]["usuario"] == $param["usuario"]) {
+        if ($dbArray[$i]["uid"] == $uid) {
             unset($dbArray[$i]);
             file_put_contents($GLOBALS["db"], json_encode($dbArray));
             return obtenerUsuarios();
