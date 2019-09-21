@@ -1,5 +1,8 @@
 <?php
 
+require("funciones/manejoDB.php");
+
+
 function estaCampoVacio($input, $nombre)
 {
     if (strlen($input) === 0) return "Campo $nombre esta vacio";
@@ -20,9 +23,20 @@ function validarMail($mail)
 function validarUsuario($param)
 {
     foreach (obtenerUsuarios() as $valor) {
-        if ($valor["email"] === $param["email"] && password_verify($param["pwd"], $valor["pwd"])) return true;
+        if ($valor["email"] === $param["email"] && password_verify($param["password"], $valor["password"])) return $valor;
     }
     return false;
+}
+
+function validarContrasenia($password, $passwordRepetida)
+{
+    $errores = [];
+    $campoVacio = estaCampoVacio($password, "contraseña");
+    if ($campoVacio) $errores[] = $campoVacio;
+    if ($password !== $passwordRepetida) $errores[] = "Contraseñas no coinciden";
+    if (strlen($password) <= 6) $errores[] = "Contraseña debe ser mayor a 6 caracteres";
+    if (count($errores) > 0) return $errores;
+    return true;
 }
 
 function validarNombre($nombre)
@@ -30,7 +44,7 @@ function validarNombre($nombre)
     $errores = [];
     $campoVacio = estaCampoVacio($nombre, "nombre");
     if ($campoVacio) $errores[] = $campoVacio;
-    if (!ctype_alpha($nombre)) $errores[] = "Nombre se debe componer solo de characteres alfabeticos";
+    if (!ctype_alpha($nombre)) $errores[] = "Nombre se debe componer solo de caracteres alfabeticos";
     if (count($errores) > 0) return $errores;
     return true;
 }

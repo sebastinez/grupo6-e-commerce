@@ -13,7 +13,7 @@
     </form>
   </div>
   <div class="menu-items">
-    <?php if (isset($_SESSION["uid"])) { ?>
+    <?php if (isset($_SESSION["usuario"]["uid"])) { ?>
       <div class="menu-item">
         <span>Hola <?= explode(" ", $_SESSION["usuario"]["nombre"])[0] ?></span>
         <img src="img/<?= $_SESSION["usuario"]["uid"] ?>.jpg" data-toggle="dropdown" class="userAvatar">

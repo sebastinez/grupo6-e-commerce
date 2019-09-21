@@ -1,70 +1,55 @@
-<?php include("./includes/breadcrumb.php"); ?>
+<?php include("./includes/breadcrumb.php");
+
+if (isset($_GET["e"])) {
+    $errores = json_decode($_GET["e"], true);
+}
+if (isset($_GET["post"])) {
+    $post = json_decode($_GET["post"], true);
+}
+?>
+
 <div class="titulos">REGISTRACIÓN</div>
-<form action="paginas/auth.php" method="POST">
+<form action="register.php" method="POST">
     <div class="registracion">
-    <div class="form-row">
+        <div class="form-row">
             <div class="form-group col-md-6">
                 <div class="input-class">
-                    <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre" required>
+                    <input type="text" name="nombre" value="<?= $post["nombre"] ?? "" ?>" class="form-control <?php echo $errores["nombre"][0] ? 'is-invalid' : "" ?>" id="nombre" placeholder="Nombre">
+                    <div class="invalid-feedback">
+                        <?= $errores["nombre"][0] ?? '' ?>
+                    </div>
                 </div>
             </div>
             <div class="form-group col-md-6">
                 <div class="input-class">
-                    <input type="text" name="apellido" class="form-control" id="apellido" placeholder="Apellido" required>
+                    <input type="text" name="apellido" value="<?= $post["apellido"] ?? "" ?>" class="form-control <?php echo $errores["apellido"][0] ? 'is-invalid' : "" ?>" id="apellido" placeholder="Apellido">
+                    <div class="invalid-feedback">
+                        <?= $errores["apellido"][0] ?? '' ?>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="form-group">
             <div class="input-class">
-                <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                <input type="email" name="email" value="<?= $post["email"] ?? "" ?>" class="form-control <?php echo $errores["email"][0] ? 'is-invalid' : "" ?>" id="email" placeholder="Email">
+                <div class="invalid-feedback">
+                    <?= $errores["email"][0] ?? '' ?>
+                </div>
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <div class="input-class">
-                    <input type="password" name="password" class="form-control" id="password" placeholder="Contraseña" required>
+                    <input type="password" name="password" class="form-control <?php echo $errores["password"][0] ? 'is-invalid' : "" ?>" id="password" placeholder="Contraseña">
+                    <div class="invalid-feedback">
+                        <?= $errores["password"][0] ?? '' ?>
+                    </div>
                 </div>
             </div>
             <div class="form-group col-md-6">
                 <div class="input-class">
-                    <input type="password" name="passwordRepetida" class="form-control" id="passwordRepetida" placeholder="Repetir contraseña" required>
+                    <input type="password" name="passwordRepetida" class="form-control" id="passwordRepetida" placeholder="Repetir contraseña">
                 </div>
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="input-class">
-                <input type="text" name="direccion" class="form-control" id="direccion" placeholder="Dirección" required>
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <div class="input-class">
-                    <input type="text" name="ciudad" class="form-control" id="ciudad" placeholder="Ciudad" required>
-                </div>
-            </div>
-            <div class="form-group col-md-4">
-                <select id="provincia" name="provincia" class="form-control" required>
-                    <option selected>Seleccionar provincia</option>
-                    <option>Ciudad Autonoma de Buenos Aires</option>
-                    <option>Buenos Aires</option>
-                    <option>Entre Rios</option>
-                    <option>Mendoza</option>
-                    <option>Cordoba</option>
-                </select>
-            </div>
-            <div class="form-group col-md-2">
-                <div class="input-class">
-                    <input type="text" name="codigoPostal" placeholder="Codigo Postal" class="form-control" id="codigoPostal" required>
-                </div>
-            </div>
-        </div>
-        <div class="form-group container no-margin-left">
-            <div class="form-check">
-                <input class="form-check-input" name="terminos" type="checkbox" id="terminos" required>
-                <label class="form-check-label" for="terminos">
-                    <p>
-                        Acepto los <a href="?p=terminos">terminos de condiciones</a> y la <a href="?p=privacidad">politica de privacidad</a></p>
-                </label>
             </div>
         </div>
         <div class="boton-registo">
