@@ -545,6 +545,13 @@ button.registracion {
   margin-left: 0px;
 }
 
+/* EDITAR PERFIL */
+
+.inputEditarPerfil input,
+.inputEditarPerfil select {
+  margin-top: 0;
+}
+
 /*HOME*/
 .container-generos {
   overflow: hidden;

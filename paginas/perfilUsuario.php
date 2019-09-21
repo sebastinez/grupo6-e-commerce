@@ -1,17 +1,17 @@
-<?php include("./funciones/leerSpotify.php");
+<?php require("./funciones/leerSpotify.php");
 $albumes = getSpotify("Classic", "EDM", "Funk", "Hip-Hop", "Jazz", "Latin", "Pop", "Reggae", "Rock", "Soundtrack");
-$discosComprados = searchMultipleAlbums($albumes, $usuario["discos"]);
+$discosComprados = searchMultipleAlbums($albumes, $_SESSION["usuario"]["discos"]);
 include("./includes/breadcrumb.php"); ?>
 <div class="perfil container">
-    <img src="img/<?= $usuario["uid"] ?>.jpg" class="avatar">
-    <h2><?= $usuario["nombre"] ?></h2>
+    <img src="img/<?= $_SESSION["usuario"]["uid"] ?>.jpg" class="avatar">
+    <h2><?= $_SESSION["usuario"]["nombre"] ?></h2>
     <h4>Genres preferidos</h4>
     <div class="row">
-        <?php for ($i = 0; $i < count($usuario["generos"]); $i++) : ?>
-            <a href="?p=albums&g=<?= $usuario["generos"][$i] ?>">
+        <?php for ($i = 0; $i < count($_SESSION["usuario"]["generos"]); $i++) : ?>
+            <a href="?p=albums&g=<?= $_SESSION["usuario"]["generos"][$i] ?>">
                 <div class=" card-style">
-                    <img src="img/generos/<?= strtolower($usuario["generos"][$i]) ?>.jpg" alt="">
-                    <p><?= $usuario["generos"][$i] ?></p>
+                    <img src="img/generos/<?= strtolower($_SESSION["usuario"]["generos"][$i]) ?>.jpg" alt="">
+                    <p><?= $_SESSION["usuario"]["generos"][$i] ?></p>
                 </div>
             </a>
         <? endfor; ?>

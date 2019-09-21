@@ -1,11 +1,6 @@
 <?php
 session_start();
 
-if (isset($_GET["p"]) && $_GET["p"] == "logout") {
-    session_destroy();
-    header("Location: index.php");
-}
-
 if (isset($_GET["p"]) && $_GET["p"] == "login") {
     $_SESSION["uid"] = "5d82adf31c3bc";
 }
@@ -20,8 +15,8 @@ endif;
 // Temporal hasta que el formulario login sea funcional..
 
 if (isset($_SESSION["uid"])) {
-    include("./funciones/manejoDB.php");
-    $usuario = obtenerUsuarioIndividual($_SESSION["uid"]);
+    require("./funciones/manejoDB.php");
+    $_SESSION["usuario"] = obtenerUsuarioIndividual($_SESSION["uid"]);
 }
 ?>
 
