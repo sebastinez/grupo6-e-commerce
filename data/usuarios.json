@@ -1,6 +1,6 @@
 [
   {
-    "pwd": "$2y$10$0LQoNE59C5li0A8U75jk3.S7sMRSiv//OWVRLgFXD/CQR3JI8UrYW",
+    "password": "$2y$10$0LQoNE59C5li0A8U75jk3.S7sMRSiv//OWVRLgFXD/CQR3JI8UrYW",
     "uid": "5d82adf31c3bc",
     "discos": [
       "42hCHiMtfs7mfBTVX3V6k7",
@@ -14,6 +14,14 @@
     "ciudad": "3965",
     "provincia": "2",
     "codigoPostal": "1426",
+    "generos": ["Reggae", "Rock", "Soundtrack"]
+  },
+  {
+    "nombre": "Federico",
+    "apellido": "Bacino",
+    "email": "fede@gmail.com",
+    "password": "$2y$10$hDfDoTQ5AtUhKeCgiiAOpeTpHpuc7TDe4xnSFveYPwrgmJSzH7W6G",
+    "uid": "5d8683e3e7288",
     "generos": ["Reggae", "Rock", "Soundtrack"]
   }
 ]

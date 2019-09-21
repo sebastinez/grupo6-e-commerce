@@ -22,12 +22,13 @@ function obtenerUsuarioIndividual($uid)
 // La función devuelve todo el arreglo de usuario, lo cual es igual a true si pudo agregar el usuario
 function agregarUsuario($param)
 {
-    if (isset($param["pwd"])) $param["pwd"] = password_hash($param["pwd"], PASSWORD_DEFAULT);;
     $dbArray = obtenerUsuarios();
+    if (isset($param["password"])) $param["password"] = password_hash($param["password"], PASSWORD_DEFAULT);;
     $param["uid"] = uniqid();
+    unset($param["passwordRepetida"]);
     $dbArray[] = $param;
     file_put_contents($GLOBALS["db"], json_encode($dbArray), JSON_PRETTY_PRINT);
-    return obtenerUsuarios();
+    return obtenerUsuarioIndividual($param["uid"]);
 }
 
 

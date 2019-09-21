@@ -1,4 +1,9 @@
 <?php
+
+if (!isset($_SESSION["usuario"]["uid"])) {
+    header("Location: index.php?p=login");
+}
+
 include("./includes/breadcrumb.php");
 require("./data/generos.php");
 
@@ -20,7 +25,6 @@ foreach (obtenerCiudades(2) as $ciudad) {
 }
 
 //Manejo de datos POST de formulario
-include("./funciones/validarFormularios.php");
 $nombre = false;
 $apellido = false;
 $email = false;
@@ -80,7 +84,7 @@ if ($_POST) {
                 </div>
             </div>
             <div class="form-row">
-                <div class="form-group col-md-6">
+                <!--  <div class="form-group col-md-6">
                     <label for="ciudad">Ciudad</label>
                     <div class="input-class">
                         <select id="ciudad" name="ciudad" class="form-control">
@@ -89,8 +93,8 @@ if ($_POST) {
                             <?php endforeach; ?>
                         </select>
                     </div>
-                </div>
-                <div class="form-group col-md-4">
+                </div> -->
+                <div class="form-group col-md-8">
                     <label for="provincia">Provincia</label>
                     <select id="provincia" name="provincia" class="form-control">
                         <?php foreach ($provincias as $provincia) { ?>
@@ -98,7 +102,7 @@ if ($_POST) {
                         <?php } ?>
                     </select>
                 </div>
-                <div class="form-group col-md-2">
+                <div class="form-group col-md-4">
                     <label for="codigoPostal">C.P.</label>
                     <div class="input-class">
                         <input type="text" name="codigoPostal" placeholder="Codigo Postal" class="form-control  <?php echo $codigoPostal[0] ? 'is-invalid' : "" ?>" value="<?= $_SESSION["usuario"]["codigoPostal"] ?? "" ?>" id="codigoPostal">
@@ -109,6 +113,7 @@ if ($_POST) {
                 </div>
             </div>
             <div class="form-group">
+                <!-- Chequear si generos ya fueron seteados-->
                 <label for="generos">Generos favoritos</label>
                 <select multiple name="generos[]" class="form-control" id="generos">
                     <?php foreach ($generos as $genero) : ?>

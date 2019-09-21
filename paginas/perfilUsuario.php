@@ -5,7 +5,7 @@ include("./includes/breadcrumb.php"); ?>
 <div class="perfil container">
     <img src="img/<?= $_SESSION["usuario"]["uid"] ?>.jpg" class="avatar">
     <h2><?= $_SESSION["usuario"]["nombre"] ?></h2>
-    <h4>Genres preferidos</h4>
+    <h4>Generos preferidos</h4>
     <div class="row">
         <?php for ($i = 0; $i < count($_SESSION["usuario"]["generos"]); $i++) : ?>
             <a href="?p=albums&g=<?= $_SESSION["usuario"]["generos"][$i] ?>">
