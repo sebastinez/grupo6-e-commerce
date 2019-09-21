@@ -15,12 +15,12 @@
   <div class="menu-items">
     <?php if (isset($_SESSION["uid"])) { ?>
       <div class="menu-item">
-        <span>Hola <?= explode(" ", $usuario["nombre"])[0] ?></span>
-        <img src="img/<?= $usuario["uid"] ?>.jpg" data-toggle="dropdown" class="userAvatar">
+        <span>Hola <?= explode(" ", $_SESSION["usuario"]["nombre"])[0] ?></span>
+        <img src="img/<?= $_SESSION["usuario"]["uid"] ?>.jpg" data-toggle="dropdown" class="userAvatar">
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="?p=perfilUsuario">Perfil publico</a>
           <a class="dropdown-item" href="?p=editarPerfil">Configuracion</a>
-          <a class="dropdown-item" href="?p=logout">Cerrar sesion</a>
+          <a class="dropdown-item" href="logout.php">Cerrar sesion</a>
         </div>
       </div>
     <?php } else { ?>

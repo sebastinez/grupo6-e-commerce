@@ -26,7 +26,7 @@ function agregarUsuario($param)
     $dbArray = obtenerUsuarios();
     $param["uid"] = uniqid();
     $dbArray[] = $param;
-    file_put_contents($GLOBALS["db"], json_encode($dbArray));
+    file_put_contents($GLOBALS["db"], json_encode($dbArray), JSON_PRETTY_PRINT);
     return obtenerUsuarios();
 }
 
@@ -37,8 +37,8 @@ function modificarUsuario($param)
     $dbArray = obtenerUsuarios();
     for ($i = 0; $i < count($dbArray); $i++) {
         if ($dbArray[$i]["uid"] == $_SESSION["uid"]) {
-            $dbArray[$i] = array_merge(["pwd" => $dbArray[$i]["pwd"]], ["uid" => $dbArray[$i]["uid"]], $param);
-            file_put_contents($GLOBALS["db"], json_encode($dbArray));
+            $dbArray[$i] = array_merge(["pwd" => $dbArray[$i]["pwd"]], ["uid" => $dbArray[$i]["uid"]], ["discos" => ["42hCHiMtfs7mfBTVX3V6k7", "3HpFr2EeE38hr706Rxtmjy", "2OU9Ot1KmE6qRzVAhiNqkD"]], $param);
+            file_put_contents($GLOBALS["db"], json_encode($dbArray), JSON_PRETTY_PRINT);
             return obtenerUsuarios();
         }
     }
@@ -51,7 +51,7 @@ function borrarUsuario($uid)
     for ($i = 0; $i < count($dbArray); $i++) {
         if ($dbArray[$i]["uid"] == $uid) {
             unset($dbArray[$i]);
-            file_put_contents($GLOBALS["db"], json_encode($dbArray));
+            file_put_contents($GLOBALS["db"], json_encode($dbArray), JSON_PRETTY_PRINT);
             return obtenerUsuarios();
         }
     }
