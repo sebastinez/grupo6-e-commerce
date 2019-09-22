@@ -1,9 +1,6 @@
 <?php
-
-if (!isset($_SESSION["usuario"]["uid"])) {
-    header("Location: index.php?p=login");
-}
-
+require("./funciones/fileUpload.php");
+require("./funciones/validarFormularios.php");
 include("./includes/breadcrumb.php");
 require("./data/generos.php");
 
@@ -37,7 +34,9 @@ if ($_POST) {
     $codigoPostal = validarCodigoPostal($_POST["codigoPostal"]);
     $direccion = validarDireccion($_POST["direccion"]);
     if ($nombre === true && $apellido === true && $email === true && $codigoPostal === true && $direccion ===  true) {
-        modificarUsuario($_POST); ?>
+        $usuarioModificado = modificarUsuario($_POST);
+        $_SESSION["usuario"] = $usuarioModificado;
+        cargarAvatar($_FILES["avatar"]["tmp_name"], $usuarioModificado["uid"]); ?>
         <div class="titulos">Se edito exitosamente tu perfil!</div>
         <div class="registracion">
             <p class="text-center"><a href="index.php" class="center text-white">Volver a la pagina principal</a></p>
@@ -46,7 +45,7 @@ if ($_POST) {
     } else { ?>
     <div class="titulos">Editar perfil</div>
 
-    <form action="?p=editarPerfil" method="POST">
+    <form action="?p=editarPerfil" method="POST" enctype="multipart/form-data">
         <div class="registracion inputEditarPerfil">
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -113,11 +112,15 @@ if ($_POST) {
                 </div>
             </div>
             <div class="form-group">
+                <label for="avatar">Imagen de usuario</label>
+                <input type="file" class="form-control-file" name="avatar">
+            </div>
+            <div class="form-group">
                 <!-- Chequear si generos ya fueron seteados-->
                 <label for="generos">Generos favoritos</label>
                 <select multiple name="generos[]" class="form-control" id="generos">
                     <?php foreach ($generos as $genero) : ?>
-                        <option <?php echo in_array($genero["genero"], $_SESSION["usuario"]["generos"]) ? "selected" : ""; ?> value="<?= $genero["genero"] ?>"><?= $genero["genero"] ?></option>
+                        <option <?php echo in_array($genero["genero"], isset($_SESSION["usuario"]["generos"]) ? $_SESSION["usuario"]["generos"] : []) ? "selected" : ""; ?> value="<?= $genero["genero"] ?>"><?= $genero["genero"] ?></option>
                     <? endforeach; ?>
                 </select>
             </div>

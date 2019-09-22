@@ -10,6 +10,10 @@ if ($_POST) {
 
     if ($nombre === true && $apellido === true && $email === true && $password === true) {
         $usuario = agregarUsuario($_POST);
+        if ($usuario["email"][0] === "Ya existe un usuario con este correo") {
+            header("Location:index.php?p=registracion&e=" . json_encode($usuario) . "&post=" . json_encode($_POST));
+            die();
+        }
         session_start();
         $_SESSION["usuario"] = $usuario;
         header("Location: index.php");

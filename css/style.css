@@ -233,7 +233,7 @@ header h1 {
 input[type='checkbox'],
 input[type='radio'] {
   height: 20px;
-  margin-left: -33px !important;
+  margin-left: -33px;
 }
 nav#productos {
   background-color: #6c6c6c;
@@ -467,6 +467,16 @@ footer .btn:hover {
   padding: 30px;
 }
 
+.login input[type='checkbox'] {
+  margin-left: 0;
+  height: initial;
+}
+
+.login .form-check {
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
 .login .body {
   margin: auto;
   padding: 25px 0px;
@@ -482,11 +492,16 @@ footer .btn:hover {
   color: #fff;
 }
 
-.login .body button {
+.login .body button,
+.login .body a.btn {
   display: block;
   margin: auto;
 }
 
+.login .body a.btn-sm {
+  margin-top: 20px;
+  width: 70%;
+}
 /* REGISTRACION */
 
 div.registracion {
@@ -550,6 +565,10 @@ button.registracion {
 .inputEditarPerfil input,
 .inputEditarPerfil select {
   margin-top: 0;
+}
+
+.inputEditarPerfil input[type='file'] {
+  color: #fff;
 }
 
 /*HOME*/

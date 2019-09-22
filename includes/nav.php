@@ -1,3 +1,14 @@
+<?php
+if (isset($_SESSION["usuario"]["uid"])) {
+
+  if (file_exists("img/" . $_SESSION["usuario"]["uid"] . ".jpg")) {
+    $avatar = "img/" . $_SESSION["usuario"]["uid"] . ".jpg";
+  } else {
+    $avatar = "img/avatar.png";
+  }
+}
+?>
+
 <nav id="menu" class="header-initial">
   <div class="menu-brand">
     <a href="index.php"><img src="img/logo-g8.png" alt=""></a>
@@ -16,7 +27,7 @@
     <?php if (isset($_SESSION["usuario"]["uid"])) { ?>
       <div class="menu-item">
         <span>Hola <?= explode(" ", $_SESSION["usuario"]["nombre"])[0] ?></span>
-        <img src="img/<?= $_SESSION["usuario"]["uid"] ?>.jpg" data-toggle="dropdown" class="userAvatar">
+        <img src="<?= $avatar ?>" data-toggle="dropdown" class="userAvatar">
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="?p=perfilUsuario">Perfil publico</a>
           <a class="dropdown-item" href="?p=editarPerfil">Configuracion</a>

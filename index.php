@@ -1,12 +1,17 @@
 <?php
 session_start();
 
-if (isset($_GET["p"])) :
-    $p = $_GET["p"];
-else :
-    $p = "home";
-endif;
 
+require("./funciones/utils.php");
+
+if (isset($_GET["p"])) {
+    $p = $_GET["p"];
+    if ($p == "editarPerfil") {
+        isLogged();
+    }
+} else {
+    $p = "home";
+}
 
 ?>
 
