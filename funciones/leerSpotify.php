@@ -43,7 +43,6 @@ function searchMultipleAlbums($albumes, $id)
 {
     $albumesARetonar = [];
     foreach ($albumes as $album) {
-
         if (in_array($album["general"]["id"], $id)) {
             $albumesARetonar[] = $album;
         }

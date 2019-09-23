@@ -6,8 +6,8 @@ if (isset($_SESSION["usuario"]["discos"])) {
 }
 if (isset($_SESSION["usuario"]["uid"])) {
 
-    if (file_exists("img/" . $_SESSION["usuario"]["uid"] . ".jpg")) {
-        $avatar = "img/" . $_SESSION["usuario"]["uid"] . ".jpg";
+    if (file_exists("img/" . $_SESSION["usuario"]["uid"] . "." . $_SESSION["usuario"]["fotoExtension"])) {
+        $avatar = "img/" . $_SESSION["usuario"]["uid"] . "." . $_SESSION["usuario"]["fotoExtension"];
     } else {
         $avatar = "img/avatar.png";
     }
