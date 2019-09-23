@@ -4,7 +4,7 @@ require("./funciones/validarFormularios.php");
 include("./includes/breadcrumb.php");
 require("./data/generos.php");
 
-if (file_exists("img/" . $_SESSION["usuario"]["uid"] . ".jpg")) {
+if (file_exists("img/" . $_SESSION["usuario"]["uid"] . "." . $_SESSION["usuario"]["fotoExtension"])) {
     $avatar = true;
 }
 
@@ -54,7 +54,7 @@ if ($_POST) {
 
     if ($nombre === true && $apellido === true && $email === true && $codigoPostal === true && $direccion === true && $avatar === true || $fotoPerfil === true) {
         $exito = true;
-        $usuarioModificado = modificarUsuario($_POST);
+        $usuarioModificado = modificarUsuario($_POST, $_FILES["avatar"]);
         cargarAvatar($_FILES["avatar"], $usuarioModificado["uid"]);
         $_SESSION["usuario"] = $usuarioModificado; ?>
         <div class="titulos">Se edito exitosamente tu perfil!</div>

@@ -59,15 +59,16 @@ function agregarUsuario($param)
  * @function
  * @name modificarUsuario
  * @description Recibe un arreglo del formulario de edición de perfil y cambia el usuario indicado del arreglo y lo vuelve a guardar
- * @param {array} $param Arreglo $_POST que se recibe luego de que el usuario envie el formulario de edición de perfil y la informacion este validada.
+ * @param array $param Arreglo $_POST que se recibe luego de que el usuario envie el formulario de edición de perfil y la informacion este validada.
  * @return {array} Devuelve el usuario que fue agregado a la base de datos
  */
-function modificarUsuario($param)
+function modificarUsuario($param, $avatar = false)
 {
     $dbArray = obtenerUsuarios();
     for ($i = 0; $i < count($dbArray); $i++) {
         if ($dbArray[$i]["uid"] == $_SESSION["usuario"]["uid"]) {
             $dbArray[$i] = array_merge(["password" => $dbArray[$i]["password"]], ["uid" => $dbArray[$i]["uid"]], ["discos" => ["42hCHiMtfs7mfBTVX3V6k7", "3HpFr2EeE38hr706Rxtmjy", "2OU9Ot1KmE6qRzVAhiNqkD"]], $param);
+            if ($avatar) $dbArray[$i]["fotoExtension"] = pathinfo($avatar["name"], PATHINFO_EXTENSION);
             file_put_contents($GLOBALS["db"], json_encode($dbArray), JSON_PRETTY_PRINT);
             return $dbArray[$i];
         }

@@ -2,8 +2,6 @@
 
 require("funciones/validarFormularios.php");
 
-
-
 $resultado = validarUsuario($_POST);
 
 if ($resultado !== false) {
