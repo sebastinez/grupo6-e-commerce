@@ -164,6 +164,10 @@ nav#menu .menu-items a {
   color: #fff;
 }
 
+nav#menu .menu-items a.dropdown-item:hover {
+  color: #000;
+}
+
 nav#menu .menu-item {
   padding-right: 40px;
 }
@@ -230,6 +234,7 @@ header h1 {
   color: #fff;
   font-size: 1.2rem;
 }
+
 input[type='checkbox'],
 input[type='radio'] {
   height: 20px;

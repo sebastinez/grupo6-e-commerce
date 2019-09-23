@@ -14,7 +14,7 @@ if (isset($_GET["post"])) {
         <div class="form-row">
             <div class="form-group col-md-6">
                 <div class="input-class">
-                    <input type="text" name="nombre" value="<?= $post["nombre"] ?? "" ?>" class="form-control <?php echo $errores["nombre"][0] ? 'is-invalid' : "" ?>" id="nombre" placeholder="Nombre">
+                    <input type="text" name="nombre" value="<?= $post["nombre"] ?? "" ?>" class="form-control <?php echo isset($errores["nombre"][0]) ? 'is-invalid' : "" ?>" id="nombre" placeholder="Nombre">
                     <div class="invalid-feedback">
                         <?= $errores["nombre"][0] ?? '' ?>
                     </div>
@@ -22,7 +22,7 @@ if (isset($_GET["post"])) {
             </div>
             <div class="form-group col-md-6">
                 <div class="input-class">
-                    <input type="text" name="apellido" value="<?= $post["apellido"] ?? "" ?>" class="form-control <?php echo $errores["apellido"][0] ? 'is-invalid' : "" ?>" id="apellido" placeholder="Apellido">
+                    <input type="text" name="apellido" value="<?= $post["apellido"] ?? "" ?>" class="form-control <?php echo isset($errores["apellido"][0]) ? 'is-invalid' : "" ?>" id="apellido" placeholder="Apellido">
                     <div class="invalid-feedback">
                         <?= $errores["apellido"][0] ?? '' ?>
                     </div>
@@ -31,7 +31,7 @@ if (isset($_GET["post"])) {
         </div>
         <div class="form-group">
             <div class="input-class">
-                <input type="email" name="email" value="<?= $post["email"] ?? "" ?>" class="form-control <?php echo $errores["email"][0] ? 'is-invalid' : "" ?>" id="email" placeholder="Email">
+                <input type="text" name="email" value="<?= $post["email"] ?? "" ?>" class="form-control <?php echo isset($errores["email"][0]) ? 'is-invalid' : "" ?>" id="email" placeholder="Email">
                 <div class="invalid-feedback">
                     <?= $errores["email"][0] ?? '' ?>
                 </div>
@@ -40,7 +40,7 @@ if (isset($_GET["post"])) {
         <div class="form-row">
             <div class="form-group col-md-6">
                 <div class="input-class">
-                    <input type="password" name="password" class="form-control <?php echo $errores["password"][0] ? 'is-invalid' : "" ?>" id="password" placeholder="Contraseña">
+                    <input type="password" name="password" class="form-control <?php echo isset($errores["password"][0]) ? 'is-invalid' : "" ?>" id="password" placeholder="Contraseña">
                     <div class="invalid-feedback">
                         <?= $errores["password"][0] ?? '' ?>
                     </div>
