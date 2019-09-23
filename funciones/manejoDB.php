@@ -2,12 +2,24 @@
 
 $db = "./data/usuarios.json";
 
-// Devuelve un array associativo PHP del archivo usuarios.json
+/**
+ * @function
+ * @name obtenerUsuarios
+ * @description Devuelve un array associativo conteniendo todos los usuarios guardados en el archivo usuarios.json
+ * @return {array} Devuelve un arreglo con todos los usuarios guardados en usuarios.json
+ */
 function obtenerUsuarios()
 {
     return json_decode(file_get_contents($GLOBALS["db"]), true);
 }
 
+/**
+ * @function
+ * @name obtenerUsuarioIndividual
+ * @description Devuelve un array associativo conteniendo un usuario especifico por uid
+ * @param {string} $id Identificador del usuario
+ * @return {array} Devuelve un arreglo con un usuarios buscado por uid
+ */
 function obtenerUsuarioIndividual($uid)
 {
     $dbArray = obtenerUsuarios();
@@ -18,8 +30,13 @@ function obtenerUsuarioIndividual($uid)
     }
 }
 
-// Los parametros a esta funcion deben ser el array $_GET o $_POST
-// La función devuelve todo el arreglo de usuario, lo cual es igual a true si pudo agregar el usuario
+/**
+ * @function
+ * @name obtenerUsuarioIndividual
+ * @description Devuelve un array associativo conteniendo un usuario especifico por uid
+ * @param {array} $param Arreglo $_POST que se recibe luego de que el usuario envie el formulario de registracion y la informacion este validada.
+ * @return {array} Devuelve el usuario que fue agregado a la base de datos para iniciar la sesion del mismo.
+ */
 function agregarUsuario($param)
 {
     $errores = [];
@@ -38,8 +55,13 @@ function agregarUsuario($param)
     return obtenerUsuarioIndividual($param["uid"]);
 }
 
-
-//Recibe un arreglo del formulario de modificación y cambia el elemento indicado del arreglo y lo vuelve a guardar
+/**
+ * @function
+ * @name modificarUsuario
+ * @description Recibe un arreglo del formulario de edición de perfil y cambia el usuario indicado del arreglo y lo vuelve a guardar
+ * @param {array} $param Arreglo $_POST que se recibe luego de que el usuario envie el formulario de edición de perfil y la informacion este validada.
+ * @return {array} Devuelve el usuario que fue agregado a la base de datos
+ */
 function modificarUsuario($param)
 {
     $dbArray = obtenerUsuarios();
@@ -52,7 +74,12 @@ function modificarUsuario($param)
     }
 }
 
-//Recibe un arreglo del formulario de modificación y cambia el elemento indicado del arreglo y lo vuelve a guardar
+/**
+ * @function
+ * @name modificarPassword
+ * @description Recibe un arreglo del formulario de olvido de contraseña, busca el usuario indicado y le cambia la contraseña por una contraseña nueva hasheada
+ * @param {array} $param - Arreglo $_POST que se recibe luego de que el usuario envie el formulario de olvido de contraseña
+ */
 function modificarPassword($param)
 {
     $dbArray = obtenerUsuarios();
@@ -60,12 +87,16 @@ function modificarPassword($param)
         if ($dbArray[$i]["uid"] == $param["uid"]) {
             $dbArray[$i]["password"] = $param["password"];
             file_put_contents($GLOBALS["db"], json_encode($dbArray), JSON_PRETTY_PRINT);
-            return obtenerUsuarios();
         }
     }
 }
 
-//Recibe un arreglo del formulario de modificación y borra el elemento indicado del arreglo y lo vuelve a guardar
+/*
+ * @function
+ * @name borrarUsuario
+ * @description Recibe un uid de identificacion, lee la base de datos, borra el usuario de la base de datos y la vuelve a guardar
+ * @param {string} $uid Identificador de usuario
+ */
 function borrarUsuario($uid)
 {
     $dbArray = obtenerUsuarios();

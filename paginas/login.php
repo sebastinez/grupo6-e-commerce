@@ -16,7 +16,7 @@ if ($_POST && isset($_POST["botonFinal"])) {
         </div>
         <form class="body" action="?p=login" method="POST">
             <div class="form-group">
-                <input type="text" name="email" value="<?= $_COOKIE["recordarUsuario"] ?? "" ?>" class="form-control usuario <?php echo $_GET["e"] ? 'is-invalid' : "" ?>" placeholder="e-mail">
+                <input type="text" name="email" value="<?= $_COOKIE["recordarUsuario"] ?? "" ?>" class="form-control usuario <?php echo isset($_GET["e"]) ? 'is-invalid' : "" ?>" placeholder="e-mail">
                 <?php if (isset($_GET["e"])) { ?>
                     <div class="invalid-feedback">
                         Usuario y/o contraseña erronea<br>

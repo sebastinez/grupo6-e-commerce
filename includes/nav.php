@@ -30,7 +30,7 @@ if (isset($_SESSION["usuario"]["uid"])) {
         <img src="<?= $avatar ?>" data-toggle="dropdown" class="userAvatar">
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
           <a class="dropdown-item" href="?p=perfilUsuario">Perfil publico</a>
-          <a class="dropdown-item" href="?p=editarPerfil">Configuracion</a>
+          <a class="dropdown-item" href="?p=editarPerfil">Editar perfil</a>
           <a class="dropdown-item" href="logout.php">Cerrar sesion</a>
         </div>
       </div>
