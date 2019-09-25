@@ -129,6 +129,22 @@ function validarDireccion($direccion)
     return true;
 }
 
+/**
+ * @function
+ * @name validarProvincia
+ * @description Chequea si $provincia cumple con los requerimientos siguientes:
+ *   - Que se eligio una provincia
+ * @param {string} $provincia
+ * @return {array($errores),bool(true)}
+ */
+function validarProvincia($provincia)
+{
+    $errores = [];
+    if (strlen($provincia) === 0) $errores[] = "Se debe seleccionar una provincia";
+    if (count($errores) > 0) return $errores;
+    return true;
+}
+
 /** 
  * @function
  * @name validarCodigoPostal
@@ -153,7 +169,7 @@ function validarCodigoPostal($codigoPostal)
  * @function
  * @name validarFotoDePerfil
  * @description Chequea si $codigoPostal cumple con los requerimientos siguientes:
- *   - Que no sea mas pesado de lo que permite php en php.ini
+ *   - Que no sea mas pesado de lo que permite php en php.ini o en caso que sea mayor a 2MB que frene ahi.
  *   - Que tenga extension jpg, jpeg o png
  * @param {array} $param Arreglo $_FILES
  * @return {array($errores),bool(true)}
@@ -162,11 +178,16 @@ function validarFotoDePerfil($param)
 {
     //Chequea el tamaño maximo del archivo que permite cargar php
     $filesize = [];
-    preg_match('/\d*.\d*/', ini_get("upload_max_filesize"), $filesize);
+    preg_match('/\d*/', ini_get("upload_max_filesize"), $filesize);
 
     $errores = [];
     if (strlen($param["name"]) === 0) $errores[] = "Se debe subir una foto de perfil";
-    if ($param["error"] == 1) $errores[] = "Archivo debe pesar menos de " . $filesize[0];
+    if ($param["size"] == 0) {
+        $errores[] = "Archivo debe pesar menos de " . $filesize[0] . "MB";
+    }
+    if ($param["size"] > 2000000) {
+        $errores[] = "Archivo debe pesar menos de 2 MB";
+    }
     if (!in_array(pathinfo($param["name"], PATHINFO_EXTENSION), ["jpg", "jpeg", "png"])) $errores[] = "No es el formato correcto, se admiten jpg, jpeg y png";
     if (count($errores) > 0) return $errores;
     return true;

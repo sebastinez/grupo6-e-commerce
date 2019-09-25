@@ -7,13 +7,14 @@
 
 ## Indice
 
--   [Descripción](#descripcion)
--   [Participantes](#participantes)
--   [Instalacion](#instalacion)
--   [Recursos](#recursos)
+- [Indice](#indice)
+- [Descripción](#descripci%c3%b3n)
+- [Participantes](#participantes)
+- [Instalación](#instalaci%c3%b3n)
+- [Recursos](#recursos)
     - [Herramientas](#herramientas)
     - [Guias](#guias)
--   [Agradecimientos](#agradecimientos)
+- [Agradecimientos](#agradecimientos)
 
 <a name="descripcion"></a>
 
@@ -30,18 +31,21 @@ En el futuro queremos expandir este desarrollo y lograr algoritmos que analizan 
 
 ## Participantes
 
-| | Name | GitHub |
-|--|------|---|
-| <center><img src="https://avatars2.githubusercontent.com/u/54673625?s=460&v=4" width="50"></center> | Ezequiel Stuarts | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/ezequielstuarts) |
-| <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/fedebacino.png" width="50"></center>| Federico Bacino | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/fedebacino) | 
-| <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/sebastinez.jpg" width="50"></center>| Sebastian Martinez | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/sebastinez) |
+|                                                                                                        | Name               | GitHub                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------ | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| <center><img src="https://avatars2.githubusercontent.com/u/54673625?s=460&v=4" width="50"></center>    | Ezequiel Stuarts   | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/ezequielstuarts) |
+| <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/fedebacino.png" width="50"></center> | Federico Bacino    | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/fedebacino)      |
+| <center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/sebastinez.jpg" width="50"></center> | Sebastian Martinez | [<center><img src="https://nrs-diversos.s3.us-east-2.amazonaws.com/github-logo.svg" width="30"/></center>](https://github.com/sebastinez)      |
 
 
 <a name="instalacion"></a>
 
 ## Instalación
 
-```git clone https://github.com/sebastinez/grupo8-e-commerce```
+```
+git clone https://github.com/sebastinez/grupo8-e-commerce
+http://localhost/grupo8-e-commerce
+```
 
 <a name="recursos"></a>
 

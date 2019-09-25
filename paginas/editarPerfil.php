@@ -4,16 +4,15 @@ require("./funciones/validarFormularios.php");
 include("./includes/breadcrumb.php");
 require("./data/generos.php");
 
-if (existeAvatar($_SESSION["usuario"])) {
-    $avatar = true;
-}
-
-
 //Obtención de provincias y ciudades para formulario
 include("./funciones/leerProvincias.php");
-if (!isset($_SESSION["usuario"]["provincia"])) {
-    $provincias[] = ["nombre" => "Seleccionar provincia", "id" => " "];
-    $_SESSION["usuario"]["provincia"] = " ";
+$provincias[] = ["nombre" => "Seleccionar provincia", "id" => ""];
+
+
+if (isset($_SESSION["usuario"]["provincia"])) {
+    $provinciaUsuario = $_SESSION["usuario"]["provincia"];
+} else {
+    $provinciaUsuario = "";
 }
 
 foreach (obtenerProvincias() as $provincia) {
@@ -42,6 +41,7 @@ $email = false;
 $codigoPostal = false;
 $direccion = false;
 $fotoPerfil = false;
+$errProvincia = false;
 $exito = false;
 
 if ($_POST) {
@@ -50,9 +50,14 @@ if ($_POST) {
     $email = validarMail($_POST["email"]);
     $codigoPostal = validarCodigoPostal($_POST["codigoPostal"]);
     $direccion = validarDireccion($_POST["direccion"]);
+    $errProvincia = validarProvincia($_POST["provincia"]);
     $fotoPerfil = validarFotoDePerfil($_FILES["avatar"]);
 
-    if ($nombre === true && $apellido === true && $email === true && $codigoPostal === true && $direccion === true && $avatar === true || $fotoPerfil === true) {
+    if (isset($_POST["provincia"]) && strlen($_POST["provincia"]) !== 0) {
+        $provinciaUsuario = $_POST["provincia"];
+    }
+
+    if ($nombre === true && $apellido === true && $email === true && $codigoPostal === true && $errProvincia === true && $direccion === true && $fotoPerfil === true) {
         $exito = true;
         $usuarioModificado = modificarUsuario($_POST, $_FILES["avatar"]);
         cargarAvatar($_FILES["avatar"], $usuarioModificado["uid"]);
@@ -110,11 +115,14 @@ if ($_POST) {
 
                 <div class="form-group col-md-8">
                     <label for="provincia">Provincia</label>
-                    <select id="provincia" name="provincia" class="form-control">
+                    <select id="provincia" name="provincia" class="form-control <?php echo $errProvincia[0] ? 'is-invalid' : "" ?>">
                         <?php foreach ($provincias as $provincia) : ?>
-                            <option <?php echo $provincia["id"] == $_SESSION["usuario"]["provincia"] ? "selected" : ""; ?> value="<?= $provincia["id"] ?>"><?= $provincia["nombre"] ?></option>
+                            <option <?php echo $provincia["id"] == $provinciaUsuario ? "selected" : ""; ?> value="<?= $provincia["id"] ?>"><?= $provincia["nombre"] ?></option>
                         <?php endforeach; ?>
                     </select>
+                    <div class="invalid-feedback">
+                        <?= $errProvincia[0] ?? '' ?>
+                    </div>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="codigoPostal">C.P.</label>
