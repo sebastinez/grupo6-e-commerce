@@ -11,7 +11,13 @@ if (isset($_GET["post"])) {
 <div class="titulos">REGISTRACIÓN</div>
 <form action="register.php" method="POST">
     <div class="registracion">
+        <?php if (isset($errores["general"])) { ?>
+            <div class="alert alert-danger" role="alert">
+                <?= $errores["general"][0] ?>
+            </div>
+        <?php } ?>
         <div class="form-row">
+
             <div class="form-group col-md-6">
                 <div class="input-class">
                     <input type="text" name="nombre" value="<?= $post["nombre"] ?? "" ?>" class="form-control <?php echo isset($errores["nombre"][0]) ? 'is-invalid' : "" ?>" id="nombre" placeholder="Nombre">

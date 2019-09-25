@@ -35,7 +35,7 @@ function obtenerUsuarioIndividual($uid)
  * @name obtenerUsuarioIndividual
  * @description Devuelve un array associativo conteniendo un usuario especifico por uid
  * @param {array} $param Arreglo $_POST que se recibe luego de que el usuario envie el formulario de registracion y la informacion este validada.
- * @return {array} Devuelve el usuario que fue agregado a la base de datos para iniciar la sesion del mismo.
+ * @return {array,bool} Devuelve el usuario que fue agregado a la base de datos para iniciar la sesion del mismo. En el caso que haya un problema devuelve un bool(false)
  */
 function agregarUsuario($param)
 {
@@ -51,7 +51,8 @@ function agregarUsuario($param)
     $param["uid"] = uniqid();
     unset($param["passwordRepetida"]);
     $dbArray[] = $param;
-    file_put_contents($GLOBALS["db"], json_encode($dbArray), JSON_PRETTY_PRINT);
+    $resultado = file_put_contents($GLOBALS["db"], json_encode($dbArray), JSON_PRETTY_PRINT);
+    if ($resultado === false) return false;
     return obtenerUsuarioIndividual($param["uid"]);
 }
 

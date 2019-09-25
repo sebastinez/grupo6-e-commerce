@@ -14,6 +14,11 @@ if ($_POST) {
             header("Location:index.php?p=registracion&e=" . json_encode($usuario) . "&post=" . json_encode($_POST));
             die();
         }
+        if ($usuario === false) {
+            $error["general"][] = "Hubo un problema con los permisos de escritura de ./data/usuarios.json";
+            header("Location:index.php?p=registracion&e=" . json_encode($error) . "&post=" . json_encode($_POST));
+            die();
+        }
         session_start();
         $_SESSION["usuario"] = $usuario;
         header("Location: index.php");
