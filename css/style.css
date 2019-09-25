@@ -144,6 +144,7 @@ nav#menu {
     height: 50px;
     border-radius: 50%;
     border: 2px solid #fff;
+    object-fit: cover;
 }
 
 .userAvatar img {
@@ -781,6 +782,8 @@ div.perfil {
     margin-top: 40px;
     border-radius: 50%;
     width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .perfil h2,
