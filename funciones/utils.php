@@ -11,3 +11,16 @@ function isLogged()
         header("Location: index.php?p=login");
     }
 }
+
+
+/**
+ * @function
+ * @name existeAvatar
+ * @description Chequea si el usuario ya cargo una imagen de perfil o no.
+ * @param {string} $uid El numero identificador del usuario.
+ * @param {string} $fotoExtension La extension del avatar
+ */
+function existeAvatar($usuario)
+{
+    return isset($usuario["fotoExtension"]) && file_exists("img/" . $usuario["uid"] . "." . $usuario["fotoExtension"]);
+}

@@ -1,7 +1,8 @@
 <?php
+
 if (isset($_SESSION["usuario"]["uid"])) {
 
-  if (file_exists("img/" . $_SESSION["usuario"]["uid"] . "." . $_SESSION["usuario"]["fotoExtension"])) {
+  if (existeAvatar($_SESSION["usuario"])) {
     $avatar = "img/" . $_SESSION["usuario"]["uid"] . "." . $_SESSION["usuario"]["fotoExtension"];
   } else {
     $avatar = "img/avatar.png";

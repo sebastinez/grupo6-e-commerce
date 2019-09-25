@@ -4,7 +4,7 @@ require("./funciones/validarFormularios.php");
 include("./includes/breadcrumb.php");
 require("./data/generos.php");
 
-if (file_exists("img/" . $_SESSION["usuario"]["uid"] . "." . $_SESSION["usuario"]["fotoExtension"])) {
+if (existeAvatar($_SESSION["usuario"])) {
     $avatar = true;
 }
 
