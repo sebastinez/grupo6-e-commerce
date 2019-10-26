@@ -1,3 +1,0 @@
-01:04:48 Europe/Berlin - SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user ''@'localhost' to database 'dh_grupo8'
-01:04:52 Europe/Berlin - SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user ''@'localhost' to database 'dh_grupo8'
-01:11:39 Europe/Berlin - SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user ''@'localhost' to database 'dh_grupo8'
