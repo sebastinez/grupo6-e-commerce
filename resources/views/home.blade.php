@@ -1,9 +1,6 @@
 
 @extends('index')
 
-@section("nav")
-@yield("header")
-
 @section("content")
 <div class="container container-generos mt-5">
 		<div class="container-cards">

@@ -16,12 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get("/album/{id}", function ($id) {
-    $vac = compact("id");
-    return view("album", $vac);
+    return view("album", ["id" => $id]);
 });
 Route::get("/albums/{genero}", function ($genero) {
-    $vac = compact("genero");
-    return view("albums", $vac);
+    return view("albums", ["genero" => $genero]);
 });
 
 Route::get("/login", function () {

@@ -1,9 +1,5 @@
 @extends('index')
 
-@section("nav")
-@section("header")
-@endsection
-
 @section("content")
 <div class="titulos">FAQ</div>
 <section class=faq>

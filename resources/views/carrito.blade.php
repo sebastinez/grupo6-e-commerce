@@ -1,11 +1,6 @@
 @extends("index")
 
-@section("nav")
-@section("header")
-@endsection
-
 @section("content")
-
 <div class="titulos">Carrito de compra</div>
 <div class="container">
     <div class="carrito">

@@ -1,9 +1,5 @@
 @extends('index')
 
-@section("nav")
-@section("header")
-@endsection
-
 @section("content")
 <div class="mt-5" style="color: #fff;">
 	<div class="container">

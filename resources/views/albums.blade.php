@@ -1,11 +1,6 @@
 @extends("index")
 
-@section("nav")
-@section("header")
-@endsection
-
 @section("content")
-
 <div class="container pt-5">
 	<div class="container-albums">
 			<div class="contenedor-card-album animated fadeIn faster">

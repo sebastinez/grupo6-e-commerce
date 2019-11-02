@@ -1,11 +1,6 @@
 @extends("index")
 
-@section("nav")
-@section("header")
-@endsection
-
 @section("content")
-
     <div class="titulos">Formulario de contacto</div>
     <div class="contacto container">
         <div class="form-group">
