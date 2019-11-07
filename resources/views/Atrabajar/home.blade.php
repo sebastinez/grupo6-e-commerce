@@ -33,7 +33,9 @@
 						<div class="info-precio">
 							<p class="anio">Lanzamiento 1990</p>
 							<span class="precio">300 ARS</span>
-
+							@foreach ( as )
+								
+							@endforeach
 						</div>
 					</div>
 				</a>

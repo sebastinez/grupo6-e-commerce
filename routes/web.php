@@ -15,16 +15,48 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get("/albums", "AlbumsController@index");
+Route::get("/albums/new", "AlbumsController@create");
+Route::get("/albums/{id}", "AlbumsController@show");
+Route::post("/albums", "AlbumsController@store");
+Route::get("/albums/{id}/edit", "AlbumsController@edit");
+Route::patch("/albums/{id}", "AlbumsController@update");
+Route::delete("/albums/{id}", "AlbumsController@destroy");
+
+Route::get("/artists", "ArtistsController@index");
+Route::get("/artists/new", "ArtistsController@create");
+Route::get("/artists/{id}", "ArtistsController@show");
+Route::post("/artists", "ArtistsController@store");
+Route::get("/artists/{id}/edit", "ArtistsController@edit");
+Route::patch("/artists/{id}", "ArtistsController@update");
+Route::delete("/artists/{id}", "ArtistsController@destroy");
+
+Route::get("/tracks", "TracksController@index");
+Route::get("/tracks/new", "TracksController@create");
+Route::get("/tracks/{id}", "TracksController@show");
+Route::post("/tracks", "TracksController@store");
+Route::get("/tracks/{id}/edit", "TracksController@edit");
+Route::patch("/tracks/{id}", "TracksController@update");
+Route::delete("/tracks/{id}", "TracksController@destroy");
+
+Route::get("/genres", "GenresController@index");
+Route::get("/genres/new", "GenresController@create");
+Route::get("/genres/{id}", "GenresController@show");
+Route::post("/genres", "GenresController@store");
+Route::get("/genres/{id}/edit", "GenresController@edit");
+Route::patch("/genres/{id}", "GenresController@update");
+Route::delete("/genres/{id}", "GenresController@destroy");
+
 Route::get("/album/{id}", function ($id) {
     return view("album", ["id" => $id]);
 });
+
 Route::get("/albums/{genero}", function ($genero) {
     return view("albums", ["genero" => $genero]);
 });
 
-Route::get("/login", function () {
-    return view("login");
-});
+Route::get("/login", "LoginController@formulario");
+Route::post("/login", "LoginController@login");
 
 Route::get("/register", function () {
     return view("register");
@@ -48,6 +80,7 @@ Route::get("/faq", function () {
 Route::get("/contact", function () {
     return view("contact");
 });
+
 Route::get("/passwordReset", function () {
     return view("password_reset");
 });
