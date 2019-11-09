@@ -21,16 +21,19 @@
                 <label for="exampleFormControlInput1">Name</label>
                 <input name="name" type="text" class="form-control"
                     id="exampleFormControlInput1">
+                    <p style="color:red">{{ $errors->first('name') }}</p>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Release Date</label>
                 <input name="release_date" type="date" class="form-control"
                     id="exampleFormControlInput1">
+                    <p style="color:red">{{ $errors->first('release_date') }}</p>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Label</label>
                 <input name="label" type="text" class="form-control"
                     id="exampleFormControlInput1">
+                    <p style="color:red">{{ $errors->first('label') }}</p>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Cover</label>
@@ -41,6 +44,7 @@
                 <label for="exampleFormControlInput1">Total Tracks</label>
                 <input name="total_tracks" type="number" class="form-control"
                     id="exampleFormControlInput1">
+                <p style="color:red">{{ $errors->first('total_tracks') }}</p>
             </div>
             <button class="btn btn-primary" type="submit">Create</button>
         </form>

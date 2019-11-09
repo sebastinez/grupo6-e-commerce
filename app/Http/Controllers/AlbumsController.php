@@ -34,8 +34,22 @@ class AlbumsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request) { 
+
+        $reglas = [
+            "name" => "required",
+            "release_date" => "required",
+            "total_tracks" => "required|numeric",
+            "label" => "required",
+        ];
+
+        $mensajes = [
+            "required" => "El :attribute es necesario",
+            "numeric" => "El campo :attribute debe ser un numero",
+        ];
+    
+        $this->validate($request, $reglas, $mensajes);
+        
         Albums::create($request->all());
 
         return redirect("/albums");

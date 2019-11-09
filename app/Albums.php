@@ -9,5 +9,5 @@ class Albums extends Model
     public $table = "albums";
     public $primaryKey = "id";
     public $timestamps = false;
-    public $guarded = [];
+    protected $fillable = ["name","label","cover","total_tracks", "release_date"];
 }

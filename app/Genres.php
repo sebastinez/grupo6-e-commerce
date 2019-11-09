@@ -9,5 +9,5 @@ class Genres extends Model
     public $table = "genres";
     public $primaryKey = "id";
     public $timestamps = false;
-    public $guarded = [];
+    //protected $fillable = [];
 }
