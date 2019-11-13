@@ -46,3 +46,7 @@ Route::post("/genres", "GenresController@store");
 Route::get("/genres/{id}/edit", "GenresController@edit");
 Route::patch("/genres/{id}", "GenresController@update");
 Route::delete("/genres/{id}", "GenresController@destroy");
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
