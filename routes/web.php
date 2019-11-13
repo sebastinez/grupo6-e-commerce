@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return "Bienvenido";
 });
 
 Route::get("/albums", "AlbumsController@index");
@@ -46,41 +46,3 @@ Route::post("/genres", "GenresController@store");
 Route::get("/genres/{id}/edit", "GenresController@edit");
 Route::patch("/genres/{id}", "GenresController@update");
 Route::delete("/genres/{id}", "GenresController@destroy");
-
-Route::get("/album/{id}", function ($id) {
-    return view("album", ["id" => $id]);
-});
-
-Route::get("/albums/{genero}", function ($genero) {
-    return view("albums", ["genero" => $genero]);
-});
-
-Route::get("/login", "LoginController@formulario");
-Route::post("/login", "LoginController@login");
-
-Route::get("/register", function () {
-    return view("register");
-});
-Route::get("/edit", function () {
-    return view("edit_perfil");
-});
-
-Route::get("/perfil", function () {
-    return view("perfil");
-});
-
-Route::get("/carrito", function () {
-    return view("carrito");
-});
-
-Route::get("/faq", function () {
-    return view("faq");
-});
-
-Route::get("/contact", function () {
-    return view("contact");
-});
-
-Route::get("/passwordReset", function () {
-    return view("password_reset");
-});
