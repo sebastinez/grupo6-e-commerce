@@ -16,6 +16,7 @@ class CreacionEstructura extends Migration
         Schema::create("albums", function (Blueprint $table) {
             $table->increments("id");
             $table->string("spotify_id", 100);
+            $table->unsignedSmallInteger("genres_id");
             $table->string("name", 255);
             $table->date("release_date");
             $table->string("label", 255);

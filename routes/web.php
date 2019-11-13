@@ -10,9 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', function () {
-    return "Bienvenido";
+    return view("home");
 });
 
 Route::get("/albums", "AlbumsController@index");
@@ -48,5 +49,3 @@ Route::patch("/genres/{id}", "GenresController@update");
 Route::delete("/genres/{id}", "GenresController@destroy");
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
