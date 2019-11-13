@@ -27,16 +27,18 @@ class MusicSeeder extends Seeder
         $artists = [
 
             //Classic
+            /* 
             "5aIqB5nVVvmFsvSdExz408", //Johann Sebastian Bach
             "0Y8KmFkKOgJybpVobn1onU", //Luciano Pavarotti
             "1JOQXgYdQV2yfrhewqx96o", //Giuseppe Verdi
             "0OzxPXyowUEQ532c9AmHUR", //Giacomo Puccini
             "3EA9hVIzKfFiQI0Kikz2wo", //Andrea Bocelli
             "3hJv5p2HwekJysNB2NDnEC", //André Rieu
-            "1qAuetfG6mhtDgsVIffWQc",  //Susan Boyle
+            "1qAuetfG6mhtDgsVIffWQc",  //Susan Boyle 
+            */
 
             //EDM
-            "0dmPX6ovclgOy8WWJaFEUU", //Kraftwerk
+            /* "0dmPX6ovclgOy8WWJaFEUU", //Kraftwerk
             "4k1ELeJKT1ISyDv8JivPpB", //The Prodigy
             "4tZwfgrHOc3mvqYlEYSvVi", //Daft Punk
             "3OsRAKCvk37zwYcnzRf5XF", //Moby
@@ -44,10 +46,10 @@ class MusicSeeder extends Seeder
             "1GhPHrq36VKCY3ucVaZCfo", //The Chemical Brothers
             "4Y7tXHSEejGu1vQ9bwDdXW", //Fatboy Slim
             "6FXMGgJwohJLUSr5nVlf9X", //Massive Attack
-            "2CIMQHirSU0MQqyYHq0eOx", //deadmau5
+            "2CIMQHirSU0MQqyYHq0eOx", //deadmau5 */
 
             //Funk
-            "3DFoVPonoAAt4EZ1FEI8ue", //Sly & The Family Stone
+            /*  "3DFoVPonoAAt4EZ1FEI8ue", //Sly & The Family Stone
             "53QzNeFpzAaXYnrDBbDrIp", //The Isley Brothers
             "2ZvrvbQNrHKwjT7qfGFFUW", //Herbie Hancock
             "7GaxyUddsPok8BuhxN6OUW", //James Brown
@@ -55,10 +57,10 @@ class MusicSeeder extends Seeder
             "5Ryxgm3uLvQOsw4H5ZpHDn", //Betty Davis
             "5SMVzTJyKFJ7TUb46DglcH", //Parliament
             "4QQgXkCYTt3BlENzhyNETg", //Earth, Wind & Fire
-            "3MHaV05u0io8fQbZ2XPtlC", //Prince
+            "3MHaV05u0io8fQbZ2XPtlC", //Prince */
 
             //Hip-Hop
-            "0Mz5XE0kb1GBnbLQm2VbcO", //Mos Def
+            /* "0Mz5XE0kb1GBnbLQm2VbcO", //Mos Def
             "5me0Irg2ANcsgc93uaYrpb", //The Notorious B.I.G.
             "09hVIj6vWgoCDtT03h8ZCa", //A tribe called quest
             "34EP7KEpOjXcM2TCat1ISk", //Wu-Tang Clan
@@ -67,10 +69,10 @@ class MusicSeeder extends Seeder
             "6DPYiyq5kWVQS4RGwxzPC7", //Dr. Dre
             "7hJcb9fa4alzcOq3EaNPoG", //Snoop Dogg
             "1ZwdS5xdxEREPySFridCfh", //2 Pac
-            "4EnEZVjo3w1cwcQYePccay", //N.W.A.
+            "4EnEZVjo3w1cwcQYePccay", //N.W.A. */
 
             //Jazz
-            "2hGh5VOeeqimQFxqXvfCUf", //John Coltrane
+            /* "2hGh5VOeeqimQFxqXvfCUf", //John Coltrane
             "0kbYTNQb4Pb1rPbbaF0pT4", //Miles Davis
             "5olDKSsFhhmwh8UCWwKtpq", //Chick Corea
             "3rxeQlsv0Sc2nyYaZ5W71T", //Chet Baker
@@ -78,10 +80,10 @@ class MusicSeeder extends Seeder
             "3UXq4fckDmcPmleixlrl6i", //Anthony Braxton
             "0ZqhrTXYPA9DZR527ZnFdO", //Wayne Shorter
             "4PDpGtF16XpqvXxsrFwQnN", //Thelonious Monk
-            "47odibUtrN3lnWx0p0pk2P", //Ornette Coleman
+            "47odibUtrN3lnWx0p0pk2P", //Ornette Coleman */
 
             //Latin
-            "3jO7X5KupvwmWTHGtHgcgo", //Charly Garcia
+            /*      "3jO7X5KupvwmWTHGtHgcgo", //Charly Garcia
             "1bZNv4q3OxYq7mmnLha7Tu", //Fito Paez
             "3tAICgiSR5PfYY4B8qsoAU", //Andrés Calamaro
             "6ZIgPKHzpcswB8zh7sRIhx", //Divididos
@@ -90,7 +92,7 @@ class MusicSeeder extends Seeder
             "7FnZWGw9lwOr7WzieTKEPR", //Los Pericos
             "1MuQ2m2tg7naeRGAOxYZer", //Luis Alberto Spinetta
             "2F9pvj94b52wGKs0OqiNi2", //Babasónicos
-            "2Rc3Tb5XUPF1YlnQwuPgjg", //Illya Kuryaki & The Valderramas
+            "2Rc3Tb5XUPF1YlnQwuPgjg", //Illya Kuryaki & The Valderramas */
 
             //Pop
             "6tbjWDEIzxoDsBA1FuhfPW", //Madonna
@@ -107,7 +109,7 @@ class MusicSeeder extends Seeder
         foreach ($artists as $artist) {
             $data = Curl::to("https://api.spotify.com/v1/artists/$artist")->withHeader('Authorization: Bearer ' . $token["access_token"])->get();
             $data = json_decode($data, true);
-            DB::table("artists")->insert([
+            $artist_id = DB::table("artists")->insertGetId([
                 "spotify_id" => $data["id"],
                 "name" => $data["name"]
             ]);
@@ -117,11 +119,11 @@ class MusicSeeder extends Seeder
             $albums = Curl::to("https://api.spotify.com/v1/artists/$artist/albums")->withHeader('Authorization: Bearer ' . $token["access_token"])->get();
             $albums = json_decode($albums, true);
             foreach ($albums["items"] as $album) {
-
                 $label = array_key_exists("label", $album) ? $album["label"] : "";
                 $release_date = strlen($album["release_date"]) < 10 ? substr($album["release_date"], 0, 4) . "-01-01" : $album["release_date"];
 
-                DB::table("albums")->insert([
+
+                $album_id = DB::table("albums")->insertGetId([
                     "spotify_id" => $album["id"],
                     "name" => $album["name"],
                     "release_date" => $release_date,
@@ -130,6 +132,12 @@ class MusicSeeder extends Seeder
                     "total_tracks" => $album["total_tracks"]
                 ]);
 
+                DB::table("artists_albums")->insert([
+                    "artists_id" => $artist_id,
+                    "albums_id" => $album_id
+                ]);
+
+
 
                 //Obtención de canciones de cada disco
                 $tracks = Curl::to("https://api.spotify.com/v1/albums/" . $album["id"] . "/tracks")->withHeader('Authorization: Bearer ' . $token["access_token"])->get();
@@ -137,8 +145,9 @@ class MusicSeeder extends Seeder
                 $tracks = json_decode($tracks, true);
 
                 foreach ($tracks["items"] as $track) {
-                    DB::table("tracks")->insert([
+                    $track_id = DB::table("tracks")->insertGetId([
                         "spotify_id" => $track["id"],
+                        "album_id" => $album_id,
                         "name" => $track["name"],
                         "preview_url" => $track["preview_url"],
                         "track_number" => $track["track_number"],

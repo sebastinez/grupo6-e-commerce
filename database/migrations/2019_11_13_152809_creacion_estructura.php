@@ -52,9 +52,10 @@ class CreacionEstructura extends Migration
         });
         Schema::create("tracks", function (Blueprint $table) {
             $table->increments("id");
+            $table->unsignedSmallInteger("album_id");
             $table->string("spotify_id", 100);
             $table->string("name", 255);
-            $table->string("preview_url", 255);
+            $table->string("preview_url", 255)->nullable($value = true);
             $table->unsignedSmallInteger("track_number");
             $table->unsignedMediumInteger("duration");
         });
