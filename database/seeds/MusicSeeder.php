@@ -26,7 +26,7 @@ class MusicSeeder extends Seeder
 
         $allMusic = [
 
-            /*  [
+            /* [
                 "genre" => $genreIdClassic,
                 "artists" => [
                     "5aIqB5nVVvmFsvSdExz408", //Johann Sebastian Bach
@@ -94,43 +94,41 @@ class MusicSeeder extends Seeder
                     "4PDpGtF16XpqvXxsrFwQnN", //Thelonious Monk
                     "47odibUtrN3lnWx0p0pk2P", //Ornette Coleman 
                 ]
-            ], [
+            ], */
+            [
                 "genre" => $genreIdLatin,
                 "artists" => [
-                    //Latin
                     "3jO7X5KupvwmWTHGtHgcgo", //Charly Garcia
                     "1bZNv4q3OxYq7mmnLha7Tu", //Fito Paez
-                    "3tAICgiSR5PfYY4B8qsoAU", //Andrés Calamaro
+                    /*   "3tAICgiSR5PfYY4B8qsoAU", //Andrés Calamaro
                     "6ZIgPKHzpcswB8zh7sRIhx", //Divididos
                     "3rSpnCzb6wtsvZlGkkcHz4", //Sumo
                     "7An4yvF7hDYDolN4m5zKBp", //Soda Stereo
                     "7FnZWGw9lwOr7WzieTKEPR", //Los Pericos
                     "1MuQ2m2tg7naeRGAOxYZer", //Luis Alberto Spinetta
                     "2F9pvj94b52wGKs0OqiNi2", //Babasónicos
-                    "2Rc3Tb5XUPF1YlnQwuPgjg", //Illya Kuryaki & The Valderramas 
+                    "2Rc3Tb5XUPF1YlnQwuPgjg", //Illya Kuryaki & The Valderramas  */
                 ]
-            ], */
+            ],
             [
                 "genre" => $genreIdPop,
                 "artists" => [
-                    //Pop
                     "6tbjWDEIzxoDsBA1FuhfPW", //Madonna
                     "3fMbdgg4jU18AjLCKBhRSm", //Michael Jackson
-                    "3yY2gUcIsjMr8hjo51PoJ8", //The Smiths
+                    /*  "3yY2gUcIsjMr8hjo51PoJ8", //The Smiths
                     "0du5cEVh5yTK9QJze8zA0C", //Bruno Mars
                     "6ogn9necmbUdCppmNnGOdi", //Alanis Morissette
                     "0uq5PttqEjj3IH1bzwcrXF", //Spice Girls
                     "2SHhfs4BiDxGQ3oxqf0UHY", //Roxette
                     "31TPClRtHm23RisEBtV3X7", //Justin Timberlake
                     "4dpARuHxo51G3z768sgnrY", //Adele
-                    "3oDbviiivRWhXwIE8hxkVV", //The Beach Boys
+                    "3oDbviiivRWhXwIE8hxkVV", //The Beach Boys */
                 ]
             ]
         ];
         foreach ($allMusic as $genre) {
             $artistas = implode(",", $genre["artists"]);
             $data = Curl::to("https://api.spotify.com/v1/artists")->withHeader('Authorization: Bearer ' . $token["access_token"])->withData(array("ids" => $artistas))->get();
-            // dd($data);
             $data = json_decode($data, true);
             foreach ($data["artists"] as $artist) {
                 $artist_id = DB::table("artists")->insertGetId([
@@ -138,14 +136,12 @@ class MusicSeeder extends Seeder
                     "name" => $artist["name"]
                 ]);
 
-
                 //Obtención y guardado de discos por artista
                 $albums = Curl::to("https://api.spotify.com/v1/artists/" . $artist["id"] . "/albums")->withHeader('Authorization: Bearer ' . $token["access_token"])->get();
                 $albums = json_decode($albums, true);
                 foreach ($albums["items"] as $album) {
                     $label = array_key_exists("label", $album) ? $album["label"] : "";
                     $release_date = strlen($album["release_date"]) < 10 ? substr($album["release_date"], 0, 4) . "-01-01" : $album["release_date"];
-
 
                     $album_id = DB::table("albums")->insertGetId([
                         "spotify_id" => $album["id"],
@@ -161,8 +157,6 @@ class MusicSeeder extends Seeder
                         "artists_id" => $artist_id,
                         "albums_id" => $album_id
                     ]);
-
-
 
                     //Obtención de canciones de cada disco
                     $tracks = Curl::to("https://api.spotify.com/v1/albums/" . $album["id"] . "/tracks")->withHeader('Authorization: Bearer ' . $token["access_token"])->get();

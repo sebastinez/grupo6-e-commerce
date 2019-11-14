@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Albums;
+use App\Artists;
 
 class AlbumsController extends Controller
 {
@@ -14,7 +15,7 @@ class AlbumsController extends Controller
      */
     public function index()
     {
-        $albums = Albums::all();
+        $albums = Albums::with('artistas')->paginate(15);
         return view("albums.index", ["albums" => $albums]);
     }
 
@@ -34,7 +35,8 @@ class AlbumsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request) { 
+    public function store(Request $request)
+    {
 
         $reglas = [
             "name" => "required",
@@ -47,9 +49,9 @@ class AlbumsController extends Controller
             "required" => "El :attribute es necesario",
             "numeric" => "El campo :attribute debe ser un numero",
         ];
-    
+
         $this->validate($request, $reglas, $mensajes);
-        
+
         Albums::create($request->all());
 
         return redirect("/albums");
@@ -63,7 +65,7 @@ class AlbumsController extends Controller
      */
     public function show($id)
     {
-        $album = Albums::find($id);
+        $album = Albums::with("artists", "tracks")->find($id);
         return view("albums.show", ["album" => $album]);
     }
 

@@ -1,22 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends("index")
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+@section("content")
+<div class="container pt-5">
+	<div class="container-albums">
+    @foreach ($albums as $album)
+    
+			<div class="contenedor-card-album animated fadeIn faster">
+				<a href="/album/{{$album->id}}">
+					<div class="card-img">
+						<img src="{{$album->cover}}">
+					</div>
+					<div class="info">
+					{{$album->artists->name}}
+						<p class="name_disc">{{$album->name}}</p>
+						<div class="info-precio">
+							<p class="anio">Lanzamiento {{$album->release_date}}</p>
+							<span class="precio">300 ARS</span>
+						</div>
+					</div>
+				</a>
+				<button class="btn btn-naranja comprar">comprar</button>
+			</div>
+    @endforeach
+	</div>
+</div>
 
-<body>
-    <ul>
-        @forelse($albums as $album)
-        <img src="{{$album->cover}}" width="100">
-        <li>{{ $album->name }} / {{$album->release_date}} / {{$album->label}} / {{$album->total_tracks}}</li>
-        @empty
-        <p>No hay discos</p>
-        @endforelse
-    </ul>
-</body>
-
-</html>
+@endsection
