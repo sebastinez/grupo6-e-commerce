@@ -19,4 +19,8 @@ class Albums extends Model
     {
         return $this->hasMany("App\Tracks", "album_id", "id");
     }
+    public function genres()
+    {
+        return $this->belongsTo("App\Genres", "id", "genres_id");
+    }
 }

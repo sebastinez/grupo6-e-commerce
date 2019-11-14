@@ -13,9 +13,7 @@ class GenresController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        //
-    }
+    { }
 
     /**
      * Show the form for creating a new resource.
@@ -46,7 +44,8 @@ class GenresController extends Controller
      */
     public function show($id)
     {
-        //
+        $genre = Genres::with("albumes")->find($id);
+        return view("genres.show", ["genre" => $genre]);
     }
 
     /**

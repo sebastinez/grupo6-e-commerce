@@ -24,14 +24,16 @@
 <div class="row" style="color: #fff;">
 	<div class="container">
 		<div class="col-12">
+		
         @foreach ($album->tracks as $track)
-            
+            @if($track->preview_url !== null)
 			<div class="container mt-5">
 				
 					<h5>{{$track->name}}</h5>
 					<audio src="{{$track->preview_url}}" controls>
 					</audio>
 			</div>
+			@endif
         @endforeach
 		</div>
 	</div>

@@ -15,7 +15,7 @@ class AlbumsController extends Controller
      */
     public function index()
     {
-        $albums = Albums::with('artistas')->paginate(15);
+        $albums = Albums::with('artists')->paginate(15);
         return view("albums.index", ["albums" => $albums]);
     }
 

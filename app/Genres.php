@@ -9,5 +9,10 @@ class Genres extends Model
     public $table = "genres";
     public $primaryKey = "id";
     public $timestamps = false;
-    //protected $fillable = [];
+    protected $fillable = ["name"];
+
+    public function albumes()
+    {
+        return $this->hasMany("App\Albums", "genres_id", "id");
+    }
 }
