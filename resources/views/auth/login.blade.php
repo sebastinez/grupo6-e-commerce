@@ -25,7 +25,7 @@
         <div class="form-group">
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                <label class="form-check-label" for="remember">
+                <label class="form-check-label" for="remember" style="color:#000">
                     {{ __('Remember Me') }}
                 </label>
             </div>
@@ -35,5 +35,4 @@
             @endif
     </form>
 </div>
-{{dd(old("remember"))}}
 @endsection

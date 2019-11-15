@@ -55,5 +55,13 @@ Route::get("/genres/{id}/edit", "GenreController@edit");
 Route::patch("/genres/{id}", "GenreController@update");
 Route::delete("/genres/{id}", "GenreController@destroy");
 
+Route::get("/users", "UserController@index");
+Route::get("/users/new", "UserController@create");
+Route::get("/users/{id}", "UserController@show");
+Route::post("/users", "UserController@store");
+Route::get("/users/{id}/edit", "UserController@edit");
+Route::patch("/users/{id}", "UserController@update");
+Route::delete("/users/{id}", "UserController@destroy");
+
 Auth::routes();
 Route::get("/logout", "\App\Http\Controllers\Auth\LoginController@logout");
