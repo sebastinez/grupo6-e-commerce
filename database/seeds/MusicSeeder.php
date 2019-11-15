@@ -26,7 +26,7 @@ class MusicSeeder extends Seeder
 
         $allMusic = [
 
-            /* [
+            [
                 "genre" => $genreIdClassic,
                 "artists" => [
                     "5aIqB5nVVvmFsvSdExz408", //Johann Sebastian Bach
@@ -94,13 +94,13 @@ class MusicSeeder extends Seeder
                     "4PDpGtF16XpqvXxsrFwQnN", //Thelonious Monk
                     "47odibUtrN3lnWx0p0pk2P", //Ornette Coleman 
                 ]
-            ], */
+            ],
             [
                 "genre" => $genreIdLatin,
                 "artists" => [
                     "3jO7X5KupvwmWTHGtHgcgo", //Charly Garcia
                     "1bZNv4q3OxYq7mmnLha7Tu", //Fito Paez
-                    /*   "3tAICgiSR5PfYY4B8qsoAU", //Andrés Calamaro
+                    "3tAICgiSR5PfYY4B8qsoAU", //Andrés Calamaro
                     "6ZIgPKHzpcswB8zh7sRIhx", //Divididos
                     "3rSpnCzb6wtsvZlGkkcHz4", //Sumo
                     "7An4yvF7hDYDolN4m5zKBp", //Soda Stereo
@@ -115,14 +115,14 @@ class MusicSeeder extends Seeder
                 "artists" => [
                     "6tbjWDEIzxoDsBA1FuhfPW", //Madonna
                     "3fMbdgg4jU18AjLCKBhRSm", //Michael Jackson
-                    /*  "3yY2gUcIsjMr8hjo51PoJ8", //The Smiths
+                    "3yY2gUcIsjMr8hjo51PoJ8", //The Smiths
                     "0du5cEVh5yTK9QJze8zA0C", //Bruno Mars
                     "6ogn9necmbUdCppmNnGOdi", //Alanis Morissette
                     "0uq5PttqEjj3IH1bzwcrXF", //Spice Girls
                     "2SHhfs4BiDxGQ3oxqf0UHY", //Roxette
                     "31TPClRtHm23RisEBtV3X7", //Justin Timberlake
                     "4dpARuHxo51G3z768sgnrY", //Adele
-                    "3oDbviiivRWhXwIE8hxkVV", //The Beach Boys */
+                    "3oDbviiivRWhXwIE8hxkVV", //The Beach Boys 
                 ]
             ]
         ];
@@ -149,7 +149,7 @@ class MusicSeeder extends Seeder
                         "genre_id" => $genre["genre"],
                         "release_date" => $release_date,
                         "label" => $label,
-                        "cover" => $album["images"][0]["url"],
+                        "cover" => $album["images"] ? $album["images"][0]["url"] : "",
                         "total_tracks" => $album["total_tracks"]
                     ]);
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Genre;
+use App\Album;
 
 class GenreController extends Controller
 {
@@ -44,7 +45,7 @@ class GenreController extends Controller
      */
     public function show($id)
     {
-        $genre = Genre::with("album")->find($id);
+        $genre = Album::where('genre_id', $id)->with('genre', 'artist')->paginate(12);
         return view("genres.show", ["genre" => $genre]);
     }
 
