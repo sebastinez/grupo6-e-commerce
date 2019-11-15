@@ -11,7 +11,7 @@
 				<div class="col-md-8">
 					<div class="card-body">
 						<h5 class="card-title">{{$album->name}}</h5>
-						<h5 class="card-title">{{$album->artists[0]->name}}</h5>
+						<h5 class="card-title">{{$album->artist[0]->name}}</h5>
 						<p class="card-text">Release: {{$album->release_date}}<br>
 							Cantidad de canciones: {{$album->total_tracks}}</p>
 					</div>
@@ -24,17 +24,18 @@
 <div class="row" style="color: #fff;">
 	<div class="container">
 		<div class="col-12">
-		
-        @foreach ($album->tracks as $track)
-            @if($track->preview_url !== null)
+
+			@foreach ($album->track as $track)
 			<div class="container mt-5">
-				
-					<h5>{{$track->name}}</h5>
-					<audio src="{{$track->preview_url}}" controls>
-					</audio>
+				@if($track->preview_url !== null)
+				<h5>{{$track->track_number}} - {{$track->name}}</h5>
+				<audio src="{{$track->preview_url}}" controls> </audio>
+				@else
+				<h5><a href={{'https://open.spotify.com/track/'.$track["spotify_id"]}}>{{$track->track_number}} - {{$track->name}}</a></h5>
+				@endif
 			</div>
-			@endif
-        @endforeach
+			@endforeach
+
 		</div>
 	</div>
 </div>

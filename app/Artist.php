@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Tracks extends Model
+class Artist extends Model
 {
-    public $table = "tracks";
+    public $table = "artist";
     public $primaryKey = "id";
     public $timestamps = false;
     //protected $fillable = [];

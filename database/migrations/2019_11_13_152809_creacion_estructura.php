@@ -13,45 +13,45 @@ class CreacionEstructura extends Migration
      */
     public function up()
     {
-        Schema::create("albums", function (Blueprint $table) {
+        Schema::create("album", function (Blueprint $table) {
             $table->increments("id");
             $table->string("spotify_id", 100);
-            $table->unsignedSmallInteger("genres_id");
+            $table->unsignedSmallInteger("genre_id");
             $table->string("name", 255);
             $table->date("release_date");
             $table->string("label", 255);
             $table->string("cover", 255);
             $table->unsignedSmallInteger("total_tracks");
         });
-        Schema::create("albums_carts", function (Blueprint $table) {
+        Schema::create("album_cart", function (Blueprint $table) {
             $table->increments("id");
-            $table->unsignedSmallInteger("genres_id");
-            $table->unsignedSmallInteger("carts_id");
+            $table->unsignedSmallInteger("genre_id");
+            $table->unsignedSmallInteger("cart_id");
         });
-        Schema::create("artists", function (Blueprint $table) {
+        Schema::create("artist", function (Blueprint $table) {
             $table->increments("id");
             $table->string("spotify_id", 100);
             $table->string("name", 255);
         });
-        Schema::create("artists_albums", function (Blueprint $table) {
+        Schema::create("album_artist", function (Blueprint $table) {
             $table->increments("id");
-            $table->unsignedSmallInteger("artists_id");
-            $table->unsignedSmallInteger("albums_id");
+            $table->unsignedSmallInteger("artist_id");
+            $table->unsignedSmallInteger("album_id");
         });
-        Schema::create("carts", function (Blueprint $table) {
+        Schema::create("cart", function (Blueprint $table) {
             $table->increments("id");
             $table->unsignedSmallInteger("user_id");
         });
-        Schema::create("genres", function (Blueprint $table) {
+        Schema::create("genre", function (Blueprint $table) {
             $table->increments("id");
             $table->string("name", 255);
         });
-        Schema::create("genres_users", function (Blueprint $table) {
+        Schema::create("genre_user", function (Blueprint $table) {
             $table->increments("id");
-            $table->unsignedSmallInteger("genres_id");
-            $table->unsignedSmallInteger("users_id");
+            $table->unsignedSmallInteger("genre_id");
+            $table->unsignedSmallInteger("user_id");
         });
-        Schema::create("tracks", function (Blueprint $table) {
+        Schema::create("track", function (Blueprint $table) {
             $table->increments("id");
             $table->unsignedSmallInteger("album_id");
             $table->string("spotify_id", 100);
@@ -69,13 +69,13 @@ class CreacionEstructura extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists("albums");
-        Schema::dropIfExists("albums_carts");
-        Schema::dropIfExists("artists");
-        Schema::dropIfExists("artists_albums");
-        Schema::dropIfExists("carts");
-        Schema::dropIfExists("genres");
-        Schema::dropIfExists("genres_users");
-        Schema::dropIfExists("tracks");
+        Schema::dropIfExists("album");
+        Schema::dropIfExists("album_cart");
+        Schema::dropIfExists("artist");
+        Schema::dropIfExists("album_artist");
+        Schema::dropIfExists("cart");
+        Schema::dropIfExists("genre");
+        Schema::dropIfExists("genre_user");
+        Schema::dropIfExists("track");
     }
 }

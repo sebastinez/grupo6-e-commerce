@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Tracks;
+use App\Genre;
 
-class TracksController extends Controller
+class GenreController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,9 +13,7 @@ class TracksController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        //
-    }
+    { }
 
     /**
      * Show the form for creating a new resource.
@@ -46,7 +44,8 @@ class TracksController extends Controller
      */
     public function show($id)
     {
-        //
+        $genre = Genre::with("album")->find($id);
+        return view("genres.show", ["genre" => $genre]);
     }
 
     /**

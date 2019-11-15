@@ -12,13 +12,13 @@ class MusicSeeder extends Seeder
      */
     public function run()
     {
-        $genreIdClassic = DB::table("genres")->insertGetId(["name" => "Classic"]);
-        $genreIdEDM = DB::table("genres")->insertGetId(["name" => "EDM"]);
-        $genreIdFunk = DB::table("genres")->insertGetId(["name" => "Funk"]);
-        $genreIdHipHop = DB::table("genres")->insertGetId(["name" => "Hip-Hop"]);
-        $genreIdJazz = DB::table("genres")->insertGetId(["name" => "Jazz"]);
-        $genreIdLatin = DB::table("genres")->insertGetId(["name" => "Latin"]);
-        $genreIdPop = DB::table("genres")->insertGetId(["name" => "Pop"]);
+        $genreIdClassic = DB::table("genre")->insertGetId(["name" => "Classic"]);
+        $genreIdEDM = DB::table("genre")->insertGetId(["name" => "EDM"]);
+        $genreIdFunk = DB::table("genre")->insertGetId(["name" => "Funk"]);
+        $genreIdHipHop = DB::table("genre")->insertGetId(["name" => "Hip-Hop"]);
+        $genreIdJazz = DB::table("genre")->insertGetId(["name" => "Jazz"]);
+        $genreIdLatin = DB::table("genre")->insertGetId(["name" => "Latin"]);
+        $genreIdPop = DB::table("genre")->insertGetId(["name" => "Pop"]);
 
         $tokenRaw = Curl::to("https://accounts.spotify.com/api/token")->withHeader("Authorization: Basic YzliODg4ZDBlZjlmNDc2N2FmODFmMzAzZjFmZmMxOWI6MWU3MWM0NzViNTExNDgwNGI0NjIxMTJkMzMwOTZhMGM=")->withData(array("grant_type" => "client_credentials"))->post();
 
@@ -131,7 +131,7 @@ class MusicSeeder extends Seeder
             $data = Curl::to("https://api.spotify.com/v1/artists")->withHeader('Authorization: Bearer ' . $token["access_token"])->withData(array("ids" => $artistas))->get();
             $data = json_decode($data, true);
             foreach ($data["artists"] as $artist) {
-                $artist_id = DB::table("artists")->insertGetId([
+                $artist_id = DB::table("artist")->insertGetId([
                     "spotify_id" => $artist["id"],
                     "name" => $artist["name"]
                 ]);
@@ -143,19 +143,19 @@ class MusicSeeder extends Seeder
                     $label = array_key_exists("label", $album) ? $album["label"] : "";
                     $release_date = strlen($album["release_date"]) < 10 ? substr($album["release_date"], 0, 4) . "-01-01" : $album["release_date"];
 
-                    $album_id = DB::table("albums")->insertGetId([
+                    $album_id = DB::table("album")->insertGetId([
                         "spotify_id" => $album["id"],
                         "name" => $album["name"],
-                        "genres_id" => $genre["genre"],
+                        "genre_id" => $genre["genre"],
                         "release_date" => $release_date,
                         "label" => $label,
                         "cover" => $album["images"][0]["url"],
                         "total_tracks" => $album["total_tracks"]
                     ]);
 
-                    DB::table("artists_albums")->insert([
-                        "artists_id" => $artist_id,
-                        "albums_id" => $album_id
+                    DB::table("album_artist")->insert([
+                        "artist_id" => $artist_id,
+                        "album_id" => $album_id
                     ]);
 
                     //Obtención de canciones de cada disco
@@ -164,7 +164,7 @@ class MusicSeeder extends Seeder
                     $tracks = json_decode($tracks, true);
 
                     foreach ($tracks["items"] as $track) {
-                        $track_id = DB::table("tracks")->insertGetId([
+                        $track_id = DB::table("track")->insertGetId([
                             "spotify_id" => $track["id"],
                             "album_id" => $album_id,
                             "name" => $track["name"],

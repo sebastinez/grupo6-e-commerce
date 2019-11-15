@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Albums;
-use App\Artists;
+use App\Artist;
 
-class AlbumsController extends Controller
+class ArtistController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +14,7 @@ class AlbumsController extends Controller
      */
     public function index()
     {
-        $albums = Albums::with('artists')->paginate(15);
-        return view("albums.index", ["albums" => $albums]);
+        //
     }
 
     /**
@@ -26,7 +24,7 @@ class AlbumsController extends Controller
      */
     public function create()
     {
-        return view("albums.create");
+        //
     }
 
     /**
@@ -37,24 +35,7 @@ class AlbumsController extends Controller
      */
     public function store(Request $request)
     {
-
-        $reglas = [
-            "name" => "required",
-            "release_date" => "required",
-            "total_tracks" => "required|numeric",
-            "label" => "required",
-        ];
-
-        $mensajes = [
-            "required" => "El :attribute es necesario",
-            "numeric" => "El campo :attribute debe ser un numero",
-        ];
-
-        $this->validate($request, $reglas, $mensajes);
-
-        Albums::create($request->all());
-
-        return redirect("/albums");
+        //
     }
 
     /**
@@ -65,8 +46,7 @@ class AlbumsController extends Controller
      */
     public function show($id)
     {
-        $album = Albums::with("artists", "tracks")->find($id);
-        return view("albums.show", ["album" => $album]);
+        //
     }
 
     /**
@@ -77,8 +57,7 @@ class AlbumsController extends Controller
      */
     public function edit($id)
     {
-        $album = Albums::find($id);
-        return view("albums.edit", ["album" => $album]);
+        //
     }
 
     /**
@@ -90,11 +69,7 @@ class AlbumsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $album = Albums::find($id);
-
-        $album->update($request->all());
-
-        return redirect("/albums");
+        //
     }
 
     /**

@@ -4,15 +4,15 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Genres extends Model
+class Genre extends Model
 {
-    public $table = "genres";
+    public $table = "genre";
     public $primaryKey = "id";
     public $timestamps = false;
     protected $fillable = ["name"];
 
-    public function albumes()
+    public function album()
     {
-        return $this->hasMany("App\Albums", "genres_id", "id");
+        return $this->hasMany("App\Album");
     }
 }

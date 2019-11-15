@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Genres;
-use App\Albums;
+use App\Genre;
+use App\Album;
 
 class HomeController extends Controller
 {
@@ -15,8 +15,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $albums = Albums::with('artists')->paginate(15);
-        $genres = Genres::all();
+        $albums = Album::with('artist')->paginate(15);
+        $genres = Genre::all();
         return view('home', ["genres" => $genres, "albums" => $albums]);
     }
 }
