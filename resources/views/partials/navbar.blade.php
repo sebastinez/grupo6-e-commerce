@@ -3,11 +3,16 @@
     <a href="/"><img src="/img/logo-g8.png" alt=""></a>
   </div>
   <div class="contenedor-buscador">
-    <form action="paginas/auth.php" method="POST">
+    <form action="/search" method="POST">
+      {{csrf_field()}}
       <div class="input-group redimension-buscador">
         <input type="text" class="form-control" placeholder="Buscas un disco" name="query" aria-label="Buscar Disco" aria-describedby="button-addon2">
         <div class="input-group-append">
-          <button class="btn btn-outline-verde" type="submit" id="button-addon2">Buscar</button>
+          <select class="" name="type" type="submit" id="" style="padding-left:5px">
+          <option value="artist">Artist</option>
+          <option value="genre">Genre</option>
+          <option value="album">Album</option>
+          </select>
         </div>
       </div>
     </form>

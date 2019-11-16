@@ -10,4 +10,9 @@ class Artist extends Model
     public $primaryKey = "id";
     public $timestamps = false;
     //protected $fillable = [];
+
+    public function album()
+    {
+        return $this->belongsToMany("App\Album", "album_artist");
+    }
 }

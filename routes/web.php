@@ -12,6 +12,7 @@
 */
 
 Route::get('/', "HomeController@index");
+Route::post('/search', "HomeController@search");
 
 Route::get("/faq", function () {
     return view("faq");
