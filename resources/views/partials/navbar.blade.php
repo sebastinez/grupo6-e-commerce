@@ -3,17 +3,11 @@
     <a href="/"><img src="/img/logo-g8.png" alt=""></a>
   </div>
   <div class="contenedor-buscador">
-    <form action="/search" method="POST">
-      {{csrf_field()}}
+    <form action="/search">
       <div class="input-group redimension-buscador">
-        <input type="text" class="form-control" placeholder="Buscas un disco" name="query" aria-label="Buscar Disco" aria-describedby="button-addon2">
-        <div class="input-group-append">
-          <select class="" name="type" type="submit" id="" style="padding-left:5px">
-          <option value="artist">Artist</option>
-          <option value="genre">Genre</option>
-          <option value="album">Album</option>
-          </select>
-        </div>
+        <input type="text" class="form-control" name="query" list="result"
+          id="search" autocomplete="off">
+        <datalist id="result"></datalist>
       </div>
     </form>
   </div>
@@ -26,17 +20,50 @@
       @else
       <img src="/storage/{{Auth::user()->avatar}}" data-toggle="dropdown" class="userAvatar">
       @endif
-      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="/users/{{Auth::user()->id}}/edit">Editar perfil</a>
+      <div class="dropdown-menu dropdown-menu-right"
+        aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="/users/{{Auth::user()->id}}/edit">Editar
+          perfil</a>
         <a class="dropdown-item" href="{{ route('logout') }}">Cerrar sesion</a>
       </div>
     </div>
     @endauth
     @guest
     <div class="menu-item">
-      <span><a href="/login">Login</a> | <a href="/register">Registrar</a></span>
+      <span><a href="/login">Login</a> | <a
+          href="/register">Registrar</a></span>
     </div>
     @endguest
-    <div class="menu-item"><a href="/carrito"><i class="fas fa-shopping-cart"></a></i></div>
+    <div class="menu-item"><a href="/carrito"><i
+          class="fas fa-shopping-cart"></a></i></div>
   </div>
 </nav>
+<script>var searchField = document.getElementById("search");
+  searchField.addEventListener("keypress", busquedaCambio);
+  var datalist = document.getElementById("result");
+  function busquedaCambio(event) {
+    fetch("/search?query=" + event.target.value, {
+      method: "GET"
+    }).then(response => response.json()).then(json => {
+      datalist.innerHTML = ""
+      json.albums.forEach(element => {
+        var option = document.createElement("option");
+        option.text = element.name + " - " + "Albums";
+        datalist.appendChild(option);
+      })
+      json.artists.forEach(element => {
+        var option = document.createElement("option");
+        option.text = element.name + " - " + "Artists";
+        datalist.appendChild(option);
+      })
+      json.genre.forEach(element => {
+        var option = document.createElement("option");
+        option.text = element.name + " - " + "Genres";
+        datalist.appendChild(option);
+      })
+    })
+  }
+  function insertAfter(newNode, referenceNode) {
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+  }
+</script>

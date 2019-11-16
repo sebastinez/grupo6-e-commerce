@@ -22,21 +22,9 @@ class HomeController extends Controller
     }
     public function search(Request $request)
     {
-        //Hay que emprolijar....
-        switch ($request->get("type")) {
-            case 'album':
-                $albums = Album::where("name", "like", "%" . $request->get('query') . "%")->with("artist")->get();
-                return view("albums.index", ["albums" => $albums]);
-                break;
-            case 'artist':
-                $artist = Artist::where("name", "like", "%" . $request->get('query') . "%")->get();
-                return view("artist.index", ["artist" => $artist]);
-                break;
-            case 'genre':
-                $genreRaw = Genre::where("name", "like", "%" . $request->get('query') . "%")->with("album")->first();
-                $genre = Album::where('genre_id', $genreRaw->id)->with('genre', 'artist')->get();
-                return view("genre.show", ["genre" => $genre]);
-                break;
-        }
+        $albums = Album::where("name", "like", "%" . $request->get('query') . "%")->get();
+        $artist = Artist::where("name", "like", "%" . $request->get('query') . "%")->get();
+        $genre = Genre::where('name', "like", "%" . $request->get('query') . "%")->get();
+        return json_encode(["albums" => $albums, "artists" => $artist, "genre" => $genre]);
     }
 }
