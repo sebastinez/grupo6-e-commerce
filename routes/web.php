@@ -13,6 +13,7 @@
 
 Route::get('/', "HomeController@index");
 Route::get('/search', "HomeController@search");
+Route::post('/search', "HomeController@show");
 
 Route::get("/faq", function () {
     return view("faq");

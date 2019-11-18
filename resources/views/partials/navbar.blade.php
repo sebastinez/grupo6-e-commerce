@@ -3,11 +3,14 @@
     <a href="/"><img src="/img/logo-g8.png" alt=""></a>
   </div>
   <div class="contenedor-buscador">
-    <form action="/search">
+    <form action="/search" method="POST">
+      @csrf
       <div class="input-group redimension-buscador">
+        <input type="hidden" id="id" name="id">
+        <input type="hidden" id="type" name="type">
         <input type="text" class="form-control" name="query" list="result"
           id="search" autocomplete="off">
-        <datalist id="result"></datalist>
+        <datalist name="result" id="result"></datalist>
       </div>
     </form>
   </div>
@@ -38,32 +41,4 @@
           class="fas fa-shopping-cart"></a></i></div>
   </div>
 </nav>
-<script>var searchField = document.getElementById("search");
-  searchField.addEventListener("keypress", busquedaCambio);
-  var datalist = document.getElementById("result");
-  function busquedaCambio(event) {
-    fetch("/search?query=" + event.target.value, {
-      method: "GET"
-    }).then(response => response.json()).then(json => {
-      datalist.innerHTML = ""
-      json.albums.forEach(element => {
-        var option = document.createElement("option");
-        option.text = element.name + " - " + "Albums";
-        datalist.appendChild(option);
-      })
-      json.artists.forEach(element => {
-        var option = document.createElement("option");
-        option.text = element.name + " - " + "Artists";
-        datalist.appendChild(option);
-      })
-      json.genre.forEach(element => {
-        var option = document.createElement("option");
-        option.text = element.name + " - " + "Genres";
-        datalist.appendChild(option);
-      })
-    })
-  }
-  function insertAfter(newNode, referenceNode) {
-    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-  }
-</script>
+<script src="js/buscador.js"></script>

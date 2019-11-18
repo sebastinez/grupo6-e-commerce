@@ -45,7 +45,7 @@ class GenreController extends Controller
      */
     public function show($id)
     {
-        $genre = Album::where('genre_id', $id)->with('genre', 'artist')->paginate(12);
+        $genre = Genre::with('album')->find($id);
         return view("genres.show", ["genre" => $genre]);
     }
 

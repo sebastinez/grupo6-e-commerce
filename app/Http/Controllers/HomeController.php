@@ -22,9 +22,26 @@ class HomeController extends Controller
     }
     public function search(Request $request)
     {
-        $albums = Album::where("name", "like", "%" . $request->get('query') . "%")->get();
-        $artist = Artist::where("name", "like", "%" . $request->get('query') . "%")->get();
-        $genre = Genre::where('name', "like", "%" . $request->get('query') . "%")->get();
+        $albums = Album::where("name", "like", "%" . $request->get('query') . "%")->limit(15)->get();
+        $artist = Artist::where("name", "like", "%" . $request->get('query') . "%")->limit(15)->get();
+        $genre = Genre::where('name', "like", "%" . $request->get('query') . "%")->limit(15)->get();
         return json_encode(["albums" => $albums, "artists" => $artist, "genre" => $genre]);
+    }
+    public function show(Request $request)
+    {
+        switch ($request->get("type")) {
+            case 'albums':
+                $album = Album::find($request->get("id"));
+                return view("albums.show", ["album" => $album]);
+                break;
+            case 'artists':
+                $artist = Artist::with("album")->find($request->get("id"));
+                return view("artist.show", ["artist" => $artist]);
+                break;
+            case 'genres':
+                $genre = Genre::with("album")->find($request->get("id"));
+                return view("genres.show", ["genre" => $genre]);
+                break;
+        }
     }
 }

@@ -2,8 +2,9 @@
 
 @section("content")
 <div class="container pt-5">
+<h1 class="text-white text-center mb-5">{{$genre->name}}</h1>
 	<div class="container-albums">
-		@foreach ($genre as $album)
+		@foreach ($genre->album as $album)
 
 		<div class="contenedor-card-album animated fadeIn faster">
 			<a href="/album/{{$album->id}}">
@@ -22,8 +23,7 @@
 			<button class="btn btn-naranja comprar">comprar</button>
 		</div>
 		@endforeach
-		{{$genre->links()}}
-		@unless(count($genre) > 0)
+		@unless(count($genre->album) > 0)
 		<h2 style="color:#fff">No tenemos discos asociados a este genero</h2>
 		@endunless
 	</div>
