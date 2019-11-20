@@ -17,9 +17,9 @@
     <div class="menu-item">
       <span>Hola {{Auth::user()->name}}</span>
       @if(Auth::user()->avatar == null)
-      <img src="img/avatar.png" data-toggle="dropdown" class="userAvatar">
-      @else 
-      <img src="storage/{{Auth::user()->avatar}}" data-toggle="dropdown" class="userAvatar">
+      <img src="/img/avatar.png" data-toggle="dropdown" class="userAvatar">
+      @else
+      <img src="/storage/{{Auth::user()->avatar}}" data-toggle="dropdown" class="userAvatar">
       @endif
       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
         <a class="dropdown-item" href="/users/{{Auth::user()->id}}/edit">Editar perfil</a>
