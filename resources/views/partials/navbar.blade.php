@@ -3,15 +3,22 @@
     <a href="/"><img src="/img/logo-g8.png" alt=""></a>
   </div>
   <div class="contenedor-buscador">
-    <form action="/search" method="POST">
+    <form action="/">
       @csrf
-      <div class="input-group redimension-buscador">
+      <div class="ui category search">
+        <div class="ui icon input">
+          <input class="prompt" id="search" name="query" type="text" placeholder="Search music...">
+          <i class="search icon"></i>
+        </div>
+        <div class="results"></div>
+      </div>
+      {{-- <div class="input-group redimension-buscador">
         <input type="hidden" id="id" name="id">
         <input type="hidden" id="type" name="type">
         <input type="text" class="form-control" name="query" list="result"
           id="search" autocomplete="off">
         <datalist name="result" id="result"></datalist>
-      </div>
+      </div> --}}
     </form>
   </div>
   <div class="menu-items">

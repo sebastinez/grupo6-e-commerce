@@ -25,7 +25,25 @@ class HomeController extends Controller
         $albums = Album::where("name", "like", "%" . $request->get('query') . "%")->limit(15)->get();
         $artist = Artist::where("name", "like", "%" . $request->get('query') . "%")->limit(15)->get();
         $genre = Genre::where('name', "like", "%" . $request->get('query') . "%")->limit(15)->get();
-        return json_encode(["albums" => $albums, "artists" => $artist, "genre" => $genre]);
+
+        $result = [];
+        if (count($albums) > 0) {
+            foreach ($albums as $value) {
+                $result[] = ["category" => "albums", "title" => $value["name"], "id" => $value["id"]];
+            }
+        }
+        if (count($artist) > 0) {
+            foreach ($artist as $value) {
+                $result[] = ["category" => "artist", "title" => $value["name"], "id" => $value["id"]];
+            }
+        }
+        if (count($genre) > 0) {
+            foreach ($genre as $value) {
+                $result[] = ["category" => "genres", "title" => $value["name"], "id" => $value["id"]];
+            }
+        }
+
+        return response()->json($result);
     }
     public function show(Request $request)
     {
