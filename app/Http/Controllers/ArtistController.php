@@ -12,10 +12,8 @@ class ArtistController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        //
-    }
+    public function index($id)
+    { }
 
     /**
      * Show the form for creating a new resource.
@@ -46,7 +44,9 @@ class ArtistController extends Controller
      */
     public function show($id)
     {
-        //
+        $artist = Artist::find($id);
+        $albums = $artist->album()->paginate(12);
+        return view("artist.show", ["artist" => $artist, "albums" => $albums]);
     }
 
     /**
