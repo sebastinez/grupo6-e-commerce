@@ -1,12 +1,22 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    background: url(../img/bg_home.jpg);
-    background-size: cover;
-    background-position: center center;
+    /* background: url(../img/bg_home.jpg); */
+    background-color: #474858;
+    
 }
 
 .container-fluid {
     padding: 0;
+}
+/* BUSCADOR */
+.ui, .results {
+    width: 100%!important;
+}
+.prompt {
+    border-radius: 8px!important;
+}
+.ui.input>input {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -347,7 +357,7 @@ nav#productos .contenedor-buscador {
     /* HAY UN PROBLEMA CON EL NAV-PRODUCTOS Y EL TITULO ESTE */
     color: white;
     font-size: 2.5rem;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 25px 0;
     text-align: center;
     font-weight: 700;
@@ -359,8 +369,7 @@ nav#productos .contenedor-buscador {
 footer {
     background-color: #3a3a3a;
     color: white;
-    margin-top: 50px;
-    padding-top: 30px;
+    padding-top: 70px;
 }
 
 footer .copyright {
@@ -493,7 +502,7 @@ footer .btn:hover {
     background-color: #fff;
     width: 80%;
     max-width: 330px;
-    margin: 100px auto;
+    margin: 0px auto;
     border-radius: 5px;
 }
 
@@ -622,6 +631,9 @@ button.registracion {
 
 
 /*HOME*/
+.container-cards {
+    padding-bottom: 20px;
+}
 
 .container-generos {
     overflow: hidden;
@@ -662,6 +674,12 @@ button.registracion {
     width: 100%;
 }
 
+.mas-vendidos {
+    margin-top: 50px;
+    background-color: rgb(103, 148, 146)!important;
+    padding-bottom: 50px;
+}
+
 
 /*Album*/
 
@@ -686,7 +704,7 @@ button.registracion {
     float: left;
     margin-bottom: 25px;
     color: #fff;
-    cursor: pointer;
+    
     width: 250px !important;
 }
 
@@ -717,7 +735,7 @@ button.registracion {
     padding: 15px;
     padding-bottom: 30px;
     width: 100%;
-    min-height: 200px;
+    min-height: 180px;
 }
 
 .info-precio {
@@ -753,7 +771,7 @@ button.registracion {
 .precio {
     font-weight: 700;
     font-size: 1.3rem;
-    color: #fe3454;
+    color: #8f2033;
 }
 
 .info .anio {
@@ -927,7 +945,7 @@ div.perfil {
         display: none;
     }
     nav .contenedor-buscador {
-        display: none;
+        display: inline;
     }
     .home p {
         font-size: 5rem;
@@ -936,6 +954,9 @@ div.perfil {
     .card-style {
         width: 150px;
         margin-right: 10px;
+    }
+    nav#menu .menu-item {
+        padding-right: 0;
     }
 }
 

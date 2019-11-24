@@ -12,7 +12,7 @@
 					<img src="{{$album->cover}}">
 				</div>
 				<div class="info">
-					{{$album->artist[0]->name}}
+					<a class="name_artist" href="">{{$album->artist[0]->name}}</a>
 					<p class="name_disc">{{$album->name}}</p>
 					<div class="info-precio">
 						<p class="anio">Lanzamiento {{$album->release_date}}</p>
@@ -26,6 +26,7 @@
 		@unless(count($genre->album) > 0)
 		<h2 style="color:#fff">No tenemos discos asociados a este genero</h2>
 		@endunless
+		
 	</div>
 </div>
 
