@@ -354,18 +354,22 @@ nav#productos .contenedor-buscador {
 
 .titulos {
     display: block;
-    /* HAY UN PROBLEMA CON EL NAV-PRODUCTOS Y EL TITULO ESTE */
     color: white;
     font-size: 2.5rem;
-    /* margin-top: 50px; */
     padding: 25px 0;
     text-align: center;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 
 /* FOOTER */
-
+#footer {
+    bottom: 0;
+    margin-bottom: 0!important;
+    display: inline-block;
+    width: 100%;
+}
 footer {
     background-color: #3a3a3a;
     color: white;
@@ -580,17 +584,29 @@ button.registracion {
     margin-left: 20vw;
 }
 
+.padding {
+    padding-top: 120px;
+    padding-bottom: 70px;
+    /* border: 2px red solid;; */
+}
 
 /* CONTACTO */
-
+p.olvide {
+    text-align: center;
+    padding-top: 25px;
+}
 .registracion input,
 .registracion select {
     margin-top: 20px;
 }
-
+.form-check{
+    scroll-padding-left: 0px;
+    padding-top: 15px;
+}
 .form-group label {
     color: #fff;
     font-size: 1.2rem;
+    padding-left: 25px;
 }
 
 .form-group button[type='submit'] {

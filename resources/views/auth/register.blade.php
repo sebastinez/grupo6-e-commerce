@@ -2,14 +2,13 @@
 
 @section("content")
 
-<div class="titulos">REGISTRACIÓN</div>
+
+<div class="padding">
+    <div class="titulos">REGISTRACIÓN</div>
 <form action="{{ route('register') }}" method="POST">
     @csrf
-
     <div class="registracion">
-
         <div class="form-row">
-
             <div class="form-group col-md-6">
                 <div class="input-class">
                     <input type="text" name="name" value="{{ old('name') }}" class="form-control {{ $errors->has('name') ? ' is-invalid' : '' }}" id="name" placeholder="Nombre">
@@ -63,5 +62,6 @@
         </div>
     </div>
 </form>
+</div>
 
 @endsection

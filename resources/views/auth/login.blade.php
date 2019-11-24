@@ -1,6 +1,7 @@
 @extends("index")
 @section("content")
-
+<div class="padding">
+    <div class="titulos">Login</div>
 <div class="login">
     <div class="header">
         <h2>¡Hola! Para seguir, <br>ingresá tu e-mail y contraseña</h2>
@@ -31,8 +32,9 @@
             </div>
             <button type="submit" class="btn btn-verde">Ingresar</button>
             @if (Route::has('password.request'))
-            <a href="{{ route('password.request') }}" class="btn btn-naranja btn-sm">Olvide contraseña</a>
+            <p class="olvide"><a href="{{ route('password.request') }}">Olvide la contraseña</a></p>
             @endif
     </form>
+</div>
 </div>
 @endsection

@@ -1,8 +1,9 @@
 @extends("index")
 
 @section("content")
-<div class="container pt-5">
-<h1 class="text-white text-center mb-5">{{$genre->name}}</h1>
+
+<div class="container">
+<div class="titulos">{{$genre->name}}</div>
 	<div class="container-albums">
 		@foreach ($genre->album as $album)
 

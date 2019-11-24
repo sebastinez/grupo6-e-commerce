@@ -3,9 +3,9 @@
 @include("partials.navproductos")
 
 <div id="body">
-
-    @yield("content")
-
+    
+        @yield("content")
+    
 </div>
 
 @include("partials.footer")
