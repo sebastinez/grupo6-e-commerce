@@ -1,8 +1,8 @@
 @extends('index')
 
 @section("content")
-<div class="mt-5" style="color: #fff;">
-	<div class="container">
+<div class="pt-5">
+	<div class="container padding">
 		<div class="card mb-3">
 			<div class="row">
 				<div class="col-md-4">
