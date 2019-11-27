@@ -5,7 +5,7 @@
 <div class="container padding">
 <div class="titulos">{{$genre->name}}</div>
 	<div class="container-albums">
-		@foreach ($genre->album as $album)
+		@foreach ($albums as $album)
 
 		<div class="contenedor-card-album animated fadeIn faster">
 			<a href="/album/{{$album->id}}">
@@ -24,8 +24,9 @@
 			<button class="btn btn-naranja comprar">comprar</button>
 		</div>
 		@endforeach
+		{{$albums->links()}}
 		@unless(count($genre->album) > 0)
-		<h2 style="color:#fff">No tenemos discos asociados a este genero</h2>
+		<div class="titulos" style="font-size:2rem">No tenemos discos asociados a este genero</div>
 		@endunless
 
 	</div>

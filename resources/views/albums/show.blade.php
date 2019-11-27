@@ -21,7 +21,7 @@
 	</div>
 </div>
 
-<div class="row" style="color: #fff;">
+<div class="row pb-5" style="color: #fff;">
 	<div class="container">
 		<div class="col-12">
 
