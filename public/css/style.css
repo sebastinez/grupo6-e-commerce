@@ -2,19 +2,24 @@ body {
     font-family: 'Ubuntu', sans-serif;
     /* background: url(../img/bg_home.jpg); */
     background-color: #474858;
-    
 }
 
 .container-fluid {
     padding: 0;
 }
+
+
 /* BUSCADOR */
-.ui, .results {
+
+.ui,
+.results {
     width: 100%!important;
 }
+
 .prompt {
     border-radius: 8px!important;
 }
+
 .ui.input>input {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -355,8 +360,8 @@ nav#productos .contenedor-buscador {
 .titulos {
     display: block;
     color: white;
-    font-size: 2.5rem;
-    padding: 25px 0;
+    font-size: 4rem;
+    padding-bottom: 70px;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
@@ -364,12 +369,14 @@ nav#productos .contenedor-buscador {
 
 
 /* FOOTER */
+
 #footer {
     bottom: 0;
     margin-bottom: 0!important;
     display: inline-block;
     width: 100%;
 }
+
 footer {
     background-color: #3a3a3a;
     color: white;
@@ -585,24 +592,28 @@ button.registracion {
 }
 
 .padding {
-    padding-top: 120px;
-    padding-bottom: 70px;
+    padding-top: 150px;
     /* border: 2px red solid;; */
 }
 
+
 /* CONTACTO */
+
 p.olvide {
     text-align: center;
     padding-top: 25px;
 }
+
 .registracion input,
 .registracion select {
     margin-top: 20px;
 }
-.form-check{
+
+.form-check {
     scroll-padding-left: 0px;
     padding-top: 15px;
 }
+
 .form-group label {
     color: #fff;
     font-size: 1.2rem;
@@ -647,6 +658,7 @@ p.olvide {
 
 
 /*HOME*/
+
 .container-cards {
     padding-bottom: 20px;
 }
@@ -720,7 +732,6 @@ p.olvide {
     float: left;
     margin-bottom: 25px;
     color: #fff;
-    
     width: 250px !important;
 }
 

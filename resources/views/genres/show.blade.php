@@ -2,7 +2,7 @@
 
 @section("content")
 
-<div class="container">
+<div class="container padding">
 <div class="titulos">{{$genre->name}}</div>
 	<div class="container-albums">
 		@foreach ($genre->album as $album)
@@ -27,7 +27,7 @@
 		@unless(count($genre->album) > 0)
 		<h2 style="color:#fff">No tenemos discos asociados a este genero</h2>
 		@endunless
-		
+
 	</div>
 </div>
 
