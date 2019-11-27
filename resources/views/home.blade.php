@@ -7,7 +7,7 @@
 	<div class="container-cards">
 		<a href="/genres/{{$genre->id}}">
 			<div class="card-style">
-				<img src="/img/generos/{{$genre->name}}.jpg" alt="">
+				<img src="/img/generos/{{strtolower($genre->name)}}.jpg" alt="">
 				<p>{{$genre->name}}</p>
 			</div>
 		</a>
