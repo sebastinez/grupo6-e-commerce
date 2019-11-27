@@ -723,7 +723,7 @@ p.olvide {
 
 .mas-vendidos {
     margin-top: 50px;
-    background-color: rgb(103, 148, 146)!important;
+    background-color: rgba(255, 255, 255, 0.555)!important;
     padding-bottom: 50px;
 }
 
@@ -745,7 +745,7 @@ p.olvide {
 .contenedor-card-album {
     position: relative;
     border-radius: 0 0 10px 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.61);
     box-sizing: border-box;
     overflow: hidden;
     float: left;
