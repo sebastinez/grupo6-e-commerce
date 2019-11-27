@@ -2,7 +2,7 @@
 
 @section("content")
 <div class="container pt-5">
-	<h1 style="color:#fff" class="text-center mb-5">{{$artist->name}}</h1>
+	<div class="titulos">{{$artist->name}}</div>
 	<div class="container-albums">
 		@foreach ($albums as $album)
 
