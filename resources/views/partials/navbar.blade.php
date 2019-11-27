@@ -48,4 +48,4 @@
           class="fas fa-shopping-cart"></a></i></div>
   </div>
 </nav>
-<script src="js/buscador.js"></script>
+<script src="/js/buscador.js"></script>
