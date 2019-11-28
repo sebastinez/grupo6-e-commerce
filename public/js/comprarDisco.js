@@ -17,6 +17,17 @@ addBtn.forEach(button => {
                     albumBtn.setAttribute("disabled", true);
                     albumBtn.classList.remove("btn-naranja");
                     albumBtn.classList.add("btn-secondary");
+                } else {
+                    albumBtn.innerHTML = "ERROR!";
+                    albumBtn.setAttribute("disabled", true);
+                    albumBtn.classList.remove("btn-naranja");
+                    albumBtn.classList.add("btn-danger");
+                    setTimeout(function() {
+                        albumBtn.innerHTML = "COMPRAR";
+                        albumBtn.removeAttribute("disabled");
+                        albumBtn.classList.add("btn-naranja");
+                        albumBtn.classList.remove("btn-danger");
+                    }, 3000);
                 }
             }
         );
