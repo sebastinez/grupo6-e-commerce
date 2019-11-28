@@ -45,21 +45,4 @@ class HomeController extends Controller
 
         return response()->json($result);
     }
-    public function show(Request $request)
-    {
-        switch ($request->get("type")) {
-            case 'albums':
-                $album = Album::find($request->get("id"));
-                return view("albums.show", ["album" => $album]);
-                break;
-            case 'artists':
-                $artist = Artist::with("album")->find($request->get("id"));
-                return view("artist.show", ["artist" => $artist]);
-                break;
-            case 'genres':
-                $genre = Genre::with("album")->find($request->get("id"));
-                return view("genres.show", ["genre" => $genre]);
-                break;
-        }
-    }
 }
