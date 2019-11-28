@@ -31,7 +31,7 @@
 						<img src="{{$album->cover}}">
 					</div>
 					<div class="info">
-						<a class="name_artist" href="">{{$album->artist[0]->name}}</a>
+						<a class="name_artist" href="/artists/{{$album->artist[0]->id}}">{{$album->artist[0]->name}}</a>
 						<p class="name_disc">{{$album->name}}</p>
 						<div class="info-precio">
 							<p class="anio">Lanzamiento {{$album->release_date}}</p>
