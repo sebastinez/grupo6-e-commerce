@@ -8,6 +8,11 @@ body {
     padding: 0;
 }
 
+.fondos_albums {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
 /* BUSCADOR */
 
 .ui,
@@ -19,9 +24,10 @@ body {
     border-radius: 8px !important;
 }
 
-.ui.input > input {
+.ui.input>input {
     font-family: 'Ubuntu', sans-serif;
 }
+
 
 /*BOTONES*/
 
@@ -220,12 +226,14 @@ nav .contenedor-buscador input {
     border-radius: 4px;
 }
 
+
 /*HEADER */
 
 header {
     width: 100%;
     overflow: hidden;
 }
+
 
 /* header.home {
     height: 100vh;
@@ -276,6 +284,7 @@ header h1 {
     font-family: 'Rock Salt', cursive;
     text-shadow: 2px 10px 9px rgba(0, 0, 0, 1);
 }
+
 
 /* NAV-PRODUCTOS */
 
@@ -366,6 +375,7 @@ nav#productos .contenedor-buscador {
     background-color: #3a3a3a;
 }
 
+
 /* BODY */
 
 .titulos {
@@ -379,7 +389,7 @@ nav#productos .contenedor-buscador {
     text-transform: uppercase;
 }
 
-.resultados p{
+.resultados p {
     display: block;
     color: rgba(255, 255, 255, 0.692);
     font-size: 1.5rem;
@@ -387,8 +397,8 @@ nav#productos .contenedor-buscador {
     padding-top: 30px;
     text-align: left;
     font-weight: 300;
-    
 }
+
 
 /* FOOTER */
 
@@ -495,11 +505,13 @@ footer .btn:hover {
     background-color: #f5903e;
 }
 
+
 /*@media screen and (max-width: 767px) {
   footer {
     text-align: center;
   }
 }*/
+
 
 /* BREADCRUMB */
 
@@ -517,14 +529,15 @@ footer .btn:hover {
     margin-top: 40px;
 }
 
-.fa-home ~ span#breadcrumb-home a {
+.fa-home~span#breadcrumb-home a {
     color: #fff;
 }
 
-.fa-home ~ span#breadcrumb-page {
+.fa-home~span#breadcrumb-page {
     color: #6bbaa7;
     font-style: italic;
 }
+
 
 /* LOGIN */
 
@@ -581,6 +594,7 @@ footer .btn:hover {
     width: 70%;
 }
 
+
 /* REGISTRACION */
 
 div.registracion {
@@ -613,6 +627,7 @@ button.registracion {
     padding-top: 100px;
     /* border: 2px red solid;; */
 }
+
 
 /* CONTACTO */
 
@@ -661,6 +676,7 @@ p.olvide {
     margin-left: 0px;
 }
 
+
 /* EDITAR PERFIL */
 
 .inputEditarPerfil input,
@@ -671,6 +687,7 @@ p.olvide {
 .inputEditarPerfil input[type='file'] {
     color: #fff;
 }
+
 
 /*HOME*/
 
@@ -724,7 +741,30 @@ p.olvide {
     padding-bottom: 50px;
 }
 
+
 /*Album*/
+
+.tracks_albums {
+    padding-top: 50px;
+}
+
+.tracks_albums span {
+    font-size: 12px;
+}
+
+.name_tracks {
+    font-size: 16px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+audio:focus,
+audio:active,
+.outline:focus,
+.outline:active {
+    outline: 0px!important;
+    border: none!important;
+}
 
 .container-albums {
     display: flex;
@@ -785,7 +825,8 @@ p.olvide {
     bottom: 10px;
 }
 
-.info a.name_artist, p.name_artist {
+.info a.name_artist,
+p.name_artist {
     font-weight: 700;
     font-size: 1.4rem;
     color: #fff;
@@ -822,11 +863,13 @@ p.olvide {
     font-size: 0.8rem;
 }
 
+
 /*ALBUM*/
 
 audio {
     width: 100%;
 }
+
 
 /* PERFIL DE USUARIO*/
 
@@ -867,6 +910,7 @@ div.perfil {
 .row .cuadro img {
     width: 223px;
 }
+
 
 /* FAQ */
 
@@ -918,6 +962,7 @@ div.perfil {
     font-style: normal;
 }
 
+
 /* CARRITO */
 
 .carrito {
@@ -940,7 +985,7 @@ div.perfil {
     margin-right: 40px;
 }
 
-.carrito h2 + span {
+.carrito h2+span {
     display: none;
 }
 
@@ -974,7 +1019,7 @@ div.perfil {
         display: block;
         margin-top: 30px;
     }
-    .carrito h2 + span {
+    .carrito h2+span {
         display: block;
         margin: 0;
         margin-bottom: 10px;
