@@ -1,8 +1,8 @@
 @extends("index")
 
 @section("content")
+<div class="contacto container padding">
     <div class="titulos">Formulario de contacto</div>
-    <div class="contacto container">
         <div class="form-group">
             <form action="?p=contacto" method="POST" class="form">
                 <div class="form-group">

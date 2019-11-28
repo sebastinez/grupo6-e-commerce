@@ -1,8 +1,8 @@
 @extends('index')
 
 @section("content")
+<section class="faq padding" >
 <div class="titulos">FAQ</div>
-<section class=faq>
 	<div class="container" id="accordion">
 		<div class="faqHeader">Generales</div>
 		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">

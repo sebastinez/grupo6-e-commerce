@@ -1,5 +1,10 @@
         <header class="home">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <video id="video" loop autoplay preload muted>
+                        <source src="../img/video.mp4" >
+                </video>
+
+
+            {{-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active bounceInRight">
                         <p>Discover</p>
@@ -11,5 +16,5 @@
                         <p>Listen</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </header>

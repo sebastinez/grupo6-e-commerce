@@ -34,7 +34,7 @@ class HomeController extends Controller
         }
         if (count($artist) > 0) {
             foreach ($artist as $value) {
-                $result[] = ["category" => "artist", "title" => $value["name"], "id" => $value["id"]];
+                $result[] = ["category" => "artists", "title" => $value["name"], "id" => $value["id"]];
             }
         }
         if (count($genre) > 0) {

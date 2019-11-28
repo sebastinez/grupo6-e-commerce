@@ -1,14 +1,27 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    background: url(../img/bg_home.jpg);
-    background-size: cover;
-    background-position: center center;
+    /* background: url(../img/bg_home.jpg); */
+    background-color: #474858;
 }
 
 .container-fluid {
     padding: 0;
 }
 
+/* BUSCADOR */
+
+.ui,
+.results {
+    width: 100% !important;
+}
+
+.prompt {
+    border-radius: 8px !important;
+}
+
+.ui.input > input {
+    font-family: 'Ubuntu', sans-serif;
+}
 
 /*BOTONES*/
 
@@ -207,19 +220,34 @@ nav .contenedor-buscador input {
     border-radius: 4px;
 }
 
-
 /*HEADER */
 
 header {
     width: 100%;
+    overflow: hidden;
 }
 
-header.home {
+/* header.home {
     height: 100vh;
     background-image: url(../img/bg_header.jpg);
     background-size: cover;
     background-position: center center;
     padding-top: 40vh;
+} */
+
+header.home {
+    overflow: hidden;
+}
+
+#video {
+    position: fixed;
+    left: 0;
+    top: -50;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    visibility: visible;
+    overflow: hidden;
 }
 
 header.spacer {
@@ -248,7 +276,6 @@ header h1 {
     font-family: 'Rock Salt', cursive;
     text-shadow: 2px 10px 9px rgba(0, 0, 0, 1);
 }
-
 
 /* NAV-PRODUCTOS */
 
@@ -339,28 +366,43 @@ nav#productos .contenedor-buscador {
     background-color: #3a3a3a;
 }
 
-
 /* BODY */
 
 .titulos {
     display: block;
-    /* HAY UN PROBLEMA CON EL NAV-PRODUCTOS Y EL TITULO ESTE */
     color: white;
-    font-size: 2.5rem;
-    margin-top: 50px;
-    padding: 25px 0;
+    font-size: 4rem;
+    padding-bottom: 70px;
+    padding-top: 70px;
     text-align: center;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
+.resultados p{
+    display: block;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: left;
+    font-weight: 300;
+    
+}
 
 /* FOOTER */
+
+#footer {
+    bottom: 0;
+    margin-bottom: 0 !important;
+    display: inline-block;
+    width: 100%;
+}
 
 footer {
     background-color: #3a3a3a;
     color: white;
-    margin-top: 50px;
-    padding-top: 30px;
+    padding-top: 70px;
 }
 
 footer .copyright {
@@ -453,13 +495,11 @@ footer .btn:hover {
     background-color: #f5903e;
 }
 
-
 /*@media screen and (max-width: 767px) {
   footer {
     text-align: center;
   }
 }*/
-
 
 /* BREADCRUMB */
 
@@ -477,15 +517,14 @@ footer .btn:hover {
     margin-top: 40px;
 }
 
-.fa-home~span#breadcrumb-home a {
+.fa-home ~ span#breadcrumb-home a {
     color: #fff;
 }
 
-.fa-home~span#breadcrumb-page {
+.fa-home ~ span#breadcrumb-page {
     color: #6bbaa7;
     font-style: italic;
 }
-
 
 /* LOGIN */
 
@@ -493,7 +532,7 @@ footer .btn:hover {
     background-color: #fff;
     width: 80%;
     max-width: 330px;
-    margin: 100px auto;
+    margin: 0px auto;
     border-radius: 5px;
 }
 
@@ -542,7 +581,6 @@ footer .btn:hover {
     width: 70%;
 }
 
-
 /* REGISTRACION */
 
 div.registracion {
@@ -571,17 +609,32 @@ button.registracion {
     margin-left: 20vw;
 }
 
+.padding {
+    padding-top: 100px;
+    /* border: 2px red solid;; */
+}
 
 /* CONTACTO */
+
+p.olvide {
+    text-align: center;
+    padding-top: 25px;
+}
 
 .registracion input,
 .registracion select {
     margin-top: 20px;
 }
 
+.form-check {
+    scroll-padding-left: 0px;
+    padding-top: 15px;
+}
+
 .form-group label {
     color: #fff;
     font-size: 1.2rem;
+    padding-left: 25px;
 }
 
 .form-group button[type='submit'] {
@@ -608,7 +661,6 @@ button.registracion {
     margin-left: 0px;
 }
 
-
 /* EDITAR PERFIL */
 
 .inputEditarPerfil input,
@@ -620,8 +672,11 @@ button.registracion {
     color: #fff;
 }
 
-
 /*HOME*/
+
+.container-cards {
+    padding-bottom: 20px;
+}
 
 .container-generos {
     overflow: hidden;
@@ -629,13 +684,14 @@ button.registracion {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 100px;
 }
 
 .card-style {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
     max-width: 200px;
 }
 
@@ -662,6 +718,11 @@ button.registracion {
     width: 100%;
 }
 
+.mas-vendidos {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.555) !important;
+    padding-bottom: 50px;
+}
 
 /*Album*/
 
@@ -680,13 +741,12 @@ button.registracion {
 .contenedor-card-album {
     position: relative;
     border-radius: 0 0 10px 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.61);
     box-sizing: border-box;
     overflow: hidden;
     float: left;
     margin-bottom: 25px;
     color: #fff;
-    cursor: pointer;
     width: 250px !important;
 }
 
@@ -717,7 +777,7 @@ button.registracion {
     padding: 15px;
     padding-bottom: 30px;
     width: 100%;
-    min-height: 200px;
+    min-height: 180px;
 }
 
 .info-precio {
@@ -725,7 +785,7 @@ button.registracion {
     bottom: 10px;
 }
 
-.info a.name_artist {
+.info a.name_artist, p.name_artist {
     font-weight: 700;
     font-size: 1.4rem;
     color: #fff;
@@ -752,8 +812,8 @@ button.registracion {
 
 .precio {
     font-weight: 700;
-    font-size: 1.3rem;
-    color: #fe3454;
+    font-size: 1.5rem;
+    color: #ce4f64;
 }
 
 .info .anio {
@@ -762,13 +822,11 @@ button.registracion {
     font-size: 0.8rem;
 }
 
-
 /*ALBUM*/
 
 audio {
     width: 100%;
 }
-
 
 /* PERFIL DE USUARIO*/
 
@@ -809,7 +867,6 @@ div.perfil {
 .row .cuadro img {
     width: 223px;
 }
-
 
 /* FAQ */
 
@@ -861,7 +918,6 @@ div.perfil {
     font-style: normal;
 }
 
-
 /* CARRITO */
 
 .carrito {
@@ -884,7 +940,7 @@ div.perfil {
     margin-right: 40px;
 }
 
-.carrito h2+span {
+.carrito h2 + span {
     display: none;
 }
 
@@ -918,7 +974,7 @@ div.perfil {
         display: block;
         margin-top: 30px;
     }
-    .carrito h2+span {
+    .carrito h2 + span {
         display: block;
         margin: 0;
         margin-bottom: 10px;
@@ -927,7 +983,7 @@ div.perfil {
         display: none;
     }
     nav .contenedor-buscador {
-        display: none;
+        display: inline;
     }
     .home p {
         font-size: 5rem;
@@ -936,6 +992,9 @@ div.perfil {
     .card-style {
         width: 150px;
         margin-right: 10px;
+    }
+    nav#menu .menu-item {
+        padding-right: 0;
     }
 }
 
