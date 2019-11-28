@@ -39,27 +39,42 @@ updateBtn.forEach(button => {
         let albumBtn = event.target;
         let id = albumBtn.getAttribute("data-id");
         let cantidad = document.querySelector(`input[data-disco=d${id}]`).value;
-        let form = new FormData();
-        form.append("user_id", albumBtn.getAttribute("data-user"));
-        form.append("album_id", albumBtn.getAttribute("data-id"));
-        form.append("cantidad", cantidad);
-        fetch("/api/updateDisco", { body: form, method: "POST" }).then(
-            response => {
-                if (response.status == 200) {
-                    albumBtn.innerHTML = "LISTO!";
-                    albumBtn.setAttribute("disabled", true);
-                    albumBtn.classList.remove("btn-danger");
-                    albumBtn.classList.add("btn-secondary");
-                    setTimeout(function() {
-                        albumBtn.innerHTML = "Actualizar";
+        let stock = albumBtn.getAttribute("data-stock");
+        if (cantidad > stock) {
+            albumBtn.innerHTML = "No hay suficiente!";
+            albumBtn.setAttribute("disabled", true);
+            albumBtn.classList.remove("btn-danger");
+            albumBtn.classList.add("btn-secondary");
+            setTimeout(function() {
+                albumBtn.innerHTML = "Actualizar";
 
-                        albumBtn.removeAttribute("disabled");
-                        albumBtn.classList.add("btn-danger");
-                        albumBtn.classList.remove("btn-secondary");
-                    }, 2000);
+                albumBtn.removeAttribute("disabled");
+                albumBtn.classList.add("btn-danger");
+                albumBtn.classList.remove("btn-secondary");
+            }, 2000);
+        } else {
+            let form = new FormData();
+            form.append("user_id", albumBtn.getAttribute("data-user"));
+            form.append("album_id", albumBtn.getAttribute("data-id"));
+            form.append("cantidad", cantidad);
+            fetch("/api/updateDisco", { body: form, method: "POST" }).then(
+                response => {
+                    if (response.status == 200) {
+                        albumBtn.innerHTML = "LISTO!";
+                        albumBtn.setAttribute("disabled", true);
+                        albumBtn.classList.remove("btn-danger");
+                        albumBtn.classList.add("btn-secondary");
+                        setTimeout(function() {
+                            albumBtn.innerHTML = "Actualizar";
+
+                            albumBtn.removeAttribute("disabled");
+                            albumBtn.classList.add("btn-danger");
+                            albumBtn.classList.remove("btn-secondary");
+                        }, 2000);
+                    }
                 }
-            }
-        );
+            );
+        }
     });
 });
 borrarBtn.forEach(button => {

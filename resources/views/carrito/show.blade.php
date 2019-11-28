@@ -21,7 +21,7 @@
                             <input type="number" name="cantidad" class="form-control" value="{{$album->pivot->cantidad}}" data-disco="d{{$album->id}}">
                         </div>
                         <div class="col-4">
-                            <button class="btn btn-danger" data-id="{{$album->id}}" data-user="{{Auth::user()->id}}" data-type="update">Actualizar</button>
+                            <button class="btn btn-danger" data-stock="{{$album->stock}}" data-id="{{$album->id}}" data-user="{{Auth::user()->id}}" data-type="update">Actualizar</button>
                         </div>
                         <div class="col-4">
                             <button class="btn btn-danger" data-id="{{$album->id}}" data-user="{{Auth::user()->id}}" data-type="borrar">Borrar</button>
