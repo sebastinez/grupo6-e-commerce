@@ -21,11 +21,13 @@
 					</div>
 				</div>
 			</a>
+			@auth
 			@if($album->stock > 0)
 			<button data-id="{{$album->id}}" data-type="comprar" data-user="{{Auth::user()->id}}" class="btn btn-naranja comprar">comprar</button>
 			@else
 			<button class="btn btn-secondary comprar" disabled>SIN STOCK</button>
 			@endif
+			@endauth
 		</div>
 		@endforeach
 		{{$albums->links()}}
