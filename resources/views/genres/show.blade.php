@@ -8,7 +8,7 @@
 		@foreach ($albums as $album)
 
 		<div class="contenedor-card-album animated fadeIn faster">
-			<a href="/album/{{$album->id}}">
+			<a href="/albums/{{$album->id}}">
 				<div class="card-img">
 					<img src="{{$album->cover}}">
 				</div>
