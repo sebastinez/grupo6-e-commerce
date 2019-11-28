@@ -11,7 +11,9 @@ body {
 .fondos_albums {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
+a:hover { 
+    text-decoration: none!important;
+}
 /* BUSCADOR */
 
 .ui,
@@ -377,7 +379,7 @@ nav#productos .contenedor-buscador {
     color: white;
     font-size: 4rem;
     padding-bottom: 70px;
-    padding-top: 70px;
+    padding-top: 0px;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
@@ -505,30 +507,50 @@ footer .btn:hover {
 }*/
 
 /* BREADCRUMB */
-
-.bread {
-    display: inline-block;
-    /*padding-left: 20vw;*/
-}
-
-#breadcrumb-barra {
-    color: #fff;
+.breadcrumb {
+    background-color: transparent!important;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .fa-home {
     color: white;
-    margin-top: 40px;
+    padding-right: 5px;
 }
-
+.breadcrumb li a,
 .fa-home ~ span#breadcrumb-home a {
     color: #fff;
 }
-
+.breadcrumb li a,
 .fa-home ~ span#breadcrumb-page {
-    color: #6bbaa7;
+    color: #0cd6a7;
     font-style: italic;
 }
 
+.breadcrumb-item.active {
+    color: rgb(0, 162, 202);
+}
+
+/* PAGINADOR */
+.page-item.disabled .page-link,
+.page-link {
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border: none;
+}
+.active span.page-link{
+    background-color: #0cd6a7!important;
+
+}
+.page-link:hover {
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border: none;
+    color: #0cd6a7;
+}
+.page-link:focus {
+    box-shadow: none;
+}
 /* LOGIN */
 
 .login {
@@ -719,7 +741,9 @@ p.olvide {
 }
 
 .mas-vendidos {
-    margin-top: 50px;
+
+    padding-top: 50px;
+    margin-top: 70px;
     background-color: rgba(255, 255, 255, 0.555) !important;
     padding-bottom: 50px;
 }
