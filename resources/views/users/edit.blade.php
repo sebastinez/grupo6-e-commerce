@@ -1,6 +1,9 @@
 @extends('index')
 
 @section("content")
+<div class="container padding">
+    {{ Breadcrumbs::render('editPerfil') }}
+
     <div class="titulos">Editar perfil</div>
 
     <form action="/users/{{Auth::user()->id}}" method="POST" enctype="multipart/form-data">
@@ -30,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="form-group">
                 <label for="avatar">Imagen de usuario</label>
                 <input type="file" value="Cambiar imagen" class="form-control-file" name="avatar">
@@ -42,4 +45,5 @@
             </div>
         </div>
     </form>
-    @endsection
+</div>
+@endsection

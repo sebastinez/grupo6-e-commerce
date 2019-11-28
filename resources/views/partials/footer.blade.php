@@ -11,7 +11,6 @@
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/register">Registro</a></li>
-                        <li><a href="/carrito">Carrito</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">

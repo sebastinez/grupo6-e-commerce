@@ -3,6 +3,8 @@
 @section("content")
 
 <div class="container padding">
+	{{ Breadcrumbs::render('genre',$genre) }}
+
 	<div class="titulos">{{$genre->name}}</div>
 	<div class="container-albums">
 		@foreach ($albums as $album)

@@ -2,9 +2,11 @@
 
 @section("content")
 <section class="fondos_albums" style="background: url({{$album->cover}});background-size: cover;">
+
     <div class="fondos_albums">
         <div class="pt-5">
             <div class="container padding">
+                {{ Breadcrumbs::render('album',$album) }}
                 <div class="card mb-3">
                     <div class="row">
                         <div class="col-md-4">

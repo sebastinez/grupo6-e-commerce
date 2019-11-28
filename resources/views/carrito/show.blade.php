@@ -3,6 +3,8 @@
 @section("content")
 <div class="padding">
     <div class="container">
+        {{ Breadcrumbs::render('cart',$cart) }}
+
         <div class="titulos">Carrito de compra</div>
         <div class="carrito">
             @foreach ($albums as $album)

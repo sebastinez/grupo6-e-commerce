@@ -2,6 +2,8 @@
 
 @section("content")
 <div class="container padding">
+	{{ Breadcrumbs::render('artist',$artist) }}
+
 	<div class="resultados">
 		<p>Resultados para: {{$artist->name}}</p>
 	</div>
