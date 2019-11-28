@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Ixudra\Curl\Facades\Curl;
+use Faker\Generator as Faker;
 
 class MusicSeeder extends Seeder
 {
@@ -10,7 +11,7 @@ class MusicSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(Faker $faker)
     {
         $genreIdClassic = DB::table("genre")->insertGetId(["name" => "Classic"]);
         $genreIdEDM = DB::table("genre")->insertGetId(["name" => "EDM"]);
@@ -150,7 +151,9 @@ class MusicSeeder extends Seeder
                         "release_date" => $release_date,
                         "label" => $label,
                         "cover" => $album["images"] ? $album["images"][0]["url"] : "",
-                        "total_tracks" => $album["total_tracks"]
+                        "total_tracks" => $album["total_tracks"],
+                        "precio" => $faker->numberBetween(30, 400),
+                        "stock" => $faker->numberBetween(0, 100)
                     ]);
 
                     DB::table("album_artist")->insert([
