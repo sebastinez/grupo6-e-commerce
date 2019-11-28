@@ -13,7 +13,6 @@
 
 Route::get('/', "HomeController@index");
 Route::get('/search', "HomeController@search");
-Route::post('/search', "HomeController@show");
 
 Route::get("/faq", function () {
     return view("faq");
@@ -21,9 +20,13 @@ Route::get("/faq", function () {
 Route::get("/contact", function () {
     return view("contact");
 });
-Route::get("/carrito", function () {
-    return view("carrito");
-});
+Route::get("/carrito", "CartController@index");
+Route::get("/carrito/new", "CartController@create");
+Route::get("/carrito/{id}", "CartController@show");
+Route::post("/carrito", "CartController@store");
+Route::get("/carrito/{id}/edit", "CartController@edit");
+Route::patch("/carrito/{id}", "CartController@update");
+Route::delete("/carrito/{id}", "CartController@delete");
 
 Route::get("/albums", "AlbumController@index");
 Route::get("/albums/new", "AlbumController@create");

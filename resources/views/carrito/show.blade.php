@@ -1,15 +1,16 @@
 @extends("index")
 
 @section("content")
-<div class="titulos">Carrito de compra</div>
+<div class="titulos">Carrito de compra de {{$cart->user->name}}</div>
 <div class="container">
     <div class="carrito">
+        @foreach ($cart->album as $album)
         <hr>
         <div class="row">
-            <div class="col-lg-4 col-md-12"><img src="https://i.scdn.co/image/a70b5fec5600e974f58259c5639f6b20f517dd5f"></div>
+            <div class="col-lg-4 col-md-12"><img src="{{$album->cover}}"></div>
             <div class="col-lg-5 col-md-12">
-                <h2>Yellow Submarine</h2><span>300 ARS</span>
-                <p>The Beatles</p>
+                <h2>{{$album->name}}</h2><span>300 ARS</span>
+                <p>{{$album->artist[0]->name}}</p>
                 <p class="text-success">En Stock</p>
                 <select name="cantidad" id="" class="form-control">
                     <option value="">Cantidad...</option>
@@ -24,6 +25,7 @@
             <div class="col-lg-3 col-md-12 precio precio-desktop">300 ARS</div>
 
         </div>
+        @endforeach
     </div>
 </div>
 @endsection

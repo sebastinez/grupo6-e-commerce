@@ -23,4 +23,8 @@ class Album extends Model
     {
         return $this->belongsTo("App\Genre");
     }
+    public function cart()
+    {
+        return $this->belongsToMany("App\Cart");
+    }
 }
