@@ -379,6 +379,17 @@ nav#productos .contenedor-buscador {
     text-transform: uppercase;
 }
 
+.resultados p{
+    display: block;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: left;
+    font-weight: 300;
+    
+}
+
 /* FOOTER */
 
 #footer {
@@ -774,7 +785,7 @@ p.olvide {
     bottom: 10px;
 }
 
-.info a.name_artist {
+.info a.name_artist, p.name_artist {
     font-weight: 700;
     font-size: 1.4rem;
     color: #fff;
@@ -801,8 +812,8 @@ p.olvide {
 
 .precio {
     font-weight: 700;
-    font-size: 1.3rem;
-    color: #8f2033;
+    font-size: 1.5rem;
+    color: #ce4f64;
 }
 
 .info .anio {
