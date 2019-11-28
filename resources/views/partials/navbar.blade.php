@@ -30,22 +30,24 @@
       @else
       <img src="/storage/{{Auth::user()->avatar}}" data-toggle="dropdown" class="userAvatar">
       @endif
-      <div class="dropdown-menu dropdown-menu-right"
-        aria-labelledby="dropdownMenuButton">
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
         <a class="dropdown-item" href="/users/{{Auth::user()->id}}/edit">Editar
           perfil</a>
         <a class="dropdown-item" href="{{ route('logout') }}">Cerrar sesion</a>
       </div>
     </div>
+    @unless(Auth::user()->cart == false)
+    <div class="menu-item"><a href="/carrito/{{Auth::user()->cart->id}}">
+        <i class="fas fa-shopping-cart"></a></i>
+    </div>
+    @endunless
     @endauth
     @guest
     <div class="menu-item">
-      <span><a href="/login">Login</a> | <a
-          href="/register">Registrar</a></span>
+      <span><a href="/login">Login</a> | <a href="/register">Registrar</a></span>
     </div>
     @endguest
-    <div class="menu-item"><a href="/carrito"><i
-          class="fas fa-shopping-cart"></a></i></div>
+
   </div>
 </nav>
 <script src="/js/buscador.js"></script>

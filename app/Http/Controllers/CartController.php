@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Cart;
+use App\Album;
 
 class CartController extends Controller
 {
@@ -13,7 +14,9 @@ class CartController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    { }
+    {
+        // 
+    }
 
     /**
      * Show the form for creating a new resource.
@@ -45,7 +48,8 @@ class CartController extends Controller
     public function show($id)
     {
         $cart = Cart::with("user", "album")->find($id);
-        return view("carrito.show", ["cart" => $cart]);
+        $albums = $cart->album_paginated;
+        return view("carrito.show", ["cart" => $cart, "albums" => $albums]);
     }
 
     /**

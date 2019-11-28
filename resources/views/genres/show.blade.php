@@ -3,7 +3,7 @@
 @section("content")
 
 <div class="container padding">
-<div class="titulos">{{$genre->name}}</div>
+	<div class="titulos">{{$genre->name}}</div>
 	<div class="container-albums">
 		@foreach ($albums as $album)
 
@@ -17,11 +17,15 @@
 					<p class="name_disc">{{$album->name}}</p>
 					<div class="info-precio">
 						<p class="anio">Lanzamiento {{$album->release_date}}</p>
-						<span class="precio">300 ARS</span>
+						<span class="precio">{{$album->precio}} ARS</span>
 					</div>
 				</div>
 			</a>
-			<button class="btn btn-naranja comprar">comprar</button>
+			@if($album->stock > 0)
+			<button data-id="{{$album->id}}" data-type="comprar" data-user="{{Auth::user()->id}}" class="btn btn-naranja comprar">comprar</button>
+			@else
+			<button class="btn btn-secondary comprar" disabled>SIN STOCK</button>
+			@endif
 		</div>
 		@endforeach
 		{{$albums->links()}}
@@ -31,5 +35,6 @@
 
 	</div>
 </div>
+<script src="{{asset("/js/comprarDisco.js")}}"></script>
 
 @endsection

@@ -9,7 +9,7 @@ class Cart extends Model
     public $table = "cart";
     public $primaryKey = "id";
     public $timestamps = false;
-    //protected $fillable = [];
+    protected $fillable = ["id", "user_id"];
 
     public function user()
     {
@@ -17,6 +17,10 @@ class Cart extends Model
     }
     public function album()
     {
-        return $this->belongsToMany("App\Album", "album_cart");
+        return $this->belongsToMany("App\Album", "album_cart")->withPivot("cantidad");
+    }
+    public function getAlbumPaginatedAttribute()
+    {
+        return $this->album()->paginate(12);
     }
 }

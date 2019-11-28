@@ -1,47 +1,47 @@
     <footer id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <h2>
-                            <a href="/"><img src="img/logo-g8.png" alt="" /></a>
-                        </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2>
+                        <a href="/"><img src="/img/logo-g8.png" alt="" /></a>
+                    </h2>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Inicio</h5>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/register">Registro</a></li>
+                        <li><a href="/carrito">Carrito</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Nosotros</h5>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/sebastinez/grupo8-e-commerce" target="_blank">Integrantes</a>
+                        </li>
+                        <li><a href="/contact">Contactanos</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Soporte</h5>
+                    <ul>
+                        <li><a href="/faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social">
+                        <a href="https://www.instagram.com/_digitalhouse/?hl=es-la" class="instagram transition"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/_digitalhouse?lang=es" class="twitter transition"><i class="fab fa-twitter"></i></a>
+                        <a href="https://es-la.facebook.com/digitalhouse.edu/" class="facebook transition"><i class="fab fa-facebook"></i></a>
                     </div>
-                    <div class="col-sm-2">
-                        <h5>Inicio</h5>
-                        <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/register">Registro</a></li>
-                            <li><a href="/carrito">Carrito</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
-                        <h5>Nosotros</h5>
-                        <ul>
-                            <li>
-                                <a href="https://github.com/sebastinez/grupo8-e-commerce" target="_blank">Integrantes</a>
-                            </li>
-                            <li><a href="/contact">Contactanos</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
-                        <h5>Soporte</h5>
-                        <ul>
-                            <li><a href="/faq">FAQ</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="social">
-                            <a href="https://www.instagram.com/_digitalhouse/?hl=es-la" class="instagram transition"><i class="fab fa-instagram"></i></a>
-                            <a href="https://twitter.com/_digitalhouse?lang=es" class="twitter transition"><i class="fab fa-twitter"></i></a>
-                            <a href="https://es-la.facebook.com/digitalhouse.edu/" class="facebook transition"><i class="fab fa-facebook"></i></a>
-                        </div>
-                        <a href="/contact" class="btn btn-default">Contactanos</a>
-                    </div>
+                    <a href="/contact" class="btn btn-default">Contactanos</a>
                 </div>
             </div>
-            <div class="copyright">
-                <p>E-Commerce - Grupo 8, TN - Digital House</p>
-            </div>
+        </div>
+        <div class="copyright">
+            <p>E-Commerce - Grupo 8, TN - Digital House</p>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
@@ -50,6 +50,6 @@
     <script src="/js/header.js"></script>
     <script src="/js/nav-productos-dropdown.js"></script>
 
-</body>
+    </body>
 
-</html>
+    </html>

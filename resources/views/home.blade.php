@@ -35,16 +35,23 @@
 						<p class="name_disc">{{$album->name}}</p>
 						<div class="info-precio">
 							<p class="anio">Lanzamiento {{$album->release_date}}</p>
-							<span class="precio">300 ARS</span>
+							<span class="precio">{{$album->precio}} ARS</span>
 
 						</div>
 					</div>
 				</a>
-				<button class="btn btn-naranja comprar">comprar</button>
+				@auth
+				@if($album->stock > 0)
+				<button data-id="{{$album->id}}" data-type="comprar" data-user="{{Auth::user()->id}}" class="btn btn-naranja comprar">comprar</button>
+				@else
+				<button class="btn btn-secondary comprar" disabled>SIN STOCK</button>
+				@endif
+				@endauth
 			</div>
 			@endforeach
 
 		</div>
 	</div>
 </section>
+<script src="{{asset("/js/comprarDisco.js")}}"></script>
 @endsection
