@@ -17,11 +17,13 @@
                                 <p class="card-text">Release: {{$album->release_date}}<br>
                                     Cantidad de canciones: {{$album->total_tracks}}</p>
                                 <span class="precio">{{$album->precio}} ARS</span>
+                                @auth
                                 @if($album->stock > 0)
                                 <button style="display:block" data-type="comprar" data-id="{{$album->id}}" data-user="{{Auth::user()->id}}" class="btn btn-naranja">comprar</button>
                                 @else
                                 <button class="btn btn-secondary" disabled>SIN STOCK</button>
                                 @endif
+                                @endauth
                                 <div class="tracks_albums">
                                     {{-- @foreach ($album->track as $track)
                                     <span class="badge badge-light"> {{$track->name}} </span>
