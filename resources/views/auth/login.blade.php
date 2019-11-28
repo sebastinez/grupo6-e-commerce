@@ -6,10 +6,11 @@
     <div class="header">
         <h2>¡Hola! Para seguir, <br>ingresá tu e-mail y contraseña</h2>
     </div>
-    <form class="body" action="{{ route('login') }}" method="POST">
+    <form class="body" action="{{ route('login') }}" method="POST" id="loginForm">
         @csrf
         <div class="form-group">
-            <input type="text" name="email" value="{{ old('email') }}" class="form-control usuario {{ $errors->has('email') ? ' is-invalid' : '' }}" placeholder="e-mail" autofocus>
+        
+            <input type="email" name="email" value="{{ old('email') }}" class="form-control usuario {{ $errors->has('email') ? ' is-invalid' : '' }}" placeholder="e-mail" autofocus>
             @if ($errors->has('email'))
             <span class="invalid-feedback" role="alert">
                 <strong>{{ $errors->first('email') }}</strong>
@@ -37,4 +38,5 @@
     </form>
 </div>
 </div>
+<script src="{{asset("/js/login.js")}}"></script>
 @endsection
