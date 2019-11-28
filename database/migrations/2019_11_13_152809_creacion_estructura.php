@@ -25,7 +25,7 @@ class CreacionEstructura extends Migration
         });
         Schema::create("album_cart", function (Blueprint $table) {
             $table->increments("id");
-            $table->unsignedSmallInteger("genre_id");
+            $table->unsignedSmallInteger("album_id");
             $table->unsignedSmallInteger("cart_id");
         });
         Schema::create("artist", function (Blueprint $table) {
