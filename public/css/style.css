@@ -770,9 +770,18 @@ p.olvide {
 }
 
 .name_tracks {
+    color: #FFF;
     font-size: 16px;
     padding-left: 25px;
     padding-bottom: 10px;
+}
+.name_tracks a{
+    color: #FFF;
+    font-size: 16px;
+    padding-bottom: 0px;
+}
+.fa-spotify {
+    padding-left: 10px;
 }
 
 audio:focus,
