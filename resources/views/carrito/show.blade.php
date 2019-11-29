@@ -3,9 +3,10 @@
 @section("content")
 <div class="padding">
     <div class="container">
-        {{ Breadcrumbs::render('cart',$cart) }}
+        {{ Breadcrumbs::render('cart') }}
 
         <div class="titulos">Carrito de compra</div>
+        @if(count($albums) > 0)
         <div class="carrito">
             @foreach ($albums as $album)
             <div class="row pb-3" data-disco="d{{$album->id}}">
@@ -20,13 +21,13 @@
                     @endif
                     <div class="form-row">
                         <div class="col-3">
-                            <input type="number" name="cantidad" class="form-control" value="{{$album->pivot->cantidad}}" data-disco="d{{$album->id}}">
+                            <input type="number" name="cantidad" class="form-control" value="{{$album->cantidad}}" data-disco="d{{$album->id}}">
                         </div>
                         <div class="col-4">
-                            <button class="btn btn-danger" data-stock="{{$album->stock}}" data-id="{{$album->id}}" data-user="{{Auth::user()->id}}" data-type="update">Actualizar</button>
+                            <button class="btn btn-danger" data-stock="{{$album->stock}}" data-id="{{$album->id}}" data-type="update">Actualizar</button>
                         </div>
                         <div class="col-4">
-                            <button class="btn btn-danger" data-id="{{$album->id}}" data-user="{{Auth::user()->id}}" data-type="borrar">Borrar</button>
+                            <button class="btn btn-danger" data-id="{{$album->id}}" data-type="borrar">Borrar</button>
                         </div>
                     </div>
                 </div>
@@ -35,6 +36,7 @@
             @endforeach
         </div>
         {{$albums->links()}}
+        @endif
         @unless(count($albums) > 0)
         <div class="titulos" style="font-size:2rem">No hay discos en el carrito</div>
         @endunless

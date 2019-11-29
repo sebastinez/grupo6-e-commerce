@@ -8,29 +8,31 @@ addBtn.forEach(button => {
         let albumBtn = event.target;
 
         let form = new FormData();
-        form.append("user_id", albumBtn.getAttribute("data-user"));
-        form.append("album_id", albumBtn.getAttribute("data-id"));
-        fetch("/api/addDisco", { body: form, method: "POST" }).then(
-            response => {
-                if (response.status == 200) {
-                    albumBtn.innerHTML = "LISTO!";
-                    albumBtn.setAttribute("disabled", true);
-                    albumBtn.classList.remove("btn-naranja");
-                    albumBtn.classList.add("btn-secondary");
-                } else {
-                    albumBtn.innerHTML = "ERROR!";
-                    albumBtn.setAttribute("disabled", true);
-                    albumBtn.classList.remove("btn-naranja");
-                    albumBtn.classList.add("btn-danger");
-                    setTimeout(function() {
-                        albumBtn.innerHTML = "COMPRAR";
-                        albumBtn.removeAttribute("disabled");
-                        albumBtn.classList.add("btn-naranja");
-                        albumBtn.classList.remove("btn-danger");
-                    }, 3000);
-                }
+        form.append("id", albumBtn.getAttribute("data-id"));
+        form.append("q", 1);
+
+        fetch("/api/addDisco", {
+            body: form,
+            method: "POST"
+        }).then(response => {
+            if (response.status == 200) {
+                albumBtn.innerHTML = "LISTO!";
+                albumBtn.setAttribute("disabled", true);
+                albumBtn.classList.remove("btn-naranja");
+                albumBtn.classList.add("btn-secondary");
+            } else {
+                albumBtn.innerHTML = "ERROR!";
+                albumBtn.setAttribute("disabled", true);
+                albumBtn.classList.remove("btn-naranja");
+                albumBtn.classList.add("btn-danger");
+                setTimeout(function() {
+                    albumBtn.innerHTML = "COMPRAR";
+                    albumBtn.removeAttribute("disabled");
+                    albumBtn.classList.add("btn-naranja");
+                    albumBtn.classList.remove("btn-danger");
+                }, 3000);
             }
-        );
+        });
     });
 });
 updateBtn.forEach(button => {
