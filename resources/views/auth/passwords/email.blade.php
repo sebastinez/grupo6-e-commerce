@@ -1,7 +1,7 @@
 @extends('index')
 
 @section('content')
-<div class="titulos">Reset Password</div>
+<div class="titulos padding">Reset Password</div>
 <form method="POST" action="{{ route('password.email') }}">
     @csrf
     <div class="registracion">
@@ -24,7 +24,7 @@
             </div>
         </div>
 
-        <div class="boton-registo">
+        <div class="boton-registo pb-5">
             <button type="submit" class="btn btn-verde">
                 {{ __('Send Password Reset Link') }}
             </button>

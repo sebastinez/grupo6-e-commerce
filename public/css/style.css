@@ -402,6 +402,7 @@ nav#productos .contenedor-buscador {
     margin-bottom: 0 !important;
     display: inline-block;
     width: 100%;
+    padding-top: 150px;
 }
 
 footer {
