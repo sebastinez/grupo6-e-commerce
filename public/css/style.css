@@ -532,18 +532,28 @@ footer .btn:hover {
 }
 
 /* PAGINADOR */
+.pagination {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.paginado {
+    margin: 0 auto;
+}
 .page-item.disabled .page-link,
 .page-link {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
+    font-size: 17px;
+    font-family: "Ubuntu", sans-serif;
 }
 .active span.page-link{
     background-color: #0cd6a7!important;
 
 }
 .page-link:hover {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, .5);
     color: #fff;
     border: none;
     color: #0cd6a7;

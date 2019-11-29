@@ -41,7 +41,7 @@
 	</div>
 </div>
 
-<div class="container pt-5 pb-5">
+<div class="row paginado">
 	{{ $albums->links() }}
 </div>
 <script src="{{asset("/js/comprarDisco.js")}}"></script>
