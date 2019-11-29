@@ -1,8 +1,9 @@
 <?php
 
+
 use Illuminate\Http\Request;
-use App\User;
 use App\Cart;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -29,23 +30,10 @@ Route::post("/checkUser", function (Request $request) {
     }
 });
 
-Route::post("/addDisco", function (Request $request) {
-    $cart = Cart::where("user_id", "=", $request->get("user_id"))->get();
-    if (count($cart) > 0) {
-        DB::table('album_cart')->insert(
-            ['album_id' => $request->get("album_id"), "cart_id" => $cart[0]->id, "cantidad" => 1]
-        );
-        return response()->json(["cart_id" => $cart[0]->id]);
-    } else {
-        $newCart = Cart::insertGetId(
-            ['user_id' => $request->get("user_id")]
-        );
-        DB::table('album_cart')->insert(
-            ['album_id' => $request->get("album_id"), "cart_id" => $newCart, "cantidad" => 1]
-        );
-        return response()->json(["cart_id" => $newCart]);
-    }
+Route::middleware(["web"])->group(function () {
+    Route::post("/addDisco", "CartController@store");
 });
+
 Route::post("/updateDisco", function (Request $request) {
     $cart = Cart::where("user_id", "=", $request->get("user_id"))->get();
     DB::table('album_cart')->where("cart_id", "=", $cart[0]->id)->where("album_id", "=", $request->get("album_id"))->update(

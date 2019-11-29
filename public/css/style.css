@@ -11,7 +11,9 @@ body {
 .fondos_albums {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
+a:hover { 
+    text-decoration: none!important;
+}
 /* BUSCADOR */
 
 .ui,
@@ -377,7 +379,7 @@ nav#productos .contenedor-buscador {
     color: white;
     font-size: 4rem;
     padding-bottom: 70px;
-    padding-top: 70px;
+    padding-top: 0px;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
@@ -400,6 +402,7 @@ nav#productos .contenedor-buscador {
     margin-bottom: 0 !important;
     display: inline-block;
     width: 100%;
+    padding-top: 150px;
 }
 
 footer {
@@ -505,30 +508,60 @@ footer .btn:hover {
 }*/
 
 /* BREADCRUMB */
-
-.bread {
-    display: inline-block;
-    /*padding-left: 20vw;*/
-}
-
-#breadcrumb-barra {
-    color: #fff;
+.breadcrumb {
+    background-color: transparent!important;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .fa-home {
     color: white;
-    margin-top: 40px;
+    padding-right: 5px;
 }
-
+.breadcrumb li a,
 .fa-home ~ span#breadcrumb-home a {
     color: #fff;
 }
-
+.breadcrumb li a,
 .fa-home ~ span#breadcrumb-page {
-    color: #6bbaa7;
+    color: #0cd6a7;
     font-style: italic;
 }
 
+.breadcrumb-item.active {
+    color: rgb(0, 162, 202);
+}
+
+/* PAGINADOR */
+.pagination {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.paginado {
+    margin: 0 auto;
+}
+.page-item.disabled .page-link,
+.page-link {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    font-family: "Ubuntu", sans-serif;
+}
+.active span.page-link{
+    background-color: #0cd6a7!important;
+
+}
+.page-link:hover {
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    border: none;
+    color: #0cd6a7;
+}
+.page-link:focus {
+    box-shadow: none;
+}
 /* LOGIN */
 
 .login {
@@ -719,7 +752,9 @@ p.olvide {
 }
 
 .mas-vendidos {
-    margin-top: 50px;
+
+    padding-top: 50px;
+    margin-top: 70px;
     background-color: rgba(255, 255, 255, 0.555) !important;
     padding-bottom: 50px;
 }
@@ -735,9 +770,18 @@ p.olvide {
 }
 
 .name_tracks {
+    color: #FFF;
     font-size: 16px;
     padding-left: 25px;
     padding-bottom: 10px;
+}
+.name_tracks a{
+    color: #FFF;
+    font-size: 16px;
+    padding-bottom: 0px;
+}
+.fa-spotify {
+    padding-left: 10px;
 }
 
 audio:focus,

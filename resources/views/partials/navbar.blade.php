@@ -36,18 +36,15 @@
         <a class="dropdown-item" href="{{ route('logout') }}">Cerrar sesion</a>
       </div>
     </div>
-    @unless(Auth::user()->cart == false)
-    <div class="menu-item"><a href="/carrito/{{Auth::user()->cart->id}}">
-        <i class="fas fa-shopping-cart"></a></i>
-    </div>
-    @endunless
     @endauth
     @guest
     <div class="menu-item">
       <span><a href="/login">Login</a> | <a href="/register">Registrar</a></span>
     </div>
     @endguest
-
+    <div class="menu-item"><a href="/carrito">
+        <i class="fas fa-shopping-cart"></a></i>
+    </div>
   </div>
 </nav>
 <script src="/js/buscador.js"></script>

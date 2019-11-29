@@ -45,7 +45,7 @@ Breadcrumbs::for('editPerfil', function ($trail) {
     $trail->push("Edit User", url('/users'));
 });
 
-Breadcrumbs::for('cart', function ($trail, $cart) {
+Breadcrumbs::for('cart', function ($trail) {
     $trail->parent('home');
-    $trail->push("Carrito", url('/carrito/' . $cart->id));
+    $trail->push("Carrito", url('/carrito/'));
 });

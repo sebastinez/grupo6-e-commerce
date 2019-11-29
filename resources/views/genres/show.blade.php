@@ -32,12 +32,14 @@
 			@endauth
 		</div>
 		@endforeach
-		{{$albums->links()}}
 		@unless(count($genre->album) > 0)
 		<div class="titulos" style="font-size:2rem">No tenemos discos asociados a este genero</div>
 		@endunless
-
+		
 	</div>
+</div>
+<div class="row paginado">
+	{{$albums->links()}}
 </div>
 <script src="{{asset("/js/comprarDisco.js")}}"></script>
 
