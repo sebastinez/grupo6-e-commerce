@@ -73,10 +73,9 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request, $id)
+    public function edit(Request $request)
     {
-        $user = User::find($id);
-        return view("users.edit", ["user" => $user]);
+        return view("users.edit", ["user" => auth()->user()]);
     }
 
     /**
@@ -86,19 +85,18 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        $user = User::find($id);
+        //guardo en un array todo lo que manda el request.
+        $data = $request->only('name', 'surname');
 
-        $diff = array_diff($request->toArray(), $user->toArray());
-
-        $basename = basename($request->file("avatar")->store("public"));
-
+        // piso avatar con la url generada.
         if ($request->has('avatar')) {
-            $diff["avatar"] = $basename;
+            $data['avatar'] = $request->file("avatar")->store("public");
         }
 
-        $user->update($diff);
+        //actualizo el perfil.
+        auth()->user()->update($data);
 
         return redirect("/");
     }

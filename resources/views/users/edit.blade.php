@@ -6,20 +6,20 @@
 
     <div class="titulos">Editar perfil</div>
 
-    <form action="/users/{{Auth::user()->id}}" method="POST" enctype="multipart/form-data">
+    <form action="/users" method="POST" enctype="multipart/form-data">
         @method("patch")
         {{csrf_field()}}
         <div class="registracion inputEditarPerfil">
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="email">Nombre</label>
-                    <input type="text" name="nombre" class="form-control" id="nombre" value="{{$user->name}}" placeholder="Nombre">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" class="form-control" id="name" value="{{$user->name}}" placeholder="Nombre">
                     <div class="invalid-feedback">
                     </div>
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="email">Apellido</label>
-                    <input type="text" name="apellido" class="form-control" id="apellido" value="{{$user->surname}}" placeholder="Nombre">
+                    <label for="surname">Apellido</label>
+                    <input type="text" name="surname" class="form-control" id="surname" value="{{$user->surname}}" placeholder="Apellido">
                     <div class="invalid-feedback">
                     </div>
 
