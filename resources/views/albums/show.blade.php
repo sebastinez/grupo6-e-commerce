@@ -55,7 +55,7 @@
                         <audio src="{{$track->preview_url}}" controls> </audio>
                         @else
                         <div class="name_tracks">
-                            <a href={{'https://open.spotify.com/track/'.$track["spotify_id"]}} target="_blanc">{{$track->name}} <i class="fab fa-spotify"></i></a></div>
+                            <a href={{'https://open.spotify.com/track/'.$track["spotify_id"]}} target="_blanc">{{$track->track_number}} - {{$track->name}} <i class="fab fa-spotify"></i></a></div>
                         @endif
                     </div>
                     @endforeach
@@ -68,13 +68,3 @@
 <script src="{{asset("/js/comprarDisco.js")}}"></script>
 
 @endsection
-
-
-
-
-
-
-
-
-
-
