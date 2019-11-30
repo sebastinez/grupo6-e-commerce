@@ -52,7 +52,7 @@
                         <div class="name_tracks">
                             <p>{{$track->track_number}} - {{$track->name}}</p>
                         </div>
-                        <audio src="{{$track->preview_url}}" controls> </audio>
+                        <audio class="audio-controls" src="{{$track->preview_url}}" controls> </audio>
                         @else
                         <div class="name_tracks">
                             <a href={{'https://open.spotify.com/track/'.$track["spotify_id"]}} target="_blanc">{{$track->track_number}} - {{$track->name}} <i class="fab fa-spotify"></i></a></div>

@@ -181,7 +181,7 @@ nav#menu {
 }
 
 .header-moved {
-    height: 70px;
+    height: 75px;
     background-color: rgba(0, 0, 0, 1);
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -189,7 +189,9 @@ nav#menu {
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-
+.menu-brand img {
+    max-width: 160px;
+}
 nav#menu .menu-items {
     display: flex;
     flex-direction: row;
@@ -791,6 +793,12 @@ audio:active,
     outline: 0px !important;
     border: none !important;
 }
+audio::-webkit-media-controls-panel {
+    background-color: #9e9e9efd;
+    
+}
+
+
 
 .container-albums {
     display: flex;
