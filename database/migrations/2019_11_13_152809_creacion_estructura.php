@@ -40,7 +40,7 @@ class CreacionEstructura extends Migration
         });
         Schema::create("cart", function (Blueprint $table) {
             $table->increments("id");
-            $table->unsignedSmallInteger("user_id");
+            $table->string("user_id", 255);
         });
         Schema::create("genre", function (Blueprint $table) {
             $table->increments("id");
