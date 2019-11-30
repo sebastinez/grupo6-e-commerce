@@ -14,11 +14,11 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(Request $request)
     {
         $albums = Album::with('artist')->inRandomOrder()->paginate(12);
         $genres = Genre::all();
-        return view('home', ["genres" => $genres, "albums" => $albums]);
+        return view('home', ["ip"=>$request->ip(),"genres" => $genres, "albums" => $albums]);
     }
     public function search(Request $request)
     {
