@@ -19,8 +19,12 @@
 						</div>
 					</div>
 				</a>
-				<button class="btn btn-naranja comprar">comprar</button>
-			</div>
+ 				@if($album->stock > 0)
+                <button style="display:block" data-type="comprar" data-id="{{$album->id}}" class="btn btn-naranja">comprar</button>
+                @else
+                <button class="btn btn-secondary" disabled>SIN STOCK</button>
+                @endif
+				</div>
     @endforeach
 	</div>
 </div>
