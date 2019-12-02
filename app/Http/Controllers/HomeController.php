@@ -18,31 +18,34 @@ class HomeController extends Controller
     {
         $albums = Album::with('artist')->inRandomOrder()->paginate(12);
         $genres = Genre::all();
-        return view('home', ["ip"=>$request->ip(),"genres" => $genres, "albums" => $albums]);
+        return view('home', ["ip" => $request->ip(), "genres" => $genres, "albums" => $albums]);
     }
     public function search(Request $request)
     {
-        $albums = Album::where("name", "like", "%" . $request->get('query') . "%")->limit(15)->get();
-        $artist = Artist::where("name", "like", "%" . $request->get('query') . "%")->limit(15)->get();
-        $genre = Genre::where('name', "like", "%" . $request->get('query') . "%")->limit(15)->get();
+        $albums = Album::where("name", "like", "%" . $request->get('q') . "%")->limit(15)->get();
+        $artist = Artist::where("name", "like", "%" . $request->get('q') . "%")->limit(15)->get();
+        $genre = Genre::where('name', "like", "%" . $request->get('q') . "%")->limit(15)->get();
 
         $result = [];
         if (count($albums) > 0) {
+            $result["albums"] = ["name" => "Albums"];
             foreach ($albums as $value) {
-                $result[] = ["category" => "albums", "title" => $value["name"], "id" => $value["id"]];
+                $result["albums"]["results"][] = ["title" => $value["name"], "url" => "/albums/" . $value["id"], "image" => $value["cover"]];
             }
         }
         if (count($artist) > 0) {
+            $result["artists"] = ["name" => "Artists"];
             foreach ($artist as $value) {
-                $result[] = ["category" => "artists", "title" => $value["name"], "id" => $value["id"]];
+                $result["artists"]["results"][] = ["title" => $value["name"], "url" => "/artists/" . $value["id"]];
             }
         }
         if (count($genre) > 0) {
+            $result["genres"] = ["name" => "Genres"];
             foreach ($genre as $value) {
-                $result[] = ["category" => "genres", "title" => $value["name"], "id" => $value["id"]];
+                $result["genres"]["results"][] = ["title" => $value["name"], "url" => "/genres/" . $value["id"]];
             }
         }
 
-        return response()->json($result);
+        return response()->json(["results" => $result]);
     }
 }

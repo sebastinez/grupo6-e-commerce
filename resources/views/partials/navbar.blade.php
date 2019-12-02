@@ -47,4 +47,3 @@
     </div>
   </div>
 </nav>
-<script src="/js/buscador.js"></script>

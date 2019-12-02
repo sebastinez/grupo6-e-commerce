@@ -60,3 +60,5 @@ Route::post("/destroyDisco", function (Request $request) {
     DB::table('album_cart')->where("cart_id", "=", $cart[0]->id)->where("album_id", "=", $request->get("album_id"))->delete();
     return response("OK", 200);
 });
+
+Route::get('/search', "HomeController@search");

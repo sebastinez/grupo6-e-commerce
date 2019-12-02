@@ -1,20 +1,20 @@
-var searchField = document.getElementById('search');
-searchField.addEventListener('keyup', busquedaCambio);
-function busquedaCambio(event) {
-    fetch(`/search?query=${event.target.value}`, {
-        method: 'GET'
-    })
-        .then(response => response.json())
-        .then(json => {
-            $('.ui.search').search({
-                type: 'category',
-                source: json,
-                onSelect: x => {
-                    window.location.href = `/${x.category}/${x.id}`;
-                }
-            });
-        });
-}
-function insertAfter(newNode, referenceNode) {
-    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-}
+$(".ui.search").search({
+    apiSettings: {
+        url: "/api/search/?q={query}"
+    },
+    type: "category",
+    minCharacters: 3,
+    showNoResults: true,
+    maxResults: 5,
+    error: {
+        source: "Hubo problemas en la consulta.",
+        noResults: "No se encontro nada..."
+    },
+    fields: {
+        results: "results",
+        title: "title"
+    },
+    onSelect: x => {
+        window.location.href = `/${x.category}/${x.id}`;
+    }
+});
