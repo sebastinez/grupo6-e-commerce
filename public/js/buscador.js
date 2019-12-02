@@ -6,6 +6,7 @@ $(".ui.search").search({
     minCharacters: 3,
     showNoResults: true,
     maxResults: 5,
+    searchDelay: 400,
     error: {
         source: "Hubo problemas en la consulta.",
         noResults: "No se encontro nada..."

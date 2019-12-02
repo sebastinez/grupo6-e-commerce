@@ -22,9 +22,9 @@ class HomeController extends Controller
     }
     public function search(Request $request)
     {
-        $albums = Album::where("name", "like", "%" . $request->get('q') . "%")->limit(15)->get();
-        $artist = Artist::where("name", "like", "%" . $request->get('q') . "%")->limit(15)->get();
-        $genre = Genre::where('name', "like", "%" . $request->get('q') . "%")->limit(15)->get();
+        $albums = Album::where("name", "like", "%" . $request->get('q') . "%")->get();
+        $artist = Artist::where("name", "like", "%" . $request->get('q') . "%")->get();
+        $genre = Genre::where('name', "like", "%" . $request->get('q') . "%")->get();
 
         $result = [];
         if (count($albums) > 0) {
