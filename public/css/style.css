@@ -11,9 +11,12 @@ body {
 .fondos_albums {
     background-color: rgba(0, 0, 0, 0.8);
 }
-a:hover { 
+
+a:hover {
     text-decoration: none!important;
 }
+
+
 /* BUSCADOR */
 
 .ui,
@@ -25,9 +28,10 @@ a:hover {
     border-radius: 8px !important;
 }
 
-.ui.input > input {
+.ui.input>input {
     font-family: "Ubuntu", sans-serif;
 }
+
 
 /*BOTONES*/
 
@@ -189,9 +193,11 @@ nav#menu {
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
 .menu-brand img {
     max-width: 160px;
 }
+
 nav#menu .menu-items {
     display: flex;
     flex-direction: row;
@@ -228,12 +234,14 @@ nav .contenedor-buscador input {
     border-radius: 4px;
 }
 
+
 /*HEADER */
 
 header {
     width: 100%;
     overflow: hidden;
 }
+
 
 /* header.home {
     height: 100vh;
@@ -284,6 +292,7 @@ header h1 {
     font-family: "Rock Salt", cursive;
     text-shadow: 2px 10px 9px rgba(0, 0, 0, 1);
 }
+
 
 /* NAV-PRODUCTOS */
 
@@ -374,6 +383,7 @@ nav#productos .contenedor-buscador {
     background-color: #3a3a3a;
 }
 
+
 /* BODY */
 
 .titulos {
@@ -396,6 +406,7 @@ nav#productos .contenedor-buscador {
     text-align: left;
     font-weight: 300;
 }
+
 
 /* FOOTER */
 
@@ -503,13 +514,16 @@ footer .btn:hover {
     background-color: #f5903e;
 }
 
+
 /*@media screen and (max-width: 767px) {
   footer {
     text-align: center;
   }
 }*/
 
+
 /* BREADCRUMB */
+
 .breadcrumb {
     background-color: transparent!important;
     padding-top: 50px;
@@ -520,12 +534,14 @@ footer .btn:hover {
     color: white;
     padding-right: 5px;
 }
+
 .breadcrumb li a,
-.fa-home ~ span#breadcrumb-home a {
+.fa-home~span#breadcrumb-home a {
     color: #fff;
 }
+
 .breadcrumb li a,
-.fa-home ~ span#breadcrumb-page {
+.fa-home~span#breadcrumb-page {
     color: #0cd6a7;
     font-style: italic;
 }
@@ -534,15 +550,19 @@ footer .btn:hover {
     color: rgb(0, 162, 202);
 }
 
+
 /* PAGINADOR */
+
 .pagination {
     padding-top: 40px;
     padding-bottom: 30px;
     margin: 0 auto;
 }
+
 .paginado {
     margin: 0 auto;
 }
+
 .page-item.disabled .page-link,
 .page-link {
     background-color: rgba(0, 0, 0, 0.5);
@@ -551,19 +571,23 @@ footer .btn:hover {
     font-size: 17px;
     font-family: "Ubuntu", sans-serif;
 }
-.active span.page-link{
-    background-color: #0cd6a7!important;
 
+.active span.page-link {
+    background-color: #0cd6a7!important;
 }
+
 .page-link:hover {
     background-color: rgba(0, 0, 0, .5);
     color: #fff;
     border: none;
     color: #0cd6a7;
 }
+
 .page-link:focus {
     box-shadow: none;
 }
+
+
 /* LOGIN */
 
 .login {
@@ -619,6 +643,7 @@ footer .btn:hover {
     width: 70%;
 }
 
+
 /* REGISTRACION */
 
 div.registracion {
@@ -648,6 +673,7 @@ button.registracion {
     padding-top: 100px;
     /* border: 2px red solid;; */
 }
+
 
 /* CONTACTO */
 
@@ -696,6 +722,7 @@ p.olvide {
     margin-left: 0px;
 }
 
+
 /* EDITAR PERFIL */
 
 .inputEditarPerfil input,
@@ -706,6 +733,7 @@ p.olvide {
 .inputEditarPerfil input[type="file"] {
     color: #fff;
 }
+
 
 /*HOME*/
 
@@ -754,12 +782,12 @@ p.olvide {
 }
 
 .mas-vendidos {
-
     padding-top: 50px;
     margin-top: 70px;
     background-color: rgba(255, 255, 255, 0.555) !important;
     padding-bottom: 50px;
 }
+
 
 /*Album*/
 
@@ -777,11 +805,13 @@ p.olvide {
     padding-left: 25px;
     padding-bottom: 10px;
 }
-.name_tracks a{
+
+.name_tracks a {
     color: #FFF;
     font-size: 16px;
     padding-bottom: 0px;
 }
+
 .fa-spotify {
     padding-left: 10px;
 }
@@ -793,12 +823,10 @@ audio:active,
     outline: 0px !important;
     border: none !important;
 }
+
 audio::-webkit-media-controls-panel {
     background-color: #9e9e9efd;
-    
 }
-
-
 
 .container-albums {
     display: flex;
@@ -897,11 +925,21 @@ p.name_artist {
     font-size: 0.8rem;
 }
 
+h5.album_name {
+    font-size: 35px;
+}
+
+p.artist {
+    font-size: 25px;
+}
+
+
 /*ALBUM*/
 
 audio {
     width: 100%;
 }
+
 
 /* PERFIL DE USUARIO*/
 
@@ -942,6 +980,7 @@ div.perfil {
 .row .cuadro img {
     width: 223px;
 }
+
 
 /* FAQ */
 
@@ -993,6 +1032,7 @@ div.perfil {
     font-style: normal;
 }
 
+
 /* CARRITO */
 
 .carrito {
@@ -1015,7 +1055,7 @@ div.perfil {
     margin-right: 40px;
 }
 
-.carrito h2 + span {
+.carrito h2+span {
     display: none;
 }
 
@@ -1049,7 +1089,7 @@ div.perfil {
         display: block;
         margin-top: 30px;
     }
-    .carrito h2 + span {
+    .carrito h2+span {
         display: block;
         margin: 0;
         margin-bottom: 10px;

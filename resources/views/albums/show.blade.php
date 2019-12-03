@@ -14,13 +14,13 @@
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">{{$album->name}}</h5>
-                                <h5 class="card-title">
+                                <h5 class="card-title album_name">{{$album->name}}</h5>
+                                <p class="card-title artist">
                                     <a href="/artists/{{$album->artist[0]->id}}" class="text-white">
                                         {{$album->artist[0]->name}}
                                     </a>
-                                </h5>
-                                <p class="card-text">Release: {{$album->release_date}}<br>
+                                </p>
+                                <p class="card-text">Lanzamiento: {{$album->release_date}}<br>
                                     Cantidad de canciones: {{$album->total_tracks}}</p>
                                 <span class="precio">{{$album->precio}} ARS</span>
                                 @if($album->stock > 0)
