@@ -2,9 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <h2>
-                        <a href="/"><img src="/img/logo-g8.png" alt="" /></a>
-                    </h2>
+                    <a href="/"><img src="/img/logo-g8.png" alt="the_music_company" /></a>
                 </div>
                 <div class="col-sm-2">
                     <h5>Inicio</h5>
