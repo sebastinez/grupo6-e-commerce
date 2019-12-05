@@ -1099,6 +1099,7 @@ div.perfil {
         overflow-x: scroll !important;
         width: 100% !important;
         flex-wrap: nowrap;
+        justify-content: flex-start;
     }
 }
 
