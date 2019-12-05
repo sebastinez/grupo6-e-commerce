@@ -39,7 +39,14 @@
     @endauth
     @guest
     <div class="menu-item">
-      <span><a href="/login">Login</a> | <a href="/register">Registrar</a></span>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Login/Registro</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/login">Login</a>              
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/register">Registrar</a>
+            </div>
+          </li>
     </div>
     @endguest
     <div class="menu-item"><a href="/carrito">
