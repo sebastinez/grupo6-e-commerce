@@ -519,7 +519,7 @@ footer .btn:hover {
 .breadcrumb {
     background-color: transparent !important;
     padding-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .fa-home {
@@ -586,6 +586,7 @@ footer .btn:hover {
     max-width: 330px;
     margin: 0px auto;
     border-radius: 5px;
+    margin-bottom: 100px;
 }
 
 .login .header {
@@ -965,7 +966,9 @@ div.perfil {
 }
 
 /* FAQ */
-
+.faq {
+    padding-bottom: 100px;
+}
 .faq a {
     text-decoration: none;
 }

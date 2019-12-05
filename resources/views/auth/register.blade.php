@@ -7,6 +7,7 @@
     {{ Breadcrumbs::render('register') }}
 
     <div class="titulos">REGISTRACIÓN</div>
+
     <form action="{{ route('register') }}" method="POST">
         @csrf
         <div class="registracion">
@@ -59,8 +60,12 @@
                     </div>
                 </div>
             </div>
-            <div class="boton-registo">
-                <button type="submit" class="btn btn-verde">Registrar</button>
+            <div class="row">
+                <div class="container">
+                    <div class="boton-registo">
+                        <button type="submit" class="btn btn-verde">Registrar</button>
+                    </div>
+                </div>
             </div>
         </div>
     </form>
