@@ -1095,6 +1095,11 @@ div.perfil {
     nav#menu .menu-item {
         padding-right: 0;
     }
+    .container-generos {
+        overflow-x: scroll !important;
+        width: 100% !important;
+        flex-wrap: nowrap;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1192,5 +1197,10 @@ div.perfil {
     }
     .container-generos .card-style {
         max-width: 120px;
+    }
+    .container-generos {
+        overflow-x: scroll !important;
+        width: 90% !important;
+        flex-wrap: nowrap;
     }
 }
