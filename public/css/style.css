@@ -230,7 +230,9 @@ nav#menu {
     max-width: 170px;
     padding-left: 30px;
 }
-
+.logosimplif {
+    display: none;
+}
 nav#menu .menu-items {
     display: flex;
     flex-direction: row;
@@ -447,7 +449,7 @@ nav#productos .contenedor-buscador {
     margin-bottom: 0 !important;
     display: inline-block;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 footer {
@@ -503,8 +505,7 @@ footer a:hover {
 
 footer .social {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 16px;
+    padding-bottom: 50px;
 }
 
 footer .social a {
@@ -544,6 +545,9 @@ footer .btn {
 footer .btn:hover {
     color: #ffffff;
     background-color: #f5903e;
+}
+footer img {
+    max-width: 150px;
 }
 
 /*@media screen and (max-width: 767px) {
@@ -1096,6 +1100,9 @@ div.perfil {
 .carrito img {
     width: 200px;
 }
+.container-descubri {
+    display: none;
+}
 
 @media screen and (max-width: 767px) {
     footer {
@@ -1160,18 +1167,38 @@ div.perfil {
         position: fixed;
         bottom: 50px;
         right: 20px;
-        background-color: #005eb1ad;
+        background-color: #fe3456c7;
         padding: 20px;
         border-radius: 50%;
     }
+    #footer {
+        padding-top: 50px;
+    }
+    
+    
+    
 }
 
 @media (max-width: 576px) {
     /*.header-moved {
   background-color: red;
   }*/
+  .menu-brand img {
+    width: 40px;
+    padding-left: 0;
+    }
+    .logosimplif {
+        display: block;
+        padding-right: 5px;
+    }
+    .logonormal {
+        display: none;
+    }
+  #video {
+    display: none
+}
     .info {
-        min-height: 180px;
+        min-height: 130px;
     }
     .menu-brand img {
         max-width: 80px;
@@ -1235,7 +1262,7 @@ div.perfil {
     }
     .comprar {
         position: relative;
-        bottom: 5px;
+        margin-bottom: 5px;
         left: 15px;
     }
     .info a.name_artist {

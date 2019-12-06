@@ -4,14 +4,14 @@
                 <div class="col-sm-3">
                     <a href="/"><img src="/img/logo-g8.png" alt="the_music_company" /></a>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <h5>Inicio</h5>
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/register">Registro</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <h5>Nosotros</h5>
                     <ul>
                         <li>
@@ -20,19 +20,18 @@
                         <li><a href="/contact">Contactanos</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <h5>Soporte</h5>
                     <ul>
                         <li><a href="/faq">FAQ</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
-                    <div class="social">
-                        <a href="https://www.instagram.com/_digitalhouse/?hl=es-la" class="instagram transition"><i class="fab fa-instagram"></i></a>
-                        <a href="https://twitter.com/_digitalhouse?lang=es" class="twitter transition"><i class="fab fa-twitter"></i></a>
-                        <a href="https://es-la.facebook.com/digitalhouse.edu/" class="facebook transition"><i class="fab fa-facebook"></i></a>
-                    </div>
-                    <a href="/contact" class="btn btn-default">Contactanos</a>
+            </div>
+            <div class="col-sm-12">
+                <div class="social">
+                    <a href="https://www.instagram.com/_digitalhouse/?hl=es-la" class="instagram transition"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/_digitalhouse?lang=es" class="twitter transition"><i class="fab fa-twitter"></i></a>
+                    <a href="https://es-la.facebook.com/digitalhouse.edu/" class="facebook transition"><i class="fab fa-facebook"></i></a>
                 </div>
             </div>
         </div>

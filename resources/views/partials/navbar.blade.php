@@ -1,6 +1,7 @@
 <nav id="menu" class="header-initial">
   <div class="menu-brand">
-    <a href="/"><img src="/img/logo-g8.png" alt=""></a>
+    <a class="logonormal" href="/"><img src="/img/logo-g8.png" alt=""></a>
+    <a class="logosimplif" href="/"><img src="/img/logoSimplif.png" alt=""></a>
   </div>
   <div class="contenedor-buscador">
     <form action="/">
