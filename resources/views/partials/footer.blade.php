@@ -45,8 +45,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="/js/header.js"></script>
     <script src="/js/buscador.js"></script>
-    <script src="/js/nav-productos-dropdown.js"></script>
-
+    <script src="/js/modal.js"></script>
+    <script src="/js/login.js"></script>
+    <script src="/js/nav-productos-dropdown.js"> </script>
     </body>
 
     </html>

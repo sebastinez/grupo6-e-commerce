@@ -20,16 +20,6 @@ Breadcrumbs::for('artist', function ($trail, $artist) {
     $trail->push($artist->name, url('/artists/' . $artist->id));
 });
 
-Breadcrumbs::for('login', function ($trail) {
-    $trail->parent('home');
-    $trail->push("Login", url('/login'));
-});
-
-Breadcrumbs::for('register', function ($trail) {
-    $trail->parent('home');
-    $trail->push("Register", url('/register'));
-});
-
 Breadcrumbs::for('faq', function ($trail) {
     $trail->parent('home');
     $trail->push("FAQ", url('/faq'));

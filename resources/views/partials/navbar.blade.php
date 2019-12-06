@@ -40,14 +40,14 @@
     @endauth
     @guest
     <div class="menu-item">
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ingreso</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="/login">Login</a>              
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="/register">Registrar</a>
-            </div>
-          </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ingreso</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" id="loginLink">Login</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" id="registerLink">Registrar</a>
+        </div>
+      </li>
     </div>
     @endguest
     <div class="menu-item"><a href="/carrito">

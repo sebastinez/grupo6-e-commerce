@@ -1,8 +1,8 @@
-let email = document.querySelector("input[type=email]");
-let password = document.querySelector("input[type=password]");
-let token = document.querySelector("input[type=hidden]");
-let btn = document.querySelector("button[type=submit]");
-let formHTML = document.querySelector("form.body .form-group");
+let email = document.querySelector("#loginForm input[type=email]");
+let password = document.querySelector("#loginForm input[type=password]");
+let token = document.querySelector("#loginForm input[type=hidden]");
+let btn = document.querySelector("#loginForm button[type=submit]");
+let formHTML = document.querySelector("#loginForm form.body .form-group");
 btn.addEventListener("click", e => {
     e.preventDefault();
 
