@@ -23,8 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 body: form,
                 method: 'POST'
             }).then(response => {
-                console.log(response);
-
                 if (response.status == 200) {
                     albumBtn.innerHTML = 'LISTO!';
                     albumBtn.setAttribute('disabled', true);
@@ -53,9 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
             let cantidad = document.querySelector(`input[data-disco=d${id}]`)
                 .value;
             let stock = albumBtn.getAttribute('data-stock');
-            console.log(stock);
-            console.log(cantidad);
-
             if (parseInt(cantidad) > parseInt(stock)) {
                 albumBtn.innerHTML = 'No hay suficiente!';
                 albumBtn.setAttribute('disabled', true);
@@ -102,8 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
             form.append('album_id', albumBtn.getAttribute('data-id'));
             fetch('/api/destroyDisco', { body: form, method: 'POST' }).then(
                 response => {
-                    console.log(response);
-
                     if (response.status == 200) {
                         document
                             .querySelector(

@@ -1,29 +1,31 @@
-let email = document.querySelector("#loginForm input[type=email]");
-let password = document.querySelector("#loginForm input[type=password]");
-let token = document.querySelector("#loginForm input[type=hidden]");
-let btn = document.querySelector("#loginForm button[type=submit]");
-let formHTML = document.querySelector("#loginForm form.body .form-group");
-btn.addEventListener("click", e => {
+let email = document.querySelector('#login input[type=email]');
+let password = document.querySelector('#login input[type=password]');
+let token = document.querySelector('#login input[type=hidden]');
+let btn = document.querySelector('#login button[type=submit]');
+let formHTML = document.querySelector('#login form.body .form-group');
+console.log(btn);
+
+btn.addEventListener('click', e => {
     e.preventDefault();
 
     let form = new FormData();
-    form.append("_token", token.value);
-    form.append("email", email.value);
-    form.append("password", password.value);
+    form.append('_token', token.value);
+    form.append('email', email.value);
+    form.append('password', password.value);
 
-    fetch("/api/checkUser", {
+    fetch('/api/checkUser', {
         body: form,
-        method: "POST"
+        method: 'POST'
     })
         .then(result => {
             if (result.status == 200) {
-                document.getElementById("loginForm").submit();
+                document.getElementById('login').submit();
             }
             if (result.status == 403) {
-                alert("No autorizado");
+                alert('No autorizado');
             }
         })
         .catch(error => {
-            console.error("Error:", error);
+            console.error('Error:', error);
         });
 });
