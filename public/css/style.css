@@ -1137,11 +1137,12 @@ div.perfil {
         padding-right: 0;
     }
     .container-generos {
-        overflow-x: scroll !important;
+        overflow-x: scroll;
         width: 100% !important;
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
+
     .menu-brand img {
         width: 120px;
         padding-left: 0;
@@ -1154,6 +1155,14 @@ div.perfil {
     }
     .fa-shopping-cart {
         padding-right: 10px;
+    }
+    nav .fa-shopping-cart {
+        position: fixed;
+        bottom: 50px;
+        right: 20px;
+        background-color: #005eb1ad;
+        padding: 20px;
+        border-radius: 50%;
     }
 }
 
