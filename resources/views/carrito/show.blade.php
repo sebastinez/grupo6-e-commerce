@@ -33,7 +33,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-12 precio precio-desktop">{{$album->precio}} ARS</div>
+                        <div class="col-lg-3 col-md-12 precio precio-desktop"><span id="precio">{{$album->precio}}</span> ARS</div>
                     </div>
                     @endforeach
                 </div>
@@ -46,7 +46,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="pb-3">
-                            <h3>Subtotal: {{$subtotal}} ARS</h3>
+                            <h3>Subtotal: <span id="valor-subtotal">{{$subtotal}}</span> ARS</h3>
                         </div>
                         <button class="btn btn-danger">Confirmar compra</button>
                     </div>
