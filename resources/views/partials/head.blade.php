@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/animated.css">
     <link rel="stylesheet" href="/css/style.css">
-    <title>E-Commerce</title>
+    <title>THE MUSIC co.</title>
 </head>
 
 <body>
