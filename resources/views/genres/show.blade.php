@@ -31,7 +31,9 @@
 		</div>
 		@endforeach
 		@unless(count($genre->album) > 0)
-		<div class="titulos" style="font-size:2rem">No tenemos discos asociados a este genero</div>
+		<div class="no-disc">
+			<p>No tenemos discos asociados a este género &#128531;</p>
+		</div>
 		@endunless
 		
 	</div>

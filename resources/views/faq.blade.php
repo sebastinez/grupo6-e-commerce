@@ -11,7 +11,7 @@
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						¿Nuestros productos son ORIGINALES?
+						¿Nuestros productos son ORIGINALES? &#128519
 
 					</h4>
 				</div>
@@ -26,7 +26,7 @@
 			<div class="card">
 				<div class="card-header ">
 					<h4 class="card-header hover-naranja">
-						¿Hacen envíos al Interior?
+						¿Hacen envíos al Interior? &#128692
 					</h4>
 				</div>
 				<div id="collapseTen" class="panel-collapse collapse">
@@ -40,7 +40,7 @@
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						¿Lo puedo retirar personalmente?
+						¿Lo puedo retirar personalmente? &#128526
 					</h4>
 				</div>
 				<div id="collapseEleven" class="panel-collapse collapse">
@@ -55,7 +55,7 @@
 			<div class="card ">
 				<div class="card-header">
 					<h4 class="card-header hover-naranja">
-						¿Los productos tienen garantía?
+						¿Los productos tienen garantía? &#128513
 					</h4>
 				</div>
 				<div id="collapseTwo" class="panel-collapse collapse">
