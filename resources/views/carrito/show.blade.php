@@ -37,6 +37,8 @@
                     </div>
                     @endforeach
                 </div>
+                @else
+                <div class="titulos" style="font-size:2rem">No hay discos en el carrito</div>
                 @endif
 
             </div>
@@ -72,14 +74,3 @@
 <script src="{{asset("/js/comprarDisco.js")}}"></script>
 
 @endsection
-
-
-
-
-<!--    <div class="row paginado">
-            {{$albums->links()}}
-        </div>
-        @unless(count($cart->album) > 0)
-        <div class="titulos" style="font-size:2rem">No hay discos en el carrito</div>
-        @endunless
-    -->
