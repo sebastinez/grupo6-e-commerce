@@ -64,3 +64,9 @@ Route::delete("/users/{id}", "UserController@destroy");
 
 Auth::routes();
 Route::get("/logout", "\App\Http\Controllers\Auth\LoginController@logout");
+
+
+Route::get('/init', function () {
+    Artisan::call('storage:link');
+    return 'ready!';
+});
