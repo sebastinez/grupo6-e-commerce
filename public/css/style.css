@@ -1131,6 +1131,15 @@ div.perfil {
     color: #fff;
 }
 
+.card-subtotal {
+    background-color: none;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-bottom: 15px;
+}
+
 .card .accordion-toggle {
     color: #fff;
     text-decoration: none;
@@ -1160,9 +1169,13 @@ div.perfil {
 }
 .carrito-subtotal {
     grid-area: 1 / 2 / 2 / 3;
+    margin: 0 auto;
+    text-align: center;
 }
 .carrito-relacionados {
     grid-area: 2 / 2 / 3 / 3;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .carrito-grid .card {
@@ -1173,12 +1186,31 @@ div.perfil {
     display: flex;
     flex-wrap: wrap;
 }
+
 .carrito-relacionados h4{
     padding-bottom: 10px;
     font-weight: 100;
 }
 
 /* CARRITO */
+
+.mensaje-no-carrito {
+    font-size: 30px;
+    color: #fff;
+}
+.mensaje-no-carrito span{
+    font-size: 30px;
+    color: #ffb71b;
+}
+.mensaje-no-carrito span:hover{
+    font-size: 30px;
+    color: #d49100;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
 .fa-shopping-cart {
     color: #fff;
     font-size: 25px;
