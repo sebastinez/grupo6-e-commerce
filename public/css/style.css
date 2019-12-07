@@ -42,6 +42,10 @@ body {
         }
     }
 }
+#body {
+    min-height: 700px;
+}
+
 
 .container-fluid {
     padding: 0;
@@ -466,12 +470,12 @@ nav#productos .contenedor-buscador {
 /* FOOTER */
 
 #footer {
-    bottom: 0;
     margin-bottom: 0 !important;
     display: inline-block;
     width: 100%;
     padding-top: 100px;
     text-align: center;
+    position: relative;
 }
 
 footer {
@@ -1197,7 +1201,7 @@ div.perfil {
 .mensaje-no-carrito {
     font-size: 30px;
     color: #fff;
-    padding-bottom: 230px;
+    
 }
 .mensaje-no-carrito span{
     font-size: 30px;
