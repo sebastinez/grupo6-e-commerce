@@ -14,10 +14,11 @@
                     <div class="carritoActivo">
                         @foreach ($albums as $album)
                         <div class="row pb-3 carrito-contain" data-disco="d{{$album->id}}">
-                            <div class="col-lg-4 col-md-12"><img src="{{$album->cover}}"></div>
+                            <div class="col-lg-4 col-md-12">
+                                <img src="{{$album->cover}}"></div>
                             <div class="col-lg-5 col-md-12">
-                                <h2>{{$album->name}}</h2><span>{{$album->precio}} ARS</span>
-                                <p>{{$album->artist[0]->name}}</p>
+                                <p class="carrito-name-disc">{{$album->name}}</p>
+                                <p class="carrito-name-artist">{{$album->artist[0]->name}}</p>
                                 @if($album->stock > 0)
                                 <p class="text-success">En Stock (quedan {{$album->stock}} discos)</p>
                                 @else
@@ -35,7 +36,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-12 precio precio-desktop"><span id="precio">{{$album->precio}}</span> ARS</div>
+                            <div class="col-lg-3 col-md-12 carrito-precio precio-desktop"><span id="precio">{{$album->precio}}</span> ARS</div>
                         </div>
                         @endforeach
                     </div>
