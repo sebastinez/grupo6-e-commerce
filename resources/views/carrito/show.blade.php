@@ -13,7 +13,7 @@
                     @if(count($albums) > 0)
                     <div class="carritoActivo">
                         @foreach ($albums as $album)
-                        <div class="row pb-3" data-disco="d{{$album->id}}">
+                        <div class="row pb-3 carrito-contain" data-disco="d{{$album->id}}">
                             <div class="col-lg-4 col-md-12"><img src="{{$album->cover}}"></div>
                             <div class="col-lg-5 col-md-12">
                                 <h2>{{$album->name}}</h2><span>{{$album->precio}} ARS</span>

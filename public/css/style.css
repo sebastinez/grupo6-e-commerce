@@ -1208,7 +1208,13 @@ div.perfil {
     padding-bottom: 10px;
     font-weight: 100;
 }
-
+.carrito-contain {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.575);
+    padding-bottom: 30px;
+}
+.carrito-contain:nth-child(2n) {
+    padding-top: 30px;
+  }
 /* CARRITO */
 
 .mensaje-no-carrito {
@@ -1342,6 +1348,9 @@ div.perfil {
     /*.header-moved {
   background-color: red;
   }*/
+    .card-subtotal {
+        margin-top: 15px;
+    }
     .menu-brand img {
         width: 40px;
         padding-left: 0;
