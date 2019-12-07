@@ -865,7 +865,7 @@ p.olvide {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 150px!important;
+    padding-top: 100px;
 }
 
 .card-style {
