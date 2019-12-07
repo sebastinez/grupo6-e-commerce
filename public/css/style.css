@@ -59,6 +59,16 @@ a:hover {
     text-decoration: none !important;
 }
 
+/* PRELOADER */
+.spinner-green, .spinner-green-only {
+    border-color: 009772;
+    
+}
+.preloader-wrapper {
+    width: 100px;
+    height: 100px;
+}
+
 /* BUSCADOR */
 
 .ui,

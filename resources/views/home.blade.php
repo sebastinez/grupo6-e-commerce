@@ -2,18 +2,36 @@
 @section("content")
 @include("partials.cover")
 
-<div class="container container-generos mt-5">
-	@foreach ($genres as $genre)
-	<div class="container-cards">
-		<a href="/genres/{{$genre->id}}">
-			<div class="card-style">
-				<img src="/img/generos/{{strtolower($genre->name)}}.jpg" alt="">
-				<p>{{$genre->name}}</p>
+<div class="preload center" id="circulo" style="padding-top:250px" >
+	<div class="preloader-wrapper active ">
+		<div class="spinner-layer big spinner-green-only">
+			<div class="circle-clipper left">
+			<div class="circle"></div>
+			</div><div class="gap-patch">
+			<div class="circle"></div>
+			</div><div class="circle-clipper right">
+			<div class="circle"></div>
 			</div>
-		</a>
+		</div>
 	</div>
-	@endforeach
 </div>
+
+<div class="hide" id="connteniddo">
+	<div class="container container-generos mt-5 animated fadeIn ">
+			@foreach ($genres as $genre)
+			<div class="container-cards">
+				<a href="/genres/{{$genre->id}}">
+					<div class="card-style">
+						<img src="/img/generos/{{strtolower($genre->name)}}.jpg" alt="">
+						<p>{{$genre->name}}</p>
+					</div>
+				</a>
+			</div>
+			@endforeach
+		</div>
+</div>
+
+
 
 
 
