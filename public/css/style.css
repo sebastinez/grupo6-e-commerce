@@ -82,11 +82,6 @@ a:hover {
 .btn-naranja:hover {
     background-color: #009772;
     color: #fff;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease;
 }
 
 .btn-outline-naranja {
@@ -526,6 +521,11 @@ footer a {
 }
 .fa-shopping-cart:hover {
     color: #6bbaa7;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 footer a:hover,
 .dropdown-toggle:hover {
@@ -657,7 +657,9 @@ footer img {
 }
 
 /* LOGIN */
-
+#loginLink, #registerLink {
+    cursor: pointer;
+}
 .login {
     background-color: #fff;
     width: 80%;
@@ -710,6 +712,40 @@ footer img {
 .login .body a.btn-sm {
     margin-top: 20px;
     width: 70%;
+}
+
+/* POPUP */
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.918);
+    padding: 20px;
+}
+.form-check {
+    padding-left: 32px!important;
+}
+.form-check-label {
+    padding-left: 0px!important;
+    padding-top: 4px;
+}
+.modal-footer {
+    border-top: none;
+}
+.modal-header {
+    border-bottom: none;
+}
+h3.modal-title {
+    line-height: 30px;
+}
+.form-control:focus, .form-group:focus {
+    border-color: none!important;
+    outline: none!important;
+    
+    box-shadow: 0 0 0 0.2rem rgba(0, 112, 85, 0.25);
+    color: #007055;
+    border: none!important;
+}
+button.close:focus {
+    border: none!important;
+    outline: none!important;
 }
 
 /* REGISTRACION */
@@ -958,7 +994,15 @@ p.name_artist {
     color: #fff;
     text-decoration: none;
 }
+.info a.name_artist:hover {
+    color: rgba(255, 255, 255, 0.829);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 
+}
 .info a:hover {
     text-decoration: none;
 }
@@ -1128,6 +1172,10 @@ div.perfil {
 .carrito-listadoRelacionados {
     display: flex;
     flex-wrap: wrap;
+}
+.carrito-relacionados h4{
+    padding-bottom: 10px;
+    font-weight: 100;
 }
 
 /* CARRITO */

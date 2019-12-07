@@ -56,7 +56,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="pb-3">
-                            <h3>Productos relacionados</h3>
+                            <h4>Productos relacionados</h4>
                             <div id="carrito-listadoRelacionados">
                                 @foreach($relacionados as $album)
                                 <a href="/albums/{{$album->id}}">
