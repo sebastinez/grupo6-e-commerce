@@ -231,6 +231,7 @@ nav#menu {
     border-radius: 50%;
     border: 2px solid #fff;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .userAvatar img {
@@ -1233,8 +1234,9 @@ div.perfil {
 .mensaje-no-carrito {
     font-size: 30px;
     color: #fff;
-    
+    line-height: 0px;    
 }
+
 .mensaje-no-carrito span{
     font-size: 30px;
     color: #ffb71b;
@@ -1352,6 +1354,11 @@ div.perfil {
         padding: 20px;
         border-radius: 50%;
     }
+    nav .fa-shopping-cart:hover {
+     color: #fff;
+     background-color: #ff0f37;
+    }
+
     #footer {
         padding-top: 50px;
     }

@@ -41,8 +41,8 @@
                         @endforeach
                     </div>
                     @else
-                    <div class="mensaje-no-carrito"><p>
-                        No hay discos en el carrito <a href="/"><span> ¡Ve a elegir uno!</span></a></p>
+                    <div class="mensaje-no-carrito"><p> <br>
+                        No hay discos en el carrito </p><a href="/"><span class="animated fadeInDown"> ¡Ve a elegir uno!</span></a>
                     </div>
                     @endif
                 </div>
@@ -77,21 +77,7 @@
                 </div>
             </div>
             @endif
-
         </div>
-            
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     </div>
 </div>
 <script src="{{asset("/js/comprarDisco.js")}}"></script>
