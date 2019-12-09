@@ -1,12 +1,14 @@
-document.addEventListener("DOMContentLoaded", event => {
-    console.log($("#register"));
+document.addEventListener('DOMContentLoaded', event => {
+    console.log($('#register'));
 
-    const loginButton = document.querySelector("#loginLink");
-    loginButton.addEventListener("click", () => {
-        $("#login").modal("show");
+    const loginButton = document.querySelector('#loginLink');
+    loginButton.addEventListener('click', () => {
+        $('#login').modal('show');
     });
-    const registerButton = document.querySelector("#registerLink");
-    registerButton.addEventListener("click", () => {
-        $("#register").modal("show");
+    const registerButton = document.querySelectorAll('.registerLink');
+    registerButton.forEach(element => {
+        element.addEventListener('click', () => {
+            $('#register').modal('show');
+        });
     });
 });

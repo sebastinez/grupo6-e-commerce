@@ -45,7 +45,7 @@
         <div class="dropdown-menu">
           <a class="dropdown-item" id="loginLink">Login</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" id="registerLink">Registrar</a>
+          <a class="dropdown-item registerLink" id="registerLink">Registrar</a>
         </div>
       </li>
     </div>

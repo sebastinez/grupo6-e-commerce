@@ -8,7 +8,7 @@
                     <h5>Inicio</h5>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/register">Registro</a></li>
+                        <li><a href="#" class="registerLink">Registro</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
