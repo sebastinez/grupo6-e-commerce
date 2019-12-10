@@ -644,10 +644,22 @@ footer img {
     padding-bottom: 30px;
     margin: 0 auto;
 }
-
+.pagination .page-item {
+    margin: auto;
+}
+ul.pagination .disabled span {
+    color: rgb(97, 97, 97)!important;
+    font-size: 1rem!important;
+}
 .paginado .pagination {
     margin: 0 auto !important;
     text-align: center !important;
+    width: 100%;
+}
+.paginado ul {
+    margin: auto;
+    margin: 0 auto!important;
+    text-align: center!important;
     width: 100%;
 }
 
