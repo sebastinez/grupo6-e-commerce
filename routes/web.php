@@ -16,9 +16,9 @@ Route::get('/', "HomeController@index");
 Route::get("/faq", function () {
     return view("faq");
 });
-Route::get("/contact", function () {
-    return view("contact");
-});
+Route::get("/contact", "ContactController@index");
+Route::post("/contact/send", "ContactController@send");
+
 Route::get("/carrito", "CartController@index");
 Route::post("/carrito", "CartController@store");
 
