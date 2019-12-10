@@ -16,7 +16,7 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        $albums = Album::with('artist')->inRandomOrder()->paginate(12);
+        $albums = Album::with('artist')->inRandomOrder()->simplePaginate(12);
         $genres = Genre::all();
         return view('home', ["ip" => $request->ip(), "genres" => $genres, "albums" => $albums]);
     }

@@ -46,7 +46,6 @@ body {
     min-height: 700px;
 }
 
-
 .container-fluid {
     padding: 0;
 }
@@ -60,9 +59,9 @@ a:hover {
 }
 
 /* PRELOADER */
-.spinner-green, .spinner-green-only {
+.spinner-green,
+.spinner-green-only {
     border-color: 009772;
-    
 }
 .preloader-wrapper {
     width: 100px;
@@ -646,8 +645,10 @@ footer img {
     margin: 0 auto;
 }
 
-.paginado {
-    margin: 0 auto;
+.paginado .pagination {
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 100%;
 }
 
 .page-item.disabled .page-link,
@@ -675,7 +676,8 @@ footer img {
 }
 
 /* LOGIN */
-#loginLink, #registerLink {
+#loginLink,
+#registerLink {
     cursor: pointer;
 }
 .login {
@@ -738,10 +740,10 @@ footer img {
     padding: 20px;
 }
 .form-check {
-    padding-left: 32px!important;
+    padding-left: 32px !important;
 }
 .form-check-label {
-    padding-left: 0px!important;
+    padding-left: 0px !important;
     padding-top: 4px;
 }
 .modal-footer {
@@ -753,17 +755,18 @@ footer img {
 h3.modal-title {
     line-height: 30px;
 }
-.form-control:focus, .form-group:focus {
-    border-color: none!important;
-    outline: none!important;
-    
+.form-control:focus,
+.form-group:focus {
+    border-color: none !important;
+    outline: none !important;
+
     box-shadow: 0 0 0 0.2rem rgba(0, 112, 85, 0.25);
     color: #007055;
-    border: none!important;
+    border: none !important;
 }
 button.close:focus {
-    border: none!important;
-    outline: none!important;
+    border: none !important;
+    outline: none !important;
 }
 
 /* REGISTRACION */
@@ -1019,7 +1022,6 @@ p.name_artist {
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
-
 }
 .info a:hover {
     text-decoration: none;
@@ -1172,7 +1174,7 @@ div.perfil {
 }
 
 /* CARRITO NUEVO */
-.carrito-name-disc{
+.carrito-name-disc {
     font-size: 20px;
     padding-top: 10px;
 }
@@ -1182,7 +1184,7 @@ div.perfil {
 }
 .carrito-precio {
     font-weight: 700;
-    font-size: 2.0rem;
+    font-size: 2rem;
     color: #eb415d;
     padding-top: 10px;
 }
@@ -1218,7 +1220,7 @@ div.perfil {
     flex-wrap: wrap;
 }
 
-.carrito-relacionados h4{
+.carrito-relacionados h4 {
     padding-bottom: 10px;
     font-weight: 100;
 }
@@ -1228,20 +1230,20 @@ div.perfil {
 }
 .carrito-contain:nth-child(2n) {
     padding-top: 30px;
-  }
+}
 /* CARRITO */
 
 .mensaje-no-carrito {
     font-size: 30px;
     color: #fff;
-    line-height: 0px;    
+    line-height: 0px;
 }
 
-.mensaje-no-carrito span{
+.mensaje-no-carrito span {
     font-size: 30px;
     color: #ffb71b;
 }
-.mensaje-no-carrito span:hover{
+.mensaje-no-carrito span:hover {
     font-size: 30px;
     color: #d49100;
     -webkit-transition: all 0.3s ease;
@@ -1355,8 +1357,8 @@ div.perfil {
         border-radius: 50%;
     }
     nav .fa-shopping-cart:hover {
-     color: #fff;
-     background-color: #ff0f37;
+        color: #fff;
+        background-color: #ff0f37;
     }
 
     #footer {

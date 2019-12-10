@@ -35,12 +35,14 @@
 			<p>No tenemos discos asociados a este género &#128531;</p>
 		</div>
 		@endunless
-		
+
 	</div>
 </div>
-<div class="row paginado">
-	{{$albums->links()}}
-</div>
+    <div class="container center ">
+        <div class="paginado">
+            {{$albums->links()}}
+        </div>
+    </div>
 <script src="{{asset("/js/comprarDisco.js")}}"></script>
 
 @endsection

@@ -45,7 +45,7 @@ class ArtistController extends Controller
     public function show($id)
     {
         $artist = Artist::find($id);
-        $albums = $artist->album()->paginate(12);
+        $albums = $artist->album()->simplePaginate(12);
         return view("artist.show", ["artist" => $artist, "albums" => $albums]);
     }
 

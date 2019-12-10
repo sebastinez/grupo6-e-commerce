@@ -17,6 +17,6 @@ class Cart extends Model
     }
     public function getAlbumPaginatedAttribute()
     {
-        return $this->album()->paginate(12);
+        return $this->album()->simplePaginate(12);
     }
 }
