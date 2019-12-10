@@ -5,11 +5,16 @@
     <div class="container pb-5">
         {{ Breadcrumbs::render('cart') }}
         <div class="titulos">Carrito de compra</div>
-        
+        @if (session('status'))
+        <div class="alert alert-success" role="alert">
+            Se confirmo su compra con exito!
+        </div>
+        @else
+
         <div class="row">
             <div class="col-md-8 col-xs-12">
                 <div class="carrito-items">
-    
+
                     @if(count($albums) > 0)
                     <div class="carritoActivo">
                         @foreach ($albums as $album)
@@ -41,8 +46,9 @@
                         @endforeach
                     </div>
                     @else
-                    <div class="mensaje-no-carrito"><p> <br>
-                        No hay discos en el carrito </p><a href="/"><span class="animated fadeInDown"> ¡Ve a elegir uno!</span></a>
+                    <div class="mensaje-no-carrito">
+                        <p> <br>
+                            No hay discos en el carrito </p><a href="/"><span class="animated fadeInDown"> ¡Ve a elegir uno!</span></a>
                     </div>
                     @endif
                 </div>
@@ -55,7 +61,11 @@
                             <div class="pb-3">
                                 <h3>Subtotal: <span id="valor-subtotal">{{$subtotal}}</span> ARS</h3>
                             </div>
-                            <button class="btn btn-success">Confirmar compra</button>
+                            <form action="/carrito/confirm" method="POST">
+                                @csrf
+                                <input type="hidden" name="cartId" value="{{$cart->id}}" />
+                                <button class="btn btn-success">Confirmar compra</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -78,6 +88,7 @@
             </div>
             @endif
         </div>
+        @endif
     </div>
 </div>
 <script src="{{asset("/js/comprarDisco.js")}}"></script>

@@ -20,7 +20,7 @@ Route::get("/contact", "ContactController@index");
 Route::post("/contact/send", "ContactController@send");
 
 Route::get("/carrito", "CartController@index");
-Route::post("/carrito", "CartController@store");
+Route::post("/carrito/confirm", "CartController@confirm");
 
 Route::get("/albums", "AlbumController@index");
 Route::get("/albums/new", "AlbumController@create");

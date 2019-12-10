@@ -55,4 +55,16 @@ class CartController extends Controller
             ]);
         }
     }
+    public function confirm(Request $request)
+    {
+        \Mail::send('emails.cart', [], function ($message) {
+            $message->to('contact.themusiccompany@gmail.com', "The Music Company")->subject('Compra confirmada');
+        });
+
+        $cart = Cart::with("album")->find($request->get("cartId"));
+        $cart->album()->detach();
+        $cart->delete();
+
+        return redirect("/carrito")->with("status", "success");
+    }
 };
