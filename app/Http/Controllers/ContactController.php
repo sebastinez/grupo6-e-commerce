@@ -3,9 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Mail\Contact;
-use Illuminate\Support\Facades\Mail;
-
 
 class ContactController extends Controller
 {
@@ -19,7 +16,6 @@ class ContactController extends Controller
         return view("contact");
     }
 
-
     /**
      * Show the form for creating a new resource.
      *
@@ -27,21 +23,13 @@ class ContactController extends Controller
      */
     public function send(Request $request)
     {
-
-        $reglas = [
-            "name" => "required",
-            "email" => "required|email",
-            "message" => "required",
-        ];
-
-        $mensajes = [
-            "required" => "El :attribute es necesario",
-            "numeric" => "El campo :attribute debe ser un numero",
-        ];
-
-        $this->validate($request, $reglas, $mensajes);
-
-        $request = $request->all();
-        Mail::to("contact@sebastinez.dhalumnos.com")->send(new Contact($request));
+        \Mail::send('emails.contacto', [
+            'name' => $request->get("name"),
+            'mail' => $request->get("mail"),
+            'mensaje' => $request->get("message")
+        ], function ($message) {
+            $message->to('contact.themusiccompany@gmail.com', "The Music Company")->subject('Solicitud de contacto');
+        });
+        return redirect("/contact")->with("status", "success");
     }
 }

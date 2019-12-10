@@ -1,1 +1,1 @@
-<div>Esto es un correo</div>
+<b>Nombre: </b>{{$name}}<br><b>Email: </b>{{$mail}}<br><b>Comentarios: </b>{{$mensaje}}
