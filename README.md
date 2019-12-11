@@ -78,6 +78,6 @@ http://localhost/grupo8-e-commerce
 <a name="sitioOnline"></a>
 
 ## Sitio Online
-```
-http://themusiccompany.dhalumnos.com/
-```
+
+[The Music Company](http://themusiccompany.dhalumnos.com/)
+
