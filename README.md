@@ -5,6 +5,10 @@
 <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/sebastinez/grupo8-e-commerce">
 </div>
 
+## Disclaimer
+
+Este proyecto fue un trabajo integrador durante un curso de Web Fullstack con DigitalHouse, se archiva para su posteridad.
+
 ## Indice
 
 - [Indice](#indice)
